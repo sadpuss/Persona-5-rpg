@@ -1,0 +1,68 @@
+[
+  {
+    "boss_hp": 140,
+    "rules": "baseline",
+    "n": 5000,
+    "KO_pct": 69.36,
+    "mean_hp_loss": 97.1,
+    "conditional_hp_loss_on_failed_defense": 140,
+    "spell": "Ominous Words",
+    "cost_SP": 1,
+    "interpretation": "No status immunity or cleanse assumed; boss guarding not modelled in this isolated check."
+  },
+  {
+    "boss_hp": 140,
+    "rules": "proposed",
+    "n": 5000,
+    "KO_pct": 0.0,
+    "mean_hp_loss": 13.87,
+    "conditional_hp_loss_on_failed_defense": 20,
+    "spell": "Ominous Words",
+    "cost_SP": 1,
+    "interpretation": "No status immunity or cleanse assumed; boss guarding not modelled in this isolated check."
+  },
+  {
+    "boss_hp": 300,
+    "rules": "baseline",
+    "n": 5000,
+    "KO_pct": 69.36,
+    "mean_hp_loss": 208.08,
+    "conditional_hp_loss_on_failed_defense": 300,
+    "spell": "Ominous Words",
+    "cost_SP": 1,
+    "interpretation": "No status immunity or cleanse assumed; boss guarding not modelled in this isolated check."
+  },
+  {
+    "boss_hp": 300,
+    "rules": "proposed",
+    "n": 5000,
+    "KO_pct": 0.0,
+    "mean_hp_loss": 13.87,
+    "conditional_hp_loss_on_failed_defense": 20,
+    "spell": "Ominous Words",
+    "cost_SP": 1,
+    "interpretation": "No status immunity or cleanse assumed; boss guarding not modelled in this isolated check."
+  },
+  {
+    "boss_hp": 600,
+    "rules": "baseline",
+    "n": 5000,
+    "KO_pct": 69.36,
+    "mean_hp_loss": 416.16,
+    "conditional_hp_loss_on_failed_defense": 600,
+    "spell": "Ominous Words",
+    "cost_SP": 1,
+    "interpretation": "No status immunity or cleanse assumed; boss guarding not modelled in this isolated check."
+  },
+  {
+    "boss_hp": 600,
+    "rules": "proposed",
+    "n": 5000,
+    "KO_pct": 0.0,
+    "mean_hp_loss": 13.87,
+    "conditional_hp_loss_on_failed_defense": 20,
+    "spell": "Ominous Words",
+    "cost_SP": 1,
+    "interpretation": "No status immunity or cleanse assumed; boss guarding not modelled in this isolated check."
+  }
+]

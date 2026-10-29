@@ -1,0 +1,2753 @@
+[
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 1,
+    "surprise": "heroes",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 94.2,
+    "win_CI95": [
+      92.58,
+      95.49
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 3,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 54.29,
+      "p10": 40.0,
+      "p90": 82.86
+    },
+    "sp_pct": {
+      "median": 93.55,
+      "p10": 77.42,
+      "p90": 100.0
+    },
+    "mean_metrics": {
+      "hero_actions": 5.722,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 5.795,
+      "hero_damage": 22.304,
+      "SP_regenerated": 0.0,
+      "enemy_actions": 5.202,
+      "enemy_HP_paid": 0.0,
+      "misses": 3.186,
+      "skill_Basic Gun": 1.385,
+      "enemy_damage": 27.048,
+      "hero_SP_paid": 2.914,
+      "skill_Agi": 1.229,
+      "enemy_KO": 0.732,
+      "enemy_SP_paid": 0.83,
+      "skill_Printed test attack": 0.83,
+      "downs": 0.883,
+      "one_more": 0.357,
+      "hero_KO": 0.058,
+      "hold_up": 0.145,
+      "skill_Garu": 0.548,
+      "skill_Dia": 1.137,
+      "HP_healed": 11.37,
+      "statuses_Burn": 0.104
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 1,
+    "surprise": "heroes",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 94.2,
+    "win_CI95": [
+      92.58,
+      95.49
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 3,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 54.29,
+      "p10": 40.0,
+      "p90": 82.86
+    },
+    "sp_pct": {
+      "median": 93.55,
+      "p10": 77.42,
+      "p90": 100.0
+    },
+    "mean_metrics": {
+      "hero_actions": 5.722,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 5.795,
+      "hero_damage": 22.304,
+      "SP_regenerated": 0.0,
+      "enemy_actions": 5.202,
+      "enemy_HP_paid": 0.0,
+      "misses": 3.186,
+      "skill_Basic Gun": 1.385,
+      "enemy_damage": 27.048,
+      "hero_SP_paid": 2.914,
+      "skill_Agi": 1.229,
+      "enemy_KO": 0.732,
+      "enemy_SP_paid": 0.83,
+      "skill_Printed test attack": 0.83,
+      "downs": 0.883,
+      "one_more": 0.357,
+      "hero_KO": 0.058,
+      "hold_up": 0.145,
+      "skill_Garu": 0.548,
+      "skill_Dia": 1.137,
+      "HP_healed": 11.37,
+      "statuses_Burn": 0.104
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 1,
+    "surprise": "none",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 94.3,
+    "win_CI95": [
+      92.69,
+      95.57
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 3,
+      "p90": 11
+    },
+    "hp_pct": {
+      "median": 51.43,
+      "p10": 40.0,
+      "p90": 77.14
+    },
+    "sp_pct": {
+      "median": 93.55,
+      "p10": 77.42,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.929,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 6.494,
+      "enemy_damage": 30.716,
+      "hero_actions": 5.968,
+      "hero_HP_paid": 0.0,
+      "misses": 3.407,
+      "SP_regenerated": 0.0,
+      "hero_damage": 22.163,
+      "skill_Basic Gun": 1.408,
+      "hero_SP_paid": 3.154,
+      "skill_Dia": 1.416,
+      "HP_healed": 14.16,
+      "skill_Agi": 1.206,
+      "enemy_KO": 0.718,
+      "enemy_SP_paid": 0.841,
+      "skill_Printed test attack": 0.841,
+      "downs": 0.9,
+      "one_more": 0.357,
+      "hero_KO": 0.057,
+      "statuses_Burn": 0.109,
+      "skill_Garu": 0.532,
+      "hold_up": 0.154
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 1,
+    "surprise": "none",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 94.3,
+    "win_CI95": [
+      92.69,
+      95.57
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 3,
+      "p90": 11
+    },
+    "hp_pct": {
+      "median": 51.43,
+      "p10": 40.0,
+      "p90": 77.14
+    },
+    "sp_pct": {
+      "median": 93.55,
+      "p10": 77.42,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.929,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 6.494,
+      "enemy_damage": 30.716,
+      "hero_actions": 5.968,
+      "hero_HP_paid": 0.0,
+      "misses": 3.407,
+      "SP_regenerated": 0.0,
+      "hero_damage": 22.163,
+      "skill_Basic Gun": 1.408,
+      "hero_SP_paid": 3.154,
+      "skill_Dia": 1.416,
+      "HP_healed": 14.16,
+      "skill_Agi": 1.206,
+      "enemy_KO": 0.718,
+      "enemy_SP_paid": 0.841,
+      "skill_Printed test attack": 0.841,
+      "downs": 0.9,
+      "one_more": 0.357,
+      "hero_KO": 0.057,
+      "statuses_Burn": 0.109,
+      "skill_Garu": 0.532,
+      "hold_up": 0.154
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 1,
+    "surprise": "enemies",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 94.7,
+    "win_CI95": [
+      93.13,
+      95.93
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 3,
+      "p90": 12
+    },
+    "hp_pct": {
+      "median": 51.43,
+      "p10": 40.0,
+      "p90": 71.43
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 74.19,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 6.884,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 7.47,
+      "enemy_damage": 35.279,
+      "hero_actions": 6.401,
+      "hero_HP_paid": 0.0,
+      "misses": 3.78,
+      "SP_regenerated": 0.0,
+      "hero_damage": 22.129,
+      "skill_Basic Gun": 1.405,
+      "hero_SP_paid": 3.571,
+      "skill_Dia": 1.818,
+      "HP_healed": 18.18,
+      "skill_Agi": 1.195,
+      "enemy_KO": 0.73,
+      "enemy_SP_paid": 0.839,
+      "skill_Printed test attack": 0.839,
+      "downs": 0.901,
+      "one_more": 0.36,
+      "hero_KO": 0.053,
+      "statuses_Burn": 0.113,
+      "skill_Garu": 0.558,
+      "hold_up": 0.147
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 1,
+    "surprise": "enemies",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 94.7,
+    "win_CI95": [
+      93.13,
+      95.93
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 3,
+      "p90": 12
+    },
+    "hp_pct": {
+      "median": 51.43,
+      "p10": 40.0,
+      "p90": 71.43
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 74.19,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 6.884,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 7.47,
+      "enemy_damage": 35.279,
+      "hero_actions": 6.401,
+      "hero_HP_paid": 0.0,
+      "misses": 3.78,
+      "SP_regenerated": 0.0,
+      "hero_damage": 22.129,
+      "skill_Basic Gun": 1.405,
+      "hero_SP_paid": 3.571,
+      "skill_Dia": 1.818,
+      "HP_healed": 18.18,
+      "skill_Agi": 1.195,
+      "enemy_KO": 0.73,
+      "enemy_SP_paid": 0.839,
+      "skill_Printed test attack": 0.839,
+      "downs": 0.901,
+      "one_more": 0.36,
+      "hero_KO": 0.053,
+      "statuses_Burn": 0.113,
+      "skill_Garu": 0.558,
+      "hold_up": 0.147
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 2,
+    "surprise": "heroes",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 24.8,
+    "win_CI95": [
+      22.22,
+      27.57
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 13
+    },
+    "hp_pct": {
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 51.43
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 67.74,
+      "p90": 100.0
+    },
+    "mean_metrics": {
+      "hero_actions": 6.922,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 13.035,
+      "hero_damage": 19.614,
+      "SP_regenerated": 0.0,
+      "enemy_actions": 12.694,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 62.675,
+      "misses": 5.591,
+      "skill_Basic Gun": 1.117,
+      "hero_SP_paid": 4.293,
+      "skill_Agi": 0.717,
+      "skill_Garu": 0.349,
+      "skill_Dia": 3.227,
+      "HP_healed": 32.27,
+      "hero_KO": 0.752,
+      "enemy_SP_paid": 1.171,
+      "skill_Printed test attack": 1.171,
+      "downs": 0.9,
+      "one_more": 0.679,
+      "enemy_KO": 0.262,
+      "hold_up": 0.168,
+      "statuses_Burn": 0.086
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 2,
+    "surprise": "heroes",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 24.8,
+    "win_CI95": [
+      22.22,
+      27.57
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 13
+    },
+    "hp_pct": {
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 51.43
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 67.74,
+      "p90": 100.0
+    },
+    "mean_metrics": {
+      "hero_actions": 6.922,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 13.035,
+      "hero_damage": 19.614,
+      "SP_regenerated": 0.0,
+      "enemy_actions": 12.694,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 62.675,
+      "misses": 5.591,
+      "skill_Basic Gun": 1.117,
+      "hero_SP_paid": 4.293,
+      "skill_Agi": 0.717,
+      "skill_Garu": 0.349,
+      "skill_Dia": 3.227,
+      "HP_healed": 32.27,
+      "hero_KO": 0.752,
+      "enemy_SP_paid": 1.171,
+      "skill_Printed test attack": 1.171,
+      "downs": 0.9,
+      "one_more": 0.679,
+      "enemy_KO": 0.262,
+      "hold_up": 0.168,
+      "statuses_Burn": 0.086
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 2,
+    "surprise": "none",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 20.6,
+    "win_CI95": [
+      18.21,
+      23.22
+    ],
+    "timeouts": 1,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 14
+    },
+    "hp_pct": {
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 48.57
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 67.74,
+      "p90": 100.0
+    },
+    "mean_metrics": {
+      "enemy_actions": 13.17,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 13.361,
+      "enemy_damage": 64.43,
+      "hero_actions": 6.535,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 17.248,
+      "SP_regenerated": 0.0,
+      "misses": 5.624,
+      "skill_Basic Gun": 0.989,
+      "hero_SP_paid": 4.16,
+      "skill_Dia": 3.322,
+      "HP_healed": 33.22,
+      "hero_KO": 0.793,
+      "enemy_SP_paid": 1.195,
+      "skill_Printed test attack": 1.195,
+      "downs": 0.837,
+      "one_more": 0.651,
+      "skill_Agi": 0.565,
+      "skill_Garu": 0.273,
+      "enemy_KO": 0.214,
+      "hold_up": 0.138,
+      "statuses_Burn": 0.08
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 2,
+    "surprise": "none",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 20.6,
+    "win_CI95": [
+      18.21,
+      23.22
+    ],
+    "timeouts": 1,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 14
+    },
+    "hp_pct": {
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 48.57
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 67.74,
+      "p90": 100.0
+    },
+    "mean_metrics": {
+      "enemy_actions": 13.17,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 13.361,
+      "enemy_damage": 64.43,
+      "hero_actions": 6.535,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 17.248,
+      "SP_regenerated": 0.0,
+      "misses": 5.624,
+      "skill_Basic Gun": 0.989,
+      "hero_SP_paid": 4.16,
+      "skill_Dia": 3.322,
+      "HP_healed": 33.22,
+      "hero_KO": 0.793,
+      "enemy_SP_paid": 1.195,
+      "skill_Printed test attack": 1.195,
+      "downs": 0.837,
+      "one_more": 0.651,
+      "skill_Agi": 0.565,
+      "skill_Garu": 0.273,
+      "enemy_KO": 0.214,
+      "hold_up": 0.138,
+      "statuses_Burn": 0.08
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 2,
+    "surprise": "enemies",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 14.7,
+    "win_CI95": [
+      12.64,
+      17.03
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 14
+    },
+    "hp_pct": {
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 42.86
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 64.52,
+      "p90": 100.0
+    },
+    "mean_metrics": {
+      "enemy_actions": 13.888,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 13.942,
+      "enemy_damage": 68.253,
+      "hero_actions": 6.196,
+      "hero_HP_paid": 0.0,
+      "misses": 5.644,
+      "SP_regenerated": 0.0,
+      "hero_SP_paid": 4.165,
+      "skill_Dia": 3.588,
+      "HP_healed": 35.88,
+      "hero_KO": 0.853,
+      "enemy_SP_paid": 1.199,
+      "skill_Printed test attack": 1.199,
+      "downs": 0.742,
+      "one_more": 0.586,
+      "hero_damage": 13.985,
+      "skill_Basic Gun": 0.778,
+      "skill_Agi": 0.399,
+      "skill_Garu": 0.178,
+      "hold_up": 0.112,
+      "statuses_Burn": 0.057,
+      "enemy_KO": 0.132
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 1,
+    "enemy_count": 2,
+    "surprise": "enemies",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 14.7,
+    "win_CI95": [
+      12.64,
+      17.03
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 14
+    },
+    "hp_pct": {
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 42.86
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 64.52,
+      "p90": 100.0
+    },
+    "mean_metrics": {
+      "enemy_actions": 13.888,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 13.942,
+      "enemy_damage": 68.253,
+      "hero_actions": 6.196,
+      "hero_HP_paid": 0.0,
+      "misses": 5.644,
+      "SP_regenerated": 0.0,
+      "hero_SP_paid": 4.165,
+      "skill_Dia": 3.588,
+      "HP_healed": 35.88,
+      "hero_KO": 0.853,
+      "enemy_SP_paid": 1.199,
+      "skill_Printed test attack": 1.199,
+      "downs": 0.742,
+      "one_more": 0.586,
+      "hero_damage": 13.985,
+      "skill_Basic Gun": 0.778,
+      "skill_Agi": 0.399,
+      "skill_Garu": 0.178,
+      "hold_up": 0.112,
+      "statuses_Burn": 0.057,
+      "enemy_KO": 0.132
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 1,
+    "surprise": "heroes",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.62,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 3.0,
+      "p10": 2,
+      "p90": 4
+    },
+    "hp_pct": {
+      "median": 87.14,
+      "p10": 72.86,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 96.77,
+      "p10": 93.55,
+      "p90": 98.39
+    },
+    "mean_metrics": {
+      "hero_actions": 4.969,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 2.592,
+      "misses": 2.161,
+      "SP_regenerated": 0.0,
+      "hero_damage": 22.895,
+      "enemy_actions": 2.157,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Gun": 1.411,
+      "hero_SP_paid": 2.134,
+      "skill_Garu": 0.982,
+      "enemy_KO": 0.781,
+      "enemy_SP_paid": 0.989,
+      "skill_Printed test attack": 0.989,
+      "skill_Agi": 0.795,
+      "downs": 0.992,
+      "hold_up": 0.206,
+      "enemy_damage": 12.44,
+      "one_more": 0.406,
+      "skill_Dia": 0.274,
+      "HP_healed": 2.74,
+      "statuses_Burn": 0.06,
+      "hero_KO": 0.027,
+      "skill_Zio": 0.083,
+      "statuses_Shock": 0.002,
+      "skipped_enemy_turns": 0.002
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 1,
+    "surprise": "heroes",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.62,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 3.0,
+      "p10": 2,
+      "p90": 4
+    },
+    "hp_pct": {
+      "median": 87.14,
+      "p10": 72.86,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 96.77,
+      "p10": 93.55,
+      "p90": 98.39
+    },
+    "mean_metrics": {
+      "hero_actions": 4.969,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 2.592,
+      "misses": 2.161,
+      "SP_regenerated": 0.0,
+      "hero_damage": 22.895,
+      "enemy_actions": 2.157,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Gun": 1.411,
+      "hero_SP_paid": 2.134,
+      "skill_Garu": 0.982,
+      "enemy_KO": 0.781,
+      "enemy_SP_paid": 0.989,
+      "skill_Printed test attack": 0.989,
+      "skill_Agi": 0.795,
+      "downs": 0.992,
+      "hold_up": 0.206,
+      "enemy_damage": 12.44,
+      "one_more": 0.406,
+      "skill_Dia": 0.274,
+      "HP_healed": 2.74,
+      "statuses_Burn": 0.06,
+      "hero_KO": 0.027,
+      "skill_Zio": 0.083,
+      "statuses_Shock": 0.002,
+      "skipped_enemy_turns": 0.002
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 1,
+    "surprise": "none",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.62,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 3.0,
+      "p10": 2,
+      "p90": 4
+    },
+    "hp_pct": {
+      "median": 82.86,
+      "p10": 70.0,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 96.77,
+      "p10": 93.55,
+      "p90": 98.39
+    },
+    "mean_metrics": {
+      "hero_actions": 5.132,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 3.099,
+      "misses": 2.39,
+      "SP_regenerated": 0.0,
+      "hero_damage": 22.992,
+      "enemy_actions": 2.842,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Gun": 1.431,
+      "hero_SP_paid": 2.274,
+      "skill_Garu": 0.985,
+      "enemy_KO": 0.793,
+      "enemy_SP_paid": 1.17,
+      "skill_Printed test attack": 1.17,
+      "enemy_damage": 16.249,
+      "downs": 1.094,
+      "one_more": 0.512,
+      "skill_Agi": 0.8,
+      "hold_up": 0.191,
+      "skill_Zio": 0.08,
+      "skill_Dia": 0.409,
+      "HP_healed": 4.09,
+      "statuses_Burn": 0.058,
+      "hero_KO": 0.033,
+      "statuses_Shock": 0.001,
+      "skipped_enemy_turns": 0.001
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 1,
+    "surprise": "none",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.62,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 3.0,
+      "p10": 2,
+      "p90": 4
+    },
+    "hp_pct": {
+      "median": 82.86,
+      "p10": 70.0,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 96.77,
+      "p10": 93.55,
+      "p90": 98.39
+    },
+    "mean_metrics": {
+      "hero_actions": 5.132,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 3.099,
+      "misses": 2.39,
+      "SP_regenerated": 0.0,
+      "hero_damage": 22.992,
+      "enemy_actions": 2.842,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Gun": 1.431,
+      "hero_SP_paid": 2.274,
+      "skill_Garu": 0.985,
+      "enemy_KO": 0.793,
+      "enemy_SP_paid": 1.17,
+      "skill_Printed test attack": 1.17,
+      "enemy_damage": 16.249,
+      "downs": 1.094,
+      "one_more": 0.512,
+      "skill_Agi": 0.8,
+      "hold_up": 0.191,
+      "skill_Zio": 0.08,
+      "skill_Dia": 0.409,
+      "HP_healed": 4.09,
+      "statuses_Burn": 0.058,
+      "hero_KO": 0.033,
+      "statuses_Shock": 0.001,
+      "skipped_enemy_turns": 0.001
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 1,
+    "surprise": "enemies",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.62,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 3.0,
+      "p10": 2,
+      "p90": 4
+    },
+    "hp_pct": {
+      "median": 78.57,
+      "p10": 65.71,
+      "p90": 92.86
+    },
+    "sp_pct": {
+      "median": 96.77,
+      "p10": 91.94,
+      "p90": 98.39
+    },
+    "mean_metrics": {
+      "enemy_actions": 3.542,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 3.649,
+      "misses": 2.567,
+      "hero_actions": 5.291,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 23.038,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.437,
+      "enemy_damage": 20.509,
+      "hero_SP_paid": 2.402,
+      "skill_Garu": 0.958,
+      "skill_Agi": 0.802,
+      "skill_Zio": 0.093,
+      "enemy_KO": 0.817,
+      "enemy_SP_paid": 1.345,
+      "skill_Printed test attack": 1.345,
+      "downs": 1.177,
+      "one_more": 0.598,
+      "hold_up": 0.169,
+      "skill_Dia": 0.549,
+      "HP_healed": 5.49,
+      "statuses_Burn": 0.051,
+      "hero_KO": 0.042,
+      "statuses_Shock": 0.002,
+      "skipped_enemy_turns": 0.002
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 1,
+    "surprise": "enemies",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.62,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 3.0,
+      "p10": 2,
+      "p90": 4
+    },
+    "hp_pct": {
+      "median": 78.57,
+      "p10": 65.71,
+      "p90": 92.86
+    },
+    "sp_pct": {
+      "median": 96.77,
+      "p10": 91.94,
+      "p90": 98.39
+    },
+    "mean_metrics": {
+      "enemy_actions": 3.542,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 3.649,
+      "misses": 2.567,
+      "hero_actions": 5.291,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 23.038,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.437,
+      "enemy_damage": 20.509,
+      "hero_SP_paid": 2.402,
+      "skill_Garu": 0.958,
+      "skill_Agi": 0.802,
+      "skill_Zio": 0.093,
+      "enemy_KO": 0.817,
+      "enemy_SP_paid": 1.345,
+      "skill_Printed test attack": 1.345,
+      "downs": 1.177,
+      "one_more": 0.598,
+      "hold_up": 0.169,
+      "skill_Dia": 0.549,
+      "HP_healed": 5.49,
+      "statuses_Burn": 0.051,
+      "hero_KO": 0.042,
+      "statuses_Shock": 0.002,
+      "skipped_enemy_turns": 0.002
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 2,
+    "surprise": "heroes",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 92.6,
+    "win_CI95": [
+      90.81,
+      94.06
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 4.0,
+      "p10": 2,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 74.29,
+      "p10": 22.86,
+      "p90": 90.0
+    },
+    "sp_pct": {
+      "median": 91.94,
+      "p10": 82.26,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "hero_actions": 9.594,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 8.291,
+      "misses": 5.067,
+      "SP_regenerated": 0.0,
+      "hero_damage": 38.998,
+      "enemy_actions": 8.263,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 44.827,
+      "skill_Basic Gun": 1.55,
+      "hero_SP_paid": 5.982,
+      "skill_Garu": 1.779,
+      "skill_Agi": 1.256,
+      "skill_Zio": 0.861,
+      "skill_Dia": 2.086,
+      "HP_healed": 20.86,
+      "enemy_KO": 1.171,
+      "enemy_SP_paid": 2.034,
+      "skill_Printed test attack": 2.034,
+      "downs": 2.457,
+      "one_more": 1.735,
+      "hold_up": 0.494,
+      "hero_KO": 0.262,
+      "statuses_Shock": 0.064,
+      "statuses_Burn": 0.156,
+      "skipped_enemy_turns": 0.038
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 2,
+    "surprise": "heroes",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 92.6,
+    "win_CI95": [
+      90.81,
+      94.06
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 4.0,
+      "p10": 2,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 74.29,
+      "p10": 22.86,
+      "p90": 90.0
+    },
+    "sp_pct": {
+      "median": 91.94,
+      "p10": 82.26,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "hero_actions": 9.594,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 8.291,
+      "misses": 5.067,
+      "SP_regenerated": 0.0,
+      "hero_damage": 38.998,
+      "enemy_actions": 8.263,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 44.827,
+      "skill_Basic Gun": 1.55,
+      "hero_SP_paid": 5.982,
+      "skill_Garu": 1.779,
+      "skill_Agi": 1.256,
+      "skill_Zio": 0.861,
+      "skill_Dia": 2.086,
+      "HP_healed": 20.86,
+      "enemy_KO": 1.171,
+      "enemy_SP_paid": 2.034,
+      "skill_Printed test attack": 2.034,
+      "downs": 2.457,
+      "one_more": 1.735,
+      "hold_up": 0.494,
+      "hero_KO": 0.262,
+      "statuses_Shock": 0.064,
+      "statuses_Burn": 0.156,
+      "skipped_enemy_turns": 0.038
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 2,
+    "surprise": "none",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 90.3,
+    "win_CI95": [
+      88.31,
+      91.98
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 72.86,
+      "p10": 20.0,
+      "p90": 82.86
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 79.03,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 10.423,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 10.186,
+      "misses": 5.806,
+      "hero_actions": 10.421,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 38.295,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.551,
+      "enemy_damage": 56.355,
+      "hero_SP_paid": 6.842,
+      "skill_Garu": 1.743,
+      "skill_Dia": 3.001,
+      "HP_healed": 30.01,
+      "skill_Agi": 1.202,
+      "enemy_KO": 1.147,
+      "skill_Zio": 0.896,
+      "statuses_Shock": 0.068,
+      "skipped_enemy_turns": 0.056,
+      "enemy_SP_paid": 2.265,
+      "skill_Printed test attack": 2.265,
+      "downs": 2.544,
+      "one_more": 1.804,
+      "hold_up": 0.479,
+      "hero_KO": 0.297,
+      "statuses_Burn": 0.142
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 2,
+    "surprise": "none",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 90.3,
+    "win_CI95": [
+      88.31,
+      91.98
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 72.86,
+      "p10": 20.0,
+      "p90": 82.86
+    },
+    "sp_pct": {
+      "median": 90.32,
+      "p10": 79.03,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 10.423,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 10.186,
+      "misses": 5.806,
+      "hero_actions": 10.421,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 38.295,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.551,
+      "enemy_damage": 56.355,
+      "hero_SP_paid": 6.842,
+      "skill_Garu": 1.743,
+      "skill_Dia": 3.001,
+      "HP_healed": 30.01,
+      "skill_Agi": 1.202,
+      "enemy_KO": 1.147,
+      "skill_Zio": 0.896,
+      "statuses_Shock": 0.068,
+      "skipped_enemy_turns": 0.056,
+      "enemy_SP_paid": 2.265,
+      "skill_Printed test attack": 2.265,
+      "downs": 2.544,
+      "one_more": 1.804,
+      "hold_up": 0.479,
+      "hero_KO": 0.297,
+      "statuses_Burn": 0.142
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 2,
+    "surprise": "enemies",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 86.5,
+    "win_CI95": [
+      84.24,
+      88.48
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 71.43,
+      "p10": 0.0,
+      "p90": 81.43
+    },
+    "sp_pct": {
+      "median": 88.71,
+      "p10": 79.03,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 12.12,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 11.884,
+      "misses": 6.406,
+      "enemy_damage": 64.0,
+      "hero_actions": 10.671,
+      "hero_HP_paid": 0.0,
+      "SP_regenerated": 0.0,
+      "hero_damage": 37.612,
+      "skill_Basic Gun": 1.505,
+      "hero_SP_paid": 7.081,
+      "skill_Agi": 1.116,
+      "skill_Garu": 1.687,
+      "skill_Dia": 3.4,
+      "HP_healed": 34.0,
+      "skill_Zio": 0.878,
+      "enemy_KO": 1.115,
+      "enemy_SP_paid": 2.321,
+      "skill_Printed test attack": 2.321,
+      "downs": 2.528,
+      "one_more": 1.822,
+      "hero_KO": 0.398,
+      "hold_up": 0.46,
+      "statuses_Burn": 0.115,
+      "statuses_Shock": 0.077,
+      "skipped_enemy_turns": 0.055
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 2,
+    "surprise": "enemies",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 86.5,
+    "win_CI95": [
+      84.24,
+      88.48
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 71.43,
+      "p10": 0.0,
+      "p90": 81.43
+    },
+    "sp_pct": {
+      "median": 88.71,
+      "p10": 79.03,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 12.12,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 11.884,
+      "misses": 6.406,
+      "enemy_damage": 64.0,
+      "hero_actions": 10.671,
+      "hero_HP_paid": 0.0,
+      "SP_regenerated": 0.0,
+      "hero_damage": 37.612,
+      "skill_Basic Gun": 1.505,
+      "hero_SP_paid": 7.081,
+      "skill_Agi": 1.116,
+      "skill_Garu": 1.687,
+      "skill_Dia": 3.4,
+      "HP_healed": 34.0,
+      "skill_Zio": 0.878,
+      "enemy_KO": 1.115,
+      "enemy_SP_paid": 2.321,
+      "skill_Printed test attack": 2.321,
+      "downs": 2.528,
+      "one_more": 1.822,
+      "hero_KO": 0.398,
+      "hold_up": 0.46,
+      "statuses_Burn": 0.115,
+      "statuses_Shock": 0.077,
+      "skipped_enemy_turns": 0.055
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 3,
+    "surprise": "heroes",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 58.3,
+    "win_CI95": [
+      55.22,
+      61.32
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 3,
+      "p90": 12
+    },
+    "hp_pct": {
+      "median": 45.71,
+      "p10": 0.0,
+      "p90": 80.0
+    },
+    "sp_pct": {
+      "median": 87.1,
+      "p10": 72.58,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "hero_actions": 13.423,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 17.527,
+      "hero_damage": 47.541,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.617,
+      "enemy_actions": 17.541,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 90.464,
+      "misses": 8.606,
+      "hero_SP_paid": 9.264,
+      "skill_Agi": 1.419,
+      "skill_Garu": 1.847,
+      "skill_Dia": 4.69,
+      "HP_healed": 46.9,
+      "skill_Zio": 1.308,
+      "statuses_Shock": 0.127,
+      "skipped_enemy_turns": 0.101,
+      "enemy_KO": 1.251,
+      "enemy_SP_paid": 2.556,
+      "skill_Printed test attack": 2.556,
+      "downs": 3.228,
+      "one_more": 2.642,
+      "baton_pass": 0.471,
+      "hold_up": 0.26,
+      "hero_KO": 0.908,
+      "statuses_Burn": 0.158
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 3,
+    "surprise": "heroes",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 58.3,
+    "win_CI95": [
+      55.22,
+      61.32
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 3,
+      "p90": 12
+    },
+    "hp_pct": {
+      "median": 45.71,
+      "p10": 0.0,
+      "p90": 80.0
+    },
+    "sp_pct": {
+      "median": 87.1,
+      "p10": 72.58,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "hero_actions": 13.423,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 17.527,
+      "hero_damage": 47.541,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.617,
+      "enemy_actions": 17.541,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 90.464,
+      "misses": 8.606,
+      "hero_SP_paid": 9.264,
+      "skill_Agi": 1.419,
+      "skill_Garu": 1.847,
+      "skill_Dia": 4.69,
+      "HP_healed": 46.9,
+      "skill_Zio": 1.308,
+      "statuses_Shock": 0.127,
+      "skipped_enemy_turns": 0.101,
+      "enemy_KO": 1.251,
+      "enemy_SP_paid": 2.556,
+      "skill_Printed test attack": 2.556,
+      "downs": 3.228,
+      "one_more": 2.642,
+      "baton_pass": 0.471,
+      "hold_up": 0.26,
+      "hero_KO": 0.908,
+      "statuses_Burn": 0.158
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 3,
+    "surprise": "none",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 58.6,
+    "win_CI95": [
+      55.52,
+      61.61
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 3,
+      "p90": 14
+    },
+    "hp_pct": {
+      "median": 50.0,
+      "p10": 0.0,
+      "p90": 78.57
+    },
+    "sp_pct": {
+      "median": 85.48,
+      "p10": 64.52,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 20.705,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 20.281,
+      "enemy_damage": 106.034,
+      "hero_actions": 14.448,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 44.758,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.546,
+      "misses": 9.525,
+      "hero_SP_paid": 10.557,
+      "skill_Dia": 6.292,
+      "HP_healed": 62.92,
+      "skill_Garu": 1.602,
+      "skill_Agi": 1.357,
+      "skill_Zio": 1.306,
+      "hero_KO": 0.88,
+      "statuses_Shock": 0.142,
+      "skipped_enemy_turns": 0.11,
+      "enemy_SP_paid": 2.769,
+      "skill_Printed test attack": 2.769,
+      "downs": 3.189,
+      "one_more": 2.65,
+      "baton_pass": 0.479,
+      "enemy_KO": 1.222,
+      "hold_up": 0.257,
+      "statuses_Burn": 0.179
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 3,
+    "surprise": "none",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 58.6,
+    "win_CI95": [
+      55.52,
+      61.61
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 3,
+      "p90": 14
+    },
+    "hp_pct": {
+      "median": 50.0,
+      "p10": 0.0,
+      "p90": 78.57
+    },
+    "sp_pct": {
+      "median": 85.48,
+      "p10": 64.52,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 20.705,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 20.281,
+      "enemy_damage": 106.034,
+      "hero_actions": 14.448,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 44.758,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.546,
+      "misses": 9.525,
+      "hero_SP_paid": 10.557,
+      "skill_Dia": 6.292,
+      "HP_healed": 62.92,
+      "skill_Garu": 1.602,
+      "skill_Agi": 1.357,
+      "skill_Zio": 1.306,
+      "hero_KO": 0.88,
+      "statuses_Shock": 0.142,
+      "skipped_enemy_turns": 0.11,
+      "enemy_SP_paid": 2.769,
+      "skill_Printed test attack": 2.769,
+      "downs": 3.189,
+      "one_more": 2.65,
+      "baton_pass": 0.479,
+      "enemy_KO": 1.222,
+      "hold_up": 0.257,
+      "statuses_Burn": 0.179
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 3,
+    "surprise": "enemies",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 47.4,
+    "win_CI95": [
+      44.32,
+      50.5
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 3,
+      "p90": 13
+    },
+    "hp_pct": {
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 72.86
+    },
+    "sp_pct": {
+      "median": 87.1,
+      "p10": 67.74,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 22.103,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 21.596,
+      "enemy_damage": 112.486,
+      "hero_actions": 13.547,
+      "hero_SP_paid": 9.758,
+      "skill_Dia": 6.191,
+      "HP_healed": 61.91,
+      "SP_regenerated": 0.0,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 39.648,
+      "misses": 9.885,
+      "skill_Basic Gun": 1.509,
+      "skill_Garu": 1.354,
+      "enemy_KO": 0.995,
+      "skill_Agi": 1.077,
+      "statuses_Burn": 0.134,
+      "skill_Zio": 1.136,
+      "enemy_SP_paid": 2.787,
+      "skill_Printed test attack": 2.787,
+      "downs": 2.89,
+      "one_more": 2.432,
+      "baton_pass": 0.382,
+      "hold_up": 0.218,
+      "hero_KO": 1.116,
+      "statuses_Shock": 0.125,
+      "skipped_enemy_turns": 0.097
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 2,
+    "enemy_count": 3,
+    "surprise": "enemies",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 47.4,
+    "win_CI95": [
+      44.32,
+      50.5
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 3,
+      "p90": 13
+    },
+    "hp_pct": {
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 72.86
+    },
+    "sp_pct": {
+      "median": 87.1,
+      "p10": 67.74,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 22.103,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 21.596,
+      "enemy_damage": 112.486,
+      "hero_actions": 13.547,
+      "hero_SP_paid": 9.758,
+      "skill_Dia": 6.191,
+      "HP_healed": 61.91,
+      "SP_regenerated": 0.0,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 39.648,
+      "misses": 9.885,
+      "skill_Basic Gun": 1.509,
+      "skill_Garu": 1.354,
+      "enemy_KO": 0.995,
+      "skill_Agi": 1.077,
+      "statuses_Burn": 0.134,
+      "skill_Zio": 1.136,
+      "enemy_SP_paid": 2.787,
+      "skill_Printed test attack": 2.787,
+      "downs": 2.89,
+      "one_more": 2.432,
+      "baton_pass": 0.382,
+      "hold_up": 0.218,
+      "hero_KO": 1.116,
+      "statuses_Shock": 0.125,
+      "skipped_enemy_turns": 0.097
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 3,
+    "surprise": "heroes",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 99.3,
+    "win_CI95": [
+      98.56,
+      99.66
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 4.0,
+      "p10": 2,
+      "p90": 7
+    },
+    "hp_pct": {
+      "median": 85.71,
+      "p10": 54.29,
+      "p90": 96.43
+    },
+    "sp_pct": {
+      "median": 93.55,
+      "p10": 88.71,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "hero_actions": 15.532,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 10.338,
+      "misses": 7.112,
+      "SP_regenerated": 0.0,
+      "hero_damage": 65.321,
+      "skill_Basic Gun": 1.652,
+      "enemy_actions": 8.842,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 51.18,
+      "hero_SP_paid": 8.685,
+      "skill_Dia": 2.244,
+      "HP_healed": 22.44,
+      "skill_Frei": 1.149,
+      "skill_Zio": 2.254,
+      "skill_Agi": 1.817,
+      "enemy_KO": 2.294,
+      "skill_Garu": 1.221,
+      "enemy_SP_paid": 3.699,
+      "skill_Printed test attack": 3.699,
+      "downs": 4.076,
+      "one_more": 3.066,
+      "statuses_Shock": 0.307,
+      "skipped_enemy_turns": 0.215,
+      "hero_KO": 0.248,
+      "baton_pass": 0.593,
+      "hold_up": 0.333,
+      "statuses_Burn": 0.235
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 3,
+    "surprise": "heroes",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 99.2,
+    "win_CI95": [
+      98.43,
+      99.59
+    ],
+    "timeouts": 1,
+    "rounds": {
+      "median": 3.0,
+      "p10": 2,
+      "p90": 7
+    },
+    "hp_pct": {
+      "median": 85.0,
+      "p10": 52.86,
+      "p90": 97.14
+    },
+    "sp_pct": {
+      "median": 93.55,
+      "p10": 88.71,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "hero_actions": 15.217,
+      "hero_HP_paid": 2.514,
+      "skill_Basic Physical": 8.715,
+      "misses": 6.923,
+      "SP_regenerated": 0.0,
+      "hero_damage": 65.373,
+      "skill_Basic Gun": 1.649,
+      "enemy_actions": 8.662,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 50.082,
+      "hero_SP_paid": 8.626,
+      "skill_Dia": 2.26,
+      "HP_healed": 22.6,
+      "skill_Frei": 1.158,
+      "skill_Zio": 2.237,
+      "skill_Agi": 1.786,
+      "enemy_KO": 2.307,
+      "skill_Cleave": 1.257,
+      "skill_Garu": 1.185,
+      "enemy_SP_paid": 3.632,
+      "skill_Printed test attack": 3.632,
+      "downs": 3.998,
+      "one_more": 2.999,
+      "statuses_Shock": 0.303,
+      "skipped_enemy_turns": 0.214,
+      "hero_KO": 0.25,
+      "baton_pass": 0.577,
+      "hold_up": 0.332,
+      "statuses_Burn": 0.231
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 3,
+    "surprise": "none",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 99.5,
+    "win_CI95": [
+      98.83,
+      99.79
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 4.0,
+      "p10": 2,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 85.71,
+      "p10": 54.29,
+      "p90": 91.43
+    },
+    "sp_pct": {
+      "median": 91.94,
+      "p10": 86.29,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "hero_actions": 16.641,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 12.455,
+      "misses": 8.01,
+      "SP_regenerated": 0.0,
+      "hero_damage": 65.426,
+      "enemy_actions": 11.474,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Gun": 1.653,
+      "enemy_damage": 64.247,
+      "hero_SP_paid": 10.055,
+      "skill_Zio": 2.281,
+      "skill_Agi": 1.881,
+      "skill_Frei": 1.152,
+      "skill_Dia": 3.471,
+      "HP_healed": 34.71,
+      "skill_Garu": 1.27,
+      "enemy_KO": 2.32,
+      "enemy_SP_paid": 3.952,
+      "skill_Printed test attack": 3.952,
+      "downs": 4.249,
+      "one_more": 3.271,
+      "statuses_Shock": 0.269,
+      "baton_pass": 0.58,
+      "hold_up": 0.331,
+      "skipped_enemy_turns": 0.199,
+      "hero_KO": 0.217,
+      "statuses_Burn": 0.239
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 3,
+    "surprise": "none",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 99.4,
+    "win_CI95": [
+      98.7,
+      99.72
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 4.0,
+      "p10": 2,
+      "p90": 7
+    },
+    "hp_pct": {
+      "median": 85.0,
+      "p10": 54.29,
+      "p90": 91.43
+    },
+    "sp_pct": {
+      "median": 92.74,
+      "p10": 86.29,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "hero_actions": 16.352,
+      "hero_HP_paid": 2.482,
+      "skill_Basic Physical": 10.837,
+      "misses": 7.802,
+      "SP_regenerated": 0.0,
+      "hero_damage": 65.377,
+      "enemy_actions": 11.281,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Gun": 1.656,
+      "enemy_damage": 63.542,
+      "hero_SP_paid": 9.964,
+      "skill_Zio": 2.244,
+      "skill_Agi": 1.851,
+      "skill_Frei": 1.145,
+      "skill_Dia": 3.509,
+      "HP_healed": 35.09,
+      "skill_Cleave": 1.241,
+      "skill_Garu": 1.215,
+      "enemy_KO": 2.335,
+      "enemy_SP_paid": 3.935,
+      "skill_Printed test attack": 3.935,
+      "downs": 4.19,
+      "one_more": 3.221,
+      "statuses_Shock": 0.272,
+      "baton_pass": 0.551,
+      "hold_up": 0.322,
+      "skipped_enemy_turns": 0.205,
+      "statuses_Burn": 0.229,
+      "hero_KO": 0.214
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 3,
+    "surprise": "enemies",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 99.1,
+    "win_CI95": [
+      98.3,
+      99.53
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 4.0,
+      "p10": 2,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 80.71,
+      "p10": 49.29,
+      "p90": 90.71
+    },
+    "sp_pct": {
+      "median": 91.94,
+      "p10": 87.1,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 13.287,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 14.372,
+      "misses": 8.616,
+      "enemy_damage": 72.678,
+      "hero_actions": 16.827,
+      "hero_HP_paid": 0.0,
+      "SP_regenerated": 0.0,
+      "hero_damage": 65.573,
+      "skill_Basic Gun": 1.666,
+      "hero_SP_paid": 10.008,
+      "skill_Zio": 2.251,
+      "skill_Dia": 3.689,
+      "HP_healed": 36.89,
+      "skill_Frei": 1.113,
+      "skill_Agi": 1.815,
+      "enemy_KO": 2.332,
+      "enemy_SP_paid": 4.068,
+      "skill_Printed test attack": 4.068,
+      "downs": 4.187,
+      "one_more": 3.182,
+      "hero_KO": 0.334,
+      "baton_pass": 0.596,
+      "hold_up": 0.319,
+      "skill_Garu": 1.14,
+      "statuses_Shock": 0.311,
+      "skipped_enemy_turns": 0.241,
+      "statuses_Burn": 0.209
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 3,
+    "surprise": "enemies",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 98.4,
+    "win_CI95": [
+      97.42,
+      99.01
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 4.0,
+      "p10": 2,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 80.0,
+      "p10": 50.0,
+      "p90": 90.0
+    },
+    "sp_pct": {
+      "median": 91.94,
+      "p10": 87.1,
+      "p90": 96.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 13.242,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 12.871,
+      "misses": 8.524,
+      "enemy_damage": 72.682,
+      "hero_actions": 16.67,
+      "hero_HP_paid": 2.472,
+      "SP_regenerated": 0.0,
+      "hero_damage": 65.454,
+      "skill_Basic Gun": 1.667,
+      "hero_SP_paid": 10.07,
+      "skill_Zio": 2.232,
+      "skill_Dia": 3.792,
+      "HP_healed": 37.92,
+      "skill_Frei": 1.126,
+      "skill_Agi": 1.804,
+      "skill_Cleave": 1.236,
+      "enemy_KO": 2.322,
+      "enemy_SP_paid": 4.068,
+      "skill_Printed test attack": 4.068,
+      "downs": 4.153,
+      "one_more": 3.159,
+      "hero_KO": 0.345,
+      "baton_pass": 0.573,
+      "hold_up": 0.316,
+      "skill_Garu": 1.116,
+      "statuses_Shock": 0.305,
+      "skipped_enemy_turns": 0.235,
+      "statuses_Burn": 0.203
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 4,
+    "surprise": "heroes",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 90.2,
+    "win_CI95": [
+      88.2,
+      91.89
+    ],
+    "timeouts": 1,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 11
+    },
+    "hp_pct": {
+      "median": 77.14,
+      "p10": 10.71,
+      "p90": 92.86
+    },
+    "sp_pct": {
+      "median": 89.52,
+      "p10": 82.26,
+      "p90": 95.16
+    },
+    "mean_metrics": {
+      "hero_actions": 21.971,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 20.501,
+      "hero_damage": 84.941,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.76,
+      "misses": 11.501,
+      "enemy_actions": 18.405,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 99.359,
+      "hero_SP_paid": 13.195,
+      "skill_Dia": 5.296,
+      "HP_healed": 52.96,
+      "skill_Frei": 1.163,
+      "skill_Zio": 2.876,
+      "statuses_Shock": 0.346,
+      "skipped_enemy_turns": 0.287,
+      "skill_Agi": 2.28,
+      "enemy_KO": 2.898,
+      "enemy_SP_paid": 4.92,
+      "skill_Printed test attack": 4.92,
+      "downs": 5.451,
+      "one_more": 4.452,
+      "hero_KO": 0.729,
+      "baton_pass": 1.058,
+      "hold_up": 0.245,
+      "skill_Garu": 1.58,
+      "statuses_Burn": 0.29
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 4,
+    "surprise": "heroes",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 90.0,
+    "win_CI95": [
+      87.98,
+      91.71
+    ],
+    "timeouts": 1,
+    "rounds": {
+      "median": 5.0,
+      "p10": 2,
+      "p90": 11
+    },
+    "hp_pct": {
+      "median": 76.43,
+      "p10": 10.0,
+      "p90": 92.86
+    },
+    "sp_pct": {
+      "median": 89.92,
+      "p10": 82.26,
+      "p90": 95.16
+    },
+    "mean_metrics": {
+      "hero_actions": 21.429,
+      "hero_HP_paid": 3.38,
+      "skill_Basic Physical": 17.998,
+      "hero_damage": 84.786,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.764,
+      "misses": 11.147,
+      "enemy_actions": 17.883,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 96.446,
+      "hero_SP_paid": 12.991,
+      "skill_Dia": 5.266,
+      "HP_healed": 52.66,
+      "skill_Frei": 1.149,
+      "skill_Zio": 2.832,
+      "statuses_Shock": 0.344,
+      "skipped_enemy_turns": 0.284,
+      "skill_Agi": 2.212,
+      "skill_Cleave": 1.69,
+      "enemy_KO": 2.884,
+      "enemy_SP_paid": 4.869,
+      "skill_Printed test attack": 4.869,
+      "downs": 5.383,
+      "one_more": 4.375,
+      "hero_KO": 0.724,
+      "baton_pass": 1.024,
+      "hold_up": 0.256,
+      "skill_Garu": 1.532,
+      "statuses_Burn": 0.295
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 4,
+    "surprise": "none",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 88.8,
+    "win_CI95": [
+      86.69,
+      90.61
+    ],
+    "timeouts": 1,
+    "rounds": {
+      "median": 6.0,
+      "p10": 2,
+      "p90": 13
+    },
+    "hp_pct": {
+      "median": 80.71,
+      "p10": 0.0,
+      "p90": 90.71
+    },
+    "sp_pct": {
+      "median": 87.9,
+      "p10": 78.23,
+      "p90": 95.16
+    },
+    "mean_metrics": {
+      "enemy_actions": 24.553,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 26.299,
+      "misses": 13.504,
+      "hero_actions": 25.102,
+      "hero_HP_paid": 0.0,
+      "SP_regenerated": 0.0,
+      "enemy_damage": 131.175,
+      "hero_damage": 83.886,
+      "hero_SP_paid": 16.34,
+      "skill_Dia": 8.528,
+      "HP_healed": 85.28,
+      "skill_Basic Gun": 1.784,
+      "skill_Zio": 2.865,
+      "skill_Frei": 1.196,
+      "enemy_KO": 2.891,
+      "skill_Agi": 2.237,
+      "skill_Garu": 1.514,
+      "enemy_SP_paid": 5.232,
+      "skill_Printed test attack": 5.232,
+      "downs": 5.449,
+      "one_more": 4.583,
+      "hero_KO": 0.715,
+      "baton_pass": 1.062,
+      "hold_up": 0.234,
+      "statuses_Shock": 0.395,
+      "skipped_enemy_turns": 0.336,
+      "statuses_Burn": 0.259
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 4,
+    "surprise": "none",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 89.3,
+    "win_CI95": [
+      87.23,
+      91.07
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 2,
+      "p90": 13
+    },
+    "hp_pct": {
+      "median": 78.57,
+      "p10": 0.0,
+      "p90": 89.29
+    },
+    "sp_pct": {
+      "median": 87.9,
+      "p10": 79.03,
+      "p90": 94.35
+    },
+    "mean_metrics": {
+      "enemy_actions": 23.845,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 23.657,
+      "misses": 13.202,
+      "hero_actions": 24.614,
+      "hero_HP_paid": 3.306,
+      "SP_regenerated": 0.0,
+      "enemy_damage": 127.245,
+      "hero_damage": 84.579,
+      "hero_SP_paid": 16.161,
+      "skill_Dia": 8.365,
+      "HP_healed": 83.65,
+      "skill_Basic Gun": 1.785,
+      "skill_Zio": 2.872,
+      "skill_Frei": 1.198,
+      "enemy_KO": 2.923,
+      "skill_Cleave": 1.653,
+      "skill_Agi": 2.211,
+      "skill_Garu": 1.515,
+      "enemy_SP_paid": 5.203,
+      "skill_Printed test attack": 5.203,
+      "downs": 5.45,
+      "one_more": 4.57,
+      "hero_KO": 0.697,
+      "baton_pass": 1.058,
+      "hold_up": 0.233,
+      "statuses_Shock": 0.397,
+      "skipped_enemy_turns": 0.337,
+      "statuses_Burn": 0.249
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 4,
+    "surprise": "enemies",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 81.7,
+    "win_CI95": [
+      79.18,
+      83.97
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 2,
+      "p90": 14
+    },
+    "hp_pct": {
+      "median": 67.86,
+      "p10": 0.0,
+      "p90": 87.86
+    },
+    "sp_pct": {
+      "median": 87.9,
+      "p10": 79.03,
+      "p90": 94.35
+    },
+    "mean_metrics": {
+      "enemy_actions": 26.996,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 28.626,
+      "misses": 14.286,
+      "enemy_damage": 142.05,
+      "hero_actions": 24.149,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 80.685,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.779,
+      "hero_SP_paid": 15.633,
+      "skill_Frei": 1.149,
+      "skill_Zio": 2.97,
+      "statuses_Shock": 0.365,
+      "skipped_enemy_turns": 0.293,
+      "skill_Dia": 8.161,
+      "HP_healed": 81.61,
+      "skill_Agi": 2.156,
+      "hero_KO": 1.108,
+      "enemy_KO": 2.658,
+      "enemy_SP_paid": 5.107,
+      "skill_Printed test attack": 5.107,
+      "downs": 5.35,
+      "one_more": 4.38,
+      "baton_pass": 1.039,
+      "hold_up": 0.214,
+      "skill_Garu": 1.197,
+      "statuses_Burn": 0.273
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 4,
+    "surprise": "enemies",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 81.6,
+    "win_CI95": [
+      79.08,
+      83.88
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 2,
+      "p90": 13
+    },
+    "hp_pct": {
+      "median": 67.86,
+      "p10": 0.0,
+      "p90": 87.14
+    },
+    "sp_pct": {
+      "median": 87.9,
+      "p10": 79.03,
+      "p90": 94.35
+    },
+    "mean_metrics": {
+      "enemy_actions": 26.27,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 25.93,
+      "misses": 13.86,
+      "enemy_damage": 138.697,
+      "hero_actions": 23.695,
+      "hero_HP_paid": 3.23,
+      "hero_damage": 80.821,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.782,
+      "hero_SP_paid": 15.533,
+      "skill_Frei": 1.146,
+      "skill_Zio": 2.934,
+      "statuses_Shock": 0.367,
+      "skipped_enemy_turns": 0.295,
+      "skill_Dia": 8.125,
+      "HP_healed": 81.25,
+      "skill_Agi": 2.114,
+      "skill_Cleave": 1.615,
+      "hero_KO": 1.091,
+      "enemy_KO": 2.693,
+      "enemy_SP_paid": 5.105,
+      "skill_Printed test attack": 5.105,
+      "downs": 5.345,
+      "one_more": 4.364,
+      "baton_pass": 1.023,
+      "hold_up": 0.207,
+      "skill_Garu": 1.214,
+      "statuses_Burn": 0.26
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 5,
+    "surprise": "heroes",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 71.0,
+    "win_CI95": [
+      68.11,
+      73.73
+    ],
+    "timeouts": 1,
+    "rounds": {
+      "median": 7.0,
+      "p10": 2,
+      "p90": 13
+    },
+    "hp_pct": {
+      "median": 62.86,
+      "p10": 0.0,
+      "p90": 90.0
+    },
+    "sp_pct": {
+      "median": 87.1,
+      "p10": 78.23,
+      "p90": 94.35
+    },
+    "mean_metrics": {
+      "hero_actions": 26.303,
+      "hero_HP_paid": 0.0,
+      "skill_Basic Physical": 30.959,
+      "hero_damage": 94.803,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.88,
+      "hero_SP_paid": 16.926,
+      "skill_Frei": 1.19,
+      "skill_Zio": 3.517,
+      "enemy_actions": 29.023,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 151.174,
+      "misses": 15.674,
+      "skill_Dia": 8.179,
+      "HP_healed": 81.79,
+      "skill_Agi": 2.603,
+      "hero_KO": 1.471,
+      "enemy_KO": 2.932,
+      "enemy_SP_paid": 5.561,
+      "skill_Printed test attack": 5.561,
+      "downs": 6.316,
+      "one_more": 5.413,
+      "statuses_Shock": 0.415,
+      "skipped_enemy_turns": 0.356,
+      "baton_pass": 1.512,
+      "hold_up": 0.169,
+      "skill_Garu": 1.437,
+      "statuses_Burn": 0.334
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 5,
+    "surprise": "heroes",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 70.8,
+    "win_CI95": [
+      67.91,
+      73.53
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 2,
+      "p90": 12
+    },
+    "hp_pct": {
+      "median": 63.57,
+      "p10": 0.0,
+      "p90": 88.57
+    },
+    "sp_pct": {
+      "median": 87.1,
+      "p10": 78.23,
+      "p90": 94.35
+    },
+    "mean_metrics": {
+      "hero_actions": 25.581,
+      "hero_HP_paid": 3.67,
+      "skill_Basic Physical": 27.511,
+      "hero_damage": 94.475,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 1.883,
+      "hero_SP_paid": 16.633,
+      "skill_Frei": 1.188,
+      "skill_Zio": 3.508,
+      "enemy_actions": 27.767,
+      "enemy_HP_paid": 0.0,
+      "enemy_damage": 145.233,
+      "misses": 15.027,
+      "skill_Dia": 7.973,
+      "HP_healed": 79.73,
+      "skill_Agi": 2.521,
+      "skill_Cleave": 1.835,
+      "hero_KO": 1.455,
+      "enemy_KO": 2.932,
+      "enemy_SP_paid": 5.486,
+      "skill_Printed test attack": 5.486,
+      "downs": 6.251,
+      "one_more": 5.353,
+      "statuses_Shock": 0.422,
+      "skipped_enemy_turns": 0.36,
+      "baton_pass": 1.493,
+      "hold_up": 0.176,
+      "skill_Garu": 1.443,
+      "statuses_Burn": 0.324
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 5,
+    "surprise": "none",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 70.3,
+    "win_CI95": [
+      67.39,
+      73.05
+    ],
+    "timeouts": 2,
+    "rounds": {
+      "median": 8.0,
+      "p10": 3,
+      "p90": 15
+    },
+    "hp_pct": {
+      "median": 65.71,
+      "p10": 0.0,
+      "p90": 88.57
+    },
+    "sp_pct": {
+      "median": 83.06,
+      "p10": 70.97,
+      "p90": 92.74
+    },
+    "mean_metrics": {
+      "enemy_actions": 38.312,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 39.07,
+      "enemy_damage": 198.383,
+      "hero_actions": 30.779,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 91.625,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 2.032,
+      "hero_SP_paid": 21.844,
+      "skill_Dia": 13.152,
+      "HP_healed": 131.52,
+      "skill_Agi": 2.586,
+      "misses": 18.764,
+      "skill_Zio": 3.605,
+      "skill_Frei": 1.127,
+      "skill_Garu": 1.374,
+      "enemy_KO": 3.015,
+      "enemy_SP_paid": 6.145,
+      "skill_Printed test attack": 6.145,
+      "downs": 6.502,
+      "one_more": 5.712,
+      "hero_KO": 1.402,
+      "baton_pass": 1.606,
+      "hold_up": 0.145,
+      "statuses_Shock": 0.438,
+      "skipped_enemy_turns": 0.393,
+      "statuses_Burn": 0.276
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 5,
+    "surprise": "none",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 70.8,
+    "win_CI95": [
+      67.91,
+      73.53
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 8.0,
+      "p10": 3,
+      "p90": 15
+    },
+    "hp_pct": {
+      "median": 65.0,
+      "p10": 0.0,
+      "p90": 87.14
+    },
+    "sp_pct": {
+      "median": 83.06,
+      "p10": 70.97,
+      "p90": 93.55
+    },
+    "mean_metrics": {
+      "enemy_actions": 37.604,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 36.416,
+      "enemy_damage": 195.173,
+      "hero_actions": 30.308,
+      "hero_HP_paid": 3.49,
+      "hero_damage": 91.566,
+      "SP_regenerated": 0.0,
+      "skill_Basic Gun": 2.029,
+      "hero_SP_paid": 21.61,
+      "skill_Dia": 13.07,
+      "HP_healed": 130.7,
+      "skill_Agi": 2.544,
+      "misses": 18.389,
+      "skill_Zio": 3.589,
+      "skill_Frei": 1.119,
+      "skill_Garu": 1.288,
+      "skill_Cleave": 1.745,
+      "enemy_KO": 3.039,
+      "enemy_SP_paid": 6.112,
+      "skill_Printed test attack": 6.112,
+      "downs": 6.388,
+      "one_more": 5.59,
+      "hero_KO": 1.415,
+      "baton_pass": 1.542,
+      "hold_up": 0.148,
+      "statuses_Shock": 0.429,
+      "skipped_enemy_turns": 0.384,
+      "statuses_Burn": 0.258
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 5,
+    "surprise": "enemies",
+    "rules": "baseline",
+    "n": 1000,
+    "win_pct": 59.7,
+    "win_CI95": [
+      56.63,
+      62.7
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 3,
+      "p90": 14
+    },
+    "hp_pct": {
+      "median": 48.57,
+      "p10": 0.0,
+      "p90": 80.71
+    },
+    "sp_pct": {
+      "median": 85.89,
+      "p10": 75.81,
+      "p90": 94.35
+    },
+    "mean_metrics": {
+      "enemy_actions": 37.404,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 37.849,
+      "enemy_damage": 191.643,
+      "hero_actions": 26.276,
+      "hero_SP_paid": 18.243,
+      "skill_Dia": 10.646,
+      "HP_healed": 106.46,
+      "SP_regenerated": 0.0,
+      "hero_HP_paid": 0.0,
+      "hero_damage": 83.013,
+      "skill_Basic Gun": 1.988,
+      "misses": 17.707,
+      "skill_Frei": 1.054,
+      "skill_Zio": 3.399,
+      "enemy_KO": 2.462,
+      "skill_Agi": 2.33,
+      "statuses_Burn": 0.301,
+      "enemy_SP_paid": 5.6,
+      "skill_Printed test attack": 5.6,
+      "downs": 5.967,
+      "one_more": 5.143,
+      "hero_KO": 1.944,
+      "baton_pass": 1.428,
+      "hold_up": 0.151,
+      "statuses_Shock": 0.417,
+      "skipped_enemy_turns": 0.37,
+      "skill_Garu": 0.814
+    }
+  },
+  {
+    "level": 1,
+    "party_size": 4,
+    "enemy_count": 5,
+    "surprise": "enemies",
+    "rules": "revised",
+    "n": 1000,
+    "win_pct": 59.3,
+    "win_CI95": [
+      56.23,
+      62.3
+    ],
+    "timeouts": 2,
+    "rounds": {
+      "median": 7.0,
+      "p10": 3,
+      "p90": 14
+    },
+    "hp_pct": {
+      "median": 48.57,
+      "p10": 0.0,
+      "p90": 80.71
+    },
+    "sp_pct": {
+      "median": 85.89,
+      "p10": 75.81,
+      "p90": 94.35
+    },
+    "mean_metrics": {
+      "enemy_actions": 37.034,
+      "enemy_HP_paid": 0.0,
+      "skill_Basic Physical": 35.813,
+      "enemy_damage": 189.836,
+      "hero_actions": 25.984,
+      "hero_SP_paid": 18.228,
+      "skill_Dia": 10.723,
+      "HP_healed": 107.23,
+      "SP_regenerated": 0.0,
+      "hero_HP_paid": 2.918,
+      "hero_damage": 82.769,
+      "skill_Basic Gun": 1.978,
+      "misses": 17.508,
+      "skill_Frei": 1.052,
+      "skill_Zio": 3.391,
+      "enemy_KO": 2.441,
+      "skill_Agi": 2.301,
+      "statuses_Burn": 0.295,
+      "skill_Cleave": 1.459,
+      "enemy_SP_paid": 5.54,
+      "skill_Printed test attack": 5.54,
+      "downs": 5.899,
+      "one_more": 5.056,
+      "hero_KO": 1.953,
+      "baton_pass": 1.397,
+      "hold_up": 0.156,
+      "statuses_Shock": 0.418,
+      "skipped_enemy_turns": 0.365,
+      "skill_Garu": 0.761
+    }
+  }
+]

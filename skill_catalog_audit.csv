@@ -1,0 +1,542 @@
+﻿name,type,target,p5r_cost,rpg_cost,status
+Agneyastra,Physical,All foes,24% HP,12 HP,A
+Akashic Arts,Physical,All foes,20% HP,10 HP,A
+Assault Dive,Physical,1 foe,13% HP,8 HP,U
+Ayamur,Physical,1 foe,25% HP,13 HP,A
+Bad Beat,Physical,All foes,21% HP,11 HP,A
+Beast Weaver,Physical,1 foe,20% HP,10 HP,A
+Bloodbath,Physical,All foes,22% HP,11 HP,A
+Brain Buster,Physical,All foes,22% HP,11 HP,A
+Brain Shake,Physical,1 foe,9% HP,5 HP,A
+Brave Blade,Physical,1 foe,24% HP,12 HP,A
+Cleave,Physical,1 foe,6% HP,3 HP,A
+Cornered Fang,Physical,1 foe,10% HP,5 HP,A
+Cross Slash,Physical,1 foe,20% HP,10 HP,A
+Deadly Fury,Physical,1 foe,18% HP,9 HP,A
+Death Scythe,Physical,1 foe,20% HP,10 HP,A
+Deathbound,Physical,All foes,22% HP,11 HP,A
+Dormin Rush,Physical,All foes,16% HP,8 HP,A
+Double Fangs,Physical,1 foe,10% HP,5 HP,A
+Flash Bomb,Physical,All foes,19% HP,10 HP,A
+Gattling Blows,Physical,1 foe,16% HP,8 HP,A
+Giant Slice,Physical,1 foe,9% HP,5 HP,A
+Gigantomachia,Physical,All foes,25% HP,13 HP,A
+God's Hand,Physical,1 foe,25% HP,13 HP,A
+Hassou Tobi,Physical,All foes,25% HP,13 HP,A
+Headbutt,Physical,1 foe,9% HP,5 HP,U
+Heat Wave,Physical,All foes,20% HP,10 HP,A
+Hysterical Slap,Physical,1 foe,9% HP,5 HP,A
+Kill Rush,Physical,1 foe,14% HP,7 HP,A
+Laevateinn,Physical,1 foe,25% HP,13 HP,A
+Lucky Punch,Physical,1 foe,3% HP,2 HP,A
+Lunge,Physical,1 foe,5% HP,3 HP,A
+Masquerade,Physical,1 foe,25% HP,13 HP,A
+Megaton Raid,Physical,1 foe,16% HP,8 HP,A
+Memory Blow,Physical,All foes,15% HP,8 HP,A
+Mind Slice,Physical,All foes,19% HP,10 HP,A
+Miracle Punch,Physical,1 foe,8% HP,4 HP,A
+Miracle Rush,Physical,All foes,16% HP,8 HP,A
+Myriad Slashes,Physical,1 foe,20% HP,10 HP,A
+Negative Pile,Physical,1 foe,12% HP,6 HP,A
+Oni Kagura,Physical,All foes,16% HP,8 HP,A
+Power Slash,Physical,1 foe,10% HP,5 HP,A
+Rampage,Physical,All foes,13% HP,7 HP,A
+Rising Slash,Physical,1 foe,14% HP,7 HP,A
+Skull Cracker,Physical,1 foe,10% HP,5 HP,A
+Sledgehammer,Physical,1 foe,10% HP,5 HP,A
+Stomach Blow,Physical,1 foe,0,0,A
+Swift Strike,Physical,All foes,17% HP,9 HP,A
+Sword Dance,Physical,1 foe,21% HP,11 HP,A
+Tempest Slash,Physical,1 foe,17% HP,9 HP,A
+Terror Claw,Physical,1 foe,8% HP,4 HP,A
+Vajra Blast,Physical,All foes,13% HP,7 HP,A
+Vicious Strike,Physical,All foes,18% HP,9 HP,A
+Vorpal Blade,Physical,All foes,23% HP,12 HP,A
+Double Shot,Gun,1 foe,12% HP,6 HP,A
+Dream Needle,Gun,1 foe,8% HP,4 HP,A
+One-shot Kill,Gun,1 foe,17% HP,9 HP,A
+Riot Gun,Gun,All foes,24% HP,12 HP,A
+Snap,Gun,1 foe,9% HP,5 HP,A
+Triple Down,Gun,All foes,16% HP,8 HP,A
+Agi,Fire,1 foe,4 SP,1 SP,P
+Agidyne,Fire,1 foe,12 SP,3 SP,P
+Agilao,Fire,1 foe,8 SP,2 SP,U
+Blazing Hell,Fire,All foes,54 SP,14 SP,A
+Inferno,Fire,1 foe,48 SP,12 SP,A
+Maragi,Fire,All foes,10 SP,3 SP,P
+Maragidyne,Fire,All foes,22 SP,6 SP,P
+Maragion,Fire,All foes,16 SP,4 SP,P
+Titanomachia,Fire,All foes,34 SP,9 SP,A
+Bufu,Ice,1 foe,4 SP,1 SP,P
+Bufudyne,Ice,1 foe,12 SP,3 SP,P
+Bufula,Ice,1 foe,8 SP,2 SP,P
+Diamond Dust,Ice,1 foe,48 SP,12 SP,A
+Ice Age,Ice,All foes,54 SP,14 SP,A
+Mabufu,Ice,All foes,10 SP,3 SP,P
+Mabufudyne,Ice,All foes,22 SP,6 SP,P
+Mabufula,Ice,All foes,16 SP,4 SP,P
+Mazio,Electricity,All foes,10 SP,3 SP,P
+Maziodyne,Electricity,All foes,22 SP,6 SP,P
+Mazionga,Electricity,All foes,16 SP,4 SP,P
+Thunder Reign,Electricity,1 foe,48 SP,12 SP,A
+Wild Thunder,Electricity,All foes,54 SP,14 SP,A
+Zio,Electricity,1 foe,4 SP,1 SP,U
+Ziodyne,Electricity,1 foe,12 SP,3 SP,P
+Zionga,Electricity,1 foe,8 SP,2 SP,P
+Garu,Wind,1 foe,3 SP,1 SP,U
+Garudyne,Wind,1 foe,10 SP,3 SP,P
+Garula,Wind,1 foe,6 SP,2 SP,U
+Magaru,Wind,All foes,8 SP,2 SP,P
+Magarudyne,Wind,All foes,20 SP,6 SP,P
+Magarula,Wind,All foes,14 SP,4 SP,P
+Panta Rhei,Wind,1 foe,42 SP,11 SP,A
+Vacuum Wave,Wind,All foes,48 SP,12 SP,A
+Mapsi,Psy,All foes,10 SP,3 SP,P
+Mapsio,Psy,All foes,16 SP,4 SP,P
+Mapsiodyne,Psy,All foes,22 SP,6 SP,P
+Psi,Psy,1 foe,4 SP,1 SP,P
+Psio,Psy,1 foe,8 SP,2 SP,P
+Psiodyne,Psy,1 foe,12 SP,3 SP,P
+Psycho Blast,Psy,All foes,54 SP,14 SP,A
+Psycho Force,Psy,1 foe,48 SP,12 SP,A
+Atomic Flare,Nuclear,1 foe,48 SP,12 SP,A
+Cosmic Flare,Nuclear,All foes,54 SP,14 SP,A
+Frei,Nuclear,1 foe,4 SP,1 SP,U
+Freidyne,Nuclear,1 foe,12 SP,3 SP,P
+Freila,Nuclear,1 foe,8 SP,2 SP,U
+Mafrei,Nuclear,All foes,10 SP,3 SP,U
+Mafreidyne,Nuclear,All foes,22 SP,6 SP,P
+Mafreila,Nuclear,All foes,16 SP,4 SP,P
+Divine Judgement,Bless,1 foe,38 SP,10 SP,A
+Hama,Bless,1 foe,6 SP,2 SP,A
+Hamaon,Bless,1 foe,12 SP,3 SP,A
+Kouga,Bless,1 foe,8 SP,2 SP,A
+Kougaon,Bless,1 foe,12 SP,3 SP,A
+Kouha,Bless,1 foe,4 SP,1 SP,A
+Mahama,Bless,All foes,14 SP,4 SP,A
+Mahamaon,Bless,All foes,26 SP,7 SP,A
+Makouga,Bless,All foes,16 SP,4 SP,A
+Makougaon,Bless,All foes,22 SP,6 SP,A
+Makouha,Bless,All foes,10 SP,3 SP,A
+Samsara,Bless,All foes,40 SP,10 SP,A
+Shining Arrows,Bless,All foes,22 SP,6 SP,A
+Abyssal Wings,Curse,All foes,30 SP,8 SP,A
+Demonic Decree,Curse,1 foe,38 SP,10 SP,A
+Die For Me!,Curse,All foes,40 SP,10 SP,A
+Eiga,Curse,1 foe,8 SP,2 SP,A
+Eigaon,Curse,1 foe,12 SP,3 SP,A
+Eiha,Curse,1 foe,4 SP,1 SP,A
+Maeiga,Curse,All foes,16 SP,4 SP,A
+Maeigaon,Curse,All foes,22 SP,6 SP,A
+Maeiha,Curse,All foes,10 SP,3 SP,A
+Magatsu Mandala,Curse,All foes,30 SP,6 SP,P
+Mamudo,Curse,All foes,14 SP,4 SP,A
+Mamudoon,Curse,All foes,26 SP,7 SP,A
+Mudo,Curse,1 foe,6 SP,2 SP,A
+Mudoon,Curse,1 foe,12 SP,3 SP,A
+Abyssal Eye,Almighty,All foes,50 SP,13 SP,A
+Black Viper,Almighty,1 foe,48 SP,12 SP,A
+Door of Hades,Almighty,All foes,32 SP,8 SP,A
+Foul Breath,Almighty,1 foe,8 SP,2 SP,A
+Fox-Panther Showtime,Almighty,1 foe,0 SP / tura,1 SP / tura,A
+Ghastly Wail,Almighty,All foes,28 SP,7 SP,A
+Guiding Tendril,Almighty,All foes,20 SP,5 SP,A
+Joker-Crow Showtime,Almighty,1 foe,0 SP / tura,1 SP / tura,A
+Joker-Violet Showtime,Almighty,1 foe,0 SP / tura,1 SP / tura,A
+Life Drain,Almighty,1 foe,3 SP,1 SP,A
+Life Leech,Almighty,1 foe,3 SP,1 SP,A
+Megido,Almighty,All foes,15 SP,4 SP,A
+Megidola,Almighty,All foes,24 SP,6 SP,A
+Megidolaon,Almighty,All foes,38 SP,10 SP,A
+Mona-Noire Showtime,Almighty,1 foe,0 SP / tura,1 SP / tura,A
+Mona-Panther Showtime,Almighty,1 foe,0 SP / tura,1 SP / tura,A
+Morning Star,Almighty,All foes,55 SP,14 SP,A
+Myriad Truths,Almighty,All foes,40 SP,10 SP,A
+Queen-Noire Showtime,Almighty,1 foe,0 SP / tura,1 SP / tura,A
+Rebellion Blade,Almighty,1 foe,99 SP,25 SP,A
+Reverse Rub,Almighty,1 ally,5 SP,2 SP,A
+Self-destruct,Almighty,All foes,1% HP,1 HP,A
+Skull-Fox Showtime,Almighty,1 foe,0 SP / tura,1 SP / tura,A
+Skull-Queen Showtime,Almighty,1 foe,0 SP / tura,1 SP / tura,A
+Spirit Drain,Almighty,1 foe,3 SP,1 SP,A
+Spirit Leech,Almighty,1 foe,3 SP,1 SP,A
+Stagnant Air,Almighty,Universal,5 SP,2 SP,A
+Abysmal Surge,Statusy,All foes,8 SP,2 SP,A
+Brain Jack,Statusy,All foes,8 SP,2 SP,A
+Dazzler,Statusy,1 foe,3 SP,1 SP,A
+Dormina,Statusy,1 foe,3 SP,1 SP,A
+Evil Smile,Statusy,All foes,8 SP,2 SP,A
+Evil Touch,Statusy,1 foe,3 SP,1 SP,A
+Famine's Scream,Statusy,All foes,8 SP,2 SP,A
+Lullaby,Statusy,All foes,8 SP,2 SP,A
+Makajam,Statusy,1 foe,3 SP,1 SP,A
+Makajamaon,Statusy,All foes,8 SP,2 SP,A
+Marin Karin,Statusy,1 foe,3 SP,1 SP,A
+Nocturnal Flash,Statusy,All foes,8 SP,2 SP,A
+Ominous Words,Statusy,1 foe,3 SP,1 SP,A
+Phantom Show,Statusy,All foes,4 SP,1 SP,A
+Pulinpa,Statusy,1 foe,3 SP,1 SP,A
+Taunt,Statusy,1 foe,3 SP,1 SP,A
+Tentarafoo,Statusy,All foes,8 SP,2 SP,A
+Wage War,Statusy,All foes,8 SP,2 SP,A
+Amrita Drop,Leczenie,1 ally,6 SP,2 SP,A
+Amrita Shower,Leczenie,All allies,12 SP,3 SP,A
+Baisudi,Leczenie,1 ally,4 SP,1 SP,A
+Cadenza,Leczenie,All allies,24 SP,6 SP,U
+Champion's Cup,Leczenie,1 ally,10 SP,3 SP,A
+Dia,Leczenie,1 ally,3 SP,1 SP,A
+Diarahan,Leczenie,1 ally,18 SP,5 SP,A
+Diarama,Leczenie,1 ally,6 SP,2 SP,U
+Energy Drop,Leczenie,1 ally,4 SP,1 SP,A
+Energy Shower,Leczenie,All allies,8 SP,2 SP,A
+Holy Benevolence,Leczenie,All allies,27 SP,7 SP,A
+Mabaisudi,Leczenie,All allies,8 SP,2 SP,A
+Me Patra,Leczenie,All allies,8 SP,2 SP,A
+Media,Leczenie,All allies,7 SP,2 SP,A
+Mediarahan,Leczenie,All allies,30 SP,8 SP,A
+Mediarama,Leczenie,All allies,12 SP,3 SP,A
+Neo Cadenza,Leczenie,All allies,24 SP,6 SP,A
+Oratorio,Leczenie,All allies,38 SP,10 SP,A
+Patra,Leczenie,1 ally,4 SP,1 SP,A
+Recarm,Leczenie,1 ally,8 SP,2 SP,A
+Salvation,Leczenie,All allies,48 SP,12 SP,A
+Samarecarm,Leczenie,1 ally,18 SP,5 SP,A
+Bleeding Dry Brush,Wsparcie,1 ally,22 SP,6 SP,A
+Brave Step,Wsparcie,All allies,16 SP,4 SP,A
+Charge,Wsparcie,Self,15 SP,4 SP,A
+Checkmate,Wsparcie,All foes,90 SP,23 SP,A
+Concealment,Wsparcie,-,4 SP,1 SP,A
+Concentrate,Wsparcie,Self,15 SP,4 SP,A
+Debilitate,Wsparcie,1 foe,30 SP,8 SP,A
+Dekaja,Wsparcie,All foes,10 SP,3 SP,A
+Dekunda,Wsparcie,All allies,10 SP,3 SP,A
+Elec Break,Wsparcie,All foes,6 SP,2 SP,A
+Elec Wall,Wsparcie,1 ally,18 SP,5 SP,A
+Fighting Spirit,Wsparcie,All allies,80 SP,20 SP,A
+Fire Break,Wsparcie,All foes,6 SP,2 SP,A
+Fire Wall,Wsparcie,1 ally,18 SP,5 SP,A
+Gambler's Foresight,Wsparcie,All allies,20 SP,5 SP,A
+Heat Riser,Wsparcie,1 ally,30 SP,8 SP,A
+High Energy,Wsparcie,All allies,80 SP,20 SP,A
+Hyakka Ryouran,Wsparcie,All allies,90 SP,23 SP,A
+Ice Break,Wsparcie,All foes,6 SP,2 SP,A
+Ice Wall,Wsparcie,1 ally,18 SP,5 SP,A
+Life Wall,Wsparcie,All allies,95 SP,24 SP,A
+Makara Break,Wsparcie,All foes,9 SP,3 SP,A
+Makarakarn,Wsparcie,1 ally,24 SP,6 SP,A
+Marakukaja,Wsparcie,All allies,24 SP,6 SP,A
+Marakunda,Wsparcie,All foes,24 SP,6 SP,A
+Masukukaja,Wsparcie,All allies,24 SP,6 SP,A
+Masukunda,Wsparcie,All foes,24 SP,6 SP,A
+Matarukaja,Wsparcie,All allies,24 SP,6 SP,A
+Matarunda,Wsparcie,All foes,24 SP,6 SP,A
+Nuke Break,Wsparcie,All foes,6 SP,2 SP,A
+Nuke Wall,Wsparcie,1 ally,18 SP,5 SP,A
+President's Insight,Wsparcie,1 ally,15 SP,4 SP,A
+Psy Break,Wsparcie,All foes,6 SP,2 SP,A
+Psy Wall,Wsparcie,1 ally,18 SP,5 SP,A
+Rakukaja,Wsparcie,1 ally,8 SP,2 SP,U
+Rakunda,Wsparcie,1 foe,8 SP,2 SP,A
+Rebellion,Wsparcie,1 ally,5 SP,2 SP,A
+Revolution,Wsparcie,Universal,5 SP,2 SP,A
+Sukukaja,Wsparcie,1 ally,8 SP,2 SP,A
+Sukunda,Wsparcie,1 foe,8 SP,2 SP,A
+Summon,Wsparcie,-,0,0,A
+Tarukaja,Wsparcie,1 ally,8 SP,2 SP,A
+Tarunda,Wsparcie,1 foe,8 SP,2 SP,U
+Taunting Aura,Wsparcie,-,4 SP,1 SP,A
+Tetra Break,Wsparcie,All foes,9 SP,3 SP,A
+Tetraja,Wsparcie,All allies,24 SP,6 SP,A
+Tetrakarn,Wsparcie,1 ally,24 SP,6 SP,A
+Thermopylae,Wsparcie,All allies,30 SP,8 SP,A
+Tyrant's Will,Wsparcie,1 ally,15 SP,4 SP,A
+Vault Guardian,Wsparcie,All allies,20 SP,5 SP,A
+Wind Break,Wsparcie,All foes,6 SP,2 SP,A
+Wind Wall,Wsparcie,1 ally,18 SP,5 SP,A
+Wings of Wisdom,Wsparcie,All allies,10 SP,3 SP,A
++15% EXP,Pasywne,-,0,0,A
+Active Support,Pasywne,-,0,0,A
+Adverse Resolve,Pasywne,-,0,0,A
+Ailment Boost,Pasywne,-,0,0,A
+Ali Dance,Pasywne,-,0,0,A
+All-Out Attack Boost,Pasywne,-,0,0,A
+Almighty Amp,Pasywne,-,0,0,A
+Almighty Boost,Pasywne,-,0,0,A
+Ambient Aid,Pasywne,-,0,0,A
+Analysis,Pasywne,-,0,0,A
+Angelic Grace,Pasywne,-,0,0,A
+Apt Pupil,Pasywne,-,0,0,A
+Arms Master,Pasywne,-,0,0,A
+Attack Master,Pasywne,-,0,0,A
+Auto-Maraku,Pasywne,-,0,0,A
+Auto-Masuku,Pasywne,-,0,0,A
+Auto-Mataru,Pasywne,-,0,0,A
+Bless Amp,Pasywne,-,0,0,A
+Bless Boost,Pasywne,-,0,0,A
+Brainwash Boost,Pasywne,-,0,0,A
+Burn Boost,Pasywne,-,0,0,A
+Climate Decorum,Pasywne,-,0,0,A
+Confuse Boost,Pasywne,-,0,0,A
+Counter,Pasywne,-,0,0,A
+Counterstrike,Pasywne,-,0,0,A
+Cripple,Pasywne,-,0,0,A
+Curse Amp,Pasywne,-,0,0,A
+Curse Boost,Pasywne,-,0,0,A
+Defense Master,Pasywne,-,0,0,A
+Despair Boost,Pasywne,-,0,0,A
+Divine Grace,Pasywne,-,0,0,A
+Dizzy Boost,Pasywne,-,0,0,A
+Dodge Bless,Pasywne,-,0,0,A
+Dodge Curse,Pasywne,-,0,0,A
+Dodge Elec,Pasywne,-,0,0,A
+Dodge Fire,Pasywne,-,0,0,A
+Dodge Ice,Pasywne,-,0,0,A
+Dodge Nuke,Pasywne,-,0,0,A
+Dodge Phys,Pasywne,-,0,0,A
+Dodge Psy,Pasywne,-,0,0,A
+Dodge Wind,Pasywne,-,0,0,A
+Drain Bless,Pasywne,-,0,0,A
+Drain Curse,Pasywne,-,0,0,A
+Drain Elec,Pasywne,-,0,0,A
+Drain Fire,Pasywne,-,0,0,A
+Drain Ice,Pasywne,-,0,0,A
+Drain Nuke,Pasywne,-,0,0,A
+Drain Phys,Pasywne,-,0,0,A
+Drain Psy,Pasywne,-,0,0,A
+Drain Wind,Pasywne,-,0,0,A
+Elec Amp,Pasywne,-,0,0,A
+Elec Boost,Pasywne,-,0,0,A
+Emergency Shift,Pasywne,-,0,0,A
+Endure,Pasywne,-,0,0,A
+Enduring Soul,Pasywne,-,0,0,A
+Evade Bless,Pasywne,-,0,0,A
+Evade Curse,Pasywne,-,0,0,A
+Evade Elec,Pasywne,-,0,0,A
+Evade Fire,Pasywne,-,0,0,A
+Evade Ice,Pasywne,-,0,0,A
+Evade Nuke,Pasywne,-,0,0,A
+Evade Phys,Pasywne,-,0,0,A
+Evade Psy,Pasywne,-,0,0,A
+Evade Wind,Pasywne,-,0,0,A
+Fast Heal,Pasywne,-,0,0,A
+Fear Boost,Pasywne,-,0,0,A
+Final Guard,Pasywne,-,0,0,A
+Fire Amp,Pasywne,-,0,0,A
+Fire Boost,Pasywne,-,0,0,A
+Firm Stance,Pasywne,-,0,0,A
+Forget Boost,Pasywne,-,0,0,A
+Fortified Moxy,Pasywne,-,0,0,A
+Fortify Spirit,Pasywne,-,0,0,A
+Freeze Boost,Pasywne,-,0,0,A
+Growth 1,Pasywne,-,0,0,A
+Growth 2,Pasywne,-,0,0,A
+Growth 3,Pasywne,-,0,0,A
+Gun Accuracy +5%,Pasywne,-,0,0,A
+Gun Amp,Pasywne,-,0,0,A
+Gun Boost,Pasywne,-,0,0,A
+Hama Boost,Pasywne,-,0,0,A
+Heat Up,Pasywne,-,0,0,A
+Hide,Pasywne,-,0,0,A
+High Counter,Pasywne,-,0,0,A
+Holy Embrace,Pasywne,-,0,0,A
+Holy Whisper,Pasywne,-,0,0,A
+Ice Amp,Pasywne,-,0,0,A
+Ice Boost,Pasywne,-,0,0,A
+Insta-Heal,Pasywne,-,0,0,A
+Invigorate 1,Pasywne,-,0,0,A
+Invigorate 2,Pasywne,-,0,0,A
+Invigorate 3,Pasywne,-,0,0,A
+Kuzunoha Emblem,Pasywne,-,0,0,A
+Last Stand,Pasywne,-,0,0,A
+Life Aid,Pasywne,-,0,0,A
+Life Boost,Pasywne,-,0,0,A
+Life Surge,Pasywne,-,0,0,A
+Magic Ability,Pasywne,-,0,0,A
+Mana Bonus,Pasywne,-,0,0,A
+Mana Surge,Pasywne,-,0,0,A
+Mementos Scan,Pasywne,-,0,0,A
+Money Boost,Pasywne,-,0,0,A
+Moral Support,Pasywne,-,0,0,A
+Mudo Boost,Pasywne,-,0,0,A
+Nuke Amp,Pasywne,-,0,0,A
+Nuke Boost,Pasywne,-,0,0,A
+Null Bless,Pasywne,-,0,0,A
+Null Bless/Curse,Pasywne,-,0,0,A
+Null Brainwash,Pasywne,-,0,0,A
+Null Burn,Pasywne,-,0,0,A
+Null Confuse,Pasywne,-,0,0,A
+Null Curse,Pasywne,-,0,0,A
+Null Despair,Pasywne,-,0,0,A
+Null Dizzy,Pasywne,-,0,0,A
+Null Elec,Pasywne,-,0,0,A
+Null Fear,Pasywne,-,0,0,A
+Null Fire,Pasywne,-,0,0,A
+Null Forget,Pasywne,-,0,0,A
+Null Freeze,Pasywne,-,0,0,A
+Null Hunger,Pasywne,-,0,0,A
+Null Ice,Pasywne,-,0,0,A
+Null Nuke,Pasywne,-,0,0,A
+Null Phys,Pasywne,-,0,0,A
+Null Psy,Pasywne,-,0,0,A
+Null Rage,Pasywne,-,0,0,A
+Null Shock,Pasywne,-,0,0,A
+Null Sleep,Pasywne,-,0,0,A
+Null Wind,Pasywne,-,0,0,A
+Position Hack,Pasywne,-,0,0,A
+Pressing Stance,Pasywne,-,0,0,A
+Psy Amp,Pasywne,-,0,0,A
+Psy Boost,Pasywne,-,0,0,A
+Rage Boost,Pasywne,-,0,0,A
+Regenerate 1,Pasywne,-,0,0,A
+Regenerate 2,Pasywne,-,0,0,A
+Regenerate 3,Pasywne,-,0,0,A
+Repel Bless,Pasywne,-,0,0,A
+Repel Curse,Pasywne,-,0,0,A
+Repel Elec,Pasywne,-,0,0,A
+Repel Fire,Pasywne,-,0,0,A
+Repel Ice,Pasywne,-,0,0,A
+Repel Nuke,Pasywne,-,0,0,A
+Repel Phys,Pasywne,-,0,0,A
+Repel Psy,Pasywne,-,0,0,A
+Repel Wind,Pasywne,-,0,0,A
+Resist Bless,Pasywne,-,0,0,A
+Resist Brainwash,Pasywne,-,0,0,A
+Resist Burn,Pasywne,-,0,0,A
+Resist Confuse,Pasywne,-,0,0,A
+Resist Curse,Pasywne,-,0,0,A
+Resist Despair,Pasywne,-,0,0,A
+Resist Dizzy,Pasywne,-,0,0,A
+Resist Elec,Pasywne,-,0,0,A
+Resist Fear,Pasywne,-,0,0,A
+Resist Fire,Pasywne,-,0,0,A
+Resist Forget,Pasywne,-,0,0,A
+Resist Freeze,Pasywne,-,0,0,A
+Resist Hunger,Pasywne,-,0,0,A
+Resist Ice,Pasywne,-,0,0,A
+Resist Nuke,Pasywne,-,0,0,A
+Resist Phys,Pasywne,-,0,0,A
+Resist Psy,Pasywne,-,0,0,A
+Resist Rage,Pasywne,-,0,0,A
+Resist Shock,Pasywne,-,0,0,A
+Resist Sleep,Pasywne,-,0,0,A
+Resist Wind,Pasywne,-,0,0,A
+Samurai Spirit,Pasywne,-,0,0,A
+Sharp Student,Pasywne,-,0,0,A
+Shock Boost,Pasywne,-,0,0,A
+Sleep Boost,Pasywne,-,0,0,A
+Snipe,Pasywne,-,0,0,A
+Soul Chain,Pasywne,-,0,0,A
+Soul Touch,Pasywne,-,0,0,A
+Speed Master,Pasywne,-,0,0,A
+Spell Master,Pasywne,-,0,0,A
+Subrecover HP,Pasywne,-,0,0,A
+Subrecover HP EX,Pasywne,-,0,0,A
+Subrecover SP,Pasywne,-,0,0,A
+Subrecover SP EX,Pasywne,-,0,0,A
+Support Plus 1,Pasywne,-,0,0,A
+Support Plus 2,Pasywne,-,0,0,A
+Support Plus 3,Pasywne,-,0,0,A
+Support Rate Up,Pasywne,-,0,0,A
+Survival Trick,Pasywne,-,0,0,A
+Touch n' Go,Pasywne,-,0,0,A
+Treasure Reboot,Pasywne,-,0,0,A
+Treasure Skimmer,Pasywne,-,0,0,A
+Trigger Happy,Pasywne,-,0,0,A
+Tyrant's Mind,Pasywne,-,0,0,A
+Ultimate Support,Pasywne,-,0,0,A
+Unshaken Will,Pasywne,-,0,0,A
+Victory Cry,Pasywne,-,0,0,A
+Wind Amp,Pasywne,-,0,0,A
+Wind Boost,Pasywne,-,0,0,A
+Ailment Hunter,Traity,-,0,0,T
+Allure of Wisdom,Traity,-,0,0,T
+Atomic Bloodline,Traity,-,0,0,T
+Atomic Hellscape,Traity,-,0,0,T
+Ave Maria,Traity,-,0,0,T
+Bargain Bolts,Traity,-,0,0,T
+Blessed Bloodline,Traity,-,0,0,T
+Blessed Spirit,Traity,-,0,0,T
+Bloodstained Eyes,Traity,-,0,0,T
+Bolstering Force,Traity,-,0,0,T
+Chi You's Blessing,Traity,-,0,0,T
+Circle of Sadness,Traity,-,0,0,T
+Cocytus,Traity,-,0,0,T
+Cold-Blooded,Traity,-,0,0,T
+Cool Customer,Traity,-,0,0,T
+Country Maker,Traity,-,0,0,T
+Crisis Control,Traity,-,0,0,T
+Cursed Bloodline,Traity,-,0,0,T
+Deathly Illness,Traity,-,0,0,T
+Demon's Bite,Traity,-,0,0,T
+Draining Mouth,Traity,-,0,0,T
+Drunken Passion,Traity,-,0,0,T
+Eccentric Temper,Traity,-,0,0,T
+Electric Bloodline,Traity,-,0,0,T
+Explosive Scheme,Traity,-,0,0,T
+Flawless Spirit,Traity,-,0,0,T
+Foul Odor,Traity,-,0,0,T
+Foul Stench,Traity,-,0,0,T
+Frenzied Bull,Traity,-,0,0,T
+Frigid Bloodline,Traity,-,0,0,T
+Gaia Blessing,Traity,-,0,0,T
+Gaia Pact,Traity,-,0,0,T
+Ghost Nest,Traity,-,0,0,T
+Gloomy Child,Traity,-,0,0,T
+Gluttonmouth,Traity,-,0,0,T
+God Maker,Traity,-,0,0,T
+Grace of Mother,Traity,-,0,0,T
+Grace of the Olive,Traity,-,0,0,T
+Hallowed Spirit,Traity,-,0,0,T
+Hazy Presence,Traity,-,0,0,T
+Heated Bloodline,Traity,-,0,0,T
+Hollow Jester,Traity,-,0,0,T
+Icy Glare,Traity,-,0,0,T
+Immunity,Traity,-,0,0,T
+Infinite Scheme,Traity,-,0,0,T
+Ingenious Spirit,Traity,-,0,0,T
+Intense Focus,Traity,-,0,0,T
+Internal Hypnosis,Traity,-,0,0,T
+Inviolable Beauty,Traity,-,0,0,T
+Iron Heart,Traity,-,0,0,T
+Just Die,Traity,-,0,0,T
+Linked Bloodline,Traity,-,0,0,T
+Majestic Presence,Traity,-,0,0,T
+Martyr's Gift,Traity,-,0,0,T
+Mastery of Magic,Traity,-,0,0,T
+Mighty Gaze,Traity,-,0,0,T
+Mother's Lament,Traity,-,0,0,T
+Mouth of Savoring,Traity,-,0,0,T
+Naranari,Traity,-,0,0,T
+Omen,Traity,-,0,0,T
+Pagan Allure,Traity,-,0,0,T
+Pinch Anchor,Traity,-,0,0,T
+Pinnacle of Magic,Traity,-,0,0,T
+Positive Thoughts,Traity,-,0,0,T
+Potent Hypnosis,Traity,-,0,0,T
+Proud Presence,Traity,-,0,0,T
+Psychic Bloodline,Traity,-,0,0,T
+Raging Temper,Traity,-,0,0,T
+Rare Antibody,Traity,-,0,0,T
+Relentless,Traity,-,0,0,T
+Relief Bloodline,Traity,-,0,0,T
+Retaliating Body,Traity,-,0,0,T
+Savior Bloodline,Traity,-,0,0,T
+Scoundrel Eyes,Traity,-,0,0,T
+Skillful Combo,Traity,-,0,0,T
+Skillful Technique,Traity,-,0,0,T
+Static Electricity,Traity,-,0,0,T
+Striking Weight,Traity,-,0,0,T
+Tactical Spirit,Traity,-,0,0,T
+Tag Team,Traity,-,0,0,T
+Thermal Conduct,Traity,-,0,0,T
+Ultimate Vessel,Traity,-,0,0,T
+Undying Fury,Traity,-,0,0,T
+Universal Law,Traity,-,0,0,T
+Unparalleled Eyes,Traity,-,0,0,T
+Vahana's Wings,Traity,-,0,0,T
+Veil of Midnight,Traity,-,0,0,T
+Veil of Sunrise,Traity,-,0,0,T
+Vitality of the Tree,Traity,-,0,0,T
+Wealth of Lotus,Traity,-,0,0,T
+Will of the Sword,Traity,-,0,0,T
+Wind Bloodline,Traity,-,0,0,T

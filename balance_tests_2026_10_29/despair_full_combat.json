@@ -1,0 +1,248 @@
+[
+  {
+    "boss_start_hp": 140,
+    "rules": "baseline",
+    "n": 1800,
+    "win_pct": 68.0,
+    "win_CI95": [
+      65.81,
+      70.11
+    ],
+    "timeouts": 576,
+    "rounds": {
+      "median": 3.0,
+      "p10": 3,
+      "p90": 6
+    },
+    "hp_pct": {
+      "median": 79.55,
+      "p10": 67.05,
+      "p90": 94.32
+    },
+    "sp_pct": {
+      "median": 98.75,
+      "p10": 98.75,
+      "p90": 98.75
+    },
+    "mean_metrics": {
+      "hero_actions": 7.92,
+      "hero_SP_paid": 1.0,
+      "skill_Ominous Words": 1.0,
+      "statuses_Despair": 0.68,
+      "SP_regenerated": 0.0,
+      "guards": 6.92,
+      "enemy_actions": 3.96,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 3.96,
+      "enemy_damage": 17.642,
+      "misses": 1.396
+    },
+    "mean_boss_hp_lost": 95.2,
+    "test": "Exactly one legal Ominous Words attempt; then Guard only; one normal boss action/turn; six-turn window; no direct hero damage."
+  },
+  {
+    "boss_start_hp": 140,
+    "rules": "proposed",
+    "n": 1800,
+    "win_pct": 0.0,
+    "win_CI95": [
+      0.0,
+      0.21
+    ],
+    "timeouts": 1800,
+    "rounds": {
+      "median": 6.0,
+      "p10": 6,
+      "p90": 6
+    },
+    "hp_pct": {
+      "median": 71.59,
+      "p10": 60.23,
+      "p90": 85.23
+    },
+    "sp_pct": {
+      "median": 98.75,
+      "p10": 98.75,
+      "p90": 98.75
+    },
+    "mean_metrics": {
+      "hero_actions": 12.0,
+      "hero_SP_paid": 1.0,
+      "skill_Ominous Words": 1.0,
+      "statuses_Despair": 0.68,
+      "SP_regenerated": 0.0,
+      "guards": 11.0,
+      "enemy_actions": 6.0,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 6.0,
+      "enemy_damage": 24.113,
+      "misses": 2.098
+    },
+    "mean_boss_hp_lost": 13.6,
+    "test": "Exactly one legal Ominous Words attempt; then Guard only; one normal boss action/turn; six-turn window; no direct hero damage."
+  },
+  {
+    "boss_start_hp": 300,
+    "rules": "baseline",
+    "n": 1800,
+    "win_pct": 68.0,
+    "win_CI95": [
+      65.81,
+      70.11
+    ],
+    "timeouts": 576,
+    "rounds": {
+      "median": 3.0,
+      "p10": 3,
+      "p90": 6
+    },
+    "hp_pct": {
+      "median": 79.55,
+      "p10": 67.05,
+      "p90": 94.32
+    },
+    "sp_pct": {
+      "median": 98.75,
+      "p10": 98.75,
+      "p90": 98.75
+    },
+    "mean_metrics": {
+      "hero_actions": 7.92,
+      "hero_SP_paid": 1.0,
+      "skill_Ominous Words": 1.0,
+      "statuses_Despair": 0.68,
+      "SP_regenerated": 0.0,
+      "guards": 6.92,
+      "enemy_actions": 3.96,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 3.96,
+      "enemy_damage": 17.642,
+      "misses": 1.396
+    },
+    "mean_boss_hp_lost": 204,
+    "test": "Exactly one legal Ominous Words attempt; then Guard only; one normal boss action/turn; six-turn window; no direct hero damage."
+  },
+  {
+    "boss_start_hp": 300,
+    "rules": "proposed",
+    "n": 1800,
+    "win_pct": 0.0,
+    "win_CI95": [
+      0.0,
+      0.21
+    ],
+    "timeouts": 1800,
+    "rounds": {
+      "median": 6.0,
+      "p10": 6,
+      "p90": 6
+    },
+    "hp_pct": {
+      "median": 71.59,
+      "p10": 60.23,
+      "p90": 85.23
+    },
+    "sp_pct": {
+      "median": 98.75,
+      "p10": 98.75,
+      "p90": 98.75
+    },
+    "mean_metrics": {
+      "hero_actions": 12.0,
+      "hero_SP_paid": 1.0,
+      "skill_Ominous Words": 1.0,
+      "statuses_Despair": 0.68,
+      "SP_regenerated": 0.0,
+      "guards": 11.0,
+      "enemy_actions": 6.0,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 6.0,
+      "enemy_damage": 24.113,
+      "misses": 2.098
+    },
+    "mean_boss_hp_lost": 13.6,
+    "test": "Exactly one legal Ominous Words attempt; then Guard only; one normal boss action/turn; six-turn window; no direct hero damage."
+  },
+  {
+    "boss_start_hp": 600,
+    "rules": "baseline",
+    "n": 1800,
+    "win_pct": 68.0,
+    "win_CI95": [
+      65.81,
+      70.11
+    ],
+    "timeouts": 576,
+    "rounds": {
+      "median": 3.0,
+      "p10": 3,
+      "p90": 6
+    },
+    "hp_pct": {
+      "median": 79.55,
+      "p10": 67.05,
+      "p90": 94.32
+    },
+    "sp_pct": {
+      "median": 98.75,
+      "p10": 98.75,
+      "p90": 98.75
+    },
+    "mean_metrics": {
+      "hero_actions": 7.92,
+      "hero_SP_paid": 1.0,
+      "skill_Ominous Words": 1.0,
+      "statuses_Despair": 0.68,
+      "SP_regenerated": 0.0,
+      "guards": 6.92,
+      "enemy_actions": 3.96,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 3.96,
+      "enemy_damage": 17.642,
+      "misses": 1.396
+    },
+    "mean_boss_hp_lost": 408,
+    "test": "Exactly one legal Ominous Words attempt; then Guard only; one normal boss action/turn; six-turn window; no direct hero damage."
+  },
+  {
+    "boss_start_hp": 600,
+    "rules": "proposed",
+    "n": 1800,
+    "win_pct": 0.0,
+    "win_CI95": [
+      0.0,
+      0.21
+    ],
+    "timeouts": 1800,
+    "rounds": {
+      "median": 6.0,
+      "p10": 6,
+      "p90": 6
+    },
+    "hp_pct": {
+      "median": 71.59,
+      "p10": 60.23,
+      "p90": 85.23
+    },
+    "sp_pct": {
+      "median": 98.75,
+      "p10": 98.75,
+      "p90": 98.75
+    },
+    "mean_metrics": {
+      "hero_actions": 12.0,
+      "hero_SP_paid": 1.0,
+      "skill_Ominous Words": 1.0,
+      "statuses_Despair": 0.68,
+      "SP_regenerated": 0.0,
+      "guards": 11.0,
+      "enemy_actions": 6.0,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 6.0,
+      "enemy_damage": 24.113,
+      "misses": 2.098
+    },
+    "mean_boss_hp_lost": 13.6,
+    "test": "Exactly one legal Ominous Words attempt; then Guard only; one normal boss action/turn; six-turn window; no direct hero damage."
+  }
+]

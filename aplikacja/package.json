@@ -1,0 +1,58 @@
+{
+  "name": "take-your-heart",
+  "productName": "Take Your Heart",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Lokalny kreator bohatera i Persony do Persona RPG",
+  "author": "Persona RPG",
+  "main": "dist-electron/electron/main.js",
+  "scripts": {
+    "dev": "npm run build && electron .",
+    "start": "electron .",
+    "build": "tsc --noEmit && tsc -p tsconfig.electron.json && vite build",
+    "test": "tsx --test tests/model.test.ts",
+    "test:desktop": "node tests/desktop.cjs",
+    "package:win": "npm run build && electron-builder --win dir",
+    "package:mac": "npm run build && electron-builder --mac dmg",
+    "package:linux": "npm run build && electron-builder --linux AppImage"
+  },
+  "build": {
+    "appId": "pl.personarpg.takeyourheart",
+    "productName": "Take Your Heart",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "target": "dir",
+      "signAndEditExecutable": false
+    },
+    "mac": {
+      "category": "public.app-category.games"
+    },
+    "linux": {
+      "category": "Game"
+    }
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "electron": "^45.1.0",
+    "electron-builder": "^26.18.0",
+    "playwright-core": "^1.64.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

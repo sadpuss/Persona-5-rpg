@@ -1,0 +1,24 @@
+{
+  "gm_source_sha256": "a20641c0806e83ec4eef26571df3f118014f2ec9261983a23cdbe1e142d36456",
+  "gm_output": "K:\\Persona-5-rpg\\Persona_5_RPG_Podrecznik_GM_0_4.docx",
+  "player_output": "K:\\Persona-5-rpg\\Persona_5_RPG_Podrecznik_Gracza_0_1.docx",
+  "catalog_entries": 541,
+  "access_counts": {
+    "A": 236,
+    "Z": 94,
+    "R": 110,
+    "X": 9,
+    "Ź": 92
+  },
+  "initial_skills": 20,
+  "arcana_traits": 23,
+  "source_unchanged": true,
+  "existing_skill_costs_preserved": true,
+  "level_thresholds_are_homebrew": true,
+  "player_pages": 9,
+  "player_pdf_errors": [],
+  "player_blank_pages": [],
+  "gm_pages": 66,
+  "gm_pdf_errors": [],
+  "gm_blank_pages": []
+}

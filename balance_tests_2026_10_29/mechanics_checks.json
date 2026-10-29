@@ -1,0 +1,22 @@
+{
+  "checks": "hit chance, Guard+Resist, resource bounds, extra-chain cap, no new EXP after cap, checkpoint enumeration",
+  "checkpoint": {
+    "source_states_enumerated": 39826,
+    "original_has_net_resource_gain": 29371,
+    "proposed_has_net_resource_gain": 0,
+    "example_level_25": {
+      "saved_hp_sp": [
+        1,
+        0
+      ],
+      "original_respawn": [
+        29,
+        27
+      ],
+      "proposed_respawn": [
+        1,
+        0
+      ]
+    }
+  }
+}

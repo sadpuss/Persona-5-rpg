@@ -1,0 +1,16 @@
+[
+  {
+    "guard": false,
+    "n": 10000,
+    "both_survive_pct": 30.02,
+    "mean_team_damage": 24.5694,
+    "fixture": "One telegraphed heavy Fire AoE against two L25 heroes currently at 20 HP; one Weak Fire, one Normal; same damage roll and attack rolls."
+  },
+  {
+    "guard": true,
+    "n": 10000,
+    "both_survive_pct": 100.0,
+    "mean_team_damage": 11.4845,
+    "fixture": "One telegraphed heavy Fire AoE against two L25 heroes currently at 20 HP; one Weak Fire, one Normal; same damage roll and attack rolls."
+  }
+]

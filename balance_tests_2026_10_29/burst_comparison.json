@@ -1,0 +1,586 @@
+[
+  {
+    "level": 50,
+    "boss_actions": 1,
+    "rules": "baseline",
+    "n": 2000,
+    "win_pct": 70.5,
+    "win_CI95": [
+      68.46,
+      72.46
+    ],
+    "timeouts": 428,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 35
+    },
+    "hp_pct": {
+      "median": 78.57,
+      "p10": 2.38,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 13.75,
+      "p10": 3.12,
+      "p90": 36.25
+    },
+    "mean_metrics": {
+      "enemy_actions": 13.198,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 13.198,
+      "enemy_damage": 99.849,
+      "hero_actions": 27.89,
+      "hero_SP_paid": 133.821,
+      "skill_Inferno": 5.114,
+      "misses": 8.567,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.197,
+      "hero_damage": 169.902,
+      "statuses_Shock": 0.718,
+      "skipped_enemy_turns": 0.693,
+      "skill_Magarudyne": 0.425,
+      "enemy_KO": 0.666,
+      "statuses_Burn": 0.676,
+      "skill_Panta Rhei": 0.056,
+      "skill_Diarahan": 0.679,
+      "HP_healed": 39.224,
+      "skill_Maragidyne": 0.586,
+      "guards": 15.831,
+      "hero_KO": 0.188
+    }
+  },
+  {
+    "level": 50,
+    "boss_actions": 1,
+    "rules": "proposed",
+    "n": 2000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.81,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 87.5,
+      "p10": 74.4,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 69.38,
+      "p10": 56.88,
+      "p90": 77.5
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.408,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.408,
+      "enemy_damage": 65.309,
+      "hero_actions": 12.763,
+      "hero_SP_paid": 51.786,
+      "skill_Inferno": 6.021,
+      "misses": 6.073,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.644,
+      "hero_damage": 180.244,
+      "statuses_Shock": 0.757,
+      "skipped_enemy_turns": 0.725,
+      "skill_Panta Rhei": 0.363,
+      "enemy_KO": 0.964,
+      "statuses_Burn": 0.698,
+      "skill_Diarahan": 0.734,
+      "HP_healed": 42.466
+    }
+  },
+  {
+    "level": 50,
+    "boss_actions": 2,
+    "rules": "baseline",
+    "n": 2000,
+    "win_pct": 64.45,
+    "win_CI95": [
+      62.33,
+      66.52
+    ],
+    "timeouts": 16,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 29
+    },
+    "hp_pct": {
+      "median": 76.79,
+      "p10": 0.0,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 10.62,
+      "p10": 1.25,
+      "p90": 33.75
+    },
+    "mean_metrics": {
+      "enemy_actions": 23.982,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 23.982,
+      "enemy_damage": 195.709,
+      "misses": 12.155,
+      "hero_actions": 25.09,
+      "hero_SP_paid": 136.521,
+      "skill_Inferno": 4.952,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.012,
+      "hero_damage": 167.722,
+      "statuses_Shock": 0.695,
+      "skipped_enemy_turns": 0.675,
+      "skill_Diarahan": 1.868,
+      "HP_healed": 117.951,
+      "skill_Magarudyne": 0.499,
+      "enemy_KO": 0.604,
+      "statuses_Burn": 0.682,
+      "skill_Maragidyne": 0.65,
+      "guards": 12.027,
+      "hero_KO": 0.73,
+      "skill_Panta Rhei": 0.052,
+      "skill_Samarecarm": 0.03
+    }
+  },
+  {
+    "level": 50,
+    "boss_actions": 2,
+    "rules": "proposed",
+    "n": 2000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.81,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 87.5,
+      "p10": 74.4,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 66.25,
+      "p10": 53.12,
+      "p90": 74.38
+    },
+    "mean_metrics": {
+      "enemy_actions": 11.802,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 11.802,
+      "enemy_damage": 141.881,
+      "misses": 8.225,
+      "hero_actions": 13.793,
+      "hero_SP_paid": 57.031,
+      "skill_Inferno": 5.999,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.551,
+      "hero_damage": 179.968,
+      "statuses_Shock": 0.753,
+      "skipped_enemy_turns": 0.728,
+      "skill_Diarahan": 1.823,
+      "HP_healed": 116.066,
+      "skill_Panta Rhei": 0.384,
+      "enemy_KO": 0.964,
+      "statuses_Burn": 0.714,
+      "hero_KO": 0.036,
+      "skill_Samarecarm": 0.036
+    }
+  },
+  {
+    "level": 65,
+    "boss_actions": 1,
+    "rules": "baseline",
+    "n": 2000,
+    "win_pct": 79.55,
+    "win_CI95": [
+      77.73,
+      81.26
+    ],
+    "timeouts": 397,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 35
+    },
+    "hp_pct": {
+      "median": 80.81,
+      "p10": 47.98,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 19.47,
+      "p10": 0.53,
+      "p90": 37.37
+    },
+    "mean_metrics": {
+      "enemy_actions": 11.092,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 11.092,
+      "enemy_damage": 93.792,
+      "hero_actions": 24.108,
+      "hero_SP_paid": 153.298,
+      "skill_Inferno": 5.862,
+      "misses": 8.223,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.865,
+      "hero_damage": 189.135,
+      "statuses_Shock": 0.805,
+      "skipped_enemy_turns": 0.782,
+      "enemy_KO": 0.758,
+      "statuses_Burn": 0.732,
+      "skill_Panta Rhei": 0.822,
+      "skill_Diarahan": 0.704,
+      "HP_healed": 47.836,
+      "guards": 10.854,
+      "hero_KO": 0.014
+    }
+  },
+  {
+    "level": 65,
+    "boss_actions": 1,
+    "rules": "proposed",
+    "n": 2000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.81,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 83.84,
+      "p10": 72.22,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 72.11,
+      "p10": 62.11,
+      "p90": 78.95
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.686,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.686,
+      "enemy_damage": 68.397,
+      "hero_actions": 13.454,
+      "hero_SP_paid": 54.386,
+      "skill_Inferno": 6.447,
+      "misses": 6.45,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.09,
+      "hero_damage": 194.643,
+      "statuses_Shock": 0.825,
+      "skipped_enemy_turns": 0.796,
+      "enemy_KO": 0.965,
+      "statuses_Burn": 0.75,
+      "skill_Panta Rhei": 0.348,
+      "skill_Diarahan": 0.569,
+      "HP_healed": 39.369
+    }
+  },
+  {
+    "level": 65,
+    "boss_actions": 2,
+    "rules": "baseline",
+    "n": 2000,
+    "win_pct": 79.0,
+    "win_CI95": [
+      77.16,
+      80.73
+    ],
+    "timeouts": 93,
+    "rounds": {
+      "median": 7.0,
+      "p10": 6,
+      "p90": 31
+    },
+    "hp_pct": {
+      "median": 80.81,
+      "p10": 0.0,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 16.32,
+      "p10": 0.53,
+      "p90": 34.74
+    },
+    "mean_metrics": {
+      "enemy_actions": 21.402,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 21.402,
+      "enemy_damage": 190.088,
+      "misses": 11.802,
+      "hero_actions": 23.047,
+      "hero_SP_paid": 157.307,
+      "skill_Inferno": 5.83,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.792,
+      "hero_damage": 188.521,
+      "statuses_Shock": 0.777,
+      "skipped_enemy_turns": 0.755,
+      "skill_Diarahan": 1.673,
+      "HP_healed": 124.514,
+      "enemy_KO": 0.759,
+      "statuses_Burn": 0.743,
+      "skill_Panta Rhei": 0.853,
+      "guards": 8.88,
+      "hero_KO": 0.354,
+      "skill_Samarecarm": 0.018
+    }
+  },
+  {
+    "level": 65,
+    "boss_actions": 2,
+    "rules": "proposed",
+    "n": 2000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.81,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 6,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 83.33,
+      "p10": 72.22,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 69.47,
+      "p10": 58.95,
+      "p90": 76.32
+    },
+    "mean_metrics": {
+      "enemy_actions": 12.393,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 12.393,
+      "enemy_damage": 148.965,
+      "misses": 8.807,
+      "hero_actions": 14.473,
+      "hero_SP_paid": 59.496,
+      "skill_Inferno": 6.465,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.068,
+      "hero_damage": 194.32,
+      "statuses_Shock": 0.804,
+      "skipped_enemy_turns": 0.775,
+      "skill_Diarahan": 1.583,
+      "HP_healed": 118.668,
+      "enemy_KO": 0.974,
+      "statuses_Burn": 0.764,
+      "skill_Panta Rhei": 0.338,
+      "hero_KO": 0.019,
+      "skill_Samarecarm": 0.019
+    }
+  },
+  {
+    "level": 99,
+    "boss_actions": 1,
+    "rules": "baseline",
+    "n": 2000,
+    "win_pct": 99.05,
+    "win_CI95": [
+      98.52,
+      99.39
+    ],
+    "timeouts": 19,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 82.71,
+      "p10": 72.56,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 42.25,
+      "p10": 22.48,
+      "p90": 53.88
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.771,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.771,
+      "enemy_damage": 67.773,
+      "hero_actions": 13.606,
+      "hero_SP_paid": 155.142,
+      "skill_Inferno": 6.09,
+      "misses": 6.466,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.093,
+      "hero_damage": 194.47,
+      "statuses_Shock": 0.828,
+      "skipped_enemy_turns": 0.797,
+      "enemy_KO": 0.952,
+      "statuses_Burn": 0.746,
+      "skill_Panta Rhei": 0.685,
+      "skill_Diarahan": 0.281,
+      "HP_healed": 24.789,
+      "guards": 0.457
+    }
+  },
+  {
+    "level": 99,
+    "boss_actions": 1,
+    "rules": "proposed",
+    "n": 2000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.81,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 83.08,
+      "p10": 72.56,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 79.84,
+      "p10": 73.26,
+      "p90": 84.5
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.532,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.532,
+      "enemy_damage": 66.45,
+      "hero_actions": 13.139,
+      "hero_SP_paid": 52.825,
+      "skill_Inferno": 6.45,
+      "misses": 6.388,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.1,
+      "hero_damage": 194.7,
+      "statuses_Shock": 0.828,
+      "skipped_enemy_turns": 0.797,
+      "enemy_KO": 0.964,
+      "statuses_Burn": 0.747,
+      "skill_Panta Rhei": 0.32,
+      "skill_Diarahan": 0.269,
+      "HP_healed": 23.791
+    }
+  },
+  {
+    "level": 99,
+    "boss_actions": 2,
+    "rules": "baseline",
+    "n": 2000,
+    "win_pct": 98.6,
+    "win_CI95": [
+      97.98,
+      99.03
+    ],
+    "timeouts": 28,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 85.71,
+      "p10": 72.18,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 39.53,
+      "p10": 19.77,
+      "p90": 53.49
+    },
+    "mean_metrics": {
+      "enemy_actions": 12.645,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 12.645,
+      "enemy_damage": 147.323,
+      "misses": 8.915,
+      "hero_actions": 14.681,
+      "hero_SP_paid": 159.582,
+      "skill_Inferno": 6.093,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.101,
+      "hero_damage": 194.192,
+      "statuses_Shock": 0.796,
+      "skipped_enemy_turns": 0.771,
+      "skill_Diarahan": 1.129,
+      "HP_healed": 107.403,
+      "enemy_KO": 0.955,
+      "statuses_Burn": 0.75,
+      "skill_Panta Rhei": 0.692,
+      "guards": 0.665
+    }
+  },
+  {
+    "level": 99,
+    "boss_actions": 2,
+    "rules": "proposed",
+    "n": 2000,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.81,
+      100
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 85.71,
+      "p10": 72.56,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 77.91,
+      "p10": 71.32,
+      "p90": 84.11
+    },
+    "mean_metrics": {
+      "enemy_actions": 11.953,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 11.953,
+      "enemy_damage": 143.843,
+      "misses": 8.671,
+      "hero_actions": 14.009,
+      "hero_SP_paid": 57.146,
+      "skill_Inferno": 6.455,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.116,
+      "hero_damage": 194.528,
+      "statuses_Shock": 0.798,
+      "skipped_enemy_turns": 0.772,
+      "skill_Diarahan": 1.108,
+      "HP_healed": 105.534,
+      "enemy_KO": 0.971,
+      "statuses_Burn": 0.751,
+      "skill_Panta Rhei": 0.331
+    }
+  }
+]

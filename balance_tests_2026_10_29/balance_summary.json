@@ -1,0 +1,53 @@
+{
+  "full_combats": 911310,
+  "palace_attempts": 70200,
+  "books_unchanged": true,
+  "report": "K:\\Persona-5-rpg\\Raport_testow_balansu_2026_10_29.md",
+  "runs": {
+    "all_cards_run": {
+      "profiles": 232,
+      "fights": 69600,
+      "cells": 928,
+      "seconds": 91.42
+    },
+    "burst_run": {
+      "fights": 24000,
+      "seconds": 644.98
+    },
+    "early_palace_run": {
+      "attempts": 9600,
+      "actual_fights": 48616,
+      "cells": 24
+    },
+    "focused_run": {
+      "retreat_trials": 60000,
+      "despair_combats": 10800,
+      "price_duels": 36000,
+      "seconds": 38.88
+    },
+    "matrix_run": {
+      "fights": 270000,
+      "cells": 1080,
+      "seconds": 334.9
+    },
+    "palace_run": {
+      "expeditions": 37800,
+      "actual_fights": 205788,
+      "cells": 108,
+      "seconds": 615.12
+    },
+    "revision_run": {
+      "physical_regression_fights": 54600,
+      "start_calibration_fights": 48000,
+      "final_palace_attempts": 6000,
+      "final_palace_actual_fights": 35095,
+      "guard_trials": 20000,
+      "seconds": 218.67
+    },
+    "sensitivity_run": {
+      "attempts": 16800,
+      "actual_fights": 108811,
+      "cells": 48
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "books": {
+    "Persona_5_RPG_Podrecznik_GM_0_7.docx": "1bd22bcf88f1d6020f1d89bc666cc76988e4a58cd0f9296c4a408592b7b8ea10",
+    "Persona_5_RPG_Podrecznik_Gracza_0_4.docx": "4f031bf79697bd26ed329c319181db9b8c5899c72b20b1ee437ec1666ba8a72c",
+    "Persona_5_RPG_Bestiariusz_0_4.docx": "1887d241708e5b62e34d9a246cb2630e8f61e3ac842106924f95d20dca866fac"
+  },
+  "printed_combat_profiles": 232,
+  "catalogue_entries": 541,
+  "ready_access_entries": 346,
+  "attack_skills_parsed": 116,
+  "accepted_shopping_fixture": "shared 4 x 10 HP + 1 x 6 SP per day; no turn-free use unless stated",
+  "note": "Test laboratory does not alter the three books."
+}

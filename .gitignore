@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+~$*
+/qa_*/
+node_modules/
+dist/
+dist-electron/
+release/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TAKE YOUR HEART — Persona RPG</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="app-shell">
+<aside class="sidebar"><a class="brand" href="#" aria-label="Strona główna"><span class="brand-mark">★</span><span>TAKE YOUR<br><strong>HEART</strong><small>PERSONA RPG / KREATOR</small></span></a><div class="side-label">TWOJA NOWA HISTORIA</div><nav id="steps"></nav><div class="side-bottom"><span class="offline-dot"></span> LOKALNIE. PO TWOJEMU.<p id="save-status">Zapis w tej przeglądarce</p><small>Prototyp 0.1 · GM 0.8 / Gracz 0.5</small></div></aside>
+<div class="workspace"><header class="topbar"><span>VELVET ROOM <b>/</b> NOWY POCZĄTEK</span><div><button id="import-button" class="quiet">Otwórz plik</button><button id="export-button" class="outline">Zapisz do pliku ↗</button></div></header>
+<main><div id="editor"></div><footer class="navigation"><button id="back" class="quiet">← Wstecz</button><span>Każdy krok możesz pominąć i uzupełnić później.</span><button id="next" class="primary">Dalej ↗</button></footer></main>
+</div><aside class="live-panel" id="live"></aside></div>
+<div id="toast" role="status"></div><input type="file" id="import-file" accept=".json,application/json" hidden><div id="print-root"></div>
+<script src="data.js"></script><script src="app.js"></script></body></html>

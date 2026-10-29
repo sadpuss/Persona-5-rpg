@@ -1,0 +1,1196 @@
+[
+  {
+    "level": 50,
+    "advanced_passives": false,
+    "policy": "efficient",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 86.9,
+      "p10": 74.4,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 46.25,
+      "p10": 31.88,
+      "p90": 60.62
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.774,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.774,
+      "enemy_damage": 69.202,
+      "hero_actions": 13.417,
+      "hero_SP_paid": 85.949,
+      "skill_Agidyne": 6.339,
+      "hero_damage": 154.753,
+      "statuses_Burn": 0.716,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.031,
+      "misses": 6.295,
+      "skill_Diarahan": 0.771,
+      "HP_healed": 44.734,
+      "skill_Garudyne": 0.9,
+      "enemy_KO": 0.929,
+      "statuses_Shock": 0.723,
+      "skipped_enemy_turns": 0.703,
+      "guards": 0.376
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 50,
+    "advanced_passives": false,
+    "policy": "efficient",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 87.5,
+      "p10": 74.4,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 73.12,
+      "p10": 63.75,
+      "p90": 80.62
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.257,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.257,
+      "enemy_damage": 62.831,
+      "hero_actions": 12.474,
+      "hero_SP_paid": 44.362,
+      "skill_Agidyne": 5.863,
+      "hero_damage": 155.107,
+      "statuses_Burn": 0.695,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.584,
+      "misses": 5.953,
+      "skill_Diarahan": 0.678,
+      "HP_healed": 39.331,
+      "skill_Garudyne": 0.349,
+      "enemy_KO": 0.949,
+      "statuses_Shock": 0.749,
+      "skipped_enemy_turns": 0.727
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 50,
+    "advanced_passives": false,
+    "policy": "burst",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 86.9,
+      "p10": 74.4,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 45.62,
+      "p10": 31.25,
+      "p90": 60.62
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.659,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.659,
+      "enemy_damage": 67.745,
+      "hero_actions": 13.182,
+      "hero_SP_paid": 87.241,
+      "skill_Agidyne": 6.183,
+      "hero_damage": 154.87,
+      "statuses_Burn": 0.716,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.259,
+      "misses": 6.183,
+      "skill_Diarahan": 0.751,
+      "HP_healed": 43.561,
+      "skill_Garudyne": 0.609,
+      "enemy_KO": 0.941,
+      "statuses_Shock": 0.723,
+      "skipped_enemy_turns": 0.703,
+      "guards": 0.38
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 50,
+    "advanced_passives": false,
+    "policy": "burst",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 87.5,
+      "p10": 74.4,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 73.12,
+      "p10": 63.75,
+      "p90": 80.0
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.248,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.248,
+      "enemy_damage": 62.726,
+      "hero_actions": 12.457,
+      "hero_SP_paid": 44.344,
+      "skill_Agidyne": 5.851,
+      "hero_damage": 155.111,
+      "statuses_Burn": 0.695,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.617,
+      "misses": 5.943,
+      "skill_Diarahan": 0.677,
+      "HP_healed": 39.289,
+      "skill_Garudyne": 0.312,
+      "enemy_KO": 0.951,
+      "statuses_Shock": 0.749,
+      "skipped_enemy_turns": 0.727
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 50,
+    "advanced_passives": true,
+    "policy": "efficient",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 4,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 87.5,
+      "p10": 75.0,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 59.38,
+      "p10": 42.5,
+      "p90": 71.88
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.089,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.089,
+      "enemy_damage": 60.774,
+      "hero_actions": 11.974,
+      "hero_SP_paid": 78.679,
+      "skill_Agidyne": 5.715,
+      "hero_damage": 155.442,
+      "statuses_Burn": 0.645,
+      "SP_regenerated": 12.0,
+      "skill_Thunder Reign": 4.658,
+      "misses": 5.673,
+      "skill_Diarahan": 0.645,
+      "HP_healed": 37.405,
+      "skill_Garudyne": 0.805,
+      "enemy_KO": 0.95,
+      "statuses_Shock": 0.683,
+      "skipped_enemy_turns": 0.659,
+      "guards": 0.151
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 50,
+    "advanced_passives": true,
+    "policy": "efficient",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 4,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 87.5,
+      "p10": 75.0,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 82.5,
+      "p10": 73.75,
+      "p90": 90.0
+    },
+    "mean_metrics": {
+      "enemy_actions": 4.813,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 4.813,
+      "enemy_damage": 57.367,
+      "hero_actions": 11.459,
+      "hero_SP_paid": 40.619,
+      "skill_Agidyne": 5.423,
+      "hero_damage": 155.647,
+      "statuses_Burn": 0.639,
+      "SP_regenerated": 12.0,
+      "skill_Thunder Reign": 5.071,
+      "misses": 5.487,
+      "skill_Diarahan": 0.585,
+      "HP_healed": 33.973,
+      "skill_Garudyne": 0.38,
+      "enemy_KO": 0.962,
+      "statuses_Shock": 0.693,
+      "skipped_enemy_turns": 0.669
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 50,
+    "advanced_passives": true,
+    "policy": "burst",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 4,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 87.5,
+      "p10": 75.0,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 57.5,
+      "p10": 40.62,
+      "p90": 70.0
+    },
+    "mean_metrics": {
+      "enemy_actions": 4.92,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 4.92,
+      "enemy_damage": 58.619,
+      "hero_actions": 11.652,
+      "hero_SP_paid": 80.821,
+      "skill_Agidyne": 5.513,
+      "hero_damage": 155.6,
+      "statuses_Burn": 0.645,
+      "SP_regenerated": 12.0,
+      "skill_Thunder Reign": 5.015,
+      "misses": 5.523,
+      "skill_Diarahan": 0.607,
+      "HP_healed": 35.236,
+      "skill_Garudyne": 0.353,
+      "enemy_KO": 0.963,
+      "statuses_Shock": 0.687,
+      "skipped_enemy_turns": 0.663,
+      "guards": 0.163
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 50,
+    "advanced_passives": true,
+    "policy": "burst",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 4,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 87.5,
+      "p10": 75.0,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 82.5,
+      "p10": 73.75,
+      "p90": 90.0
+    },
+    "mean_metrics": {
+      "enemy_actions": 4.801,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 4.801,
+      "enemy_damage": 57.253,
+      "hero_actions": 11.443,
+      "hero_SP_paid": 40.611,
+      "skill_Agidyne": 5.411,
+      "hero_damage": 155.652,
+      "statuses_Burn": 0.639,
+      "SP_regenerated": 12.0,
+      "skill_Thunder Reign": 5.11,
+      "misses": 5.476,
+      "skill_Diarahan": 0.585,
+      "HP_healed": 33.973,
+      "skill_Garudyne": 0.337,
+      "enemy_KO": 0.965,
+      "statuses_Shock": 0.693,
+      "skipped_enemy_turns": 0.669
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 65,
+    "advanced_passives": false,
+    "policy": "efficient",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 8.0,
+      "p10": 6,
+      "p90": 11
+    },
+    "hp_pct": {
+      "median": 83.33,
+      "p10": 72.22,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 44.74,
+      "p10": 32.63,
+      "p90": 57.37
+    },
+    "mean_metrics": {
+      "enemy_actions": 7.065,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 7.065,
+      "enemy_damage": 84.925,
+      "hero_actions": 16.311,
+      "hero_SP_paid": 105.457,
+      "skill_Agidyne": 7.777,
+      "hero_damage": 193.259,
+      "statuses_Burn": 0.883,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.223,
+      "misses": 7.728,
+      "skill_Diarahan": 0.791,
+      "HP_healed": 55.01,
+      "statuses_Shock": 0.867,
+      "skipped_enemy_turns": 0.852,
+      "skill_Garudyne": 1.164,
+      "enemy_KO": 0.943,
+      "guards": 0.356
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 65,
+    "advanced_passives": false,
+    "policy": "efficient",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 8.0,
+      "p10": 6,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 83.33,
+      "p10": 72.22,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 72.11,
+      "p10": 63.68,
+      "p90": 79.47
+    },
+    "mean_metrics": {
+      "enemy_actions": 6.439,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 6.439,
+      "enemy_damage": 77.224,
+      "hero_actions": 15.186,
+      "hero_SP_paid": 53.867,
+      "skill_Agidyne": 7.205,
+      "hero_damage": 193.65,
+      "statuses_Burn": 0.859,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.931,
+      "misses": 7.266,
+      "skill_Diarahan": 0.689,
+      "HP_healed": 47.878,
+      "statuses_Shock": 0.917,
+      "skipped_enemy_turns": 0.897,
+      "skill_Garudyne": 0.361,
+      "enemy_KO": 0.961
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 65,
+    "advanced_passives": false,
+    "policy": "burst",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 90.93,
+    "win_CI95": [
+      89.37,
+      92.28
+    ],
+    "timeouts": 136,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 81.82,
+      "p10": 69.7,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 16.32,
+      "p10": 1.58,
+      "p90": 37.37
+    },
+    "mean_metrics": {
+      "enemy_actions": 7.673,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 7.673,
+      "enemy_damage": 78.267,
+      "hero_actions": 17.326,
+      "hero_SP_paid": 154.877,
+      "skill_Blazing Hell": 5.43,
+      "hero_damage": 192.322,
+      "statuses_Burn": 0.765,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 5.917,
+      "misses": 7.169,
+      "skill_Diarahan": 0.567,
+      "HP_healed": 39.25,
+      "statuses_Shock": 0.801,
+      "skipped_enemy_turns": 0.769,
+      "skill_Agidyne": 1.027,
+      "skill_Garudyne": 0.645,
+      "enemy_KO": 0.862,
+      "guards": 3.74
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 65,
+    "advanced_passives": false,
+    "policy": "burst",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 83.33,
+      "p10": 72.22,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 66.32,
+      "p10": 55.79,
+      "p90": 75.26
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.652,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.652,
+      "enemy_damage": 67.891,
+      "hero_actions": 13.399,
+      "hero_SP_paid": 65.119,
+      "skill_Blazing Hell": 5.897,
+      "hero_damage": 194.578,
+      "statuses_Burn": 0.751,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.132,
+      "misses": 6.407,
+      "skill_Diarahan": 0.549,
+      "HP_healed": 38.044,
+      "statuses_Shock": 0.819,
+      "skipped_enemy_turns": 0.785,
+      "skill_Agidyne": 0.522,
+      "skill_Garudyne": 0.298,
+      "enemy_KO": 0.959
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 65,
+    "advanced_passives": true,
+    "policy": "efficient",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 83.33,
+      "p10": 72.22,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 80.53,
+      "p10": 71.58,
+      "p90": 86.84
+    },
+    "mean_metrics": {
+      "enemy_actions": 6.003,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 6.003,
+      "enemy_damage": 72.116,
+      "hero_actions": 14.143,
+      "hero_SP_paid": 53.445,
+      "skill_Agidyne": 6.788,
+      "hero_damage": 194.221,
+      "statuses_Burn": 0.783,
+      "SP_regenerated": 15.011,
+      "skill_Thunder Reign": 6.136,
+      "misses": 6.775,
+      "skill_Diarahan": 0.616,
+      "HP_healed": 42.723,
+      "statuses_Shock": 0.845,
+      "skipped_enemy_turns": 0.82,
+      "skill_Garudyne": 0.603,
+      "enemy_KO": 0.948
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 65,
+    "advanced_passives": true,
+    "policy": "efficient",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 83.33,
+      "p10": 72.22,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 92.11,
+      "p10": 86.84,
+      "p90": 96.32
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.267,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.267,
+      "enemy_damage": 63.026,
+      "hero_actions": 12.555,
+      "hero_SP_paid": 30.907,
+      "skill_Blazing Hell": 5.317,
+      "hero_damage": 195.019,
+      "statuses_Burn": 0.712,
+      "SP_regenerated": 15.01,
+      "skill_Thunder Reign": 5.657,
+      "misses": 6.03,
+      "skill_Diarahan": 0.479,
+      "HP_healed": 33.143,
+      "skill_Garudyne": 0.375,
+      "statuses_Shock": 0.769,
+      "skipped_enemy_turns": 0.741,
+      "enemy_KO": 0.959,
+      "skill_Agidyne": 0.726
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 65,
+    "advanced_passives": true,
+    "policy": "burst",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 83.33,
+      "p10": 72.22,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 71.05,
+      "p10": 58.95,
+      "p90": 81.05
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.241,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.241,
+      "enemy_damage": 62.647,
+      "hero_actions": 12.503,
+      "hero_SP_paid": 75.064,
+      "skill_Blazing Hell": 5.391,
+      "hero_damage": 195.043,
+      "statuses_Burn": 0.708,
+      "SP_regenerated": 18.0,
+      "skill_Thunder Reign": 5.657,
+      "misses": 6.005,
+      "skill_Diarahan": 0.475,
+      "HP_healed": 32.807,
+      "skill_Garudyne": 0.343,
+      "statuses_Shock": 0.769,
+      "skipped_enemy_turns": 0.741,
+      "enemy_KO": 0.961,
+      "skill_Agidyne": 0.638
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 65,
+    "advanced_passives": true,
+    "policy": "burst",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 83.33,
+      "p10": 72.22,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 92.11,
+      "p10": 86.84,
+      "p90": 96.32
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.241,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.241,
+      "enemy_damage": 62.647,
+      "hero_actions": 12.503,
+      "hero_SP_paid": 30.872,
+      "skill_Blazing Hell": 5.391,
+      "hero_damage": 195.043,
+      "statuses_Burn": 0.708,
+      "SP_regenerated": 15.01,
+      "skill_Thunder Reign": 5.657,
+      "misses": 6.005,
+      "skill_Diarahan": 0.475,
+      "HP_healed": 32.807,
+      "skill_Garudyne": 0.343,
+      "statuses_Shock": 0.769,
+      "skipped_enemy_turns": 0.741,
+      "enemy_KO": 0.961,
+      "skill_Agidyne": 0.638
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 99,
+    "advanced_passives": false,
+    "policy": "efficient",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 8.0,
+      "p10": 6,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 84.59,
+      "p10": 72.18,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 59.3,
+      "p10": 48.06,
+      "p90": 69.77
+    },
+    "mean_metrics": {
+      "enemy_actions": 6.501,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 6.501,
+      "enemy_damage": 77.915,
+      "hero_actions": 15.256,
+      "hero_SP_paid": 106.171,
+      "skill_Agidyne": 7.456,
+      "hero_damage": 193.615,
+      "statuses_Burn": 0.848,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.623,
+      "misses": 7.427,
+      "skill_Diarahan": 0.421,
+      "HP_healed": 37.365,
+      "skill_Garudyne": 0.743,
+      "enemy_KO": 0.945,
+      "statuses_Shock": 0.911,
+      "skipped_enemy_turns": 0.888,
+      "guards": 0.014
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 99,
+    "advanced_passives": false,
+    "policy": "efficient",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 8.0,
+      "p10": 6,
+      "p90": 10
+    },
+    "hp_pct": {
+      "median": 84.59,
+      "p10": 72.56,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 79.84,
+      "p10": 74.03,
+      "p90": 85.27
+    },
+    "mean_metrics": {
+      "enemy_actions": 6.327,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 6.327,
+      "enemy_damage": 75.803,
+      "hero_actions": 14.923,
+      "hero_SP_paid": 52.493,
+      "skill_Agidyne": 7.234,
+      "hero_damage": 193.739,
+      "statuses_Burn": 0.846,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.929,
+      "misses": 7.263,
+      "skill_Diarahan": 0.397,
+      "HP_healed": 35.195,
+      "skill_Garudyne": 0.363,
+      "enemy_KO": 0.955,
+      "statuses_Shock": 0.914,
+      "skipped_enemy_turns": 0.891
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 99,
+    "advanced_passives": false,
+    "policy": "burst",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 99.53,
+    "win_CI95": [
+      99.04,
+      99.77
+    ],
+    "timeouts": 7,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 84.21,
+      "p10": 72.93,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 39.15,
+      "p10": 20.93,
+      "p90": 53.88
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.638,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.638,
+      "enemy_damage": 66.802,
+      "hero_actions": 13.342,
+      "hero_SP_paid": 160.062,
+      "skill_Blazing Hell": 5.882,
+      "hero_damage": 194.562,
+      "statuses_Burn": 0.749,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.143,
+      "misses": 6.443,
+      "skill_Diarahan": 0.288,
+      "HP_healed": 25.485,
+      "skill_Agidyne": 0.541,
+      "enemy_KO": 0.953,
+      "statuses_Shock": 0.815,
+      "skipped_enemy_turns": 0.784,
+      "skill_Garudyne": 0.31,
+      "guards": 0.177
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 99,
+    "advanced_passives": false,
+    "policy": "burst",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 84.21,
+      "p10": 72.93,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 75.58,
+      "p10": 68.22,
+      "p90": 81.78
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.543,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.543,
+      "enemy_damage": 66.449,
+      "hero_actions": 13.162,
+      "hero_SP_paid": 63.933,
+      "skill_Blazing Hell": 5.908,
+      "hero_damage": 194.648,
+      "statuses_Burn": 0.748,
+      "SP_regenerated": 0.0,
+      "skill_Thunder Reign": 6.149,
+      "misses": 6.399,
+      "skill_Diarahan": 0.287,
+      "HP_healed": 25.373,
+      "enemy_KO": 0.959,
+      "statuses_Shock": 0.817,
+      "skipped_enemy_turns": 0.785,
+      "skill_Agidyne": 0.519,
+      "skill_Garudyne": 0.299
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 99,
+    "advanced_passives": true,
+    "policy": "efficient",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 7.0,
+      "p10": 5,
+      "p90": 9
+    },
+    "hp_pct": {
+      "median": 84.21,
+      "p10": 72.56,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 86.05,
+      "p10": 79.84,
+      "p90": 90.31
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.883,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.883,
+      "enemy_damage": 70.549,
+      "hero_actions": 13.889,
+      "hero_SP_paid": 52.727,
+      "skill_Agidyne": 6.801,
+      "hero_damage": 194.276,
+      "statuses_Burn": 0.777,
+      "SP_regenerated": 15.0,
+      "skill_Thunder Reign": 6.154,
+      "misses": 6.771,
+      "skill_Diarahan": 0.333,
+      "HP_healed": 29.461,
+      "enemy_KO": 0.953,
+      "statuses_Shock": 0.845,
+      "skipped_enemy_turns": 0.821,
+      "skill_Garudyne": 0.602
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 99,
+    "advanced_passives": true,
+    "policy": "efficient",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 84.21,
+      "p10": 73.31,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 94.57,
+      "p10": 90.7,
+      "p90": 97.29
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.151,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.151,
+      "enemy_damage": 61.612,
+      "hero_actions": 12.315,
+      "hero_SP_paid": 30.182,
+      "skill_Blazing Hell": 5.317,
+      "hero_damage": 195.115,
+      "statuses_Burn": 0.705,
+      "SP_regenerated": 15.0,
+      "skill_Thunder Reign": 5.646,
+      "misses": 5.996,
+      "skill_Diarahan": 0.235,
+      "HP_healed": 20.711,
+      "skill_Agidyne": 0.733,
+      "enemy_KO": 0.962,
+      "statuses_Shock": 0.771,
+      "skipped_enemy_turns": 0.741,
+      "skill_Garudyne": 0.385
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 99,
+    "advanced_passives": true,
+    "policy": "burst",
+    "rules": "baseline",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 84.59,
+      "p10": 73.31,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 78.68,
+      "p10": 69.77,
+      "p90": 86.05
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.133,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.133,
+      "enemy_damage": 61.371,
+      "hero_actions": 12.275,
+      "hero_SP_paid": 74.303,
+      "skill_Blazing Hell": 5.387,
+      "hero_damage": 195.141,
+      "statuses_Burn": 0.701,
+      "SP_regenerated": 18.0,
+      "skill_Thunder Reign": 5.646,
+      "misses": 5.979,
+      "skill_Diarahan": 0.233,
+      "HP_healed": 20.602,
+      "skill_Agidyne": 0.653,
+      "enemy_KO": 0.963,
+      "statuses_Shock": 0.771,
+      "skipped_enemy_turns": 0.739,
+      "skill_Garudyne": 0.355
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  },
+  {
+    "level": 99,
+    "advanced_passives": true,
+    "policy": "burst",
+    "rules": "magic_prices_only",
+    "n": 1500,
+    "win_pct": 100.0,
+    "win_CI95": [
+      99.74,
+      100.0
+    ],
+    "timeouts": 0,
+    "rounds": {
+      "median": 6.0,
+      "p10": 5,
+      "p90": 8
+    },
+    "hp_pct": {
+      "median": 84.59,
+      "p10": 73.31,
+      "p90": 100.0
+    },
+    "sp_pct": {
+      "median": 94.57,
+      "p10": 90.7,
+      "p90": 97.29
+    },
+    "mean_metrics": {
+      "enemy_actions": 5.133,
+      "enemy_HP_paid": 0.0,
+      "skill_Boss test attack": 5.133,
+      "enemy_damage": 61.371,
+      "hero_actions": 12.275,
+      "hero_SP_paid": 30.17,
+      "skill_Blazing Hell": 5.387,
+      "hero_damage": 195.141,
+      "statuses_Burn": 0.701,
+      "SP_regenerated": 15.0,
+      "skill_Thunder Reign": 5.646,
+      "misses": 5.979,
+      "skill_Diarahan": 0.233,
+      "HP_healed": 20.602,
+      "skill_Agidyne": 0.653,
+      "enemy_KO": 0.963,
+      "statuses_Shock": 0.771,
+      "skipped_enemy_turns": 0.739,
+      "skill_Garudyne": 0.355
+    },
+    "fixture": "Two mages, neutral Fire/resisted Wind, Null Physical/Gun, same one-action miniboss and HP before/after; one heavy fallback in addition to severe attacks."
+  }
+]

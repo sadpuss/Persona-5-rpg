@@ -1,0 +1,243 @@
+{
+  "baseline_strict_dominated_skills": [
+    {
+      "bad": "Cleave",
+      "better": "Basic Physical",
+      "bad_cost": 3,
+      "better_cost": 0
+    },
+    {
+      "bad": "Lunge",
+      "better": "Basic Physical",
+      "bad_cost": 3,
+      "better_cost": 0
+    },
+    {
+      "bad": "Double Fangs",
+      "better": "Miracle Punch",
+      "bad_cost": 5,
+      "better_cost": 4
+    },
+    {
+      "bad": "Tempest Slash",
+      "better": "Gattling Blows",
+      "bad_cost": 9,
+      "better_cost": 8
+    },
+    {
+      "bad": "Vicious Strike",
+      "better": "Vajra Blast",
+      "bad_cost": 9,
+      "better_cost": 7
+    },
+    {
+      "bad": "Heat Wave",
+      "better": "Swift Strike",
+      "bad_cost": 10,
+      "better_cost": 9
+    },
+    {
+      "bad": "Sword Dance",
+      "better": "Myriad Slashes",
+      "bad_cost": 11,
+      "better_cost": 10
+    },
+    {
+      "bad": "Brave Blade",
+      "better": "Myriad Slashes",
+      "bad_cost": 12,
+      "better_cost": 10
+    },
+    {
+      "bad": "Vorpal Blade",
+      "better": "Deathbound",
+      "bad_cost": 12,
+      "better_cost": 11
+    },
+    {
+      "bad": "Gigantomachia",
+      "better": "Agneyastra",
+      "bad_cost": 13,
+      "better_cost": 12
+    },
+    {
+      "bad": "God's Hand",
+      "better": "Myriad Slashes",
+      "bad_cost": 13,
+      "better_cost": 10
+    }
+  ],
+  "proposed_strict_dominated_skills": [],
+  "ignored_conditional_effects": [
+    "Cornered Fang",
+    "Deadly Fury",
+    "Giant Slice",
+    "Rising Slash"
+  ],
+  "examples": [
+    {
+      "name": "Basic Physical",
+      "mean_before": 7.5,
+      "mean_after": 7.5,
+      "cost_before": 0,
+      "cost_after": 0,
+      "resource": "HP"
+    },
+    {
+      "name": "Cleave",
+      "mean_before": 7.5,
+      "mean_after": 9.5,
+      "cost_before": 3,
+      "cost_after": 3,
+      "resource": "HP"
+    },
+    {
+      "name": "Stomach Blow",
+      "mean_before": 18.5,
+      "mean_after": 18.5,
+      "cost_before": 0,
+      "cost_after": 9,
+      "resource": "HP"
+    },
+    {
+      "name": "God's Hand",
+      "mean_before": 30.5,
+      "mean_after": 30.5,
+      "cost_before": 13,
+      "cost_after": 14,
+      "resource": "HP"
+    },
+    {
+      "name": "Brave Blade",
+      "mean_before": 30.5,
+      "mean_after": 30.5,
+      "cost_before": 12,
+      "cost_after": 14,
+      "resource": "HP"
+    },
+    {
+      "name": "Sword Dance",
+      "mean_before": 30.5,
+      "mean_after": 30.5,
+      "cost_before": 11,
+      "cost_after": 14,
+      "resource": "HP"
+    },
+    {
+      "name": "Agidyne",
+      "mean_before": 18.5,
+      "mean_after": 18.5,
+      "cost_before": 3,
+      "cost_after": 3,
+      "resource": "SP"
+    },
+    {
+      "name": "Inferno",
+      "mean_before": 24.5,
+      "mean_after": 24.5,
+      "cost_before": 12,
+      "cost_after": 4,
+      "resource": "SP"
+    },
+    {
+      "name": "Maragidyne",
+      "mean_before": 18.5,
+      "mean_after": 18.5,
+      "cost_before": 6,
+      "cost_after": 6,
+      "resource": "SP"
+    },
+    {
+      "name": "Blazing Hell",
+      "mean_before": 24.5,
+      "mean_after": 24.5,
+      "cost_before": 14,
+      "cost_after": 6,
+      "resource": "SP"
+    }
+  ],
+  "passive_regeneration_maximum_per_encounter_50_turns": {
+    "Invigorate 1": 3,
+    "Invigorate 2": 6,
+    "Invigorate 3": 9
+  },
+  "post_victory_10_encounters": {
+    "Life Aid": {
+      "HP": 50,
+      "SP": 20
+    },
+    "Victory Cry": {
+      "HP": 100,
+      "SP": 50
+    },
+    "stacked_Aid_and_Cry": {
+      "HP": 100,
+      "SP": 50
+    }
+  },
+  "counter_proc_exact": {
+    "Counter": 0.1,
+    "Counterstrike": 0.15,
+    "High Counter": 0.2
+  },
+  "affinity_and_guard_on_20_damage": {
+    "normal_guard": 8,
+    "resist_guard": 4,
+    "weak_guard": 12,
+    "null_guard": 0,
+    "firm_stance_resist_guard": 2
+  },
+  "Spirit_Drain_conservation": [
+    {
+      "target_SP": 0,
+      "stolen": 0,
+      "net_gain_after_1_SP_cost_on_hit": -1
+    },
+    {
+      "target_SP": 1,
+      "stolen": 1,
+      "net_gain_after_1_SP_cost_on_hit": 0
+    },
+    {
+      "target_SP": 2,
+      "stolen": 2,
+      "net_gain_after_1_SP_cost_on_hit": 1
+    },
+    {
+      "target_SP": 3,
+      "stolen": 3,
+      "net_gain_after_1_SP_cost_on_hit": 2
+    },
+    {
+      "target_SP": 4,
+      "stolen": 3,
+      "net_gain_after_1_SP_cost_on_hit": 2
+    }
+  ],
+  "calendar": [
+    {
+      "days": 7,
+      "max_activity_blocks": 14,
+      "minimum_blocks_rank4_one_social_stat": 12,
+      "training_if_all_blocks_train": 4,
+      "one_relationship_rank1_to6_blocks": 10,
+      "note": "No school bonus or free stat+training double reward."
+    },
+    {
+      "days": 30,
+      "max_activity_blocks": 60,
+      "minimum_blocks_rank4_one_social_stat": 12,
+      "training_if_all_blocks_train": 20,
+      "one_relationship_rank1_to6_blocks": 10,
+      "note": "No school bonus or free stat+training double reward."
+    },
+    {
+      "days": 90,
+      "max_activity_blocks": 180,
+      "minimum_blocks_rank4_one_social_stat": 12,
+      "training_if_all_blocks_train": 60,
+      "one_relationship_rank1_to6_blocks": 10,
+      "note": "No school bonus or free stat+training double reward."
+    }
+  ]
+}

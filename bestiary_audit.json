@@ -1,0 +1,4515 @@
+[
+  {
+    "card": 1,
+    "name": "Arsene",
+    "persona_level": 1,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 1,
+      "hp": 20,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Curse: light, 1 SP",
+      "kind": "Curse",
+      "strength": "light",
+      "code": "---w----ws"
+    }
+  },
+  {
+    "card": 2,
+    "name": "Jack-o'-Lantern",
+    "persona_level": 2,
+    "kind": "persona",
+    "shadow_names": [
+      "Crypt-Dwelling Pyromaniac"
+    ],
+    "rpg": {
+      "lv": 2,
+      "hp": 20,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Fire: light, 1 SP",
+      "kind": "Fire",
+      "strength": "light",
+      "code": "--dxaw----"
+    }
+  },
+  {
+    "card": 3,
+    "name": "Pixie",
+    "persona_level": 2,
+    "kind": "persona",
+    "shadow_names": [
+      "Beguiling Girl"
+    ],
+    "rpg": {
+      "lv": 2,
+      "hp": 20,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "-waxs---sw"
+    }
+  },
+  {
+    "card": 4,
+    "name": "Zorro",
+    "persona_level": 2,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 2,
+      "hp": 20,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Wind: light, 1 SP",
+      "kind": "Wind",
+      "strength": "light",
+      "code": "----ws----"
+    }
+  },
+  {
+    "card": 5,
+    "name": "Agathion",
+    "persona_level": 3,
+    "kind": "persona",
+    "shadow_names": [
+      "Apprentice in a Jug"
+    ],
+    "rpg": {
+      "lv": 3,
+      "hp": 25,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Electricity: light, 1 SP",
+      "kind": "Electricity",
+      "strength": "light",
+      "code": "-saasw----"
+    }
+  },
+  {
+    "card": 6,
+    "name": "Mandrake",
+    "persona_level": 3,
+    "kind": "persona",
+    "shadow_names": [
+      "Gallows Flower"
+    ],
+    "rpg": {
+      "lv": 3,
+      "hp": 20,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "--xas-----"
+    }
+  },
+  {
+    "card": 7,
+    "name": "Bicorn",
+    "persona_level": 4,
+    "kind": "persona",
+    "shadow_names": [
+      "Dirty Two-Horned Beast"
+    ],
+    "rpg": {
+      "lv": 4,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "--aax----s"
+    }
+  },
+  {
+    "card": 8,
+    "name": "Captain Kidd",
+    "persona_level": 4,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 4,
+      "hp": 30,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Electricity: light, 1 SP",
+      "kind": "Electricity",
+      "strength": "light",
+      "code": "----sw----"
+    }
+  },
+  {
+    "card": 9,
+    "name": "Cait Sith",
+    "persona_level": 5,
+    "kind": "persona",
+    "shadow_names": [
+      "Hunting Puss in Boots"
+    ],
+    "rpg": {
+      "lv": 5,
+      "hp": 25,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Fire: light, 1 SP",
+      "kind": "Fire",
+      "strength": "light",
+      "code": "--aasw----"
+    }
+  },
+  {
+    "card": 10,
+    "name": "Carmen",
+    "persona_level": 5,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 5,
+      "hp": 25,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Fire: light, 1 SP",
+      "kind": "Fire",
+      "strength": "light",
+      "code": "--sw------"
+    }
+  },
+  {
+    "card": 11,
+    "name": "Incubus",
+    "persona_level": 5,
+    "kind": "persona",
+    "shadow_names": [
+      "Bedside Brute"
+    ],
+    "rpg": {
+      "lv": 5,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "--xas---w-"
+    }
+  },
+  {
+    "card": 12,
+    "name": "Kelpie",
+    "persona_level": 6,
+    "kind": "persona",
+    "shadow_names": [
+      "Mad Marsh Horse"
+    ],
+    "rpg": {
+      "lv": 6,
+      "hp": 25,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Wind: light, 1 SP",
+      "kind": "Wind",
+      "strength": "light",
+      "code": "--asx-----"
+    }
+  },
+  {
+    "card": 13,
+    "name": "Saki Mitama",
+    "persona_level": 6,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 6,
+      "hp": 25,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Ice: light, 1 SP",
+      "kind": "Ice",
+      "strength": "light",
+      "code": "---s-w----"
+    }
+  },
+  {
+    "card": 14,
+    "name": "Silky",
+    "persona_level": 6,
+    "kind": "persona",
+    "shadow_names": [
+      "Troublesome Housemaid"
+    ],
+    "rpg": {
+      "lv": 6,
+      "hp": 25,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Ice: light, 1 SP",
+      "kind": "Ice",
+      "strength": "light",
+      "code": "--xsx-----"
+    }
+  },
+  {
+    "card": 15,
+    "name": "Genbu",
+    "persona_level": 7,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 7,
+      "hp": 30,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Ice: light, 1 SP",
+      "kind": "Ice",
+      "strength": "light",
+      "code": "---nw-s---"
+    }
+  },
+  {
+    "card": 16,
+    "name": "Succubus",
+    "persona_level": 7,
+    "kind": "persona",
+    "shadow_names": [
+      "Twilight Prostitute"
+    ],
+    "rpg": {
+      "lv": 7,
+      "hp": 20,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "--saaw--xN"
+    }
+  },
+  {
+    "card": 17,
+    "name": "Obariyon",
+    "persona_level": 8,
+    "kind": "persona",
+    "shadow_names": [
+      "Piggyback Demon"
+    ],
+    "rpg": {
+      "lv": 8,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "s-aax-----"
+    }
+  },
+  {
+    "card": 18,
+    "name": "Angel",
+    "persona_level": 9,
+    "kind": "persona",
+    "shadow_names": [
+      "Zealous Messenger"
+    ],
+    "rpg": {
+      "lv": 9,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "-waas---Nw"
+    }
+  },
+  {
+    "card": 19,
+    "name": "Berith",
+    "persona_level": 9,
+    "kind": "persona",
+    "shadow_names": [
+      "Brutal Cavalryman"
+    ],
+    "rpg": {
+      "lv": 9,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "-nsxa-----"
+    }
+  },
+  {
+    "card": 20,
+    "name": "Hua Po",
+    "persona_level": 9,
+    "kind": "persona",
+    "shadow_names": [
+      "Girl of the Hanging Tree"
+    ],
+    "rpg": {
+      "lv": 9,
+      "hp": 20,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Fire: light, 1 SP",
+      "kind": "Fire",
+      "strength": "light",
+      "code": "-wrxa-----"
+    }
+  },
+  {
+    "card": 21,
+    "name": "Koropokkuru",
+    "persona_level": 9,
+    "kind": "persona",
+    "shadow_names": [
+      "Leafy Old Man"
+    ],
+    "rpg": {
+      "lv": 9,
+      "hp": 25,
+      "sp": 4,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Ice: light, 1 SP",
+      "kind": "Ice",
+      "strength": "light",
+      "code": "--xsas----"
+    }
+  },
+  {
+    "card": 22,
+    "name": "Mokoi",
+    "persona_level": 9,
+    "kind": "persona",
+    "shadow_names": [
+      "Night-Walking Warrior"
+    ],
+    "rpg": {
+      "lv": 9,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "--aasw----"
+    }
+  },
+  {
+    "card": 23,
+    "name": "Regent",
+    "persona_level": 10,
+    "kind": "persona",
+    "shadow_names": [
+      "Regent D"
+    ],
+    "rpg": null
+  },
+  {
+    "card": 24,
+    "name": "Slime",
+    "persona_level": 10,
+    "kind": "persona",
+    "shadow_names": [
+      "Viscid Rotting Meat"
+    ],
+    "rpg": {
+      "lv": 10,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: light, 3 HP",
+      "kind": "Physical",
+      "strength": "light",
+      "code": "ssxaaw----"
+    }
+  },
+  {
+    "card": 25,
+    "name": "Apsaras",
+    "persona_level": 11,
+    "kind": "persona",
+    "shadow_names": [
+      "Waterside Nymph"
+    ],
+    "rpg": {
+      "lv": 11,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--xsx-----"
+    }
+  },
+  {
+    "card": 26,
+    "name": "Jack Frost",
+    "persona_level": 11,
+    "kind": "persona",
+    "shadow_names": [
+      "Mocking Snowman"
+    ],
+    "rpg": {
+      "lv": 11,
+      "hp": 25,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Ice: medium, 2 SP",
+      "kind": "Ice",
+      "strength": "medium",
+      "code": "--xNa-----"
+    }
+  },
+  {
+    "card": 27,
+    "name": "Kodama",
+    "persona_level": 11,
+    "kind": "persona",
+    "shadow_names": [
+      "Wavering Tree Spirit"
+    ],
+    "rpg": {
+      "lv": 11,
+      "hp": 25,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Wind: medium, 2 SP",
+      "kind": "Wind",
+      "strength": "medium",
+      "code": "--xsa-----"
+    }
+  },
+  {
+    "card": 28,
+    "name": "Koppa Tengu",
+    "persona_level": 11,
+    "kind": "persona",
+    "shadow_names": [
+      "Foolish Monk"
+    ],
+    "rpg": {
+      "lv": 11,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--axas--w-"
+    }
+  },
+  {
+    "card": 29,
+    "name": "Orpheus F",
+    "persona_level": 11,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 11,
+      "hp": 25,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Fire: medium, 2 SP",
+      "kind": "Fire",
+      "strength": "medium",
+      "code": "----w---sw"
+    }
+  },
+  {
+    "card": 30,
+    "name": "Kushi Mitama",
+    "persona_level": 12,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 12,
+      "hp": 30,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--w--s----"
+    }
+  },
+  {
+    "card": 31,
+    "name": "Onmoraki",
+    "persona_level": 12,
+    "kind": "persona",
+    "shadow_names": [
+      "Corpse Bird"
+    ],
+    "rpg": {
+      "lv": 12,
+      "hp": 25,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Curse: medium, 2 SP",
+      "kind": "Curse",
+      "strength": "medium",
+      "code": "--sxa---wN"
+    }
+  },
+  {
+    "card": 32,
+    "name": "Ame-no-Uzume",
+    "persona_level": 13,
+    "kind": "persona",
+    "shadow_names": [
+      "Captivating Dancer"
+    ],
+    "rpg": {
+      "lv": 13,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Wind: medium, 2 SP",
+      "kind": "Wind",
+      "strength": "medium",
+      "code": "--daa-w---"
+    }
+  },
+  {
+    "card": 33,
+    "name": "Ippon-Datara",
+    "persona_level": 13,
+    "kind": "persona",
+    "shadow_names": [
+      "Embittered Blacksmith"
+    ],
+    "rpg": {
+      "lv": 13,
+      "hp": 30,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "-ssxar--ss"
+    }
+  },
+  {
+    "card": 34,
+    "name": "Orpheus F Picaro",
+    "persona_level": 13,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 13,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Fire: medium, 2 SP",
+      "kind": "Fire",
+      "strength": "medium",
+      "code": "----w---sw"
+    }
+  },
+  {
+    "card": 35,
+    "name": "Archangel",
+    "persona_level": 14,
+    "kind": "persona",
+    "shadow_names": [
+      "Heavenly Punisher"
+    ],
+    "rpg": {
+      "lv": 14,
+      "hp": 30,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--aax---Nw"
+    }
+  },
+  {
+    "card": 36,
+    "name": "Inugami",
+    "persona_level": 14,
+    "kind": "persona",
+    "shadow_names": [
+      "Possessing Dog Ghost"
+    ],
+    "rpg": {
+      "lv": 14,
+      "hp": 30,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "-nNaaw---N"
+    }
+  },
+  {
+    "card": 37,
+    "name": "Goemon",
+    "persona_level": 15,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 15,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Ice: medium, 2 SP",
+      "kind": "Ice",
+      "strength": "medium",
+      "code": "--ws------"
+    }
+  },
+  {
+    "card": 38,
+    "name": "Makami",
+    "persona_level": 15,
+    "kind": "persona",
+    "shadow_names": [
+      "Hunting Wolf Spirit"
+    ],
+    "rpg": {
+      "lv": 15,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Nuclear: medium, 2 SP",
+      "kind": "Nuclear",
+      "strength": "medium",
+      "code": "-naaxs-sN-"
+    }
+  },
+  {
+    "card": 39,
+    "name": "Queen's Necklace",
+    "persona_level": 15,
+    "kind": "persona",
+    "shadow_names": [
+      "Queen's Necklace D"
+    ],
+    "rpg": null
+  },
+  {
+    "card": 40,
+    "name": "Shiisaa",
+    "persona_level": 15,
+    "kind": "persona",
+    "shadow_names": [
+      "Rooftop Lion"
+    ],
+    "rpg": {
+      "lv": 15,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Nuclear: medium, 2 SP",
+      "kind": "Nuclear",
+      "strength": "medium",
+      "code": "s-aaa-w-Nz"
+    }
+  },
+  {
+    "card": 41,
+    "name": "Eligor",
+    "persona_level": 16,
+    "kind": "persona",
+    "shadow_names": [
+      "War-Hungry Horseman"
+    ],
+    "rpg": {
+      "lv": 16,
+      "hp": 30,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--sax---AS"
+    }
+  },
+  {
+    "card": 42,
+    "name": "High Pixie",
+    "persona_level": 16,
+    "kind": "persona",
+    "shadow_names": [
+      "Prankster Leader"
+    ],
+    "rpg": {
+      "lv": 16,
+      "hp": 25,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "-waass-w--"
+    }
+  },
+  {
+    "card": 43,
+    "name": "Kaguya",
+    "persona_level": 16,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 16,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Bless: medium, 2 SP",
+      "kind": "Bless",
+      "strength": "medium",
+      "code": "--w--s--nn"
+    }
+  },
+  {
+    "card": 44,
+    "name": "Suzaku",
+    "persona_level": 16,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 16,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Nuclear: medium, 2 SP",
+      "kind": "Nuclear",
+      "strength": "medium",
+      "code": "--dw---s--"
+    }
+  },
+  {
+    "card": 45,
+    "name": "Matador",
+    "persona_level": 17,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 17,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Psy: medium, 2 SP",
+      "kind": "Psy",
+      "strength": "medium",
+      "code": "----wn----"
+    }
+  },
+  {
+    "card": 46,
+    "name": "Nekomata",
+    "persona_level": 17,
+    "kind": "persona",
+    "shadow_names": [
+      "Ascended Feline"
+    ],
+    "rpg": {
+      "lv": 17,
+      "hp": 28,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Wind: medium, 2 SP",
+      "kind": "Wind",
+      "strength": "medium",
+      "code": "--aax-s---"
+    }
+  },
+  {
+    "card": 47,
+    "name": "Orobas",
+    "persona_level": 17,
+    "kind": "persona",
+    "shadow_names": [
+      "Equine Sage"
+    ],
+    "rpg": {
+      "lv": 17,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Fire: medium, 2 SP",
+      "kind": "Fire",
+      "strength": "medium",
+      "code": "--axas---s"
+    }
+  },
+  {
+    "card": 48,
+    "name": "Sudama",
+    "persona_level": 17,
+    "kind": "persona",
+    "shadow_names": [
+      "Noisy Mountain Spirit"
+    ],
+    "rpg": {
+      "lv": 17,
+      "hp": 30,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Psy: medium, 2 SP",
+      "kind": "Psy",
+      "strength": "medium",
+      "code": "--axar-w--"
+    }
+  },
+  {
+    "card": 49,
+    "name": "Black Ooze",
+    "persona_level": 18,
+    "kind": "persona",
+    "shadow_names": [
+      "Pulsing Mud"
+    ],
+    "rpg": {
+      "lv": 18,
+      "hp": 35,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "ssasx-w-xN"
+    }
+  },
+  {
+    "card": 50,
+    "name": "Shiki-Ouji",
+    "persona_level": 18,
+    "kind": "persona",
+    "shadow_names": [
+      "Bringer of Misfortune"
+    ],
+    "rpg": {
+      "lv": 18,
+      "hp": 30,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "nnAaa--wNN"
+    }
+  },
+  {
+    "card": 51,
+    "name": "Flauros",
+    "persona_level": 19,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 19,
+      "hp": 30,
+      "sp": 0,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--nw-s-s--"
+    }
+  },
+  {
+    "card": 52,
+    "name": "Leanan Sidhe",
+    "persona_level": 19,
+    "kind": "persona",
+    "shadow_names": [
+      "Jealous Lover"
+    ],
+    "rpg": {
+      "lv": 19,
+      "hp": 35,
+      "sp": 8,
+      "atk": 3,
+      "defense": 11,
+      "attack": "Atak testowy Psy: medium, 2 SP",
+      "kind": "Psy",
+      "strength": "medium",
+      "code": "--xaass---"
+    }
+  },
+  {
+    "card": 53,
+    "name": "Izanagi",
+    "persona_level": 20,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 20,
+      "hp": 30,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Electricity: medium, 2 SP",
+      "kind": "Electricity",
+      "strength": "medium",
+      "code": "----sw---n"
+    }
+  },
+  {
+    "card": 54,
+    "name": "Nue",
+    "persona_level": 20,
+    "kind": "persona",
+    "shadow_names": [
+      "Night Chimera"
+    ],
+    "rpg": {
+      "lv": 20,
+      "hp": 30,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Curse: medium, 2 SP",
+      "kind": "Curse",
+      "strength": "medium",
+      "code": "--xsa----N"
+    }
+  },
+  {
+    "card": 55,
+    "name": "Oni",
+    "persona_level": 20,
+    "kind": "persona",
+    "shadow_names": [
+      "Chivalrous Fiend"
+    ],
+    "rpg": {
+      "lv": 20,
+      "hp": 35,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "ssaaa-----"
+    }
+  },
+  {
+    "card": 56,
+    "name": "Stone of Scone",
+    "persona_level": 20,
+    "kind": "persona",
+    "shadow_names": [
+      "Stone of Scone D"
+    ],
+    "rpg": null
+  },
+  {
+    "card": 57,
+    "name": "Yaksini",
+    "persona_level": 20,
+    "kind": "persona",
+    "shadow_names": [
+      "Human-Eating Lady"
+    ],
+    "rpg": {
+      "lv": 20,
+      "hp": 30,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "-nasa--w--"
+    }
+  },
+  {
+    "card": 58,
+    "name": "Johanna",
+    "persona_level": 21,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 21,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Nuclear: medium, 2 SP",
+      "kind": "Nuclear",
+      "strength": "medium",
+      "code": "------ws--"
+    }
+  },
+  {
+    "card": 59,
+    "name": "Orthrus",
+    "persona_level": 21,
+    "kind": "persona",
+    "shadow_names": [
+      "Twin-Headed Guardian"
+    ],
+    "rpg": {
+      "lv": 21,
+      "hp": 30,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Fire: medium, 2 SP",
+      "kind": "Fire",
+      "strength": "medium",
+      "code": "--dxa--s--"
+    }
+  },
+  {
+    "card": 60,
+    "name": "Phoenix",
+    "persona_level": 21,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 21,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Nuclear: medium, 2 SP",
+      "kind": "Nuclear",
+      "strength": "medium",
+      "code": "---swn----"
+    }
+  },
+  {
+    "card": 61,
+    "name": "Jikokuten",
+    "persona_level": 22,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 22,
+      "hp": 35,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "s-------sw"
+    }
+  },
+  {
+    "card": 62,
+    "name": "Nigi Mitama",
+    "persona_level": 22,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 22,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Bless: medium, 2 SP",
+      "kind": "Bless",
+      "strength": "medium",
+      "code": "----w---ss"
+    }
+  },
+  {
+    "card": 63,
+    "name": "Fuu-Ki",
+    "persona_level": 23,
+    "kind": "persona",
+    "shadow_names": [
+      "Tornado Devil"
+    ],
+    "rpg": {
+      "lv": 23,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Wind: medium, 2 SP",
+      "kind": "Wind",
+      "strength": "medium",
+      "code": "-saaxd----"
+    }
+  },
+  {
+    "card": 64,
+    "name": "Izanagi Picaro",
+    "persona_level": 23,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 23,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Electricity: medium, 2 SP",
+      "kind": "Electricity",
+      "strength": "medium",
+      "code": "----nw---n"
+    }
+  },
+  {
+    "card": 65,
+    "name": "Sandman",
+    "persona_level": 23,
+    "kind": "persona",
+    "shadow_names": [
+      "Envoy of Slumber"
+    ],
+    "rpg": {
+      "lv": 23,
+      "hp": 28,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--xaxs--aa"
+    }
+  },
+  {
+    "card": 66,
+    "name": "Naga",
+    "persona_level": 24,
+    "kind": "persona",
+    "shadow_names": [
+      "Cavern Snakeman"
+    ],
+    "rpg": {
+      "lv": 24,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Electricity: medium, 2 SP",
+      "kind": "Electricity",
+      "strength": "medium",
+      "code": "-saanw--aa"
+    }
+  },
+  {
+    "card": 67,
+    "name": "Rakshasa",
+    "persona_level": 24,
+    "kind": "persona",
+    "shadow_names": [
+      "Battle Fiend"
+    ],
+    "rpg": {
+      "lv": 24,
+      "hp": 34,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "snsaaw--ws"
+    }
+  },
+  {
+    "card": 68,
+    "name": "Sui-Ki",
+    "persona_level": 24,
+    "kind": "persona",
+    "shadow_names": [
+      "Raging Water Demon"
+    ],
+    "rpg": {
+      "lv": 24,
+      "hp": 36,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Ice: medium, 2 SP",
+      "kind": "Ice",
+      "strength": "medium",
+      "code": "-sads--w--"
+    }
+  },
+  {
+    "card": 69,
+    "name": "Anzu",
+    "persona_level": 25,
+    "kind": "persona",
+    "shadow_names": [
+      "Thief of Tablets"
+    ],
+    "rpg": {
+      "lv": 25,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Wind: medium, 2 SP",
+      "kind": "Wind",
+      "strength": "medium",
+      "code": "-waasr-waa"
+    }
+  },
+  {
+    "card": 70,
+    "name": "Kaguya Picaro",
+    "persona_level": 25,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 25,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Bless: medium, 2 SP",
+      "kind": "Bless",
+      "strength": "medium",
+      "code": "--w-----nn"
+    }
+  },
+  {
+    "card": 71,
+    "name": "Kin-Ki",
+    "persona_level": 25,
+    "kind": "persona",
+    "shadow_names": [
+      "Samurai Killer"
+    ],
+    "rpg": {
+      "lv": 25,
+      "hp": 35,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "sraaa-----"
+    }
+  },
+  {
+    "card": 72,
+    "name": "Koh-i-Noor",
+    "persona_level": 25,
+    "kind": "persona",
+    "shadow_names": [
+      "Koh-i-Noor D"
+    ],
+    "rpg": null
+  },
+  {
+    "card": 73,
+    "name": "Setanta",
+    "persona_level": 25,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 25,
+      "hp": 35,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "-s----ws--"
+    }
+  },
+  {
+    "card": 74,
+    "name": "Isis",
+    "persona_level": 26,
+    "kind": "persona",
+    "shadow_names": [
+      "She of Life and Death"
+    ],
+    "rpg": {
+      "lv": 26,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Bless: medium, 2 SP",
+      "kind": "Bless",
+      "strength": "medium",
+      "code": "--aaa-w-N-"
+    }
+  },
+  {
+    "card": 75,
+    "name": "Lamia",
+    "persona_level": 26,
+    "kind": "persona",
+    "shadow_names": [
+      "Slithering Snakewoman"
+    ],
+    "rpg": {
+      "lv": 26,
+      "hp": 35,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--axs--waN"
+    }
+  },
+  {
+    "card": 76,
+    "name": "Orpheus",
+    "persona_level": 26,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 26,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Fire: medium, 2 SP",
+      "kind": "Fire",
+      "strength": "medium",
+      "code": "----w---sw"
+    }
+  },
+  {
+    "card": 77,
+    "name": "Take-Minakata",
+    "persona_level": 26,
+    "kind": "persona",
+    "shadow_names": [
+      "Defeated Avenger"
+    ],
+    "rpg": {
+      "lv": 26,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Electricity: medium, 2 SP",
+      "kind": "Electricity",
+      "strength": "medium",
+      "code": "--aar-w-As"
+    }
+  },
+  {
+    "card": 78,
+    "name": "Andras",
+    "persona_level": 27,
+    "kind": "persona",
+    "shadow_names": [
+      "Menacing Owlman"
+    ],
+    "rpg": {
+      "lv": 27,
+      "hp": 35,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--xsa-s-zN"
+    }
+  },
+  {
+    "card": 79,
+    "name": "Clotho",
+    "persona_level": 27,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 27,
+      "hp": 35,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "---w-n-w--"
+    }
+  },
+  {
+    "card": 80,
+    "name": "Tam Lin",
+    "persona_level": 27,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 27,
+      "hp": 35,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "s-n--s--dw"
+    }
+  },
+  {
+    "card": 81,
+    "name": "Choronzon",
+    "persona_level": 28,
+    "kind": "persona",
+    "shadow_names": [
+      "Gathering Devil"
+    ],
+    "rpg": {
+      "lv": 28,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Curse: medium, 2 SP",
+      "kind": "Curse",
+      "strength": "medium",
+      "code": "s-Daa---w-"
+    }
+  },
+  {
+    "card": 82,
+    "name": "Pisaca",
+    "persona_level": 28,
+    "kind": "persona",
+    "shadow_names": [
+      "Corpse-Eating Corpse"
+    ],
+    "rpg": {
+      "lv": 28,
+      "hp": 35,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "--xas---wN"
+    }
+  },
+  {
+    "card": 83,
+    "name": "Orpheus Picaro",
+    "persona_level": 29,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 29,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Fire: medium, 2 SP",
+      "kind": "Fire",
+      "strength": "medium",
+      "code": "----w---sw"
+    }
+  },
+  {
+    "card": 84,
+    "name": "Principality",
+    "persona_level": 29,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 29,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Bless: medium, 2 SP",
+      "kind": "Bless",
+      "strength": "medium",
+      "code": "--s-----nw"
+    }
+  },
+  {
+    "card": 85,
+    "name": "Ara Mitama",
+    "persona_level": 30,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 30,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Nuclear: medium, 2 SP",
+      "kind": "Nuclear",
+      "strength": "medium",
+      "code": "s--w------"
+    }
+  },
+  {
+    "card": 86,
+    "name": "Ariadne",
+    "persona_level": 30,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 30,
+      "hp": 40,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "-s----wns-"
+    }
+  },
+  {
+    "card": 87,
+    "name": "Necronomicon",
+    "persona_level": 30,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": null
+  },
+  {
+    "card": 88,
+    "name": "Neko Shogun",
+    "persona_level": 30,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 30,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Psy: medium, 2 SP",
+      "kind": "Psy",
+      "strength": "medium",
+      "code": "s---sw--ns"
+    }
+  },
+  {
+    "card": 89,
+    "name": "Orlov",
+    "persona_level": 30,
+    "kind": "persona",
+    "shadow_names": [
+      "Orlov D"
+    ],
+    "rpg": null
+  },
+  {
+    "card": 90,
+    "name": "Kurama Tengu",
+    "persona_level": 31,
+    "kind": "persona",
+    "shadow_names": [
+      "Monk of the Valley"
+    ],
+    "rpg": {
+      "lv": 31,
+      "hp": 35,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Ice: medium, 2 SP",
+      "kind": "Ice",
+      "strength": "medium",
+      "code": "--anar--ss"
+    }
+  },
+  {
+    "card": 91,
+    "name": "Zouchouten",
+    "persona_level": 31,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 31,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Electricity: medium, 2 SP",
+      "kind": "Electricity",
+      "strength": "medium",
+      "code": "s----w----"
+    }
+  },
+  {
+    "card": 92,
+    "name": "Decarabia",
+    "persona_level": 32,
+    "kind": "persona",
+    "shadow_names": [
+      "Vicious Pentagram"
+    ],
+    "rpg": {
+      "lv": 32,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Almighty: medium, 2 SP",
+      "kind": "Almighty",
+      "strength": "medium",
+      "code": "w-raa--s-s"
+    }
+  },
+  {
+    "card": 93,
+    "name": "Lilim",
+    "persona_level": 32,
+    "kind": "persona",
+    "shadow_names": [
+      "Woman Who Brings Ruin"
+    ],
+    "rpg": {
+      "lv": 32,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Ice: medium, 2 SP",
+      "kind": "Ice",
+      "strength": "medium",
+      "code": "--asaw--wN"
+    }
+  },
+  {
+    "card": 94,
+    "name": "Mitra",
+    "persona_level": 33,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 33,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Bless: medium, 2 SP",
+      "kind": "Bless",
+      "strength": "medium",
+      "code": "---nw---n-"
+    }
+  },
+  {
+    "card": 95,
+    "name": "Mothman",
+    "persona_level": 33,
+    "kind": "persona",
+    "shadow_names": [
+      "Vampire Moth"
+    ],
+    "rpg": {
+      "lv": 33,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Electricity: medium, 2 SP",
+      "kind": "Electricity",
+      "strength": "medium",
+      "code": "-waan-s---"
+    }
+  },
+  {
+    "card": 96,
+    "name": "Anubis",
+    "persona_level": 34,
+    "kind": "persona",
+    "shadow_names": [
+      "Bearer of the Scales"
+    ],
+    "rpg": {
+      "lv": 34,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Bless: medium, 2 SP",
+      "kind": "Bless",
+      "strength": "medium",
+      "code": "-saaa-s-NN"
+    }
+  },
+  {
+    "card": 97,
+    "name": "Thunderbird",
+    "persona_level": 34,
+    "kind": "persona",
+    "shadow_names": [
+      "Storm-Invoking Ptarmigan"
+    ],
+    "rpg": {
+      "lv": 34,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Electricity: medium, 2 SP",
+      "kind": "Electricity",
+      "strength": "medium",
+      "code": "--aad-w--w"
+    }
+  },
+  {
+    "card": 98,
+    "name": "Arahabaki",
+    "persona_level": 35,
+    "kind": "persona",
+    "shadow_names": [
+      "Awakened God"
+    ],
+    "rpg": {
+      "lv": 35,
+      "hp": 45,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: medium, 5 HP",
+      "kind": "Physical",
+      "strength": "medium",
+      "code": "rraaa-wwss"
+    }
+  },
+  {
+    "card": 99,
+    "name": "Emperor's Amulet",
+    "persona_level": 35,
+    "kind": "persona",
+    "shadow_names": [
+      "Emperor's Amulet D"
+    ],
+    "rpg": null
+  },
+  {
+    "card": 100,
+    "name": "Lachesis",
+    "persona_level": 35,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 35,
+      "hp": 40,
+      "sp": 8,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Ice: medium, 2 SP",
+      "kind": "Ice",
+      "strength": "medium",
+      "code": "---nws----"
+    }
+  },
+  {
+    "card": 101,
+    "name": "Kaiwan",
+    "persona_level": 36,
+    "kind": "persona",
+    "shadow_names": [
+      "Wishless Star"
+    ],
+    "rpg": {
+      "lv": 36,
+      "hp": 40,
+      "sp": 12,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "-naaa-nw--"
+    }
+  },
+  {
+    "card": 102,
+    "name": "Milady",
+    "persona_level": 36,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 36,
+      "hp": 40,
+      "sp": 12,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "------sw--"
+    }
+  },
+  {
+    "card": 103,
+    "name": "Thoth",
+    "persona_level": 36,
+    "kind": "persona",
+    "shadow_names": [
+      "Chanting Baboon"
+    ],
+    "rpg": {
+      "lv": 36,
+      "hp": 40,
+      "sp": 12,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "--aaa-wnNs"
+    }
+  },
+  {
+    "card": 104,
+    "name": "Belphegor",
+    "persona_level": 37,
+    "kind": "persona",
+    "shadow_names": [
+      "Ambassador of Filth"
+    ],
+    "rpg": {
+      "lv": 37,
+      "hp": 45,
+      "sp": 12,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "--xss--saR"
+    }
+  },
+  {
+    "card": 105,
+    "name": "Hell Biker",
+    "persona_level": 37,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 37,
+      "hp": 45,
+      "sp": 12,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--r--s--w-"
+    }
+  },
+  {
+    "card": 106,
+    "name": "Legion",
+    "persona_level": 38,
+    "kind": "persona",
+    "shadow_names": [
+      "Fused Ghost"
+    ],
+    "rpg": {
+      "lv": 38,
+      "hp": 45,
+      "sp": 12,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "s-saa-s-xN"
+    }
+  },
+  {
+    "card": 107,
+    "name": "White Rider",
+    "persona_level": 38,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 38,
+      "hp": 45,
+      "sp": 0,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--nw----nr"
+    }
+  },
+  {
+    "card": 108,
+    "name": "Atropos",
+    "persona_level": 39,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 39,
+      "hp": 45,
+      "sp": 12,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "--w--n----"
+    }
+  },
+  {
+    "card": 109,
+    "name": "Mithras",
+    "persona_level": 39,
+    "kind": "persona",
+    "shadow_names": [
+      "Dark Sun"
+    ],
+    "rpg": {
+      "lv": 39,
+      "hp": 40,
+      "sp": 12,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Nuclear: heavy, 3 SP",
+      "kind": "Nuclear",
+      "strength": "heavy",
+      "code": "ssdaa-wr--"
+    }
+  },
+  {
+    "card": 110,
+    "name": "Unicorn",
+    "persona_level": 39,
+    "kind": "persona",
+    "shadow_names": [
+      "Expressionless Beast"
+    ],
+    "rpg": {
+      "lv": 39,
+      "hp": 45,
+      "sp": 12,
+      "atk": 4,
+      "defense": 12,
+      "attack": "Atak testowy Bless: heavy, 3 SP",
+      "kind": "Bless",
+      "strength": "heavy",
+      "code": "--ana-s-Nw"
+    }
+  },
+  {
+    "card": 111,
+    "name": "Daisoujou",
+    "persona_level": 40,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 40,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Bless: heavy, 3 SP",
+      "kind": "Bless",
+      "strength": "heavy",
+      "code": "s-------nw"
+    }
+  },
+  {
+    "card": 112,
+    "name": "Hariti",
+    "persona_level": 40,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 40,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "-----ws-s-"
+    }
+  },
+  {
+    "card": 113,
+    "name": "Hope Diamond",
+    "persona_level": 40,
+    "kind": "persona",
+    "shadow_names": [
+      "Hope Diamond D"
+    ],
+    "rpg": null
+  },
+  {
+    "card": 114,
+    "name": "Kikuri-Hime",
+    "persona_level": 40,
+    "kind": "persona",
+    "shadow_names": [
+      "Mountain Girl"
+    ],
+    "rpg": {
+      "lv": 40,
+      "hp": 45,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--xaan--s-"
+    }
+  },
+  {
+    "card": 115,
+    "name": "Power",
+    "persona_level": 41,
+    "kind": "persona",
+    "shadow_names": [
+      "Divine Warrior"
+    ],
+    "rpg": {
+      "lv": 41,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Bless: heavy, 3 SP",
+      "kind": "Bless",
+      "strength": "heavy",
+      "code": "--aaas--Nw"
+    }
+  },
+  {
+    "card": 116,
+    "name": "Red Rider",
+    "persona_level": 41,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 41,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "--------wn"
+    }
+  },
+  {
+    "card": 117,
+    "name": "Ariadne Picaro",
+    "persona_level": 42,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 42,
+      "hp": 45,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "-s----wns-"
+    }
+  },
+  {
+    "card": 118,
+    "name": "Hecatoncheires",
+    "persona_level": 42,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 42,
+      "hp": 45,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "-s------wn"
+    }
+  },
+  {
+    "card": 119,
+    "name": "Kumbhanda",
+    "persona_level": 42,
+    "kind": "persona",
+    "shadow_names": [
+      "Life-Draining Spirit"
+    ],
+    "rpg": {
+      "lv": 42,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Wind: heavy, 3 SP",
+      "kind": "Wind",
+      "strength": "heavy",
+      "code": "--naa-w--s"
+    }
+  },
+  {
+    "card": 120,
+    "name": "Kushinada",
+    "persona_level": 42,
+    "kind": "persona",
+    "shadow_names": [
+      "Lamenting Sacrifice"
+    ],
+    "rpg": {
+      "lv": 42,
+      "hp": 45,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--axa--wR-"
+    }
+  },
+  {
+    "card": 121,
+    "name": "Ose",
+    "persona_level": 42,
+    "kind": "persona",
+    "shadow_names": [
+      "Cruel Leopard"
+    ],
+    "rpg": {
+      "lv": 42,
+      "hp": 45,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "-ssaa---wN"
+    }
+  },
+  {
+    "card": 122,
+    "name": "Girimehkala",
+    "persona_level": 43,
+    "kind": "persona",
+    "shadow_names": [
+      "Rebellious Elephant"
+    ],
+    "rpg": {
+      "lv": 43,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "rrsaa---wN"
+    }
+  },
+  {
+    "card": 123,
+    "name": "Queen Mab",
+    "persona_level": 43,
+    "kind": "persona",
+    "shadow_names": [
+      "Midnight Queen"
+    ],
+    "rpg": {
+      "lv": 43,
+      "hp": 40,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "--nasw----"
+    }
+  },
+  {
+    "card": 124,
+    "name": "Yurlungur",
+    "persona_level": 43,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 43,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "----n-w-s-"
+    }
+  },
+  {
+    "card": 125,
+    "name": "Ananta",
+    "persona_level": 44,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 44,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Nuclear: heavy, 3 SP",
+      "kind": "Nuclear",
+      "strength": "heavy",
+      "code": "---dw-----"
+    }
+  },
+  {
+    "card": 126,
+    "name": "Magatsu-Izanagi",
+    "persona_level": 44,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 44,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "-s-----wnn"
+    }
+  },
+  {
+    "card": 127,
+    "name": "Valkyrie",
+    "persona_level": 44,
+    "kind": "persona",
+    "shadow_names": [
+      "Funerary Warrior"
+    ],
+    "rpg": {
+      "lv": 44,
+      "hp": 45,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "-sxra---N-"
+    }
+  },
+  {
+    "card": 128,
+    "name": "Byakko",
+    "persona_level": 45,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 45,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "--wd---w-s"
+    }
+  },
+  {
+    "card": 129,
+    "name": "Pazuzu",
+    "persona_level": 45,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 45,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "-----s--wn"
+    }
+  },
+  {
+    "card": 130,
+    "name": "Robin Hood",
+    "persona_level": 45,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 45,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "--------sw"
+    }
+  },
+  {
+    "card": 131,
+    "name": "Athena",
+    "persona_level": 46,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 46,
+      "hp": 50,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "sn--w-----"
+    }
+  },
+  {
+    "card": 132,
+    "name": "Fortuna",
+    "persona_level": 46,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 46,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Wind: heavy, 3 SP",
+      "kind": "Wind",
+      "strength": "heavy",
+      "code": "--n-wn----"
+    }
+  },
+  {
+    "card": 133,
+    "name": "Horus",
+    "persona_level": 47,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 47,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "--w-n---r-"
+    }
+  },
+  {
+    "card": 134,
+    "name": "Magatsu-Izanagi Picaro",
+    "persona_level": 48,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 48,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "-s-----wnn"
+    }
+  },
+  {
+    "card": 135,
+    "name": "Narcissus",
+    "persona_level": 48,
+    "kind": "persona",
+    "shadow_names": [
+      "Self-Infatuated Star"
+    ],
+    "rpg": {
+      "lv": 48,
+      "hp": 50,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--xans--s-"
+    }
+  },
+  {
+    "card": 136,
+    "name": "Rangda",
+    "persona_level": 48,
+    "kind": "persona",
+    "shadow_names": [
+      "Dancing Witch"
+    ],
+    "rpg": {
+      "lv": 48,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "rrnax---wN"
+    }
+  },
+  {
+    "card": 137,
+    "name": "Bugs",
+    "persona_level": 49,
+    "kind": "persona",
+    "shadow_names": [
+      "Killer Teddy Bear"
+    ],
+    "rpg": {
+      "lv": 65,
+      "hp": 60,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--w----w--"
+    }
+  },
+  {
+    "card": 138,
+    "name": "Koumokuten",
+    "persona_level": 49,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 49,
+      "hp": 50,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "s--w----s-"
+    }
+  },
+  {
+    "card": 139,
+    "name": "Athena Picaro",
+    "persona_level": 50,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 50,
+      "hp": 50,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "sn--w-----"
+    }
+  },
+  {
+    "card": 140,
+    "name": "Crystal Skull",
+    "persona_level": 50,
+    "kind": "persona",
+    "shadow_names": [
+      "Crystal Skull D"
+    ],
+    "rpg": null
+  },
+  {
+    "card": 141,
+    "name": "Dakini",
+    "persona_level": 50,
+    "kind": "persona",
+    "shadow_names": [
+      "Bloodthirsty Demoness"
+    ],
+    "rpg": {
+      "lv": 50,
+      "hp": 50,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "-nsaa-----"
+    }
+  },
+  {
+    "card": 142,
+    "name": "Sarasvati",
+    "persona_level": 50,
+    "kind": "persona",
+    "shadow_names": [
+      "Strumming Veena Player"
+    ],
+    "rpg": {
+      "lv": 50,
+      "hp": 50,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--ans--w--"
+    }
+  },
+  {
+    "card": 143,
+    "name": "Tsukiyomi",
+    "persona_level": 50,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 50,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "s------wsr"
+    }
+  },
+  {
+    "card": 144,
+    "name": "Jatayu",
+    "persona_level": 51,
+    "kind": "persona",
+    "shadow_names": [
+      "Arrogant Vulture"
+    ],
+    "rpg": {
+      "lv": 51,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Wind: heavy, 3 SP",
+      "kind": "Wind",
+      "strength": "heavy",
+      "code": "--asar-ws-"
+    }
+  },
+  {
+    "card": 145,
+    "name": "Seth",
+    "persona_level": 51,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 51,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--r--n--ws"
+    }
+  },
+  {
+    "card": 146,
+    "name": "Barong",
+    "persona_level": 52,
+    "kind": "persona",
+    "shadow_names": [
+      "Dancing Lion"
+    ],
+    "rpg": {
+      "lv": 52,
+      "hp": 45,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "-saasw--Nw"
+    }
+  },
+  {
+    "card": 147,
+    "name": "Garuda",
+    "persona_level": 52,
+    "kind": "persona",
+    "shadow_names": [
+      "Raging Bird God"
+    ],
+    "rpg": {
+      "lv": 52,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Wind: heavy, 3 SP",
+      "kind": "Wind",
+      "strength": "heavy",
+      "code": "--aaas--R-"
+    }
+  },
+  {
+    "card": 148,
+    "name": "Mishaguji",
+    "persona_level": 52,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 52,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "s--wn----d"
+    }
+  },
+  {
+    "card": 149,
+    "name": "Norn",
+    "persona_level": 52,
+    "kind": "persona",
+    "shadow_names": [
+      "Final Assessor"
+    ],
+    "rpg": {
+      "lv": 52,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Wind: heavy, 3 SP",
+      "kind": "Wind",
+      "strength": "heavy",
+      "code": "--aard--s-"
+    }
+  },
+  {
+    "card": 150,
+    "name": "Ganesha",
+    "persona_level": 53,
+    "kind": "persona",
+    "shadow_names": [
+      "Auspicious Pachyderm"
+    ],
+    "rpg": {
+      "lv": 53,
+      "hp": 50,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "ssaaadw---"
+    }
+  },
+  {
+    "card": 151,
+    "name": "Skadi",
+    "persona_level": 53,
+    "kind": "persona",
+    "shadow_names": [
+      "Quaking Lady of Shadow"
+    ],
+    "rpg": {
+      "lv": 53,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "--ara----N"
+    }
+  },
+  {
+    "card": 152,
+    "name": "Okuninushi",
+    "persona_level": 54,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 54,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "----rwnw--"
+    }
+  },
+  {
+    "card": 153,
+    "name": "Pale Rider",
+    "persona_level": 54,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 54,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "-----s--wr"
+    }
+  },
+  {
+    "card": 154,
+    "name": "Cerberus",
+    "persona_level": 55,
+    "kind": "persona",
+    "shadow_names": [
+      "Guard Dog of Hades"
+    ],
+    "rpg": {
+      "lv": 55,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--dxa--s--"
+    }
+  },
+  {
+    "card": 155,
+    "name": "Raja Naga",
+    "persona_level": 55,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 55,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "----n-----"
+    }
+  },
+  {
+    "card": 156,
+    "name": "Tsukiyomi Picaro",
+    "persona_level": 55,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 55,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "s------wsr"
+    }
+  },
+  {
+    "card": 157,
+    "name": "Asterius",
+    "persona_level": 56,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 56,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--sw--s--n"
+    }
+  },
+  {
+    "card": 158,
+    "name": "Parvati",
+    "persona_level": 56,
+    "kind": "persona",
+    "shadow_names": [
+      "Destructive Beauty"
+    ],
+    "rpg": {
+      "lv": 56,
+      "hp": 50,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "--ara-s-sw"
+    }
+  },
+  {
+    "card": 159,
+    "name": "Titania",
+    "persona_level": 56,
+    "kind": "persona",
+    "shadow_names": [
+      "Scandalous Queen"
+    ],
+    "rpg": {
+      "lv": 56,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Nuclear: heavy, 3 SP",
+      "kind": "Nuclear",
+      "strength": "heavy",
+      "code": "--aaa-wsss"
+    }
+  },
+  {
+    "card": 160,
+    "name": "Yatagarasu",
+    "persona_level": 57,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 57,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "-----s--nw"
+    }
+  },
+  {
+    "card": 161,
+    "name": "Baphomet",
+    "persona_level": 58,
+    "kind": "persona",
+    "shadow_names": [
+      "Heretic Goat"
+    ],
+    "rpg": {
+      "lv": 58,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--saa---wN"
+    }
+  },
+  {
+    "card": 162,
+    "name": "Melchizedek",
+    "persona_level": 58,
+    "kind": "persona",
+    "shadow_names": [
+      "Pagan Savior"
+    ],
+    "rpg": {
+      "lv": 58,
+      "hp": 55,
+      "sp": 0,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--aaaws-DN"
+    }
+  },
+  {
+    "card": 163,
+    "name": "Black Rider",
+    "persona_level": 59,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 59,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "--wd----ss"
+    }
+  },
+  {
+    "card": 164,
+    "name": "Trumpeter",
+    "persona_level": 59,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 59,
+      "hp": 55,
+      "sp": 12,
+      "atk": 5,
+      "defense": 13,
+      "attack": "Atak testowy Nuclear: heavy, 3 SP",
+      "kind": "Nuclear",
+      "strength": "heavy",
+      "code": "---dr---rn"
+    }
+  },
+  {
+    "card": 165,
+    "name": "Lilith",
+    "persona_level": 60,
+    "kind": "persona",
+    "shadow_names": [
+      "Harlot of Desire"
+    ],
+    "rpg": {
+      "lv": 60,
+      "hp": 55,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "--xra--r-N"
+    }
+  },
+  {
+    "card": 166,
+    "name": "Moloch",
+    "persona_level": 60,
+    "kind": "persona",
+    "shadow_names": [
+      "Sacrificial Pyrekeeper"
+    ],
+    "rpg": {
+      "lv": 60,
+      "hp": 55,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--dxssd--N"
+    }
+  },
+  {
+    "card": 167,
+    "name": "Orichalcum",
+    "persona_level": 60,
+    "kind": "persona",
+    "shadow_names": [
+      "Orichalcum D"
+    ],
+    "rpg": null
+  },
+  {
+    "card": 168,
+    "name": "King Frost",
+    "persona_level": 61,
+    "kind": "persona",
+    "shadow_names": [
+      "Monarch of Snow"
+    ],
+    "rpg": {
+      "lv": 61,
+      "hp": 55,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "--ada---n-"
+    }
+  },
+  {
+    "card": 169,
+    "name": "Asterius Picaro",
+    "persona_level": 62,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 62,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--sw--s--n"
+    }
+  },
+  {
+    "card": 170,
+    "name": "Chernobog",
+    "persona_level": 62,
+    "kind": "persona",
+    "shadow_names": [
+      "The Black Avenger"
+    ],
+    "rpg": {
+      "lv": 62,
+      "hp": 60,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "-sxdn---wD"
+    }
+  },
+  {
+    "card": 171,
+    "name": "Seiryu",
+    "persona_level": 62,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 62,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "---s---w--"
+    }
+  },
+  {
+    "card": 172,
+    "name": "Forneus",
+    "persona_level": 63,
+    "kind": "persona",
+    "shadow_names": [
+      "Rhetorician of the Sea"
+    ],
+    "rpg": {
+      "lv": 63,
+      "hp": 55,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "--adx-n---"
+    }
+  },
+  {
+    "card": 173,
+    "name": "Kali",
+    "persona_level": 63,
+    "kind": "persona",
+    "shadow_names": [
+      "The Blackened Fury"
+    ],
+    "rpg": {
+      "lv": 63,
+      "hp": 60,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "-rnaa-r--s"
+    }
+  },
+  {
+    "card": 174,
+    "name": "Hanuman",
+    "persona_level": 64,
+    "kind": "persona",
+    "shadow_names": [
+      "Nimble Monkey King"
+    ],
+    "rpg": {
+      "lv": 64,
+      "hp": 60,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "-saxa-s-s-"
+    }
+  },
+  {
+    "card": 175,
+    "name": "Thor",
+    "persona_level": 64,
+    "kind": "persona",
+    "shadow_names": [
+      "Thunder Emperor"
+    ],
+    "rpg": {
+      "lv": 64,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "s-aan---ss"
+    }
+  },
+  {
+    "card": 176,
+    "name": "Yamata-no-Orochi",
+    "persona_level": 64,
+    "kind": "persona",
+    "shadow_names": [
+      "Drunken Serpents"
+    ],
+    "rpg": {
+      "lv": 64,
+      "hp": 55,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "s-adas---s"
+    }
+  },
+  {
+    "card": 177,
+    "name": "Atavaka",
+    "persona_level": 65,
+    "kind": "persona",
+    "shadow_names": [
+      "Infuriated Wisdom King"
+    ],
+    "rpg": {
+      "lv": 65,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "snraa----s"
+    }
+  },
+  {
+    "card": 178,
+    "name": "Thanatos",
+    "persona_level": 65,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 65,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "s-------wr"
+    }
+  },
+  {
+    "card": 179,
+    "name": "Oberon",
+    "persona_level": 66,
+    "kind": "persona",
+    "shadow_names": [
+      "Unfaithful Dream-King"
+    ],
+    "rpg": {
+      "lv": 66,
+      "hp": 60,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--aas-nw--"
+    }
+  },
+  {
+    "card": 180,
+    "name": "Quetzalcoatl",
+    "persona_level": 66,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 66,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Wind: heavy, 3 SP",
+      "kind": "Wind",
+      "strength": "heavy",
+      "code": "--n--sw---"
+    }
+  },
+  {
+    "card": 181,
+    "name": "Bishamonten",
+    "persona_level": 67,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 67,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Nuclear: heavy, 3 SP",
+      "kind": "Nuclear",
+      "strength": "heavy",
+      "code": "--dw----ss"
+    }
+  },
+  {
+    "card": 182,
+    "name": "Black Frost",
+    "persona_level": 67,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 67,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "--rd---n-r"
+    }
+  },
+  {
+    "card": 183,
+    "name": "Dominion",
+    "persona_level": 68,
+    "kind": "persona",
+    "shadow_names": [
+      "Merciless Inquisitor"
+    ],
+    "rpg": {
+      "lv": 68,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Bless: heavy, 3 SP",
+      "kind": "Bless",
+      "strength": "heavy",
+      "code": "--aaw--rNw"
+    }
+  },
+  {
+    "card": 184,
+    "name": "Vasuki",
+    "persona_level": 68,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 68,
+      "hp": 60,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "---nn----w"
+    }
+  },
+  {
+    "card": 185,
+    "name": "Lakshmi",
+    "persona_level": 69,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 69,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "--ws----s-"
+    }
+  },
+  {
+    "card": 186,
+    "name": "Thanatos Picaro",
+    "persona_level": 69,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 69,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "s-------wr"
+    }
+  },
+  {
+    "card": 187,
+    "name": "Byakhee",
+    "persona_level": 70,
+    "kind": "persona",
+    "shadow_names": [
+      "Evil Synthetic Organism"
+    ],
+    "rpg": {
+      "lv": 70,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--nxan-w-N"
+    }
+  },
+  {
+    "card": 188,
+    "name": "Loa",
+    "persona_level": 70,
+    "kind": "persona",
+    "shadow_names": [
+      "Dream-Dwelling Skull"
+    ],
+    "rpg": {
+      "lv": 70,
+      "hp": 60,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--san-wsw-"
+    }
+  },
+  {
+    "card": 189,
+    "name": "Dionysus",
+    "persona_level": 71,
+    "kind": "persona",
+    "shadow_names": [
+      "Hedonistic Braggart"
+    ],
+    "rpg": {
+      "lv": 71,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "--aar---nn"
+    }
+  },
+  {
+    "card": 190,
+    "name": "Mot",
+    "persona_level": 72,
+    "kind": "persona",
+    "shadow_names": [
+      "Coffin-Borne God"
+    ],
+    "rpg": {
+      "lv": 72,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "-saadw---R"
+    }
+  },
+  {
+    "card": 191,
+    "name": "Throne",
+    "persona_level": 72,
+    "kind": "persona",
+    "shadow_names": [
+      "Fire Assassin"
+    ],
+    "rpg": {
+      "lv": 72,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--Naan-wr-"
+    }
+  },
+  {
+    "card": 192,
+    "name": "Macabre",
+    "persona_level": 73,
+    "kind": "persona",
+    "shadow_names": [
+      "Dancer of Death"
+    ],
+    "rpg": {
+      "lv": 73,
+      "hp": 65,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--aas---wN"
+    }
+  },
+  {
+    "card": 193,
+    "name": "Mara",
+    "persona_level": 73,
+    "kind": "persona",
+    "shadow_names": [
+      "Throbbing King of Desire",
+      "Torn King of Desire"
+    ],
+    "rpg": {
+      "lv": 73,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "-ndaa-r-sn"
+    }
+  },
+  {
+    "card": 194,
+    "name": "Chimera",
+    "persona_level": 74,
+    "kind": "persona",
+    "shadow_names": [
+      "Deformed Lion God"
+    ],
+    "rpg": {
+      "lv": 74,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--dnaw---w"
+    }
+  },
+  {
+    "card": 195,
+    "name": "Nebiros",
+    "persona_level": 74,
+    "kind": "persona",
+    "shadow_names": [
+      "Wandering Reviver"
+    ],
+    "rpg": {
+      "lv": 74,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "s-aaa-n-ws"
+    }
+  },
+  {
+    "card": 196,
+    "name": "Abaddon",
+    "persona_level": 75,
+    "kind": "persona",
+    "shadow_names": [
+      "Abyssal King of Avarice"
+    ],
+    "rpg": {
+      "lv": 75,
+      "hp": 60,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "ddaaa---sD"
+    }
+  },
+  {
+    "card": 197,
+    "name": "Cendrillon",
+    "persona_level": 75,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 75,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Bless: heavy, 3 SP",
+      "kind": "Bless",
+      "strength": "heavy",
+      "code": "--------nw"
+    }
+  },
+  {
+    "card": 198,
+    "name": "Loki",
+    "persona_level": 75,
+    "kind": "party",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 75,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "--------wn"
+    }
+  },
+  {
+    "card": 199,
+    "name": "Sandalphon",
+    "persona_level": 75,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 75,
+      "hp": 65,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "ss------rn"
+    }
+  },
+  {
+    "card": 200,
+    "name": "Asura",
+    "persona_level": 76,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 76,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Nuclear: heavy, 3 SP",
+      "kind": "Nuclear",
+      "strength": "heavy",
+      "code": "--n---wr--"
+    }
+  },
+  {
+    "card": 201,
+    "name": "Cu Chulainn",
+    "persona_level": 76,
+    "kind": "persona",
+    "shadow_names": [
+      "Spear-Wielding General"
+    ],
+    "rpg": {
+      "lv": 76,
+      "hp": 65,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "ssaaxr--N-"
+    }
+  },
+  {
+    "card": 202,
+    "name": "Kohryu",
+    "persona_level": 76,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 76,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "----r-nwn-"
+    }
+  },
+  {
+    "card": 203,
+    "name": "Raoul",
+    "persona_level": 76,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 76,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "--------wn"
+    }
+  },
+  {
+    "card": 204,
+    "name": "Gabriel",
+    "persona_level": 77,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 77,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "------n-d-"
+    }
+  },
+  {
+    "card": 205,
+    "name": "Scathach",
+    "persona_level": 77,
+    "kind": "persona",
+    "shadow_names": [
+      "The Shadowed One"
+    ],
+    "rpg": {
+      "lv": 77,
+      "hp": 65,
+      "sp": 12,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "--anr----n"
+    }
+  },
+  {
+    "card": 206,
+    "name": "Raphael",
+    "persona_level": 78,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 78,
+      "hp": 65,
+      "sp": 0,
+      "atk": 6,
+      "defense": 14,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "---d--n-n-"
+    }
+  },
+  {
+    "card": 207,
+    "name": "Izanagi-no-Okami",
+    "persona_level": 80,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 80,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "ssssssss--"
+    }
+  },
+  {
+    "card": 208,
+    "name": "Sraosha",
+    "persona_level": 80,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 80,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Bless: heavy, 3 SP",
+      "kind": "Bless",
+      "strength": "heavy",
+      "code": "----d---rw"
+    }
+  },
+  {
+    "card": 209,
+    "name": "Vohu Manah",
+    "persona_level": 80,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 80,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Bless: heavy, 3 SP",
+      "kind": "Bless",
+      "strength": "heavy",
+      "code": "----sw--dn"
+    }
+  },
+  {
+    "card": 210,
+    "name": "Zaou-Gongen",
+    "persona_level": 80,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 80,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--r-w---nn"
+    }
+  },
+  {
+    "card": 211,
+    "name": "Alilat",
+    "persona_level": 81,
+    "kind": "persona",
+    "shadow_names": [
+      "Decadent False God"
+    ],
+    "rpg": {
+      "lv": 81,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "rrxda-n--w"
+    }
+  },
+  {
+    "card": 212,
+    "name": "Messiah",
+    "persona_level": 81,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 81,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "--ssssssrw"
+    }
+  },
+  {
+    "card": 213,
+    "name": "Uriel",
+    "persona_level": 81,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 81,
+      "hp": 70,
+      "sp": 0,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--n----dr-"
+    }
+  },
+  {
+    "card": 214,
+    "name": "Attis",
+    "persona_level": 82,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 82,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--n--r---w"
+    }
+  },
+  {
+    "card": 215,
+    "name": "Baal",
+    "persona_level": 82,
+    "kind": "persona",
+    "shadow_names": [
+      "Reviled Dictator"
+    ],
+    "rpg": {
+      "lv": 82,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Wind: heavy, 3 SP",
+      "kind": "Wind",
+      "strength": "heavy",
+      "code": "s-saad--s-"
+    }
+  },
+  {
+    "card": 216,
+    "name": "Belial",
+    "persona_level": 82,
+    "kind": "persona",
+    "shadow_names": [
+      "Missionary of Depravity"
+    ],
+    "rpg": {
+      "lv": 82,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "n-asa---AN"
+    }
+  },
+  {
+    "card": 217,
+    "name": "Shiva",
+    "persona_level": 82,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 82,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "---nr-dwnn"
+    }
+  },
+  {
+    "card": 218,
+    "name": "Alice",
+    "persona_level": 83,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 83,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "------sswr"
+    }
+  },
+  {
+    "card": 219,
+    "name": "Cybele",
+    "persona_level": 83,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 83,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Bless: heavy, 3 SP",
+      "kind": "Bless",
+      "strength": "heavy",
+      "code": "--s-w---n-"
+    }
+  },
+  {
+    "card": 220,
+    "name": "Surt",
+    "persona_level": 83,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 83,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "-sdwn--s--"
+    }
+  },
+  {
+    "card": 221,
+    "name": "Vishnu",
+    "persona_level": 83,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 83,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "--wd----nn"
+    }
+  },
+  {
+    "card": 222,
+    "name": "Ardha",
+    "persona_level": 84,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 84,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Nuclear: heavy, 3 SP",
+      "kind": "Nuclear",
+      "strength": "heavy",
+      "code": "s--nn-----"
+    }
+  },
+  {
+    "card": 223,
+    "name": "Hastur",
+    "persona_level": 84,
+    "kind": "persona",
+    "shadow_names": [
+      "Warped Abyss"
+    ],
+    "rpg": {
+      "lv": 84,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "--saadn-AN"
+    }
+  },
+  {
+    "card": 224,
+    "name": "Odin",
+    "persona_level": 84,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 84,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "----nd--rr"
+    }
+  },
+  {
+    "card": 225,
+    "name": "Siegfried",
+    "persona_level": 84,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 84,
+      "hp": 70,
+      "sp": 0,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "ns-sn--w--"
+    }
+  },
+  {
+    "card": 226,
+    "name": "Ishtar",
+    "persona_level": 85,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 85,
+      "hp": 70,
+      "sp": 0,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "----nw----"
+    }
+  },
+  {
+    "card": 227,
+    "name": "Mother Harlot",
+    "persona_level": 85,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 85,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "----r---wn"
+    }
+  },
+  {
+    "card": 228,
+    "name": "Fafnir",
+    "persona_level": 86,
+    "kind": "persona",
+    "shadow_names": [
+      "Evil Voracious Dragon"
+    ],
+    "rpg": {
+      "lv": 86,
+      "hp": 70,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Nuclear: heavy, 3 SP",
+      "kind": "Nuclear",
+      "strength": "heavy",
+      "code": "rrdas--dAA"
+    }
+  },
+  {
+    "card": 229,
+    "name": "Futsunushi",
+    "persona_level": 86,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 86,
+      "hp": 70,
+      "sp": 0,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "s------w--"
+    }
+  },
+  {
+    "card": 230,
+    "name": "Beelzebub",
+    "persona_level": 87,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 87,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "--d-----wr"
+    }
+  },
+  {
+    "card": 231,
+    "name": "Michael",
+    "persona_level": 87,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 87,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "-s------rn"
+    }
+  },
+  {
+    "card": 232,
+    "name": "Yoshitsune",
+    "persona_level": 87,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 87,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Electricity: heavy, 3 SP",
+      "kind": "Electricity",
+      "strength": "heavy",
+      "code": "n-s-r---r-"
+    }
+  },
+  {
+    "card": 233,
+    "name": "Chi You",
+    "persona_level": 88,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 88,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Psy: heavy, 3 SP",
+      "kind": "Psy",
+      "strength": "heavy",
+      "code": "ss----nw--"
+    }
+  },
+  {
+    "card": 234,
+    "name": "Izanagi-no-Okami Picaro",
+    "persona_level": 89,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 89,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "ssssssss--"
+    }
+  },
+  {
+    "card": 235,
+    "name": "Metatron",
+    "persona_level": 89,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 89,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Bless: heavy, 3 SP",
+      "kind": "Bless",
+      "strength": "heavy",
+      "code": "----wrdd-w"
+    }
+  },
+  {
+    "card": 236,
+    "name": "Ongyo-Ki",
+    "persona_level": 89,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 89,
+      "hp": 75,
+      "sp": 0,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "s-------rr"
+    }
+  },
+  {
+    "card": 237,
+    "name": "Mada",
+    "persona_level": 90,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 90,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Fire: heavy, 3 SP",
+      "kind": "Fire",
+      "strength": "heavy",
+      "code": "--dw--sn--"
+    }
+  },
+  {
+    "card": 238,
+    "name": "Messiah Picaro",
+    "persona_level": 90,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 90,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Almighty: heavy, 3 SP",
+      "kind": "Almighty",
+      "strength": "heavy",
+      "code": "--ssssssrw"
+    }
+  },
+  {
+    "card": 239,
+    "name": "Satan",
+    "persona_level": 92,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 92,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Ice: heavy, 3 SP",
+      "kind": "Ice",
+      "strength": "heavy",
+      "code": "-s-r-----r"
+    }
+  },
+  {
+    "card": 240,
+    "name": "Lucifer",
+    "persona_level": 93,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 93,
+      "hp": 75,
+      "sp": 0,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "nnssss--wd"
+    }
+  },
+  {
+    "card": 241,
+    "name": "Maria",
+    "persona_level": 93,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 93,
+      "hp": 75,
+      "sp": 0,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Physical: heavy, 8 HP",
+      "kind": "Physical",
+      "strength": "heavy",
+      "code": "--w-sn--d-"
+    }
+  },
+  {
+    "card": 242,
+    "name": "Satanael",
+    "persona_level": 95,
+    "kind": "persona",
+    "shadow_names": [],
+    "rpg": {
+      "lv": 95,
+      "hp": 75,
+      "sp": 12,
+      "atk": 7,
+      "defense": 15,
+      "attack": "Atak testowy Curse: heavy, 3 SP",
+      "kind": "Curse",
+      "strength": "heavy",
+      "code": "ssssssssnd"
+    }
+  }
+]

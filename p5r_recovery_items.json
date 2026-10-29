@@ -1,0 +1,929 @@
+[
+  {"name":"Life Stone","description":"Restores 30% HP to one ally.","battle":true,"field":true},
+  {"name":"Protein","description":"Increases training efficiency. Restores 30% HP to one ally.","battle":false,"field":true},
+  {"name":"Moist Protein","description":"Rainy day-only. Helps training. Restores 30% HP to one ally.","battle":false,"field":true},
+  {
+    "name": "Imported Protein",
+    "description": "Increases training efficiency. Restores 30% HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Medicine",
+    "description": "Restores 50 HP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Phantom Wafers",
+    "description": "Phantom Thieves snack. Restores 50 HP and cures ailments for one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Recov-R: 50 mg",
+    "description": "Fast-acting formula. Restores 50 HP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Recov-R: 100 mg",
+    "description": "Fast-acting formula. Restores 100 HP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Pumpkin Soup",
+    "description": "A packet of thick pumpkin soup. Restores 100 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Viennese Jelly",
+    "description": "European-style jelly to eat on the go. Restores 100 HP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Peppery Nikuman",
+    "description": "Spicy meat bun that warms you to your core. Restores 100 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Takemedic",
+    "description": "A new drug developed by TMC. Restores 200 HP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Autumn Bread",
+    "description": "Bun with chestnuts and carrots in it. Restores 200 HP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Dipped Katsu Sando",
+    "description": "Rainy day special with terrific texture. Restores 200 HP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Soothing Soba",
+    "description": "Cold Chinese noodles. Only available in summer. Restores 200 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Moon Dango",
+    "description": "Autumn-only Japanese sweet. Restores 200 HP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Bead",
+    "description": "Fully restores HP of one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Earth Burger",
+    "description": "Spring-only. Filled with Earth veggies. Restores 40 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Party in a Can",
+    "description": "Canned food to be eaten as a group. Restores 40 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Mixed Nuts",
+    "description": "A can full of a variety of nuts. Restores 40 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Corned Beef Special",
+    "description": "Assorted cans of corned beef. Restores 40 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Takemedic-All",
+    "description": "A new drug developed by TMC. Restores 50 HP to all allies.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Agodashi Oden",
+    "description": "Winter-only oden with rich flavor. Restores 50 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Drizzled Natto",
+    "description": "Rainy day special. Large candied natto. Restores 80 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Spring Fruit Pack",
+    "description": "Spring-only. Filled with with fruits. Restores 80 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Cereal Multi-Pack",
+    "description": "Multi-pack of assorted cereal. Restores 80 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Takemedic-All V",
+    "description": "A new drug developed by TMC. Restores 100 HP to all allies.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Popcorn Bomb",
+    "description": "Large container of caramel popcorn. Restores 100 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Moon Burger",
+    "description": "Autumn-only. The egg looks like the moon. Restores 120 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Takemedic-All Z",
+    "description": "A new drug developed by TMC. Restores 200 HP to all allies.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Supernova Burger",
+    "description": "A new burger by the reborn Okumura Foods. Restores 200 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Bead Chain",
+    "description": "Fully restores HP of all allies.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Wine of Grace",
+    "description": "Non-alcoholic wine used during ceremonies. Fully restores HP of all allies.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Hogyoku Apple",
+    "description": "A shiny, delicious apple. Fully restores HP of all allies.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Osechi Chocolate",
+    "description": "Osechi made of chocolate. Even sweeter with friends. Fully restores HP of all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Strawberry Daifuku",
+    "description": "Classic strawberry daifuku. Fully restores HP and cures all ailments of all allies.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Devil Fruit",
+    "description": "Restores 20 HP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Karaage King",
+    "description": "So good it's practically royalty. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Jam Bread",
+    "description": "Bread with strawberry jam filling. Restores 20 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Adhesive Bandage",
+    "description": "Your average adhesive bandage. Restores 20 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Venus Salad",
+    "description": "A fruit salad that's fit for a goddess. Restores 30 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Jagariko",
+    "description": "A popular Japanese snack. Restores 20 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Sandwich",
+    "description": "Yon-Germain's staple sandwich. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Fried Bread",
+    "description": "Bread with a nostalgic taste. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Fruit Danish",
+    "description": "A fruity, seasonal pastry. Restores 30 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Juicy Nikuman",
+    "description": "Filled with juicy meat. Restores 30 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Napolitan Nikuman",
+    "description": "Meat bun with a reddish tint. Tastes better than it looks. Restores 50 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Saturn Fries",
+    "description": "Fried potatoes with onion rings like Saturn. Restores 20 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Foreign Nikuman",
+    "description": "Despite the name, it's a kebab. Restores 20 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Squid Tri-Pack",
+    "description": "A pack full of select squid snacks. Restores 20 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Big Bang Burger",
+    "description": "The taste is Big Bang level! Restores 20 HP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Starvicks",
+    "description": "The world's first spicy coffee. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Udagawa Water",
+    "description": "Triple-filtered Shibuya river water. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Dr. Salt NEO",
+    "description": "Now with more pepper. Restores 20 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Joylent",
+    "description": "Unsettlingly nutritious. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Second Maid",
+    "description": "Refreshing Mandarin orange flavor. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Earl Green",
+    "description": "A blend of Eastern and Western teas. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Raw Punch",
+    "description": "Practically liquid caffeine. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Muscle Tea",
+    "description": "Popular tea often sold online. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Manta",
+    "description": "Makes you want to dance all night. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Nastea",
+    "description": "Unexpectedly great taste. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "1UP",
+    "description": "Coveted by old-school gamers. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Durian Au Lait",
+    "description": "Made from the king of fruits. Restores 10 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Oh! Shiruko",
+    "description": "So good it makes you say, Whoa! Restores 20 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Chunky Potage",
+    "description": "You can never drink all the kernels. Restores 20 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Ultimate Amazake",
+    "description": "Makes you think you're drunk. Restores 20 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Udagawa Soda",
+    "description": "Triple-filtered carbonated Shibuya water. Restores 30 HP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Yakisoba Pan",
+    "description": "Fast-selling bread. Restores 50 HP and cures Hunger for one ally.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Rejuvenating IV",
+    "description": "Can only be used in safe places. Restores 100% HP to all allies.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Healing IV",
+    "description": "Can only be used in safe places. Restores 50% HP to all allies.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Stamina Kit S",
+    "description": "Tool that can only be used in safe places. Restores 20% SP to all allies.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Stamina Kit L",
+    "description": "Tool that can only be used in safe places. Restores 40% SP to all allies.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Muscle Drink",
+    "description": "Restores 30% HP to one ally. Raises Attack and lowers Defense.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "MRE Ration",
+    "description": "Food to go. Restores 30% HP to one ally, lowers Attack, raises Accuracy/Evasion.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Oatmeal Ration",
+    "description": "Food to go. Restores 30% HP to one ally, lowers Accuracy/ Evasion and raises Attack.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Torimeshi Ration",
+    "description": "Food to go. Both tasty and satiating. Restores 50 HP and cures Hunger for one ally.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Fruit Ration",
+    "description": "Restores 30% HP to one ally, lowers Defense and raises Attack.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Kommissbrot",
+    "description": "Hardtack. Restores 10% SP to one ally and lowers Accuracy/Evasion.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Beef Patty Ration",
+    "description": "Canned a while ago. Restores 10% SP to one ally and lowers Defense.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "D Ration",
+    "description": "Not a chocolate bar. Restores 10% SP to one ally and lowers Attack.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Veg. Stew Ration",
+    "description": "Restores 50 HP and cures Hunger for one ally.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Osechi Ration",
+    "description": "Fills you up like a New Year's Day meal. Restores 30% SP to one ally. Lowers all stats.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Mont Blanc Ration",
+    "description": "A sweet treat for the stomach. Restores 50 HP and cures Hunger for one ally.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Kebab Ration",
+    "description": "Exotic food. Restores 30% HP to one ally, lowers Attack, raises Accuracy/Evasion.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Odd Morsel",
+    "description": "Restores 30% HP to one ally. Raises Attack and lowers Accuracy/Evasion.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Rancid Gravy",
+    "description": "Restores 30% HP to one ally. Raises Accuracy/Evasion and lowers Attack.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Sikkenine",
+    "description": "Restores 50 HP to one ally and lowers Accuracy/Evasion.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Sikkenine A",
+    "description": "Restores 100 HP to one ally and lowers Attack.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Sikkenine EX",
+    "description": "Restores 200 HP to one ally and lowers Defense.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Strawberry Curry",
+    "description": "Restores 100 HP to one ally. Lowers Defense/ Accuracy/Evasion.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Mayo Locust",
+    "description": "Restores 100 HP to one ally. Lowers Attack/ Accuracy/Evasion.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Miso Starfish",
+    "description": "Restores 100 HP to one ally. Lowers Attack and Defense.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Mystery Stew",
+    "description": "No ingredients listed. Restores 30% SP to one ally. Lowers all stats.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Revivadrin",
+    "description": "Revives one fallen ally to 50% HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Revival Bead",
+    "description": "Revives one fallen ally to 50% HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Band-Ace",
+    "description": "Emergency medicine. Revives one fallen ally to 50% HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Balm of Life",
+    "description": "Revives one fallen ally to full HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Melon Pan",
+    "description": "A limited product that rejuvenates. Revives one fallen ally to full HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Angel Tart",
+    "description": "Christmas-only pastry. Revives one fallen ally to full HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Life Ointment",
+    "description": "New drug by TMC. Revives one fallen ally to full HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Reviv-All",
+    "description": "New drug developed by TMC. Revives all fallen allies to 50% HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Renew-All",
+    "description": "New drug developed by TMC. Revives all fallen allies to full HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Royal Jelly R",
+    "description": "Worthy of resurrecting a Hierophant. Revives all fallen allies to full HP.",
+    "battle": true,
+    "field": false
+  },
+  {
+    "name": "Soma",
+    "description": "Fully restores HP and SP of all allies.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Old Man's Elixir",
+    "description": "The ingredients are super secret. Fully restores HP and SP of all allies.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Broken Rock Salt",
+    "description": "A Holy Stone shattered to pieces. Restores 5 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Water of Rebirth",
+    "description": "Blended with placenta. Restores 5 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Arginade",
+    "description": "Contains arginine. Restores 5 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Soul Drop",
+    "description": "Restores 10 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Chunky Katsu",
+    "description": "Ground beef cutlet that people line up to buy. Restores 30 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Sakura Mochi",
+    "description": "Ultimate sakura-mochi made by a famous confectioner. Restores 10 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Snuff Soul",
+    "description": "Restores 50 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Chewing Soul",
+    "description": "Restores 100 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Special Chimaki",
+    "description": "A joy-inducing deluxe Chinese sticky rice dumpling. Restores 100 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Soul Food",
+    "description": "Fully restores SP of one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Leblanc Coffee",
+    "description": "Specialty drip coffee. Restores 30 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Master Coffee",
+    "description": "Specialty drip coffee. Restores 100 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Bitter Coffee",
+    "description": "A very bitter coffee. Restores 30 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Acidic Coffee",
+    "description": "An extremely bitter coffee. Restores 30 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Beni-Azuma",
+    "description": "A sticky sweet potato low in fiber. Restores 10 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Legendary Yaki-Imo",
+    "description": "A winter-only roasted sweet potato. Restores 50 SP to one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Moonlight Carrot",
+    "description": "A hard-to-grow carrot. Fully restores SP of one ally.",
+    "battle": true,
+    "field": true
+  },
+  {
+    "name": "Ann Cream Puffs",
+    "description": "Ann's takoyaki-style cream puffs. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Makoto Donuts",
+    "description": "Donuts that were made by Makoto. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Sakura Amezaiku",
+    "description": "Candy shaped like a cherry blossom. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Sadayo Taiyaki",
+    "description": "Kawakami's specially made taiyaki. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Ryuji Dog",
+    "description": "A gyoza hot dog Ryuji made. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Sumire's Chocolate",
+    "description": "Handmade chocolate from Sumire. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Kawakami's Chocolate",
+    "description": "Handmade chocolate from Kawakami. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Takemi's Chocolate",
+    "description": "Premium chocolate from Takemi. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Chihaya's Chocolate",
+    "description": "Premium chocolate from Chihaya. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Ohya's Chocolate",
+    "description": "Premium chocolate from Ohya. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Hifumi's Chocolate",
+    "description": "Handmade chocolate from Hifumi. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Makoto's Chocolate",
+    "description": "Premium chocolate from Makoto. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Haru's Chocolate",
+    "description": "Handmade chocolate from Haru. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Ann's Chocolate",
+    "description": "Premium chocolate from Ann. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Futaba's Chocolate",
+    "description": "Handmade chocolate from Futaba. Fully restores SP of one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Ryuji's Chocolate",
+    "description": "Cheap chocolate from Ryuji. Restores 10 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Sojiro's Chocolate",
+    "description": "Cheap chocolate from Sojiro. Restores 10 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Sun Tomato",
+    "description": "A hard-to-grow tomato. Restores 100 SP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Decent Curry",
+    "description": "Curry that almost rivals that of Leblanc's. Restores 20 SP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Leblanc Curry",
+    "description": "Recreates Boss's flavor perfectly. Restores 50 SP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Master Curry",
+    "description": "Curry that surpasses Boss's flavor. Restores 100 SP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Fire Curry",
+    "description": "Almost like Leblanc's, but incredibly spicy. Restores 20 SP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Blaze Curry",
+    "description": "Just like Boss's, but incredibly spicy. Restores 50 SP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Inferno Curry",
+    "description": "Surpasses Boss's, but is extremely spicy. Restores 50 SP to all allies.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Ann's Giri-Choco",
+    "description": "Courtesy chocolate from Ann. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Makoto's Giri-Choco",
+    "description": "Courtesy chocolate from Makoto. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Haru's Giri-Choco",
+    "description": "Courtesy chocolate from Haru. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Futaba's Giri-Choco",
+    "description": "Courtesy chocolate from Futaba. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Takemi's Giri-Choco",
+    "description": "Courtesy chocolate from Takemi. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Chihaya's Giri-Choco",
+    "description": "Courtesy chocolate from Chihaya. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Kawakami's Giri-Choco",
+    "description": "Courtesy chocolate from Kawakami. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Ohya's Giri-Choco",
+    "description": "Courtesy chocolate from Ohya. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Hifumi's Giri-Choco",
+    "description": "Courtesy chocolate from Hifumi. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Sumire's Giri-Choco",
+    "description": "Courtesy chocolate from Sumire. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  },
+  {
+    "name": "Sae's Giri-Choco",
+    "description": "Courtesy chocolate from Sae. Restores 100 SP to one ally.",
+    "battle": false,
+    "field": true
+  }
+]

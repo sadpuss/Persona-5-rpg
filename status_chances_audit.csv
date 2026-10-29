@@ -1,0 +1,63 @@
+﻿skill,ailment,p5r_chance,rpg_DC
+Bad Beat,Despair,25,6
+Bloodbath,Fear,25,6
+Brain Buster,Brainwash,25,6
+Brain Shake,Brainwash,35,8
+Death Scythe,Fear,55,12
+Dormin Rush,Sleep,25,6
+Flash Bomb,Dizzy,25,6
+Headbutt,Forget,35,8
+Hysterical Slap,Rage,35,8
+Memory Blow,Forget,25,6
+Mind Slice,Confuse,25,6
+Negative Pile,Despair,35,8
+Oni Kagura,Rage,25,6
+Skull Cracker,Confuse,35,8
+Sledgehammer,Dizzy,35,8
+Stomach Blow,Hunger,35,8
+Terror Claw,Fear,35,8
+Dream Needle,Sleep,35,8
+Agi,Burn,25,6
+Agidyne,Burn,25,6
+Agilao,Burn,25,6
+Blazing Hell,Burn,24,6
+Inferno,Burn,26,6
+Maragi,Burn,20,5
+Maragidyne,Burn,20,5
+Maragion,Burn,20,5
+Titanomachia,Fear,70,15
+Bufu,Freeze,25,6
+Bufudyne,Freeze,25,6
+Bufula,Freeze,25,6
+Diamond Dust,Freeze,26,6
+Ice Age,Freeze,26,6
+Mabufu,Freeze,20,5
+Mabufudyne,Freeze,20,5
+Mabufula,Freeze,20,5
+Mazio,Shock,20,5
+Maziodyne,Shock,20,5
+Mazionga,Shock,20,5
+Thunder Reign,Shock,26,6
+Wild Thunder,Shock,24,6
+Zio,Shock,25,6
+Ziodyne,Shock,25,6
+Zionga,Shock,25,6
+Reverse Rub,Rage,100,20
+Abysmal Surge,Despair,50,11
+Brain Jack,Brainwash,50,11
+Dazzler,Dizzy,70,15
+Dormina,Sleep,70,15
+Evil Smile,Fear,40,9
+Evil Touch,Fear,70,15
+Famine's Scream,Hunger,50,11
+Lullaby,Sleep,50,11
+Makajam,Forget,70,15
+Makajamaon,Forget,40,9
+Marin Karin,Brainwash,70,15
+Nocturnal Flash,Dizzy,50,11
+Ominous Words,Despair,70,15
+Phantom Show,Sleep,90,19
+Pulinpa,Confuse,70,15
+Taunt,Rage,70,15
+Tentarafoo,Confuse,40,9
+Wage War,Rage,50,11

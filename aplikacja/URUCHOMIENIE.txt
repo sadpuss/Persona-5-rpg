@@ -1,0 +1,18 @@
+TAKE YOUR HEART — KREATOR PERSONA RPG
+
+1. Kliknij dwukrotnie „Uruchom kreator.lnk” w tym folderze.
+2. Kreator otworzy się we własnym oknie. Internet nie jest potrzebny.
+
+Możesz też wejść do folderu release\win-unpacked i uruchomić
+„Take Your Heart.exe”.
+
+Nie otwieraj index.html — to teraz część kodu aplikacji.
+
+Karta zapisuje się automatycznie na tym komputerze. Przycisk
+„Zapisz do pliku” pozwala zrobić własną kopię lub przesłać ją GM.
+Pliki JSON z wcześniejszego prototypu można wczytać przez „Otwórz plik”.
+
+PDF zapiszesz w kroku „Gotowe karty”, przyciskiem „Zapisz PDF”.
+
+Jeśli chcesz przenieść program, skopiuj CAŁY folder win-unpacked,
+a nie sam plik EXE. Swoją postać przenieś osobno, zapisując ją do pliku.

@@ -1,0 +1,4535 @@
+[
+  {
+    "number": 1,
+    "name": "Arsene",
+    "persona_level": 1,
+    "level": 1,
+    "hp": 20,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Bless": "Weak",
+      "Curse": "Resist"
+    },
+    "attack": "Curse",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 2,
+    "name": "Jack-o'-Lantern",
+    "persona_level": 2,
+    "level": 2,
+    "hp": 20,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Wind": "Weak",
+      "Fire": "Drain"
+    },
+    "attack": "Fire",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 3,
+    "name": "Pixie",
+    "persona_level": 2,
+    "level": 2,
+    "hp": 20,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Gun": "Weak",
+      "Ice": "Weak",
+      "Curse": "Weak",
+      "Electricity": "Resist",
+      "Bless": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 4,
+    "name": "Zorro",
+    "persona_level": 2,
+    "level": 2,
+    "hp": 20,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Wind": "Resist"
+    },
+    "attack": "Wind",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 5,
+    "name": "Agathion",
+    "persona_level": 3,
+    "level": 3,
+    "hp": 25,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Gun": "Resist",
+      "Electricity": "Resist"
+    },
+    "attack": "Electricity",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 6,
+    "name": "Mandrake",
+    "persona_level": 3,
+    "level": 3,
+    "hp": 20,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Electricity": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 7,
+    "name": "Bicorn",
+    "persona_level": 4,
+    "level": 4,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Curse": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 8,
+    "name": "Captain Kidd",
+    "persona_level": 4,
+    "level": 4,
+    "hp": 30,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Electricity": "Resist"
+    },
+    "attack": "Electricity",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 9,
+    "name": "Cait Sith",
+    "persona_level": 5,
+    "level": 5,
+    "hp": 25,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Electricity": "Resist"
+    },
+    "attack": "Fire",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 10,
+    "name": "Carmen",
+    "persona_level": 5,
+    "level": 5,
+    "hp": 25,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Fire": "Resist"
+    },
+    "attack": "Fire",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 11,
+    "name": "Incubus",
+    "persona_level": 5,
+    "level": 5,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Bless": "Weak",
+      "Electricity": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 12,
+    "name": "Kelpie",
+    "persona_level": 6,
+    "level": 6,
+    "hp": 25,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Ice": "Resist"
+    },
+    "attack": "Wind",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 13,
+    "name": "Saki Mitama",
+    "persona_level": 6,
+    "level": 6,
+    "hp": 25,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Ice": "Resist"
+    },
+    "attack": "Ice",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 14,
+    "name": "Silky",
+    "persona_level": 6,
+    "level": 6,
+    "hp": 25,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Electricity": "Weak",
+      "Ice": "Resist"
+    },
+    "attack": "Ice",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 15,
+    "name": "Genbu",
+    "persona_level": 7,
+    "level": 7,
+    "hp": 30,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Psy": "Resist",
+      "Ice": "Null"
+    },
+    "attack": "Ice",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 16,
+    "name": "Succubus",
+    "persona_level": 7,
+    "level": 7,
+    "hp": 20,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Bless": "Weak",
+      "Fire": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 17,
+    "name": "Obariyon",
+    "persona_level": 8,
+    "level": 8,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Physical": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 18,
+    "name": "Angel",
+    "persona_level": 9,
+    "level": 9,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Gun": "Weak",
+      "Curse": "Weak",
+      "Electricity": "Resist",
+      "Bless": "Null"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 19,
+    "name": "Berith",
+    "persona_level": 9,
+    "level": 9,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Fire": "Resist",
+      "Gun": "Null"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 20,
+    "name": "Hua Po",
+    "persona_level": 9,
+    "level": 9,
+    "hp": 20,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Gun": "Weak",
+      "Ice": "Weak",
+      "Fire": "Repel"
+    },
+    "attack": "Fire",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 21,
+    "name": "Koropokkuru",
+    "persona_level": 9,
+    "level": 9,
+    "hp": 25,
+    "sp": 4,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Ice": "Resist",
+      "Wind": "Resist"
+    },
+    "attack": "Ice",
+    "tier": "light",
+    "cost": 1,
+    "resource": "SP"
+  },
+  {
+    "number": 22,
+    "name": "Mokoi",
+    "persona_level": 9,
+    "level": 9,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Electricity": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 24,
+    "name": "Slime",
+    "persona_level": 10,
+    "level": 10,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Wind": "Weak",
+      "Physical": "Resist",
+      "Gun": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "light",
+    "cost": 3,
+    "resource": "HP"
+  },
+  {
+    "number": 25,
+    "name": "Apsaras",
+    "persona_level": 11,
+    "level": 11,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Electricity": "Weak",
+      "Ice": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 26,
+    "name": "Jack Frost",
+    "persona_level": 11,
+    "level": 11,
+    "hp": 25,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Ice": "Null"
+    },
+    "attack": "Ice",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 27,
+    "name": "Kodama",
+    "persona_level": 11,
+    "level": 11,
+    "hp": 25,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Ice": "Resist"
+    },
+    "attack": "Wind",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 28,
+    "name": "Koppa Tengu",
+    "persona_level": 11,
+    "level": 11,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Bless": "Weak",
+      "Wind": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 29,
+    "name": "Orpheus F",
+    "persona_level": 11,
+    "level": 11,
+    "hp": 25,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Curse": "Weak",
+      "Bless": "Resist"
+    },
+    "attack": "Fire",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 30,
+    "name": "Kushi Mitama",
+    "persona_level": 12,
+    "level": 12,
+    "hp": 30,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Wind": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 31,
+    "name": "Onmoraki",
+    "persona_level": 12,
+    "level": 12,
+    "hp": 25,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Bless": "Weak",
+      "Fire": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Curse",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 32,
+    "name": "Ame-no-Uzume",
+    "persona_level": 13,
+    "level": 13,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Fire": "Drain"
+    },
+    "attack": "Wind",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 33,
+    "name": "Ippon-Datara",
+    "persona_level": 13,
+    "level": 13,
+    "hp": 30,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Gun": "Resist",
+      "Fire": "Resist",
+      "Bless": "Resist",
+      "Curse": "Resist",
+      "Wind": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 34,
+    "name": "Orpheus F Picaro",
+    "persona_level": 13,
+    "level": 13,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Curse": "Weak",
+      "Bless": "Resist"
+    },
+    "attack": "Fire",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 35,
+    "name": "Archangel",
+    "persona_level": 14,
+    "level": 14,
+    "hp": 30,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Curse": "Weak",
+      "Bless": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 36,
+    "name": "Inugami",
+    "persona_level": 14,
+    "level": 14,
+    "hp": 30,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Gun": "Null",
+      "Fire": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 37,
+    "name": "Goemon",
+    "persona_level": 15,
+    "level": 15,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Ice": "Resist"
+    },
+    "attack": "Ice",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 38,
+    "name": "Makami",
+    "persona_level": 15,
+    "level": 15,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Wind": "Resist",
+      "Nuclear": "Resist",
+      "Gun": "Null",
+      "Bless": "Null"
+    },
+    "attack": "Nuclear",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 40,
+    "name": "Shiisaa",
+    "persona_level": 15,
+    "level": 15,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Curse": "Weak",
+      "Physical": "Resist",
+      "Bless": "Null"
+    },
+    "attack": "Nuclear",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 41,
+    "name": "Eligor",
+    "persona_level": 16,
+    "level": 16,
+    "hp": 30,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Fire": "Resist",
+      "Curse": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 42,
+    "name": "High Pixie",
+    "persona_level": 16,
+    "level": 16,
+    "hp": 25,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Gun": "Weak",
+      "Nuclear": "Weak",
+      "Electricity": "Resist",
+      "Wind": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 43,
+    "name": "Kaguya",
+    "persona_level": 16,
+    "level": 16,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Wind": "Resist",
+      "Bless": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Bless",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 44,
+    "name": "Suzaku",
+    "persona_level": 16,
+    "level": 16,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Nuclear": "Resist",
+      "Fire": "Drain"
+    },
+    "attack": "Nuclear",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 45,
+    "name": "Matador",
+    "persona_level": 17,
+    "level": 17,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Wind": "Null"
+    },
+    "attack": "Psy",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 46,
+    "name": "Nekomata",
+    "persona_level": 17,
+    "level": 17,
+    "hp": 28,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Psy": "Resist"
+    },
+    "attack": "Wind",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 47,
+    "name": "Orobas",
+    "persona_level": 17,
+    "level": 17,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Wind": "Resist",
+      "Curse": "Resist"
+    },
+    "attack": "Fire",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 48,
+    "name": "Sudama",
+    "persona_level": 17,
+    "level": 17,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Nuclear": "Weak",
+      "Wind": "Repel"
+    },
+    "attack": "Psy",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 49,
+    "name": "Black Ooze",
+    "persona_level": 18,
+    "level": 18,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Psy": "Weak",
+      "Bless": "Weak",
+      "Physical": "Resist",
+      "Gun": "Resist",
+      "Ice": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 50,
+    "name": "Shiki-Ouji",
+    "persona_level": 18,
+    "level": 18,
+    "hp": 30,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Physical": "Null",
+      "Gun": "Null",
+      "Bless": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 51,
+    "name": "Flauros",
+    "persona_level": 19,
+    "level": 19,
+    "hp": 30,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Wind": "Resist",
+      "Nuclear": "Resist",
+      "Fire": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 52,
+    "name": "Leanan Sidhe",
+    "persona_level": 19,
+    "level": 19,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Wind": "Resist",
+      "Psy": "Resist"
+    },
+    "attack": "Psy",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 53,
+    "name": "Izanagi",
+    "persona_level": 20,
+    "level": 20,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Electricity": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 54,
+    "name": "Nue",
+    "persona_level": 20,
+    "level": 20,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Ice": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Curse",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 55,
+    "name": "Oni",
+    "persona_level": 20,
+    "level": 20,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Gun": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 57,
+    "name": "Yaksini",
+    "persona_level": 20,
+    "level": 20,
+    "hp": 30,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Ice": "Resist",
+      "Gun": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 58,
+    "name": "Johanna",
+    "persona_level": 21,
+    "level": 21,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Nuclear": "Resist"
+    },
+    "attack": "Nuclear",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 59,
+    "name": "Orthrus",
+    "persona_level": 21,
+    "level": 21,
+    "hp": 30,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Nuclear": "Resist",
+      "Fire": "Drain"
+    },
+    "attack": "Fire",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 60,
+    "name": "Phoenix",
+    "persona_level": 21,
+    "level": 21,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Ice": "Resist",
+      "Wind": "Null"
+    },
+    "attack": "Nuclear",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 61,
+    "name": "Jikokuten",
+    "persona_level": 22,
+    "level": 22,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Physical": "Resist",
+      "Bless": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 62,
+    "name": "Nigi Mitama",
+    "persona_level": 22,
+    "level": 22,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Bless": "Resist",
+      "Curse": "Resist"
+    },
+    "attack": "Bless",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 63,
+    "name": "Fuu-Ki",
+    "persona_level": 23,
+    "level": 23,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Gun": "Resist",
+      "Wind": "Drain"
+    },
+    "attack": "Wind",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 64,
+    "name": "Izanagi Picaro",
+    "persona_level": 23,
+    "level": 23,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Electricity": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 65,
+    "name": "Sandman",
+    "persona_level": 23,
+    "level": 23,
+    "hp": 28,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Electricity": "Weak",
+      "Wind": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 66,
+    "name": "Naga",
+    "persona_level": 24,
+    "level": 24,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Gun": "Resist",
+      "Electricity": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 67,
+    "name": "Rakshasa",
+    "persona_level": 24,
+    "level": 24,
+    "hp": 34,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Bless": "Weak",
+      "Physical": "Resist",
+      "Fire": "Resist",
+      "Curse": "Resist",
+      "Gun": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 68,
+    "name": "Sui-Ki",
+    "persona_level": 24,
+    "level": 24,
+    "hp": 36,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Gun": "Resist",
+      "Electricity": "Resist",
+      "Ice": "Drain"
+    },
+    "attack": "Ice",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 69,
+    "name": "Anzu",
+    "persona_level": 25,
+    "level": 25,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Gun": "Weak",
+      "Nuclear": "Weak",
+      "Electricity": "Resist",
+      "Wind": "Repel"
+    },
+    "attack": "Wind",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 70,
+    "name": "Kaguya Picaro",
+    "persona_level": 25,
+    "level": 25,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Bless": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Bless",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 71,
+    "name": "Kin-Ki",
+    "persona_level": 25,
+    "level": 25,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Gun": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 73,
+    "name": "Setanta",
+    "persona_level": 25,
+    "level": 25,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Gun": "Resist",
+      "Nuclear": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 74,
+    "name": "Isis",
+    "persona_level": 26,
+    "level": 26,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Bless": "Null"
+    },
+    "attack": "Bless",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 75,
+    "name": "Lamia",
+    "persona_level": 26,
+    "level": 26,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Nuclear": "Weak",
+      "Electricity": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 76,
+    "name": "Orpheus",
+    "persona_level": 26,
+    "level": 26,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Curse": "Weak",
+      "Bless": "Resist"
+    },
+    "attack": "Fire",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 77,
+    "name": "Take-Minakata",
+    "persona_level": 26,
+    "level": 26,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Curse": "Resist",
+      "Electricity": "Repel"
+    },
+    "attack": "Electricity",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 78,
+    "name": "Andras",
+    "persona_level": 27,
+    "level": 27,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Bless": "Weak",
+      "Ice": "Resist",
+      "Psy": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 79,
+    "name": "Clotho",
+    "persona_level": 27,
+    "level": 27,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Nuclear": "Weak",
+      "Wind": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 80,
+    "name": "Tam Lin",
+    "persona_level": 27,
+    "level": 27,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Physical": "Resist",
+      "Wind": "Resist",
+      "Fire": "Null",
+      "Bless": "Drain"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 81,
+    "name": "Choronzon",
+    "persona_level": 28,
+    "level": 28,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Physical": "Resist",
+      "Fire": "Drain"
+    },
+    "attack": "Curse",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 82,
+    "name": "Pisaca",
+    "persona_level": 28,
+    "level": 28,
+    "hp": 35,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Bless": "Weak",
+      "Electricity": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 83,
+    "name": "Orpheus Picaro",
+    "persona_level": 29,
+    "level": 29,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Curse": "Weak",
+      "Bless": "Resist"
+    },
+    "attack": "Fire",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 84,
+    "name": "Principality",
+    "persona_level": 29,
+    "level": 29,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Fire": "Resist",
+      "Bless": "Null"
+    },
+    "attack": "Bless",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 85,
+    "name": "Ara Mitama",
+    "persona_level": 30,
+    "level": 30,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Physical": "Resist"
+    },
+    "attack": "Nuclear",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 86,
+    "name": "Ariadne",
+    "persona_level": 30,
+    "level": 30,
+    "hp": 40,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Gun": "Resist",
+      "Bless": "Resist",
+      "Nuclear": "Null"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 88,
+    "name": "Neko Shogun",
+    "persona_level": 30,
+    "level": 30,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Physical": "Resist",
+      "Electricity": "Resist",
+      "Curse": "Resist",
+      "Bless": "Null"
+    },
+    "attack": "Psy",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 90,
+    "name": "Kurama Tengu",
+    "persona_level": 31,
+    "level": 31,
+    "hp": 35,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Resist",
+      "Curse": "Resist",
+      "Ice": "Null",
+      "Wind": "Repel"
+    },
+    "attack": "Ice",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 91,
+    "name": "Zouchouten",
+    "persona_level": 31,
+    "level": 31,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Physical": "Resist"
+    },
+    "attack": "Electricity",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 92,
+    "name": "Decarabia",
+    "persona_level": 32,
+    "level": 32,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Weak",
+      "Nuclear": "Resist",
+      "Curse": "Resist",
+      "Fire": "Repel"
+    },
+    "attack": "Almighty",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 93,
+    "name": "Lilim",
+    "persona_level": 32,
+    "level": 32,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Bless": "Weak",
+      "Ice": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Ice",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 94,
+    "name": "Mitra",
+    "persona_level": 33,
+    "level": 33,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Ice": "Null",
+      "Bless": "Null"
+    },
+    "attack": "Bless",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 95,
+    "name": "Mothman",
+    "persona_level": 33,
+    "level": 33,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Gun": "Weak",
+      "Psy": "Resist",
+      "Electricity": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 96,
+    "name": "Anubis",
+    "persona_level": 34,
+    "level": 34,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Gun": "Resist",
+      "Psy": "Resist",
+      "Bless": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Bless",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 97,
+    "name": "Thunderbird",
+    "persona_level": 34,
+    "level": 34,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Curse": "Weak",
+      "Electricity": "Drain"
+    },
+    "attack": "Electricity",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 98,
+    "name": "Arahabaki",
+    "persona_level": 35,
+    "level": 35,
+    "hp": 45,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Nuclear": "Weak",
+      "Bless": "Resist",
+      "Curse": "Resist",
+      "Physical": "Repel",
+      "Gun": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "medium",
+    "cost": 5,
+    "resource": "HP"
+  },
+  {
+    "number": 100,
+    "name": "Lachesis",
+    "persona_level": 35,
+    "level": 35,
+    "hp": 40,
+    "sp": 8,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Wind": "Resist",
+      "Ice": "Null"
+    },
+    "attack": "Ice",
+    "tier": "medium",
+    "cost": 2,
+    "resource": "SP"
+  },
+  {
+    "number": 101,
+    "name": "Kaiwan",
+    "persona_level": 36,
+    "level": 36,
+    "hp": 40,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Gun": "Null",
+      "Psy": "Null"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 102,
+    "name": "Milady",
+    "persona_level": 36,
+    "level": 36,
+    "hp": 40,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Psy": "Resist"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 103,
+    "name": "Thoth",
+    "persona_level": 36,
+    "level": 36,
+    "hp": 40,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Curse": "Resist",
+      "Nuclear": "Null",
+      "Bless": "Null"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 104,
+    "name": "Belphegor",
+    "persona_level": 37,
+    "level": 37,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Ice": "Resist",
+      "Electricity": "Resist",
+      "Nuclear": "Resist",
+      "Curse": "Repel"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 105,
+    "name": "Hell Biker",
+    "persona_level": 37,
+    "level": 37,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Wind": "Resist",
+      "Fire": "Repel"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 106,
+    "name": "Legion",
+    "persona_level": 38,
+    "level": 38,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Physical": "Resist",
+      "Fire": "Resist",
+      "Psy": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 107,
+    "name": "White Rider",
+    "persona_level": 38,
+    "level": 38,
+    "hp": 45,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Fire": "Null",
+      "Bless": "Null",
+      "Curse": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 108,
+    "name": "Atropos",
+    "persona_level": 39,
+    "level": 39,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Wind": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 109,
+    "name": "Mithras",
+    "persona_level": 39,
+    "level": 39,
+    "hp": 40,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Physical": "Resist",
+      "Gun": "Resist",
+      "Nuclear": "Repel",
+      "Fire": "Drain"
+    },
+    "attack": "Nuclear",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 110,
+    "name": "Unicorn",
+    "persona_level": 39,
+    "level": 39,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Psy": "Resist",
+      "Ice": "Null",
+      "Bless": "Null"
+    },
+    "attack": "Bless",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 111,
+    "name": "Daisoujou",
+    "persona_level": 40,
+    "level": 40,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Physical": "Resist",
+      "Bless": "Null"
+    },
+    "attack": "Bless",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 112,
+    "name": "Hariti",
+    "persona_level": 40,
+    "level": 40,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Psy": "Resist",
+      "Bless": "Resist"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 114,
+    "name": "Kikuri-Hime",
+    "persona_level": 40,
+    "level": 40,
+    "hp": 45,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Bless": "Resist",
+      "Wind": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 115,
+    "name": "Power",
+    "persona_level": 41,
+    "level": 41,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Wind": "Resist",
+      "Bless": "Null"
+    },
+    "attack": "Bless",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 116,
+    "name": "Red Rider",
+    "persona_level": 41,
+    "level": 41,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Curse": "Null"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 117,
+    "name": "Ariadne Picaro",
+    "persona_level": 42,
+    "level": 42,
+    "hp": 45,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Gun": "Resist",
+      "Bless": "Resist",
+      "Nuclear": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 118,
+    "name": "Hecatoncheires",
+    "persona_level": 42,
+    "level": 42,
+    "hp": 45,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Gun": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 119,
+    "name": "Kumbhanda",
+    "persona_level": 42,
+    "level": 42,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Curse": "Resist",
+      "Fire": "Null"
+    },
+    "attack": "Wind",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 120,
+    "name": "Kushinada",
+    "persona_level": 42,
+    "level": 42,
+    "hp": 45,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Nuclear": "Weak",
+      "Bless": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 121,
+    "name": "Ose",
+    "persona_level": 42,
+    "level": 42,
+    "hp": 45,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Gun": "Resist",
+      "Fire": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 122,
+    "name": "Girimehkala",
+    "persona_level": 43,
+    "level": 43,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Fire": "Resist",
+      "Curse": "Null",
+      "Physical": "Repel",
+      "Gun": "Repel"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 123,
+    "name": "Queen Mab",
+    "persona_level": 43,
+    "level": 43,
+    "hp": 40,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Electricity": "Resist",
+      "Fire": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 124,
+    "name": "Yurlungur",
+    "persona_level": 43,
+    "level": 43,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Bless": "Resist",
+      "Electricity": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 125,
+    "name": "Ananta",
+    "persona_level": 44,
+    "level": 44,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Ice": "Drain"
+    },
+    "attack": "Nuclear",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 126,
+    "name": "Magatsu-Izanagi",
+    "persona_level": 44,
+    "level": 44,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Gun": "Resist",
+      "Bless": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 127,
+    "name": "Valkyrie",
+    "persona_level": 44,
+    "level": 44,
+    "hp": 45,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Gun": "Resist",
+      "Bless": "Null",
+      "Ice": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 128,
+    "name": "Byakko",
+    "persona_level": 45,
+    "level": 45,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Nuclear": "Weak",
+      "Curse": "Resist",
+      "Ice": "Drain"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 129,
+    "name": "Pazuzu",
+    "persona_level": 45,
+    "level": 45,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Wind": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 130,
+    "name": "Robin Hood",
+    "persona_level": 45,
+    "level": 45,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Bless": "Resist"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 131,
+    "name": "Athena",
+    "persona_level": 46,
+    "level": 46,
+    "hp": 50,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Physical": "Resist",
+      "Gun": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 132,
+    "name": "Fortuna",
+    "persona_level": 46,
+    "level": 46,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Fire": "Null",
+      "Wind": "Null"
+    },
+    "attack": "Wind",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 133,
+    "name": "Horus",
+    "persona_level": 47,
+    "level": 47,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Electricity": "Null",
+      "Bless": "Repel"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 134,
+    "name": "Magatsu-Izanagi Picaro",
+    "persona_level": 48,
+    "level": 48,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Gun": "Resist",
+      "Bless": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 135,
+    "name": "Narcissus",
+    "persona_level": 48,
+    "level": 48,
+    "hp": 50,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Wind": "Resist",
+      "Bless": "Resist",
+      "Electricity": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 136,
+    "name": "Rangda",
+    "persona_level": 48,
+    "level": 48,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Bless": "Weak",
+      "Fire": "Null",
+      "Curse": "Null",
+      "Physical": "Repel",
+      "Gun": "Repel"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 137,
+    "name": "Bugs",
+    "persona_level": 49,
+    "level": 65,
+    "hp": 60,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Nuclear": "Weak"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 138,
+    "name": "Koumokuten",
+    "persona_level": 49,
+    "level": 49,
+    "hp": 50,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Physical": "Resist",
+      "Bless": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 139,
+    "name": "Athena Picaro",
+    "persona_level": 50,
+    "level": 50,
+    "hp": 50,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Physical": "Resist",
+      "Gun": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 141,
+    "name": "Dakini",
+    "persona_level": 50,
+    "level": 50,
+    "hp": 50,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Resist",
+      "Gun": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 142,
+    "name": "Sarasvati",
+    "persona_level": 50,
+    "level": 50,
+    "hp": 50,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Electricity": "Resist",
+      "Ice": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 143,
+    "name": "Tsukiyomi",
+    "persona_level": 50,
+    "level": 50,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Physical": "Resist",
+      "Bless": "Resist",
+      "Curse": "Repel"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 144,
+    "name": "Jatayu",
+    "persona_level": 51,
+    "level": 51,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Ice": "Resist",
+      "Bless": "Resist",
+      "Wind": "Repel"
+    },
+    "attack": "Wind",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 145,
+    "name": "Seth",
+    "persona_level": 51,
+    "level": 51,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Curse": "Resist",
+      "Wind": "Null",
+      "Fire": "Repel"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 146,
+    "name": "Barong",
+    "persona_level": 52,
+    "level": 52,
+    "hp": 45,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Curse": "Weak",
+      "Gun": "Resist",
+      "Electricity": "Resist",
+      "Bless": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 147,
+    "name": "Garuda",
+    "persona_level": 52,
+    "level": 52,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Resist",
+      "Bless": "Repel"
+    },
+    "attack": "Wind",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 148,
+    "name": "Mishaguji",
+    "persona_level": 52,
+    "level": 52,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Physical": "Resist",
+      "Electricity": "Null",
+      "Curse": "Drain"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 149,
+    "name": "Norn",
+    "persona_level": 52,
+    "level": 52,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Resist",
+      "Electricity": "Repel",
+      "Wind": "Drain"
+    },
+    "attack": "Wind",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 150,
+    "name": "Ganesha",
+    "persona_level": 53,
+    "level": 53,
+    "hp": 50,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Physical": "Resist",
+      "Gun": "Resist",
+      "Wind": "Drain"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 151,
+    "name": "Skadi",
+    "persona_level": 53,
+    "level": 53,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Null",
+      "Ice": "Repel"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 152,
+    "name": "Okuninushi",
+    "persona_level": 54,
+    "level": 54,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Nuclear": "Weak",
+      "Psy": "Null",
+      "Electricity": "Repel"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 153,
+    "name": "Pale Rider",
+    "persona_level": 54,
+    "level": 54,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Wind": "Resist",
+      "Curse": "Repel"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 154,
+    "name": "Cerberus",
+    "persona_level": 55,
+    "level": 55,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Nuclear": "Resist",
+      "Fire": "Drain"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 155,
+    "name": "Raja Naga",
+    "persona_level": 55,
+    "level": 55,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 156,
+    "name": "Tsukiyomi Picaro",
+    "persona_level": 55,
+    "level": 55,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Physical": "Resist",
+      "Bless": "Resist",
+      "Curse": "Repel"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 157,
+    "name": "Asterius",
+    "persona_level": 56,
+    "level": 56,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Fire": "Resist",
+      "Psy": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 158,
+    "name": "Parvati",
+    "persona_level": 56,
+    "level": 56,
+    "hp": 50,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Psy": "Resist",
+      "Bless": "Resist",
+      "Ice": "Repel"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 159,
+    "name": "Titania",
+    "persona_level": 56,
+    "level": 56,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Nuclear": "Resist",
+      "Bless": "Resist",
+      "Curse": "Resist"
+    },
+    "attack": "Nuclear",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 160,
+    "name": "Yatagarasu",
+    "persona_level": 57,
+    "level": 57,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Wind": "Resist",
+      "Bless": "Null"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 161,
+    "name": "Baphomet",
+    "persona_level": 58,
+    "level": 58,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Fire": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 162,
+    "name": "Melchizedek",
+    "persona_level": 58,
+    "level": 58,
+    "hp": 55,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Psy": "Resist",
+      "Curse": "Null",
+      "Bless": "Drain"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 163,
+    "name": "Black Rider",
+    "persona_level": 59,
+    "level": 59,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Bless": "Resist",
+      "Curse": "Resist",
+      "Ice": "Drain"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 164,
+    "name": "Trumpeter",
+    "persona_level": 59,
+    "level": 59,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Null",
+      "Electricity": "Repel",
+      "Bless": "Repel",
+      "Ice": "Drain"
+    },
+    "attack": "Nuclear",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 165,
+    "name": "Lilith",
+    "persona_level": 60,
+    "level": 60,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Curse": "Null",
+      "Ice": "Repel",
+      "Nuclear": "Repel"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 166,
+    "name": "Moloch",
+    "persona_level": 60,
+    "level": 60,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Electricity": "Resist",
+      "Wind": "Resist",
+      "Curse": "Null",
+      "Fire": "Drain",
+      "Psy": "Drain"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 168,
+    "name": "King Frost",
+    "persona_level": 61,
+    "level": 61,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Null",
+      "Ice": "Drain"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 169,
+    "name": "Asterius Picaro",
+    "persona_level": 62,
+    "level": 62,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Fire": "Resist",
+      "Psy": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 170,
+    "name": "Chernobog",
+    "persona_level": 62,
+    "level": 62,
+    "hp": 60,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Bless": "Weak",
+      "Gun": "Resist",
+      "Electricity": "Null",
+      "Ice": "Drain",
+      "Curse": "Drain"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 171,
+    "name": "Seiryu",
+    "persona_level": 62,
+    "level": 62,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Ice": "Resist"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 172,
+    "name": "Forneus",
+    "persona_level": 63,
+    "level": 63,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Psy": "Null",
+      "Ice": "Drain"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 173,
+    "name": "Kali",
+    "persona_level": 63,
+    "level": 63,
+    "hp": 60,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Resist",
+      "Fire": "Null",
+      "Gun": "Repel",
+      "Psy": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 174,
+    "name": "Hanuman",
+    "persona_level": 64,
+    "level": 64,
+    "hp": 60,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Gun": "Resist",
+      "Psy": "Resist",
+      "Bless": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 175,
+    "name": "Thor",
+    "persona_level": 64,
+    "level": 64,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Bless": "Resist",
+      "Curse": "Resist",
+      "Electricity": "Null"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 176,
+    "name": "Yamata-no-Orochi",
+    "persona_level": 64,
+    "level": 64,
+    "hp": 55,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Wind": "Resist",
+      "Curse": "Resist",
+      "Ice": "Drain"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 177,
+    "name": "Atavaka",
+    "persona_level": 65,
+    "level": 65,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Curse": "Resist",
+      "Gun": "Null",
+      "Fire": "Repel"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 178,
+    "name": "Thanatos",
+    "persona_level": 65,
+    "level": 65,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Physical": "Resist",
+      "Curse": "Repel"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 179,
+    "name": "Oberon",
+    "persona_level": 66,
+    "level": 66,
+    "hp": 60,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Electricity": "Resist",
+      "Psy": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 180,
+    "name": "Quetzalcoatl",
+    "persona_level": 66,
+    "level": 66,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Wind": "Resist",
+      "Fire": "Null"
+    },
+    "attack": "Wind",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 181,
+    "name": "Bishamonten",
+    "persona_level": 67,
+    "level": 67,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Bless": "Resist",
+      "Curse": "Resist",
+      "Fire": "Drain"
+    },
+    "attack": "Nuclear",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 182,
+    "name": "Black Frost",
+    "persona_level": 67,
+    "level": 67,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Null",
+      "Fire": "Repel",
+      "Curse": "Repel",
+      "Ice": "Drain"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 183,
+    "name": "Dominion",
+    "persona_level": 68,
+    "level": 68,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Curse": "Weak",
+      "Bless": "Null",
+      "Nuclear": "Repel"
+    },
+    "attack": "Bless",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 184,
+    "name": "Vasuki",
+    "persona_level": 68,
+    "level": 68,
+    "hp": 60,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Ice": "Null",
+      "Electricity": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 185,
+    "name": "Lakshmi",
+    "persona_level": 69,
+    "level": 69,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Ice": "Resist",
+      "Bless": "Resist"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 186,
+    "name": "Thanatos Picaro",
+    "persona_level": 69,
+    "level": 69,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Physical": "Resist",
+      "Curse": "Repel"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 187,
+    "name": "Byakhee",
+    "persona_level": 70,
+    "level": 70,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Nuclear": "Weak",
+      "Fire": "Null",
+      "Wind": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 188,
+    "name": "Loa",
+    "persona_level": 70,
+    "level": 70,
+    "hp": 60,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Bless": "Weak",
+      "Fire": "Resist",
+      "Nuclear": "Resist",
+      "Electricity": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 189,
+    "name": "Dionysus",
+    "persona_level": 71,
+    "level": 71,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Null",
+      "Curse": "Null",
+      "Electricity": "Repel"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 190,
+    "name": "Mot",
+    "persona_level": 72,
+    "level": 72,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Gun": "Resist",
+      "Curse": "Repel",
+      "Electricity": "Drain"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 191,
+    "name": "Throne",
+    "persona_level": 72,
+    "level": 72,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Fire": "Null",
+      "Wind": "Null",
+      "Bless": "Repel"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 192,
+    "name": "Macabre",
+    "persona_level": 73,
+    "level": 73,
+    "hp": 65,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Electricity": "Resist",
+      "Curse": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 193,
+    "name": "Mara",
+    "persona_level": 73,
+    "level": 73,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Resist",
+      "Gun": "Null",
+      "Curse": "Null",
+      "Psy": "Repel",
+      "Fire": "Drain"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 194,
+    "name": "Chimera",
+    "persona_level": 74,
+    "level": 74,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Curse": "Weak",
+      "Ice": "Null",
+      "Fire": "Drain"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 195,
+    "name": "Nebiros",
+    "persona_level": 74,
+    "level": 74,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Physical": "Resist",
+      "Curse": "Resist",
+      "Psy": "Null"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 196,
+    "name": "Abaddon",
+    "persona_level": 75,
+    "level": 75,
+    "hp": 60,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Resist",
+      "Physical": "Drain",
+      "Gun": "Drain",
+      "Curse": "Drain"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 197,
+    "name": "Cendrillon",
+    "persona_level": 75,
+    "level": 75,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Bless": "Null"
+    },
+    "attack": "Bless",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 198,
+    "name": "Loki",
+    "persona_level": 75,
+    "level": 75,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Curse": "Null"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 199,
+    "name": "Sandalphon",
+    "persona_level": 75,
+    "level": 75,
+    "hp": 65,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Gun": "Resist",
+      "Curse": "Null",
+      "Bless": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 200,
+    "name": "Asura",
+    "persona_level": 76,
+    "level": 76,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Weak",
+      "Fire": "Null",
+      "Nuclear": "Repel"
+    },
+    "attack": "Nuclear",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 201,
+    "name": "Cu Chulainn",
+    "persona_level": 76,
+    "level": 76,
+    "hp": 65,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Physical": "Resist",
+      "Gun": "Resist",
+      "Bless": "Null",
+      "Wind": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 202,
+    "name": "Kohryu",
+    "persona_level": 76,
+    "level": 76,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Psy": "Null",
+      "Bless": "Null",
+      "Electricity": "Repel"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 203,
+    "name": "Raoul",
+    "persona_level": 76,
+    "level": 76,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Curse": "Null"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 204,
+    "name": "Gabriel",
+    "persona_level": 77,
+    "level": 77,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Null",
+      "Bless": "Drain"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 205,
+    "name": "Scathach",
+    "persona_level": 77,
+    "level": 77,
+    "hp": 65,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Null",
+      "Curse": "Null",
+      "Electricity": "Repel"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 206,
+    "name": "Raphael",
+    "persona_level": 78,
+    "level": 78,
+    "hp": 65,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Psy": "Null",
+      "Bless": "Null",
+      "Ice": "Drain"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 207,
+    "name": "Izanagi-no-Okami",
+    "persona_level": 80,
+    "level": 80,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Gun": "Resist",
+      "Fire": "Resist",
+      "Ice": "Resist",
+      "Electricity": "Resist",
+      "Wind": "Resist",
+      "Psy": "Resist",
+      "Nuclear": "Resist"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 208,
+    "name": "Sraosha",
+    "persona_level": 80,
+    "level": 80,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Bless": "Repel",
+      "Electricity": "Drain"
+    },
+    "attack": "Bless",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 209,
+    "name": "Vohu Manah",
+    "persona_level": 80,
+    "level": 80,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Electricity": "Resist",
+      "Curse": "Null",
+      "Bless": "Drain"
+    },
+    "attack": "Bless",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 210,
+    "name": "Zaou-Gongen",
+    "persona_level": 80,
+    "level": 80,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Bless": "Null",
+      "Curse": "Null",
+      "Fire": "Repel"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 211,
+    "name": "Alilat",
+    "persona_level": 81,
+    "level": 81,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Curse": "Weak",
+      "Psy": "Null",
+      "Physical": "Repel",
+      "Gun": "Repel",
+      "Ice": "Drain"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 212,
+    "name": "Messiah",
+    "persona_level": 81,
+    "level": 81,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Fire": "Resist",
+      "Ice": "Resist",
+      "Electricity": "Resist",
+      "Wind": "Resist",
+      "Psy": "Resist",
+      "Nuclear": "Resist",
+      "Bless": "Repel"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 213,
+    "name": "Uriel",
+    "persona_level": 81,
+    "level": 81,
+    "hp": 70,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Null",
+      "Bless": "Repel",
+      "Nuclear": "Drain"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 214,
+    "name": "Attis",
+    "persona_level": 82,
+    "level": 82,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Fire": "Null",
+      "Wind": "Repel"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 215,
+    "name": "Baal",
+    "persona_level": 82,
+    "level": 82,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Fire": "Resist",
+      "Bless": "Resist",
+      "Wind": "Drain"
+    },
+    "attack": "Wind",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 216,
+    "name": "Belial",
+    "persona_level": 82,
+    "level": 82,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Resist",
+      "Physical": "Null",
+      "Curse": "Null"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 217,
+    "name": "Shiva",
+    "persona_level": 82,
+    "level": 82,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Ice": "Null",
+      "Bless": "Null",
+      "Curse": "Null",
+      "Electricity": "Repel",
+      "Psy": "Drain"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 218,
+    "name": "Alice",
+    "persona_level": 83,
+    "level": 83,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Psy": "Resist",
+      "Nuclear": "Resist",
+      "Curse": "Repel"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 219,
+    "name": "Cybele",
+    "persona_level": 83,
+    "level": 83,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Fire": "Resist",
+      "Bless": "Null"
+    },
+    "attack": "Bless",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 220,
+    "name": "Surt",
+    "persona_level": 83,
+    "level": 83,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Gun": "Resist",
+      "Nuclear": "Resist",
+      "Electricity": "Null",
+      "Fire": "Drain"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 221,
+    "name": "Vishnu",
+    "persona_level": 83,
+    "level": 83,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Bless": "Null",
+      "Curse": "Null",
+      "Ice": "Drain"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 222,
+    "name": "Ardha",
+    "persona_level": 84,
+    "level": 84,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Ice": "Null",
+      "Electricity": "Null"
+    },
+    "attack": "Nuclear",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 223,
+    "name": "Hastur",
+    "persona_level": 84,
+    "level": 84,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Resist",
+      "Psy": "Null",
+      "Curse": "Null",
+      "Wind": "Drain"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 224,
+    "name": "Odin",
+    "persona_level": 84,
+    "level": 84,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Null",
+      "Bless": "Repel",
+      "Curse": "Repel",
+      "Wind": "Drain"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 225,
+    "name": "Siegfried",
+    "persona_level": 84,
+    "level": 84,
+    "hp": 70,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Gun": "Resist",
+      "Ice": "Resist",
+      "Physical": "Null",
+      "Electricity": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 226,
+    "name": "Ishtar",
+    "persona_level": 85,
+    "level": 85,
+    "hp": 70,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Wind": "Weak",
+      "Electricity": "Null"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 227,
+    "name": "Mother Harlot",
+    "persona_level": 85,
+    "level": 85,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Curse": "Null",
+      "Electricity": "Repel"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 228,
+    "name": "Fafnir",
+    "persona_level": 86,
+    "level": 86,
+    "hp": 70,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Resist",
+      "Physical": "Repel",
+      "Gun": "Repel",
+      "Fire": "Drain",
+      "Nuclear": "Drain"
+    },
+    "attack": "Nuclear",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 229,
+    "name": "Futsunushi",
+    "persona_level": 86,
+    "level": 86,
+    "hp": 70,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Physical": "Resist"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 230,
+    "name": "Beelzebub",
+    "persona_level": 87,
+    "level": 87,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Curse": "Repel",
+      "Fire": "Drain"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 231,
+    "name": "Michael",
+    "persona_level": 87,
+    "level": 87,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Gun": "Resist",
+      "Curse": "Null",
+      "Bless": "Repel"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 232,
+    "name": "Yoshitsune",
+    "persona_level": 87,
+    "level": 87,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Resist",
+      "Physical": "Null",
+      "Electricity": "Repel",
+      "Bless": "Repel"
+    },
+    "attack": "Electricity",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 233,
+    "name": "Chi You",
+    "persona_level": 88,
+    "level": 88,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Nuclear": "Weak",
+      "Physical": "Resist",
+      "Gun": "Resist",
+      "Psy": "Null"
+    },
+    "attack": "Psy",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 234,
+    "name": "Izanagi-no-Okami Picaro",
+    "persona_level": 89,
+    "level": 89,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Gun": "Resist",
+      "Fire": "Resist",
+      "Ice": "Resist",
+      "Electricity": "Resist",
+      "Wind": "Resist",
+      "Psy": "Resist",
+      "Nuclear": "Resist"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 235,
+    "name": "Metatron",
+    "persona_level": 89,
+    "level": 89,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Electricity": "Weak",
+      "Curse": "Weak",
+      "Wind": "Repel",
+      "Psy": "Drain",
+      "Nuclear": "Drain"
+    },
+    "attack": "Bless",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 236,
+    "name": "Ongyo-Ki",
+    "persona_level": 89,
+    "level": 89,
+    "hp": 75,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Bless": "Repel",
+      "Curse": "Repel"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 237,
+    "name": "Mada",
+    "persona_level": 90,
+    "level": 90,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Ice": "Weak",
+      "Psy": "Resist",
+      "Nuclear": "Null",
+      "Fire": "Drain"
+    },
+    "attack": "Fire",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 238,
+    "name": "Messiah Picaro",
+    "persona_level": 90,
+    "level": 90,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Curse": "Weak",
+      "Fire": "Resist",
+      "Ice": "Resist",
+      "Electricity": "Resist",
+      "Wind": "Resist",
+      "Psy": "Resist",
+      "Nuclear": "Resist",
+      "Bless": "Repel"
+    },
+    "attack": "Almighty",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 239,
+    "name": "Satan",
+    "persona_level": 92,
+    "level": 92,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Gun": "Resist",
+      "Ice": "Repel",
+      "Curse": "Repel"
+    },
+    "attack": "Ice",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  },
+  {
+    "number": 240,
+    "name": "Lucifer",
+    "persona_level": 93,
+    "level": 93,
+    "hp": 75,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Bless": "Weak",
+      "Fire": "Resist",
+      "Ice": "Resist",
+      "Electricity": "Resist",
+      "Wind": "Resist",
+      "Physical": "Null",
+      "Gun": "Null",
+      "Curse": "Drain"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 241,
+    "name": "Maria",
+    "persona_level": 93,
+    "level": 93,
+    "hp": 75,
+    "sp": 0,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Fire": "Weak",
+      "Electricity": "Resist",
+      "Wind": "Null",
+      "Bless": "Drain"
+    },
+    "attack": "Physical",
+    "tier": "heavy",
+    "cost": 8,
+    "resource": "HP"
+  },
+  {
+    "number": 242,
+    "name": "Satanael",
+    "persona_level": 95,
+    "level": 95,
+    "hp": 75,
+    "sp": 12,
+    "atk": 4,
+    "defense": 12,
+    "aff": {
+      "Physical": "Resist",
+      "Gun": "Resist",
+      "Fire": "Resist",
+      "Ice": "Resist",
+      "Electricity": "Resist",
+      "Wind": "Resist",
+      "Psy": "Resist",
+      "Nuclear": "Resist",
+      "Bless": "Null",
+      "Curse": "Drain"
+    },
+    "attack": "Curse",
+    "tier": "heavy",
+    "cost": 3,
+    "resource": "SP"
+  }
+]

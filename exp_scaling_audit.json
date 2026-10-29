@@ -1,0 +1,26 @@
+{
+  "source_hashes": {
+    "gm": "6d87ea639e307ace84401464b332a97b417da5bfc5bc612fb3b758145331b515",
+    "player": "c605e397089055ecf6655abcc2994964c1b35b8be7e91838b5452ed4d13b5dd4"
+  },
+  "outputs": {
+    "gm": "K:\\Persona-5-rpg\\Persona_5_RPG_Podrecznik_GM_0_6.docx",
+    "player": "K:\\Persona-5-rpg\\Persona_5_RPG_Podrecznik_Gracza_0_3.docx"
+  },
+  "rows_per_reward_table": 99,
+  "transitions_checked": 98,
+  "coefficients": {
+    "easy": 10,
+    "normal": 20,
+    "hard": 35,
+    "miniboss": 60,
+    "boss": 120,
+    "investigation": 20,
+    "goal": 50
+  },
+  "normal_fights_per_level_at_equal_challenge": 5,
+  "normal_reward_fraction": 0.2,
+  "learning_cost_per_skill": 1,
+  "skill_minimum_levels_still_required": true,
+  "old_files_unchanged": true
+}

@@ -1,0 +1,191 @@
+{
+  "exact_dominance_examples": [
+    {
+      "dominated": "Cleave",
+      "better": "Basic Physical",
+      "cost_bad": 3,
+      "cost_better": 0,
+      "resource": "HP",
+      "damage": "1d6+4"
+    },
+    {
+      "dominated": "Lunge",
+      "better": "Basic Physical",
+      "cost_bad": 3,
+      "cost_better": 0,
+      "resource": "HP",
+      "damage": "1d6+4"
+    },
+    {
+      "dominated": "Double Fangs",
+      "better": "Miracle Punch",
+      "cost_bad": 5,
+      "cost_better": 4,
+      "resource": "HP",
+      "damage": "2d6+6"
+    },
+    {
+      "dominated": "Tempest Slash",
+      "better": "Gattling Blows",
+      "cost_bad": 9,
+      "cost_better": 8,
+      "resource": "HP",
+      "damage": "3d6+14"
+    },
+    {
+      "dominated": "Vicious Strike",
+      "better": "Vajra Blast",
+      "cost_bad": 9,
+      "cost_better": 7,
+      "resource": "HP",
+      "damage": "2d6+6"
+    },
+    {
+      "dominated": "Heat Wave",
+      "better": "Swift Strike",
+      "cost_bad": 10,
+      "cost_better": 9,
+      "resource": "HP",
+      "damage": "3d6+8"
+    },
+    {
+      "dominated": "Sword Dance",
+      "better": "Myriad Slashes",
+      "cost_bad": 11,
+      "cost_better": 10,
+      "resource": "HP",
+      "damage": "3d6+20"
+    },
+    {
+      "dominated": "Brave Blade",
+      "better": "Myriad Slashes",
+      "cost_bad": 12,
+      "cost_better": 10,
+      "resource": "HP",
+      "damage": "3d6+20"
+    },
+    {
+      "dominated": "Vorpal Blade",
+      "better": "Deathbound",
+      "cost_bad": 12,
+      "cost_better": 11,
+      "resource": "HP",
+      "damage": "3d6+14"
+    },
+    {
+      "dominated": "Gigantomachia",
+      "better": "Agneyastra",
+      "cost_bad": 13,
+      "cost_better": 12,
+      "resource": "HP",
+      "damage": "3d6+20"
+    },
+    {
+      "dominated": "God's Hand",
+      "better": "Myriad Slashes",
+      "cost_bad": 13,
+      "cost_better": 10,
+      "resource": "HP",
+      "damage": "3d6+20"
+    }
+  ],
+  "tier_efficiency": [
+    {
+      "name": "Agi",
+      "mean_hit": 7.5,
+      "cost": 1,
+      "resource": "SP",
+      "min_level": 1,
+      "damage_per_resource": 7.5
+    },
+    {
+      "name": "Agilao",
+      "mean_hit": 13.0,
+      "cost": 2,
+      "resource": "SP",
+      "min_level": 10,
+      "damage_per_resource": 6.5
+    },
+    {
+      "name": "Agidyne",
+      "mean_hit": 18.5,
+      "cost": 3,
+      "resource": "SP",
+      "min_level": 25,
+      "damage_per_resource": 6.167
+    },
+    {
+      "name": "Inferno",
+      "mean_hit": 24.5,
+      "cost": 12,
+      "resource": "SP",
+      "min_level": 50,
+      "damage_per_resource": 2.042
+    },
+    {
+      "name": "Maragi",
+      "mean_hit": 7.5,
+      "cost": 3,
+      "resource": "SP",
+      "min_level": 5,
+      "damage_per_resource": 2.5
+    },
+    {
+      "name": "Maragion",
+      "mean_hit": 13.0,
+      "cost": 4,
+      "resource": "SP",
+      "min_level": 15,
+      "damage_per_resource": 3.25
+    },
+    {
+      "name": "Maragidyne",
+      "mean_hit": 18.5,
+      "cost": 6,
+      "resource": "SP",
+      "min_level": 35,
+      "damage_per_resource": 3.083
+    },
+    {
+      "name": "Blazing Hell",
+      "mean_hit": 24.5,
+      "cost": 14,
+      "resource": "SP",
+      "min_level": 65,
+      "damage_per_resource": 1.75
+    },
+    {
+      "name": "Cleave",
+      "mean_hit": 7.5,
+      "cost": 3,
+      "resource": "HP",
+      "min_level": 1,
+      "damage_per_resource": 2.5
+    },
+    {
+      "name": "Stomach Blow",
+      "mean_hit": 18.5,
+      "cost": 0,
+      "resource": "HP",
+      "min_level": 10,
+      "damage_per_resource": null
+    },
+    {
+      "name": "Sword Dance",
+      "mean_hit": 30.5,
+      "cost": 11,
+      "resource": "HP",
+      "min_level": 50,
+      "damage_per_resource": 2.773
+    },
+    {
+      "name": "God's Hand",
+      "mean_hit": 30.5,
+      "cost": 13,
+      "resource": "HP",
+      "min_level": 65,
+      "damage_per_resource": 2.346
+    }
+  ],
+  "coverage": "Attack skills with explicit dice, same element and target; no claim to order different statuses or all builds."
+}

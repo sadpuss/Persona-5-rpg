@@ -1,0 +1,8 @@
+{
+  "physical_regression_fights": 54600,
+  "start_calibration_fights": 48000,
+  "final_palace_attempts": 6000,
+  "final_palace_actual_fights": 35095,
+  "guard_trials": 20000,
+  "seconds": 218.67
+}

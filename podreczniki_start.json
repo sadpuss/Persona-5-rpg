@@ -1,0 +1,91 @@
+[
+  {
+    "zrodlo": "Persona_5_RPG_Podrecznik_GM_0_8.docx",
+    "wzorzec": "Persona_5_RPG_Podrecznik_GM_*.docx",
+    "archiwum": [
+      {
+        "sha256": "A20641C0806E83EC4EEF26571DF3F118014F2EC9261983A23CDBE1E142D36456",
+        "nazwa": "Persona_5_RPG_Podrecznik_GM_0_3.docx"
+      },
+      {
+        "sha256": "0AAAF6A222DBC48FBB57AF539D0F2D3EC7CAFD28D9A0A38B6F1F2361A003A1B4",
+        "nazwa": "Persona_5_RPG_Podrecznik_GM_0_4.docx"
+      },
+      {
+        "sha256": "6D87EA639E307ACE84401464B332A97B417DA5BFC5BC612FB3B758145331B515",
+        "nazwa": "Persona_5_RPG_Podrecznik_GM_0_5.docx"
+      },
+      {
+        "sha256": "0B51F27A581DB8E46E64E238974031A7D1D9AA3384D19E8B5AAE816025D54746",
+        "nazwa": "Persona_5_RPG_Podrecznik_GM_0_6.docx"
+      },
+      {
+        "sha256": "1BD22BCF88F1D6020F1D89BC666CC76988E4A58CD0F9296C4A408592B7B8EA10",
+        "nazwa": "Persona_5_RPG_Podrecznik_GM_0_7.docx"
+      },
+      {
+        "sha256": "1DE9DC00D64684E1A5CF752EC305541FD194360493AD02EAD47168377BF0AEDD",
+        "nazwa": "Persona_5_RPG_Podrecznik_GM_0_8.docx"
+      }
+    ],
+    "glowny": "Persona_5_RPG_Podrecznik_GM.docx"
+  },
+  {
+    "zrodlo": "Persona_5_RPG_Podrecznik_Gracza_0_5.docx",
+    "wzorzec": "Persona_5_RPG_Podrecznik_Gracza_*.docx",
+    "archiwum": [
+      {
+        "sha256": "AE54F11DEEF4452BC9E01614300C9CA822A54E31E3076993AED14942CAADA011",
+        "nazwa": "Persona_5_RPG_Podrecznik_Gracza_0_1.docx"
+      },
+      {
+        "sha256": "C605E397089055ECF6655ABCC2994964C1B35B8BE7E91838B5452ED4D13B5DD4",
+        "nazwa": "Persona_5_RPG_Podrecznik_Gracza_0_2.docx"
+      },
+      {
+        "sha256": "491B6F0BAEB21254085D56DF4E4D0268AE8CC5A9D13FDC547CD842A1477EAE4B",
+        "nazwa": "Persona_5_RPG_Podrecznik_Gracza_0_3.docx"
+      },
+      {
+        "sha256": "4F031BF79697BD26ED329C319181DB9B8C5899C72B20B1EE437EC1666BA8A72C",
+        "nazwa": "Persona_5_RPG_Podrecznik_Gracza_0_4.docx"
+      },
+      {
+        "sha256": "F0E17BC96953B6AC65638ED2F4AAC43533D840CD589FFD670B179947F6A94DF1",
+        "nazwa": "Persona_5_RPG_Podrecznik_Gracza_0_5.docx"
+      }
+    ],
+    "glowny": "Persona_5_RPG_Podrecznik_Gracza.docx"
+  },
+  {
+    "zrodlo": "Persona_5_RPG_Bestiariusz_0_5.docx",
+    "wzorzec": "Persona_5_RPG_Bestiariusz_*.docx",
+    "archiwum": [
+      {
+        "sha256": "5EDCE3FA54B2B22878B45FAA129E879195598DE17F79C6B107A934A13237F5ED",
+        "nazwa": "Persona_5_RPG_Bestiariusz_0_1_przed_tlumaczeniami.docx"
+      },
+      {
+        "sha256": "7034E27335C53D9FD6A8CD7106C232B9773A431170C68919D3CBD350521BE357",
+        "nazwa": "Persona_5_RPG_Bestiariusz_0_1.docx"
+      },
+      {
+        "sha256": "741317E2C56B19BA801E8691521C2676AC45C637A0A2A0E28B30FB24657ECEC2",
+        "nazwa": "Persona_5_RPG_Bestiariusz_0_2.docx"
+      },
+      {
+        "sha256": "E14D4CA69636A3C85A2A69A3F47F1FA0A83874B6A84EE6F462C95BC6F2847533",
+        "nazwa": "Persona_5_RPG_Bestiariusz_0_3.docx"
+      },
+      {
+        "sha256": "1887D241708E5B62E34D9A246CB2630E8F61E3AC842106924F95D20DCA866FAC",
+        "nazwa": "Persona_5_RPG_Bestiariusz_0_4.docx"
+      },
+      {
+        "sha256": "5B00C4189244FA6FFB96AAD4A5F6D761DE05F78946966EA3D6AD942F453CF8F7",
+        "nazwa": "Persona_5_RPG_Bestiariusz_0_5.docx"
+      }
+    ],
+    "glowny": "Persona_5_RPG_Bestiariusz.docx"
+  }
+]

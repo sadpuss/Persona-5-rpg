@@ -1,0 +1,542 @@
+﻿skill,type,min_level,access,reason
+Agneyastra,phy,65,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Akashic Arts,phy,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Assault Dive,phy,10,R,Dotychczasowy atak medium RPG z ustalonym kosztem.
+Ayamur,phy,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Bad Beat,phy,25,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Beast Weaver,phy,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Bloodbath,phy,25,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Brain Buster,phy,25,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Brain Shake,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Brave Blade,phy,65,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Cleave,phy,1,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Cornered Fang,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Cross Slash,phy,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Deadly Fury,phy,50,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Death Scythe,phy,50,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Deathbound,phy,50,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Dormin Rush,phy,15,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Double Fangs,phy,25,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Flash Bomb,phy,15,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Gattling Blows,phy,35,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Giant Slice,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Gigantomachia,phy,65,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+God's Hand,phy,65,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Hassou Tobi,phy,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Headbutt,phy,10,R,Dotychczasowy atak medium RPG z ustalonym kosztem.
+Heat Wave,phy,35,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Hysterical Slap,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Kill Rush,phy,25,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Laevateinn,phy,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Lucky Punch,phy,1,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Lunge,phy,1,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Masquerade,phy,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Megaton Raid,phy,50,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Memory Blow,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Mind Slice,phy,15,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Miracle Punch,phy,15,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Miracle Rush,phy,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Myriad Slashes,phy,50,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Negative Pile,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Oni Kagura,phy,15,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Power Slash,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Rampage,phy,25,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Rising Slash,phy,25,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Skull Cracker,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Sledgehammer,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Stomach Blow,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Swift Strike,phy,25,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Sword Dance,phy,50,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Tempest Slash,phy,35,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Terror Claw,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Vajra Blast,phy,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Vicious Strike,phy,15,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Vorpal Blade,phy,50,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Double Shot,gun,25,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Dream Needle,gun,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+One-shot Kill,gun,50,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Riot Gun,gun,65,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Snap,gun,10,A,Wymaga przypisania siły RPG i ewentualnych efektów szczególnych.
+Triple Down,gun,25,A,Multi hit wymaga adaptacji; nie mnożymy automatycznie liczby rzutów.
+Agi,fir,1,R,Light; standardowa skala obrażeń RPG.
+Agidyne,fir,25,R,Heavy; standardowa skala obrażeń RPG.
+Agilao,fir,10,R,Medium; standardowa skala obrażeń RPG.
+Blazing Hell,fir,65,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Inferno,fir,50,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Maragi,fir,5,R,Light; standardowa skala obrażeń RPG.
+Maragidyne,fir,35,R,Heavy; standardowa skala obrażeń RPG.
+Maragion,fir,15,R,Medium; standardowa skala obrażeń RPG.
+Titanomachia,fir,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Bufu,ice,1,R,Light; standardowa skala obrażeń RPG.
+Bufudyne,ice,25,R,Heavy; standardowa skala obrażeń RPG.
+Bufula,ice,10,R,Medium; standardowa skala obrażeń RPG.
+Diamond Dust,ice,50,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Ice Age,ice,65,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Mabufu,ice,5,R,Light; standardowa skala obrażeń RPG.
+Mabufudyne,ice,35,R,Heavy; standardowa skala obrażeń RPG.
+Mabufula,ice,15,R,Medium; standardowa skala obrażeń RPG.
+Mazio,ele,5,R,Light; standardowa skala obrażeń RPG.
+Maziodyne,ele,35,R,Heavy; standardowa skala obrażeń RPG.
+Mazionga,ele,15,R,Medium; standardowa skala obrażeń RPG.
+Thunder Reign,ele,50,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Wild Thunder,ele,65,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Zio,ele,1,R,Light; standardowa skala obrażeń RPG.
+Ziodyne,ele,25,R,Heavy; standardowa skala obrażeń RPG.
+Zionga,ele,10,R,Medium; standardowa skala obrażeń RPG.
+Garu,win,1,R,Light; standardowa skala obrażeń RPG.
+Garudyne,win,25,R,Heavy; standardowa skala obrażeń RPG.
+Garula,win,10,R,Medium; standardowa skala obrażeń RPG.
+Magaru,win,5,R,Light; standardowa skala obrażeń RPG.
+Magarudyne,win,35,R,Heavy; standardowa skala obrażeń RPG.
+Magarula,win,15,R,Medium; standardowa skala obrażeń RPG.
+Panta Rhei,win,50,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Vacuum Wave,win,65,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Mapsi,psy,5,R,Light; standardowa skala obrażeń RPG.
+Mapsio,psy,15,R,Medium; standardowa skala obrażeń RPG.
+Mapsiodyne,psy,35,R,Heavy; standardowa skala obrażeń RPG.
+Psi,psy,1,R,Light; standardowa skala obrażeń RPG.
+Psio,psy,10,R,Medium; standardowa skala obrażeń RPG.
+Psiodyne,psy,25,R,Heavy; standardowa skala obrażeń RPG.
+Psycho Blast,psy,65,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Psycho Force,psy,50,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Atomic Flare,nuk,50,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Cosmic Flare,nuk,65,A,Severe lub efekt szczególny; brak ogólnej skali obrażeń.
+Frei,nuk,1,R,Light; standardowa skala obrażeń RPG.
+Freidyne,nuk,25,R,Heavy; standardowa skala obrażeń RPG.
+Freila,nuk,10,R,Medium; standardowa skala obrażeń RPG.
+Mafrei,nuk,5,R,Light; standardowa skala obrażeń RPG.
+Mafreidyne,nuk,35,R,Heavy; standardowa skala obrażeń RPG.
+Mafreila,nuk,15,R,Medium; standardowa skala obrażeń RPG.
+Divine Judgement,ble,50,A,Efekt procentowy lub szczególny wymaga adaptacji.
+Hama,ble,50,A,Instakill wymaga osobnej adaptacji; próg nie włącza tej mechaniki.
+Hamaon,ble,65,A,Instakill wymaga osobnej adaptacji; próg nie włącza tej mechaniki.
+Kouga,ble,10,R,Medium; standardowa skala obrażeń RPG.
+Kougaon,ble,25,R,Heavy; standardowa skala obrażeń RPG.
+Kouha,ble,1,R,Light; standardowa skala obrażeń RPG.
+Mahama,ble,50,A,Instakill wymaga osobnej adaptacji; próg nie włącza tej mechaniki.
+Mahamaon,ble,65,A,Instakill wymaga osobnej adaptacji; próg nie włącza tej mechaniki.
+Makouga,ble,15,R,Medium; standardowa skala obrażeń RPG.
+Makougaon,ble,35,R,Heavy; standardowa skala obrażeń RPG.
+Makouha,ble,5,R,Light; standardowa skala obrażeń RPG.
+Samsara,ble,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Shining Arrows,ble,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Abyssal Wings,cur,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Demonic Decree,cur,50,A,Efekt procentowy lub szczególny wymaga adaptacji.
+Die For Me!,cur,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Eiga,cur,10,R,Medium; standardowa skala obrażeń RPG.
+Eigaon,cur,25,R,Heavy; standardowa skala obrażeń RPG.
+Eiha,cur,1,R,Light; standardowa skala obrażeń RPG.
+Maeiga,cur,15,R,Medium; standardowa skala obrażeń RPG.
+Maeigaon,cur,35,R,Heavy; standardowa skala obrażeń RPG.
+Maeiha,cur,5,R,Light; standardowa skala obrażeń RPG.
+Magatsu Mandala,cur,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Mamudo,cur,50,A,Instakill wymaga osobnej adaptacji; próg nie włącza tej mechaniki.
+Mamudoon,cur,65,A,Instakill wymaga osobnej adaptacji; próg nie włącza tej mechaniki.
+Mudo,cur,50,A,Instakill wymaga osobnej adaptacji; próg nie włącza tej mechaniki.
+Mudoon,cur,65,A,Instakill wymaga osobnej adaptacji; próg nie włącza tej mechaniki.
+Abyssal Eye,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Black Viper,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Door of Hades,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Foul Breath,alm,15,A,Almighty lub szczególny efekt wymaga adaptacji; nie jest All-Out Attack.
+Fox-Panther Showtime,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Ghastly Wail,alm,65,A,Almighty lub szczególny efekt wymaga adaptacji; nie jest All-Out Attack.
+Guiding Tendril,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Joker-Crow Showtime,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Joker-Violet Showtime,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Life Drain,alm,15,A,Almighty lub szczególny efekt wymaga adaptacji; nie jest All-Out Attack.
+Life Leech,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Megido,alm,25,A,Almighty lub szczególny efekt wymaga adaptacji; nie jest All-Out Attack.
+Megidola,alm,45,A,Almighty lub szczególny efekt wymaga adaptacji; nie jest All-Out Attack.
+Megidolaon,alm,65,A,Almighty lub szczególny efekt wymaga adaptacji; nie jest All-Out Attack.
+Mona-Noire Showtime,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Mona-Panther Showtime,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Morning Star,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Myriad Truths,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Queen-Noire Showtime,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Rebellion Blade,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Reverse Rub,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Self-destruct,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Skull-Fox Showtime,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Skull-Queen Showtime,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Spirit Drain,alm,25,A,Almighty lub szczególny efekt wymaga adaptacji; nie jest All-Out Attack.
+Spirit Leech,alm,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Stagnant Air,alm,25,A,Almighty lub szczególny efekt wymaga adaptacji; nie jest All-Out Attack.
+Abysmal Surge,ail,20,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Brain Jack,ail,15,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Dazzler,ail,1,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Dormina,ail,5,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Evil Smile,ail,15,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Evil Touch,ail,5,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Famine's Scream,ail,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Lullaby,ail,15,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Makajam,ail,1,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Makajamaon,ail,10,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Marin Karin,ail,5,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Nocturnal Flash,ail,10,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Ominous Words,ail,10,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Phantom Show,ail,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Pulinpa,ail,5,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Taunt,ail,1,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Tentarafoo,ail,15,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Wage War,ail,10,R,Zwykły status według rozdziału 6; szansa z kolumny DC.
+Amrita Drop,rec,10,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Amrita Shower,rec,20,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Baisudi,rec,1,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Cadenza,rec,25,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Champion's Cup,rec,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Dia,rec,1,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Diarahan,rec,40,A,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Diarama,rec,10,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Energy Drop,rec,5,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Energy Shower,rec,10,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Holy Benevolence,rec,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Mabaisudi,rec,5,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Me Patra,rec,5,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Media,rec,5,A,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Mediarahan,rec,50,A,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Mediarama,rec,15,A,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Neo Cadenza,rec,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Oratorio,rec,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Patra,rec,1,R,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Recarm,rec,15,A,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Salvation,rec,65,A,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Samarecarm,rec,40,A,Leczenie według opisu RPG; R oznacza istniejącą lub opisaną w dodatku regułę.
+Bleeding Dry Brush,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Brave Step,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Charge,sup,35,A,Przed zakupem potrzebny dokładny opis homebrew.
+Checkmate,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Concealment,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Concentrate,sup,35,A,Przed zakupem potrzebny dokładny opis homebrew.
+Debilitate,sup,50,A,Przed zakupem potrzebny dokładny opis homebrew.
+Dekaja,sup,10,A,Przed zakupem potrzebny dokładny opis homebrew.
+Dekunda,sup,10,A,Przed zakupem potrzebny dokładny opis homebrew.
+Elec Break,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Elec Wall,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Fighting Spirit,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Fire Break,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Fire Wall,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Gambler's Foresight,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Heat Riser,sup,50,A,Przed zakupem potrzebny dokładny opis homebrew.
+High Energy,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Hyakka Ryouran,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Ice Break,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Ice Wall,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Life Wall,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Makara Break,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Makarakarn,sup,35,A,Przed zakupem potrzebny dokładny opis homebrew.
+Marakukaja,sup,15,A,Przed zakupem potrzebny dokładny opis homebrew.
+Marakunda,sup,15,A,Przed zakupem potrzebny dokładny opis homebrew.
+Masukukaja,sup,15,A,Przed zakupem potrzebny dokładny opis homebrew.
+Masukunda,sup,15,A,Przed zakupem potrzebny dokładny opis homebrew.
+Matarukaja,sup,15,A,Przed zakupem potrzebny dokładny opis homebrew.
+Matarunda,sup,15,A,Przed zakupem potrzebny dokładny opis homebrew.
+Nuke Break,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Nuke Wall,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+President's Insight,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Psy Break,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Psy Wall,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Rakukaja,sup,1,R,"Pojedynczy parametr, jeden cel, trzy zwykłe tury."
+Rakunda,sup,1,R,"Pojedynczy parametr, jeden cel, trzy zwykłe tury."
+Rebellion,sup,,X,Mechanika Technical lub krytyków nieaktywna.
+Revolution,sup,,X,Mechanika Technical lub krytyków nieaktywna.
+Sukukaja,sup,1,R,"Pojedynczy parametr, jeden cel, trzy zwykłe tury."
+Sukunda,sup,1,R,"Pojedynczy parametr, jeden cel, trzy zwykłe tury."
+Summon,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Tarukaja,sup,1,R,"Pojedynczy parametr, jeden cel, trzy zwykłe tury."
+Tarunda,sup,1,R,"Pojedynczy parametr, jeden cel, trzy zwykłe tury."
+Taunting Aura,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Tetra Break,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Tetraja,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Tetrakarn,sup,35,A,Przed zakupem potrzebny dokładny opis homebrew.
+Thermopylae,sup,50,A,Przed zakupem potrzebny dokładny opis homebrew.
+Tyrant's Will,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Vault Guardian,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Wind Break,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Wind Wall,sup,20,A,Przed zakupem potrzebny dokładny opis homebrew.
+Wings of Wisdom,sup,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
++15% EXP,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Active Support,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Adverse Resolve,pas,,X,Mechanika Technical lub krytyków nieaktywna.
+Ailment Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Ali Dance,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+All-Out Attack Boost,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Almighty Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Almighty Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Ambient Aid,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Analysis,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Angelic Grace,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Apt Pupil,pas,,X,Mechanika Technical lub krytyków nieaktywna.
+Arms Master,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Attack Master,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Auto-Maraku,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Auto-Masuku,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Auto-Mataru,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Bless Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Bless Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Brainwash Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Burn Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Climate Decorum,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Confuse Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Counter,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Counterstrike,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Cripple,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Curse Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Curse Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Defense Master,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Despair Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Divine Grace,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Dizzy Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Dodge Bless,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Dodge Curse,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Dodge Elec,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Dodge Fire,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Dodge Ice,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Dodge Nuke,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Dodge Phys,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Dodge Psy,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Dodge Wind,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Drain Bless,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Drain Curse,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Drain Elec,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Drain Fire,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Drain Ice,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Drain Nuke,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Drain Phys,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Drain Psy,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Drain Wind,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Elec Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Elec Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Emergency Shift,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Endure,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Enduring Soul,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Evade Bless,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Evade Curse,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Evade Elec,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Evade Fire,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Evade Ice,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Evade Nuke,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Evade Phys,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Evade Psy,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Evade Wind,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Fast Heal,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Fear Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Final Guard,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Fire Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Fire Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Firm Stance,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Forget Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Fortified Moxy,pas,,X,Mechanika Technical lub krytyków nieaktywna.
+Fortify Spirit,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Freeze Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Growth 1,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Growth 2,pas,35,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Growth 3,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Gun Accuracy +5%,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Gun Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Gun Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Hama Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Heat Up,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Hide,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+High Counter,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Holy Embrace,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Holy Whisper,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Ice Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Ice Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Insta-Heal,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Invigorate 1,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Invigorate 2,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Invigorate 3,pas,55,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Kuzunoha Emblem,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Last Stand,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Life Aid,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Life Boost,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Life Surge,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Magic Ability,pas,75,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Mana Bonus,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Mana Surge,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Mementos Scan,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Money Boost,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Moral Support,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Mudo Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Nuke Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Nuke Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Null Bless,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Null Bless/Curse,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Null Brainwash,pas,25,R,Odporność na wskazany zwykły status.
+Null Burn,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Null Confuse,pas,25,R,Odporność na wskazany zwykły status.
+Null Curse,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Null Despair,pas,25,R,Odporność na wskazany zwykły status.
+Null Dizzy,pas,25,R,Odporność na wskazany zwykły status.
+Null Elec,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Null Fear,pas,25,R,Odporność na wskazany zwykły status.
+Null Fire,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Null Forget,pas,25,R,Odporność na wskazany zwykły status.
+Null Freeze,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Null Hunger,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Null Ice,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Null Nuke,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Null Phys,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Null Psy,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Null Rage,pas,25,R,Odporność na wskazany zwykły status.
+Null Shock,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Null Sleep,pas,25,R,Odporność na wskazany zwykły status.
+Null Wind,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Position Hack,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Pressing Stance,pas,50,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Psy Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Psy Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Rage Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Regenerate 1,pas,15,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Regenerate 2,pas,30,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Regenerate 3,pas,45,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Repel Bless,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Repel Curse,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Repel Elec,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Repel Fire,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Repel Ice,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Repel Nuke,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Repel Phys,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Repel Psy,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Repel Wind,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Resist Bless,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Resist Brainwash,pas,10,R,+4 do obrony przeciw wskazanemu statusowi.
+Resist Burn,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Resist Confuse,pas,10,R,+4 do obrony przeciw wskazanemu statusowi.
+Resist Curse,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Resist Despair,pas,10,R,+4 do obrony przeciw wskazanemu statusowi.
+Resist Dizzy,pas,10,R,+4 do obrony przeciw wskazanemu statusowi.
+Resist Elec,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Resist Fear,pas,10,R,+4 do obrony przeciw wskazanemu statusowi.
+Resist Fire,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Resist Forget,pas,10,R,+4 do obrony przeciw wskazanemu statusowi.
+Resist Freeze,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Resist Hunger,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Resist Ice,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Resist Nuke,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Resist Phys,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Resist Psy,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Resist Rage,pas,10,R,+4 do obrony przeciw wskazanemu statusowi.
+Resist Shock,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Resist Sleep,pas,10,R,+4 do obrony przeciw wskazanemu statusowi.
+Resist Wind,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Samurai Spirit,pas,,X,Mechanika Technical lub krytyków nieaktywna.
+Sharp Student,pas,,X,Mechanika Technical lub krytyków nieaktywna.
+Shock Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Sleep Boost,pas,10,R,+2 DC statusu; najwyżej jedna taka premia.
+Snipe,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Soul Chain,pas,75,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Soul Touch,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Speed Master,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Spell Master,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Subrecover HP,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Subrecover HP EX,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Subrecover SP,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Subrecover SP EX,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Support Plus 1,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Support Plus 2,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Support Plus 3,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Support Rate Up,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Survival Trick,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Touch n' Go,pas,25,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Treasure Reboot,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Treasure Skimmer,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Trigger Happy,pas,,X,Mechanika Technical lub krytyków nieaktywna.
+Tyrant's Mind,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Ultimate Support,pas,,X,Mechanika Technical lub krytyków nieaktywna.
+Unshaken Will,pas,,Z,"Moc unikatowa, towarzysza, nawigatora lub fabularna; poza zwykłym zakupem."
+Victory Cry,pas,65,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Wind Amp,pas,40,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Wind Boost,pas,10,A,Pasyw zajmuje slot; przed zakupem potrzebny opis i zasady kumulacji.
+Ailment Hunter,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Allure of Wisdom,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Atomic Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Atomic Hellscape,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Ave Maria,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Bargain Bolts,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Blessed Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Blessed Spirit,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Bloodstained Eyes,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Bolstering Force,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Chi You's Blessing,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Circle of Sadness,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Cocytus,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Cold-Blooded,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Cool Customer,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Country Maker,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Crisis Control,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Cursed Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Deathly Illness,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Demon's Bite,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Draining Mouth,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Drunken Passion,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Eccentric Temper,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Electric Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Explosive Scheme,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Flawless Spirit,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Foul Odor,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Foul Stench,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Frenzied Bull,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Frigid Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Gaia Blessing,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Gaia Pact,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Ghost Nest,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Gloomy Child,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Gluttonmouth,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+God Maker,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Grace of Mother,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Grace of the Olive,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Hallowed Spirit,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Hazy Presence,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Heated Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Hollow Jester,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Icy Glare,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Immunity,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Infinite Scheme,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Ingenious Spirit,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Intense Focus,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Internal Hypnosis,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Inviolable Beauty,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Iron Heart,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Just Die,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Linked Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Majestic Presence,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Martyr's Gift,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Mastery of Magic,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Mighty Gaze,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Mother's Lament,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Mouth of Savoring,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Naranari,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Omen,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Pagan Allure,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Pinch Anchor,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Pinnacle of Magic,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Positive Thoughts,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Potent Hypnosis,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Proud Presence,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Psychic Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Raging Temper,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Rare Antibody,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Relentless,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Relief Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Retaliating Body,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Savior Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Scoundrel Eyes,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Skillful Combo,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Skillful Technique,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Static Electricity,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Striking Weight,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Tactical Spirit,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Tag Team,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Thermal Conduct,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Ultimate Vessel,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Undying Fury,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Universal Law,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Unparalleled Eyes,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Vahana's Wings,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Veil of Midnight,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Veil of Sunrise,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Vitality of the Tree,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Wealth of Lotus,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Will of the Sword,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.
+Wind Bloodline,tra,,Ź,Trait P5R; osobista Persona używa wyłącznie traitu Arkany.

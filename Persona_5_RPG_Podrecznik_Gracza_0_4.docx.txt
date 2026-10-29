@@ -1,0 +1,1501 @@
+Persona 5 RPG
+Podręcznik gracza
+Wersja 0.4 • 28 października 2026 • gotowe skille i stałe trafienie oraz Obrona
+Podręcznik opisuje tworzenie własnej Persony, akcje bohatera, progi skilli oraz proponowany rozwój przez EXP. Velvet Room obejmuje bank pięciu Person, fuzje P5R i stałe skill cards. Korzystamy z podręcznika GM 0.7 i bestiariusza 0.4. Ozdobną kartę postaci przygotujemy osobno, z oddzielnymi miejscami na zdolności bohatera i skille Persony.
+Na start: jedna osobista Persona, jedna słabość, jeden Resist, cztery skille i jeden trait Arkany. Maksimum po rozwoju to osiem skilli; trait oraz podstawowe akcje nie zajmują tych miejsc.
+Spis treści
+1 Twój bohater i zasoby3
+2 Zaprojektuj osobistą Personę4
+Nazwa wygląd i historia4
+Jedna słabość i jeden Resist4
+Cztery początkowe skille4
+3 Trait odpowiadający Arkanie6
+4 Co możesz zrobić w walce7
+Wymiana NPC w praktyce7
+5 Poziomy dostępności i późniejsza nauka8
+6 Przykład stworzonej Persony9
+7 EXP i nauka skilli10
+EXP i awans10
+Przykładowe nagrody10
+Skalowanie nagród dla poziomów 1 do 9910
+Tabela poziomów od 1 do 9914
+8 Velvet Room bank fuzje i skill cards17
+Bank pięciu Person17
+Fuzje według P5R17
+Jedna Persona zamienia się w jedną kartę17
+Nauka ze skill card18
+Zapis i poświęcone materiały18
+Źródła i granice uproszczenia18
+
+1 Twój bohater i zasoby
+Zapisz imię, wiek, zajęcie i powód wejścia w historię. Wybierz jedną osobistą Arkanę, inną niż pozostałych graczy. Świat jest wyłączony z początkowego wyboru. Pięć cech społecznych zaczyna na randze 1 według podręcznika GM.
+Dla poziomu L od 1 do 99 bazowe maksymalne HP = 34 + L, a SP = 30 + L. Na poziomie 1 zaczynasz z pełnymi 35 HP i 31 SP. Dodaj ewentualny stały bonus traitu Arkany. Kolejny poziom zwiększa oba maksima o 1 bez leczenia; trening i inne bonusy zapisuj oddzielnie. Pełna tabela jest w rozdziale 12 podręcznika GM. Początkowy atak i Obrona nie wynikają z wyglądu Persony; do prób zachowujemy robocze +5 ataku i Obronę 12 z dotychczasowego zestawu. Dalszy rozwój premii ataku i Obrony pozostaje osobnym ustaleniem; nie wynika automatycznie z tabeli EXP.
+2 Zaprojektuj osobistą Personę
+Nazwa wygląd i historia
+Samodzielnie nazwij Personę, opisz jej wygląd i historię. Zachęcamy do własnych pomysłów: inspiracji mitem, legendą, literaturą lub symbolem ważnym dla bohatera, a także całkowicie autorskiej postaci. Nie musisz wybierać istniejącej Persony z kompendium. Opisz, czego jest wyrazem i jak wiąże się z buntem lub pragnieniami bohatera.
+Wygląd nie daje dodatkowych ataków, lotu, odporności ani liczby tur. Skrzydła, pancerz lub wiele ramion mogą być częścią opisu. Mechaniczne możliwości wynikają z karty. Persona dzieli HP/SP z użytkownikiem; nie jest drugim walczącym ani dodatkowym celem.
+Jedna słabość i jeden Resist
+Na start wybierz dokładnie jedną słabość i jeden Resist na dwa różne typy. Dla bezpiecznej, wspólnej puli startowej proponujemy osiem typów magicznych: Fire, Ice, Electricity, Wind, Psy, Nuclear, Bless i Curse. Physical, Gun i Almighty pozostają Normal. Ograniczenie do tych ośmiu typów jest propozycją balansu startu; nie zmieniamy nim istniejących kart Shadows lub NPC.
+Weak: ×1,5 obrażeń i możliwość Down/One More. Resist: ×0,5 obrażeń. Pozostałe typy: Normal. Nie zaczynasz z Null, Drain, Repel, drugą odpornością ani odpornością na status. Słabość i Resist nie dotyczą tego samego typu. Wygląd i backstory nie przyznają dodatkowych właściwości. Dostęp do późniejszych pasywów odporności wymaga poziomu i osobnego opisu; nie zakładamy automatycznego usunięcia początkowej słabości.
+Cztery początkowe skille
+Wybierz bez kosztu nauki cztery różne skille z poniższej puli poziomu 1. Proponowane ograniczenie: początkowe skille z obrażeniami obejmują najwyżej dwa różne żywioły magiczne. Pozostałe miejsca możesz przeznaczyć na leczenie, status lub wsparcie. Nie ma obowiązkowego uzdrowiciela ani obowiązku wyboru konkretnej roli. Na start wybieramy aktywne skille; pasywy odblokujemy od wyższych poziomów. Wszystkie skille i pasywy w późniejszym zestawie liczą się do limitu ośmiu.
+Skill
+Działanie RPG
+Koszt
+Agi
+1 wróg; light fir; 1d6 + 4; Burn DC 6
+1 SP
+Bufu
+1 wróg; light ice; 1d6 + 4; Freeze DC 6
+1 SP
+Eiha
+1 wróg; light cur; 1d6 + 4; bez statusu
+1 SP
+Frei
+1 wróg; light nuk; 1d6 + 4; bez statusu
+1 SP
+Garu
+1 wróg; light win; 1d6 + 4; bez statusu
+1 SP
+Kouha
+1 wróg; light ble; 1d6 + 4; bez statusu
+1 SP
+Psi
+1 wróg; light psy; 1d6 + 4; bez statusu
+1 SP
+Zio
+1 wróg; light ele; 1d6 + 4; Shock DC 6
+1 SP
+Dia
+1 sojusznik; odnów 10 HP
+1 SP
+Patra
+1 sojusznik; usuń Dizzy, Forget, Hunger i Sleep
+1 SP
+Baisudi
+1 sojusznik; usuń Burn, Freeze i Shock
+1 SP
+Dazzler
+1 wróg; Dizzy; obrona DC 15
+1 SP
+Makajam
+1 wróg; Forget; obrona DC 15
+1 SP
+Taunt
+1 wróg; Rage; obrona DC 15
+1 SP
+Tarukaja
+1 sojusznik; +4 obrażenia z ataków
+2 SP
+Rakukaja
+1 sojusznik; −4 otrzymywane obrażenia z ataków
+2 SP
+Sukukaja
+1 sojusznik; +2 do trafienia i +2 Obrony
+2 SP
+Tarunda
+1 wróg; −4 obrażenia z jego ataków
+2 SP
+Rakunda
+1 wróg; +4 otrzymywane obrażenia z ataków
+2 SP
+Sukunda
+1 wróg; −2 do trafienia i −2 Obrony
+2 SP
+Skróty typów w tabeli: fir Fire, ice Ice, ele Electricity, win Wind, psy Psy, nuk Nuclear, ble Bless, cur Curse. Skill statusowy wymaga tylko obrony celu; atak z obrażeniami najpierw musi trafić. Cel rzuca d20; wynik równy DC lub wyższy broni przed statusem. Pełne czasy i skutki statusów opisuje rozdział 6 podręcznika GM.
+Sześć podstawowych buffów i debuffów działa bez rzutu przez trzy kolejne zwykłe tury odbiorcy. Kolejność: obrażenia z kości i płaskie premie/kary, następnie Hunger, Weak/Resist i Guard. Minimum 0, zaokrąglenie w dół na końcu. Ta sama premia nie kumuluje się ze sobą, przeciwne efekty tego samego parametru znoszą się, a ponowienie odnawia czas. Zmiana obrażeń nie zmienia kosztu HP skilla, Burn ani odnowy HP. Pełne zasoby nie mogą przekroczyć maksimum. Te opisy doprecyzowują dotychczasową skalę +4/−4 oraz +2/−2; są roboczą adaptacją.
+3 Trait odpowiadający Arkanie
+Trait osobistej Persony to ta sama osobista zdolność Arkany bohatera, którą otrzymuje od początku z rangi 2 podstawowego katalogu Arkan. Zapisujemy ją raz. Nie dodajemy drugiego traitu z P5R i nie kupujemy źródłowych traitów za EXP. Trait nie zajmuje jednego z ośmiu slotów. Może działać również poza wezwaniem Persony, jeśli pozwala na to jego opis, np. podczas śledztwa.
+Poniżej skróty początkowych traitów. Aktywne efekty działają raz na wyprawę, chyba że podano inaczej. Stałe zwiększenie maksimum jest bierne; wytwarzanie wymaga bloku aktywności. Safe room i respawn nie odnawiają użyć. W razie szczegółów obowiązują opisy rozdziału 9 podręcznika GM. Nie otrzymujesz wyższych rang własnego traitu przez relację ze sobą.
+Arkana
+Osobisty trait na start
+Głupiec
+Gdy drużyna zaskoczy wrogów, twój pierwszy trafiony atak w pierwszej rundzie zadaje +3 obrażenia.
+Mag
+W jednym bloku przygotuj przedmiot odnawiający 5 HP.
+Kapłanka
+Bez akcji poznaj jedną wybraną właściwość żywiołową widocznego wroga.
+Cesarzowa
+Jedno twoje leczenie HP skillem przywraca dodatkowe 3 HP każdemu celowi.
+Cesarz
+Jeden sojusznik otrzymuje +2 do pojedynczego rzutu ataku. Deklaruj przed rzutem.
+Hierofant
+W wieczornym bloku przygotuj porcję posiłku odnawiającą 5 HP poza walką.
+Kochankowie
+Gdy przekazujesz Baton Pass, odbiorca odzyskuje 3 HP.
+Rydwan
+Stałe +2 maksymalnego HP.
+Sprawiedliwość
+Po trafieniu zadającym co najmniej 1 obrażenie ogłoś Osąd: +4 obrażenia, których nie zmniejsza Resist ani Guard.
+Pustelnik
+Przed wybraniem drogi GM wskazuje bezpieczniejszy z dwóch dostępnych kierunków.
+Koło Fortuny
+Przerzuć własny rzut obronny przeciw statusowi.
+Siła
+Gdy twój Guard się skończy, odzyskaj 3 HP, jeśli zmniejszył obrażenia przynajmniej jednego ataku i nadal jesteś przytomny.
+Wisielec
+Po rozliczeniu trafienia sojusznika przejmij 3 jego obrażenia, najwyżej tyle, ile miał otrzymać.
+Śmierć
+Użyty przez ciebie przedmiot przywracający HP leczy dodatkowe 3 HP na cel.
+Umiarkowanie
+Podczas pobytu w safe roomie odzyskaj 3 HP bez przedmiotu.
+Diabeł
+Podczas jednego bloku śledztwa otrzymaj dodatkowy trop o reputacji lub sekretach celu.
+Wieża
+Jeden twój atak ignoruje Resist celu; deklaruj przed rzutem.
+Gwiazda
+Przed pierwszą turą walki zamień swoją pozycję w inicjatywie z chętnym sojusznikiem.
+Księżyc
+Raz na sesję przed blokiem śledztwa zapytaj GM, czy proponowany sposób może dać nową istotną informację. Odpowiedź jest szczera, bez ujawnienia informacji.
+Słońce
+Przedmiot HP wybrany w twoich negocjacjach odnawia dodatkowe 3 HP.
+Sąd
+Po twoim nokaucie pierwszy użyty na tobie przedmiot wskrzeszający przywraca dodatkowe 3 HP.
+Wiara
+Dodaj +2 do własnego nieudanego rzutu ataku, jeśli zmieni to wynik w trafienie.
+Doradca
+Stałe +1 maksymalnego SP.
+4 Co możesz zrobić w walce
+W swojej zwykłej turze wybierasz jedną akcję z tabeli. Wezwanie Persony jest częścią skilla: nie płacisz osobnej akcji ani SP za samo przywołanie. Nie dostajesz równocześnie darmowego ataku bohatera. One More i Baton Pass mogą dać dodatkowe działania według zasad GM; nie są gwarantowaną drugą akcją w każdej rundzie.
+Akcja
+Rozstrzygnięcie
+Skill Persony
+Zapłać koszt i zastosuj opis. Atak: d20 + atak ≥ Obrona. Leczenie/wsparcie: bez rzutu; czysty status: obrona celu.
+Atak podstawowy
+Jeden wróg; d20 + atak ≥ Obrona; 1d6 + 4 Physical; bez HP/SP i bez slotu skilla.
+Strzał z broni palnej
+Jeden wróg; identyczny test i 1d6 + 4 Gun. Bez HP/SP i bez slotu skilla. Dla prostoty bez liczenia amunicji i przeładowania.
+Guard
+Otrzymujesz 40% obrażeń po właściwości celu i nie możesz dostać Down. Ochrona trwa do początku następnej zwykłej tury.
+Przedmiot
+Zużywasz jedną sztukę; zwykle bez rzutu. Cel i ograniczenia według przedmiotu. Zręczność może dać osobną dodatkową czynność.
+Ucieczka drużyny
+Zwykła akcja, d20 bez bonusów; 11+ oznacza sukces. Jedna próba drużyny na rundę. Porażka zużywa twoją akcję.
+Wymiana NPC
+Zwykła akcja, bez rzutu i zasobów; zamieniasz jednego aktywnego NPC na dostępnego kompana z rezerwy według zasad poniżej.
+Atak Physical i strzał różnią się właściwością, nie kośćmi: Resist Gun działa na strzał, ale nie na atak Physical. Oba mogą trafić w odpowiednią słabość i wywołać Down/One More. Rodzaj, wygląd i nazwa broni są swobodne; na tym etapie nie dają innych kości ani dodatkowych trafień. Cała walka używa abstrakcyjnego zasięgu każdy sięga każdego.
+Wymiana NPC w praktyce
+Przed walką GM wskazuje, którzy towarzysze są dostępni w rezerwie. Nie można przywołać osoby nieobecnej w scenie ani stworzyć nowego NPC samą akcją. Zamiana dotyczy przytomnego, zdolnego do działania aktywnego NPC i przytomnego rezerwowego; nigdy postaci innego gracza. Nie zwiększa liczby aktywnych miejsc ustalonej dla drużyny. Nie służy do wynoszenia nieprzytomnych, kasowania statusów lub darmowego leczenia.
+Nowy NPC zajmuje dokładnie miejsce poprzednika w inicjatywie. Jeśli ta zwykła tura została już zużyta w rundzie, nowy kompan czeka do następnej; jeśli jeszcze nie, może działać w tym miejscu. Wejście nie daje dodatkowego ataku. Obaj zachowują aktualne HP/SP i pozostałe skutki, które nie skończyły się według własnych zasad. Rezerwa nie działa ani nie regeneruje zasobów. Zamiana nie przerywa liczników statusów: jeśli wymagają tur, GM rozlicza je w dawnym miejscu inicjatywy, bez przyznawania rezerwowemu akcji. Co najwyżej jedna zamiana drużyny na rundę, wyłącznie ze zwykłej akcji, bez One More lub Baton Pass.
+Przykład: kolejność to bohater, NPC A, wróg. Bohater zużywa akcję na zamianę A na B. B może wykonać późniejszą turę tego miejsca. Jeśli bohater wymieni A dopiero po jego turze, B nie dostaje drugiej zwykłej tury w tej samej rundzie. Nowy NPC jest także traktowany jako ta sama pozycja na potrzeby limitów dodatkowych akcji w bieżącym łańcuchu.
+5 Poziomy dostępności i późniejsza nauka
+Poziom bohatera i osobistej Persony to jeden poziom L i jeden licznik EXP. Awans odblokowuje możliwość nauki, nie wszystkie skille automatycznie. Proponowane punkty nauki i ich alternatywę w postaci skill cards opisują rozdziały 7 i 8. Cztery początkowe skille są darmowe; zwykłego HP/SP nie wydajemy na trwałe uczenie.
+Min. poziom
+Rodzaj
+Przykład
+1
+Light, jeden cel
+Agi, Bufu, Zio, Garu, Psi, Frei, Kouha, Eiha
+5
+Light, wszyscy wrogowie
+Maragi, Mabufu, Mazio
+10
+Medium, jeden cel
+Agilao, Bufula, Freila; także Diarama
+15
+Medium, wszyscy wrogowie
+Maragion, Mabufula, Mafreila
+25
+Heavy, jeden cel
+Agidyne, Bufudyne, Freidyne
+35
+Heavy, wszyscy wrogowie
+Maragidyne, Mabufudyne, Mafreidyne
+50
+Severe, jeden cel
+Inferno, Diamond Dust
+65
+Severe, wszyscy wrogowie
+Blazing Hell, Ice Age
+Osobno
+Physical, Gun, Almighty, leczenie, statusy, wsparcie i pasywy
+Sprawdź konkretny wiersz katalogu GM 0.7.
+Standardowe ataki: light 1d6 + 4, medium 2d6 + 6, heavy 3d6 + 8, severe 3d6 + 14, colossal 3d6 + 20. Wersja obszarowa: osobny rzut trafienia na cel i wspólny rzut obrażeń. Seria multi-hit ma jedno podane łączne obrażenie, bez mnożenia rzutów. Jeden atak daje najwyżej jedno One More; progi i wyjątki są w katalogu GM 0.7.
+Katalog GM 0.7 podaje Min. lvl / dostęp dla 541 wpisów. R oznacza gotowy efekt RPG; wszystkie dawne 236 wpisów A mają teraz R i dokładne opisy w rozdziale 13.20. Z: unikat poza zwykłym zakupem; X: nieaktywna mechanika; Ź: źródłowy trait P5R bez zakupu. Nadal wymagany jest poziom i 1 punkt nauki lub właściwa skill card.
+Maksymalnie osiem skilli łącznie z pasywami. Przy nauce dziewiątego wybierz jeden zastępowany; nie ma darmowej zmiany biblioteki między walkami. Zapomniany skill można ponownie pozyskać kartą lub punktem nauki. Budżet startu na wyższym poziomie podaje rozdział 7.
+6 Przykład stworzonej Persony
+Przykład poziomu 1: Arkana Rydwan, Persona Latarnik, postać w płaszczu z latarnią zamiast serca. Symbolizuje wytrwałość w szukaniu drogi dla innych. Weak Ice, Resist Fire, reszta Normal. Skille: Agi, Garu, Dia, Tarunda. Trait Rydwanu daje +2 maksymalnego HP, więc bohater zaczyna z 37/37 HP i 31/31 SP. Trait nie jest piątym skillem. Podstawowy Physical i strzał Gun są dostępne niezależnie od czterech skilli.
+Kontrola przed grą: dokładnie cztery początkowe skille, jeden trait Arkany zapisany raz, jedna słabość i jeden Resist, pełne zasoby oraz brak nieopisanych dodatkowych mocy z wyglądu. Osobny formularz karty postaci będzie zawierał oddzielne miejsca na zdolności bohatera i skille osobistej Persony.
+7 EXP i nauka skilli
+Propozycja wspólnego tempa rozwoju do testów. GM ustala nagrody dla konkretnej przygody; tabela progów pozostaje stałą bazą, dzięki której karty, poziomy skilli i fuzje używają tego samego poziomu bohatera.
+EXP i awans
+Prowadzimy jeden łączny licznik EXP dla bohatera i osobistej Persony. Nie wydajemy tego EXP przy nauce ani w Velvet Roomie. Poziom L wymaga łącznie 50 × (L − 1) × L EXP. Przejście z poziomu L na L + 1 kosztuje dodatkowe 100 × L EXP. Poziom 1 zaczyna się od 0; poziom 99 wymaga 485 100. Nadwyżka zostaje, a duża nagroda może dać kilka awansów. Poziom 99 jest końcem tabeli, bez dalszych automatycznych awansów.
+Każdy awans daje +1 maksymalnego HP i +1 maksymalnego SP według istniejących wzorów, bez automatycznego leczenia. Za każdy poziom uzyskany od 2 wzwyż otrzymujesz 1 punkt nauki. Każdy skill kosztuje dokładnie 1 punkt nauki, ale wymaga minimalnego poziomu i gotowego opisu działania. Nowy lub ponownie uczony zwykły skill kosztuje 1 punkt, niezależnie od kosztu HP/SP jego użycia. Punkty można zachować. Poziom nie przyznaje wszystkich skilli automatycznie; obowiązują minimum z katalogu, gotowy opis RPG i limit ośmiu slotów. Cztery skille startowe są darmowe, a trait Arkany jest osobno. Przy starcie na wyższym poziomie roboczy budżet to cztery skille startowe plus L − 1 punktów nauki, po uzgodnieniu z GM.
+Przykładowe nagrody
+N oznacza poziom wyzwania ustalony przez GM przy przygotowaniu sceny, zwykle zbliżony do poziomu drużyny. Zapisujemy go przy spotkaniu; nie rośnie tylko dlatego, że bohater awansował. Nagroda jest za całe starcie, nie za każdego Shadow. Każdy uczestniczący bohater gracza otrzymuje pełną wartość; nie dzielimy puli i nie premiujemy ostatniego trafienia. NPC nie wymagają osobnego licznika EXP; ich poziom i karty ustala GM.
+Rozstrzygnięcie
+EXP dla bohatera
+Przykład N = 10
+Drobna, łatwa potyczka
+10 × N
+100
+Zwykła potyczka
+20 × N
+200
+Trudna potyczka
+35 × N
+350
+Miniboss
+60 × N
+600
+Boss ważnego wątku
+120 × N
+1 200
+Istotny postęp śledztwa lub pokonana przeszkoda fabularna
+20 × N
+200
+Zamknięcie ważnego celu historii
+50 × N
+500
+Za jedno starcie wybieramy jedną kategorię trudności. Nagroda za osobny cel fabularny może dojść do walki, ale nie naliczamy kilku nazw tej samej zasługi. Rozwiązanie starcia przez Hold Up i negocjacje daje tyle samo EXP co pokonanie jego przeciwników. Samo ominięcie grupy, np. Pustelnikiem, nie daje bojowego EXP; osiągnięty cel śledczy może dostać własną nagrodę. Ucieczka nie daje pełnego EXP za żyjących wrogów; ewentualną częściową nagrodę za trwały postęp ustala GM. Nokaut pojedynczej osoby nie odbiera jej udziału. Porażka całej drużyny cofa EXP, poziomy i punkty nauki razem z ostatnim zapisem.
+Przykład wyprawy na poziomie 10: pięć zwykłych walk po 200 EXP, miniboss 600 i ważny trop 200 dają każdemu 1 800 EXP. Bohater z dokładnie 4 500 EXP ma po wyprawie 6 300: osiąga poziom 11 i ma 800 z 1 100 EXP potrzebnych do poziomu 12. To punkt odniesienia dla około jednego do dwóch awansów na taki odcinek, nie obietnica na każdą sesję. GM może zmienić mnożniki nagród, aby dobrać długość kampanii.
+Skalowanie nagród dla poziomów 1 do 99
+Przeliczono wszystkie 98 przejść między poziomami. Nagrody muszą skalować się poziomem wyzwania N: stałe 200 EXP za walkę to 200% kosztu najbliższego awansu na poziomie 1, 20% na poziomie 10, 4% na 50 i około 2,04% na 98. Dlatego nie używamy wartości z przykładu N = 10 przez całą kampanię. Zachowujemy dotychczasowe mnożniki, a konkretne kwoty podaje tabela poniżej.
+Gdy N = poziom bohatera L, łatwa walka daje 10% kosztu następnego awansu, zwykła 20%, trudna 35%, miniboss 60%, boss 120%, postęp śledztwa 20%, a cel historii 50%. Te proporcje są identyczne od poziomu 1 do 98. Pięć zwykłych starć z N równym początkowemu L daje dokładnie jeden awans od progu. EXP za jedną scenę liczymy dla ustalonego N; po drodze nie podnosimy nagrody za ten sam zaplanowany przeciwnik.
+Trasa pięciu zwykłych walk, minibossa i tropu daje 180 × N EXP. Od początku poziomu 1 oznacza to poziom 2 i 40% drogi do 3; od początku poziomu 10 — poziom 11 i około 72,7% drogi do 12; od początku poziomu 50 — poziom 51 i około 78,4% drogi do 52. Przy poziomie 98 taka trasa osiąga limit 99. Różnica tempa na pierwszych poziomach wynika z większego względnego wzrostu progu; nie wymaga osobnej tabeli nagród ani ręcznych wyjątków. To weryfikacja matematyki EXP, nie potwierdzenie balansu walk na wszystkich poziomach.
+Tabela podaje EXP dla każdego bohatera za całe spotkanie. N to zapisany przez GM poziom wyzwania, nie automatycznie aktualny poziom gracza ani suma poziomów Shadows. Za słabszego przeciwnika pozostaje niższe N, więc rozwój nie przyspiesza przez powtarzanie łatwych scen. Wiersz N = 99 opisuje nagrodę za wyzwanie końcowe dla postaci poniżej limitu; bohater na poziomie 99 nie otrzymuje dalszych awansów ani punktów nauki i może zakończyć księgowanie EXP. Próg poziomu 99 pozostaje 485 100.
+Poziom wyzwania N
+Łatwa
+Zwykła
+Trudna
+Miniboss
+Boss
+Postęp śledztwa
+Cel historii
+1
+10
+20
+35
+60
+120
+20
+50
+2
+20
+40
+70
+120
+240
+40
+100
+3
+30
+60
+105
+180
+360
+60
+150
+4
+40
+80
+140
+240
+480
+80
+200
+5
+50
+100
+175
+300
+600
+100
+250
+6
+60
+120
+210
+360
+720
+120
+300
+7
+70
+140
+245
+420
+840
+140
+350
+8
+80
+160
+280
+480
+960
+160
+400
+9
+90
+180
+315
+540
+1 080
+180
+450
+10
+100
+200
+350
+600
+1 200
+200
+500
+11
+110
+220
+385
+660
+1 320
+220
+550
+12
+120
+240
+420
+720
+1 440
+240
+600
+13
+130
+260
+455
+780
+1 560
+260
+650
+14
+140
+280
+490
+840
+1 680
+280
+700
+15
+150
+300
+525
+900
+1 800
+300
+750
+16
+160
+320
+560
+960
+1 920
+320
+800
+17
+170
+340
+595
+1 020
+2 040
+340
+850
+18
+180
+360
+630
+1 080
+2 160
+360
+900
+19
+190
+380
+665
+1 140
+2 280
+380
+950
+20
+200
+400
+700
+1 200
+2 400
+400
+1 000
+21
+210
+420
+735
+1 260
+2 520
+420
+1 050
+22
+220
+440
+770
+1 320
+2 640
+440
+1 100
+23
+230
+460
+805
+1 380
+2 760
+460
+1 150
+24
+240
+480
+840
+1 440
+2 880
+480
+1 200
+25
+250
+500
+875
+1 500
+3 000
+500
+1 250
+26
+260
+520
+910
+1 560
+3 120
+520
+1 300
+27
+270
+540
+945
+1 620
+3 240
+540
+1 350
+28
+280
+560
+980
+1 680
+3 360
+560
+1 400
+29
+290
+580
+1 015
+1 740
+3 480
+580
+1 450
+30
+300
+600
+1 050
+1 800
+3 600
+600
+1 500
+31
+310
+620
+1 085
+1 860
+3 720
+620
+1 550
+32
+320
+640
+1 120
+1 920
+3 840
+640
+1 600
+33
+330
+660
+1 155
+1 980
+3 960
+660
+1 650
+34
+340
+680
+1 190
+2 040
+4 080
+680
+1 700
+35
+350
+700
+1 225
+2 100
+4 200
+700
+1 750
+36
+360
+720
+1 260
+2 160
+4 320
+720
+1 800
+37
+370
+740
+1 295
+2 220
+4 440
+740
+1 850
+38
+380
+760
+1 330
+2 280
+4 560
+760
+1 900
+39
+390
+780
+1 365
+2 340
+4 680
+780
+1 950
+40
+400
+800
+1 400
+2 400
+4 800
+800
+2 000
+41
+410
+820
+1 435
+2 460
+4 920
+820
+2 050
+42
+420
+840
+1 470
+2 520
+5 040
+840
+2 100
+43
+430
+860
+1 505
+2 580
+5 160
+860
+2 150
+44
+440
+880
+1 540
+2 640
+5 280
+880
+2 200
+45
+450
+900
+1 575
+2 700
+5 400
+900
+2 250
+46
+460
+920
+1 610
+2 760
+5 520
+920
+2 300
+47
+470
+940
+1 645
+2 820
+5 640
+940
+2 350
+48
+480
+960
+1 680
+2 880
+5 760
+960
+2 400
+49
+490
+980
+1 715
+2 940
+5 880
+980
+2 450
+50
+500
+1 000
+1 750
+3 000
+6 000
+1 000
+2 500
+51
+510
+1 020
+1 785
+3 060
+6 120
+1 020
+2 550
+52
+520
+1 040
+1 820
+3 120
+6 240
+1 040
+2 600
+53
+530
+1 060
+1 855
+3 180
+6 360
+1 060
+2 650
+54
+540
+1 080
+1 890
+3 240
+6 480
+1 080
+2 700
+55
+550
+1 100
+1 925
+3 300
+6 600
+1 100
+2 750
+56
+560
+1 120
+1 960
+3 360
+6 720
+1 120
+2 800
+57
+570
+1 140
+1 995
+3 420
+6 840
+1 140
+2 850
+58
+580
+1 160
+2 030
+3 480
+6 960
+1 160
+2 900
+59
+590
+1 180
+2 065
+3 540
+7 080
+1 180
+2 950
+60
+600
+1 200
+2 100
+3 600
+7 200
+1 200
+3 000
+61
+610
+1 220
+2 135
+3 660
+7 320
+1 220
+3 050
+62
+620
+1 240
+2 170
+3 720
+7 440
+1 240
+3 100
+63
+630
+1 260
+2 205
+3 780
+7 560
+1 260
+3 150
+64
+640
+1 280
+2 240
+3 840
+7 680
+1 280
+3 200
+65
+650
+1 300
+2 275
+3 900
+7 800
+1 300
+3 250
+66
+660
+1 320
+2 310
+3 960
+7 920
+1 320
+3 300
+67
+670
+1 340
+2 345
+4 020
+8 040
+1 340
+3 350
+68
+680
+1 360
+2 380
+4 080
+8 160
+1 360
+3 400
+69
+690
+1 380
+2 415
+4 140
+8 280
+1 380
+3 450
+70
+700
+1 400
+2 450
+4 200
+8 400
+1 400
+3 500
+71
+710
+1 420
+2 485
+4 260
+8 520
+1 420
+3 550
+72
+720
+1 440
+2 520
+4 320
+8 640
+1 440
+3 600
+73
+730
+1 460
+2 555
+4 380
+8 760
+1 460
+3 650
+74
+740
+1 480
+2 590
+4 440
+8 880
+1 480
+3 700
+75
+750
+1 500
+2 625
+4 500
+9 000
+1 500
+3 750
+76
+760
+1 520
+2 660
+4 560
+9 120
+1 520
+3 800
+77
+770
+1 540
+2 695
+4 620
+9 240
+1 540
+3 850
+78
+780
+1 560
+2 730
+4 680
+9 360
+1 560
+3 900
+79
+790
+1 580
+2 765
+4 740
+9 480
+1 580
+3 950
+80
+800
+1 600
+2 800
+4 800
+9 600
+1 600
+4 000
+81
+810
+1 620
+2 835
+4 860
+9 720
+1 620
+4 050
+82
+820
+1 640
+2 870
+4 920
+9 840
+1 640
+4 100
+83
+830
+1 660
+2 905
+4 980
+9 960
+1 660
+4 150
+84
+840
+1 680
+2 940
+5 040
+10 080
+1 680
+4 200
+85
+850
+1 700
+2 975
+5 100
+10 200
+1 700
+4 250
+86
+860
+1 720
+3 010
+5 160
+10 320
+1 720
+4 300
+87
+870
+1 740
+3 045
+5 220
+10 440
+1 740
+4 350
+88
+880
+1 760
+3 080
+5 280
+10 560
+1 760
+4 400
+89
+890
+1 780
+3 115
+5 340
+10 680
+1 780
+4 450
+90
+900
+1 800
+3 150
+5 400
+10 800
+1 800
+4 500
+91
+910
+1 820
+3 185
+5 460
+10 920
+1 820
+4 550
+92
+920
+1 840
+3 220
+5 520
+11 040
+1 840
+4 600
+93
+930
+1 860
+3 255
+5 580
+11 160
+1 860
+4 650
+94
+940
+1 880
+3 290
+5 640
+11 280
+1 880
+4 700
+95
+950
+1 900
+3 325
+5 700
+11 400
+1 900
+4 750
+96
+960
+1 920
+3 360
+5 760
+11 520
+1 920
+4 800
+97
+970
+1 940
+3 395
+5 820
+11 640
+1 940
+4 850
+98
+980
+1 960
+3 430
+5 880
+11 760
+1 960
+4 900
+99
+990
+1 980
+3 465
+5 940
+11 880
+1 980
+4 950
+Tabela poziomów od 1 do 99
+Poziom
+Łączny EXP na ten poziom
+EXP do następnego
+Łączny próg następnego
+1
+0
+100
+100
+2
+100
+200
+300
+3
+300
+300
+600
+4
+600
+400
+1 000
+5
+1 000
+500
+1 500
+6
+1 500
+600
+2 100
+7
+2 100
+700
+2 800
+8
+2 800
+800
+3 600
+9
+3 600
+900
+4 500
+10
+4 500
+1 000
+5 500
+11
+5 500
+1 100
+6 600
+12
+6 600
+1 200
+7 800
+13
+7 800
+1 300
+9 100
+14
+9 100
+1 400
+10 500
+15
+10 500
+1 500
+12 000
+16
+12 000
+1 600
+13 600
+17
+13 600
+1 700
+15 300
+18
+15 300
+1 800
+17 100
+19
+17 100
+1 900
+19 000
+20
+19 000
+2 000
+21 000
+21
+21 000
+2 100
+23 100
+22
+23 100
+2 200
+25 300
+23
+25 300
+2 300
+27 600
+24
+27 600
+2 400
+30 000
+25
+30 000
+2 500
+32 500
+26
+32 500
+2 600
+35 100
+27
+35 100
+2 700
+37 800
+28
+37 800
+2 800
+40 600
+29
+40 600
+2 900
+43 500
+30
+43 500
+3 000
+46 500
+31
+46 500
+3 100
+49 600
+32
+49 600
+3 200
+52 800
+33
+52 800
+3 300
+56 100
+34
+56 100
+3 400
+59 500
+35
+59 500
+3 500
+63 000
+36
+63 000
+3 600
+66 600
+37
+66 600
+3 700
+70 300
+38
+70 300
+3 800
+74 100
+39
+74 100
+3 900
+78 000
+40
+78 000
+4 000
+82 000
+41
+82 000
+4 100
+86 100
+42
+86 100
+4 200
+90 300
+43
+90 300
+4 300
+94 600
+44
+94 600
+4 400
+99 000
+45
+99 000
+4 500
+103 500
+46
+103 500
+4 600
+108 100
+47
+108 100
+4 700
+112 800
+48
+112 800
+4 800
+117 600
+49
+117 600
+4 900
+122 500
+50
+122 500
+5 000
+127 500
+51
+127 500
+5 100
+132 600
+52
+132 600
+5 200
+137 800
+53
+137 800
+5 300
+143 100
+54
+143 100
+5 400
+148 500
+55
+148 500
+5 500
+154 000
+56
+154 000
+5 600
+159 600
+57
+159 600
+5 700
+165 300
+58
+165 300
+5 800
+171 100
+59
+171 100
+5 900
+177 000
+60
+177 000
+6 000
+183 000
+61
+183 000
+6 100
+189 100
+62
+189 100
+6 200
+195 300
+63
+195 300
+6 300
+201 600
+64
+201 600
+6 400
+208 000
+65
+208 000
+6 500
+214 500
+66
+214 500
+6 600
+221 100
+67
+221 100
+6 700
+227 800
+68
+227 800
+6 800
+234 600
+69
+234 600
+6 900
+241 500
+70
+241 500
+7 000
+248 500
+71
+248 500
+7 100
+255 600
+72
+255 600
+7 200
+262 800
+73
+262 800
+7 300
+270 100
+74
+270 100
+7 400
+277 500
+75
+277 500
+7 500
+285 000
+76
+285 000
+7 600
+292 600
+77
+292 600
+7 700
+300 300
+78
+300 300
+7 800
+308 100
+79
+308 100
+7 900
+316 000
+80
+316 000
+8 000
+324 000
+81
+324 000
+8 100
+332 100
+82
+332 100
+8 200
+340 300
+83
+340 300
+8 300
+348 600
+84
+348 600
+8 400
+357 000
+85
+357 000
+8 500
+365 500
+86
+365 500
+8 600
+374 100
+87
+374 100
+8 700
+382 800
+88
+382 800
+8 800
+391 600
+89
+391 600
+8 900
+400 500
+90
+400 500
+9 000
+409 500
+91
+409 500
+9 100
+418 600
+92
+418 600
+9 200
+427 800
+93
+427 800
+9 300
+437 100
+94
+437 100
+9 400
+446 500
+95
+446 500
+9 500
+456 000
+96
+456 000
+9 600
+465 600
+97
+465 600
+9 700
+475 300
+98
+475 300
+9 800
+485 100
+99
+485 100
+—
+—
+8 Velvet Room bank fuzje i skill cards
+Velvet Room jest osobnym miejscem zarządzania bankiem, fuzjami i skill cards. W daily life można wejść do niego zawsze poza aktywną walką; w pałacu dostępny jest w każdym safe roomie. Zwykłe zarządzanie, fuzja, tworzenie karty i nauka nie zużywają bloku dnia ani akcji walki. Dłuższą scenę fabularną można rozegrać osobno. Samo wejście nie odnawia HP/SP, nie nadpisuje zapisu pałacu i nie zastępuje wyjścia do rzeczywistości.
+Bank pięciu Person
+Każdy bohater ma własny bank do pięciu Person. Osobista Persona nie zajmuje miejsca i nigdy nie jest składnikiem fuzji lub itemizacji. W banku zapisujemy nazwę, bazowy poziom z kompendium i stałą kartę z bestiariusza; nie prowadzimy dodatkowych pasków EXP, HP/SP ani odziedziczonych zestawów skilli materiałów. Duplikaty są dozwolone, ale każda kopia zajmuje miejsce. Bank nie pozwala zmieniać osobistej Persony podczas walki.
+Przy pełnym banku przed przyjęciem nowej Persony zwolnij jedną kopię albo wybierz inną nagrodę Hold Up. Możesz przechowywać pozyskaną Personę o poziomie wyższym od bohatera; nie omija to progów skilli ani ograniczenia wyniku fuzji. Rejestr poznanych nazw jest notatką, nie darmowym przywołaniem utraconej kopii. Nie wprowadzamy obecnie zakupów kopii z kompendium. Fuzje i itemizacja nie przyznają EXP.
+Fuzje według P5R
+Wybierz kopie z własnego banku i sprawdź recepturę w kalkulatorze P5R aqiu384: https://aqiu384.github.io/megaten-fusion-tool/?csr=/p5r/personas . Wybierz Persona 5 Royal, nie podstawowe Persona 5. Uzgodnij z GM stałą konfigurację DLC; wyłączenie lub włączenie DLC może zmienić zwykłe receptury. Baza bestiariusza zawiera DLC. Nie zgadujemy wyniku na podstawie samych poziomów lub Arkan.
+Wynik musi być wskazany przez kalkulator dla dokładnie tych składników i mieć bazowy poziom nie większy niż poziom bohatera. Przed zatwierdzeniem pokaż GM składniki, wynik, jego poziom i kartę. Udana fuzja jest gwarantowana, usuwa wszystkie składniki i dodaje jedną kopię wyniku. Nie kosztuje dodatkowego EXP, HP/SP ani pieniędzy. Bank po operacji nadal ma najwyżej pięć kopii. Nie stosujemy alarmów, wypadków fuzji ani dziedziczenia skilli materiałów; wynik ma zawsze własną stałą kartę.
+Specjalne receptury i Treasure Demons sprawdzamy osobno w tym samym kalkulatorze. Warunki P5R, np. fabularne odblokowanie lub maksymalna relacja, wymagają odpowiednika w kampanii ustalonego przez GM; nie trzeba spotkać kanonicznego NPC. Nie tworzymy przez zwykłą fuzję Person towarzyszy oznaczonych jako wyłącznie fabularne. Receptury wymagające więcej niż pięciu równoczesnych składników są niedostępne w podstawowym banku; nie skracamy ich ani nie podmieniamy składników, żeby udawać zgodność z P5R.
+Przykład z P5R: Berith + Eligor + Orobas → Flauros, poziom 19. Bohater na poziomie 20 może wykonać tę specjalną fuzję, o ile ma wszystkie trzy kopie i dopuszczoną recepturę. Trzy miejsca banku zastępuje jedno. Bohater na poziomie 18 nie może jeszcze stworzyć Flaurosa. Pozostałe pary i receptury sprawdzamy bezpośrednio w kalkulatorze.
+Jedna Persona zamienia się w jedną kartę
+Itemizacja i fuzja to różne czynności. Fuzja łączy materiały w nową Personę, a itemizacja zużywa jedną kopię z banku i daje dokładnie jedną przypisaną jej skill card. Wynik jest stały, podany na karcie bestiariusza i znany przed potwierdzeniem. Nie losujemy karty i nie wybieramy dowolnego skilla z całej listy Persony. Dla prostoty nie wymagamy Blank Card, pieniędzy ani dodatkowej szansy powodzenia. W tej wersji używamy zwykłej itemizacji, bez wyniku alarmowego.
+W P5R nie każda Persona daje kartę: część daje broń, pancerz lub akcesorium. Bestiariusz zachowuje oryginalny przedmiot i wynik alarmowy jako odniesienie. W polu Skill card RPG oznaczenie P5R wskazuje dokładną zwykłą kartę z gry, a HB stałe przypisanie do naszego RPG. Spośród 242 wpisów 114 zachowuje źródłową kartę, a 128 otrzymało autorski zamiennik, w tym 10 hipotetycznych wpisów Person towarzyszy. Nazwy i efekty samych skilli pochodzą z katalogu; autorskie jest przypisanie materiału do karty.
+Zamienniki HB dobrano z naturalnych skilli dostępnych danej Personie na jej bazowym poziomie, preferując jej motyw dziedziczenia i moc pasującą do poziomu RPG; nie kopiujemy traitów, mocy unikatowych ani Technical. Wyjątki bez zwykłego kwalifikującego się skilla na bazowym poziomie: Necronomicon daje Sukukaja jako zamiennik wsparcia, a Magatsu-Izanagi podstawowe Eiha zgodne z jego typem Curse. To stałe przypisania redakcyjne, nie algorytm do przeliczania po każdej fuzji. Oryginalnych Person sojuszników nie można odbierać NPC ani zamieniać w karty: ich wpisy są wyłącznie odniesieniem dla ewentualnej wersji Shadow dopuszczonej przez GM.
+Nauka ze skill card
+W Velvet Roomie wybierz kartę i osobistą Personę właściciela. Jeśli bohater osiągnął minimalny poziom skilla i jego efekt jest gotowy do użycia, zużyj kartę i naucz się skilla bez wydawania punktu nauki. Karta zastępuje koszt jednego punktu; nie daje dodatkowego EXP ani punktu. Pozostaje limit ośmiu skilli, więc w razie potrzeby wybierz jeden zastępowany. Niewykorzystaną kartę można zachować na później lub przekazać innemu graczowi poza walką. Karty nie zajmują miejsc banku i nie można ich bezpłatnie kopiować. Już znany skill nie może zostać nauczony drugi raz dla kumulacji; nie zużywamy wtedy karty.
+Minimum poziomu i dostępność R/A/Z/X/Ź obowiązują także karty. Karta A może istnieć w ekwipunku, ale przed nauką wymaga opisu adaptacji zaakceptowanego przez GM; X pozostaje nieaktywne w tej wersji. Nie zużywamy karty, gdy nie da się jej legalnie nauczyć. Posiadanie skilla nie zmniejsza kosztu HP/SP jego użycia. Ponowne nauczenie się zapomnianego skilla wymaga nowej karty lub punktu nauki; nie ma darmowego przełączania zapamiętanej biblioteki.
+Przykład: Agathion daje Zio, oznaczone P5R, minimum poziom 1. Zużycie Agathiona zwalnia jedno miejsce banku i tworzy jedną kartę Zio. Nauczenie Zio zużywa kartę, ale nie punkt nauki. Arsene daje w P5R broń Arsene’s Cane; w naszym wariancie ma stałą kartę Eiha, oznaczoną HB. Te dwie informacje są rozdzielone na jego karcie.
+Zapis i poświęcone materiały
+Zmiany banku i kart w daily life zapisujemy jako aktualny stan postaci. Na początku nowej wyprawy GM aktualizuje punkt zapisu do bieżącego stanu pałacu, EXP, poziomów, punktów nauki i ekwipunku po daily life. Miejscem powrotu pozostaje ostatni odkryty safe room, a przed odkryciem pierwszego wejście do pałacu. Nie odradza to pokonanych wcześniej Shadows. Zapobiega to cofnięciu codziennych zmian do zapisu z poprzedniej wyprawy. W trakcie wyprawy kolejne wejścia do safe roomów nadpisują ten stan jak dotąd. Zmiany wykonane w Velvet Roomie po zapisie obejmie dopiero następny zapis; sama wizyta go nie tworzy. Po porażce materiały zużyte po zapisie wracają, a nowe produkty przepadają. Nie zachowujemy jednocześnie składników i produktu.
+Źródła i granice uproszczenia
+Kalkulator i baza danych: aqiu384 megaten-fusion-tool, wariant Royal; https://github.com/aqiu384/megaten-fusion-tool/tree/master/src/app/p5/data . Sprawdzono 28 października 2026. Oryginalne itemizacje z pól item i itemr lokalnej bazy roy-demon-data. Dodatkowe odniesienie: https://www.rpgsite.net/feature/13388-persona-5-royal-electric-chair-item-list-database-for-itemization . Przypisania HB, punkty nauki, brak Blank Cards, brak kosztów i dostęp z safe roomów są naszym homebrew. Nie odtwarzamy komputerowego EXP, ekonomii ani losowych wypadków fuzji.
+9 Wspólne reguły gotowych skilli
+W katalogu GM 0.7, rozdział 13.20, znajdziesz pełne działanie wszystkich 236 dawnych skilli A. Każdy jest teraz R. Wybierasz je według progu poziomu, kosztu nauki i limitu ośmiu slotów; nie trzeba już uzgadniać brakującego efektu. Poniżej reguły wspólne potrzebne graczowi.
+Stałe trafienie i Obrona
+Bazowe trafienie bohatera to +5, Obrona 12 na wszystkich poziomach 1–99. Awans nie zwiększa tych wartości. Buff, debuff, status i nauczony pasyw mogą je zmieniać według własnego opisu. Premia ataku nie jest premią do obrażeń. Shadows mają wartości z karty, bez automatycznego dodatku za poziom; GM może nadać im odmienny profil.
+Pięć stopni obrażeń
+Light: 1d6 + 4; medium: 2d6 + 6; heavy: 3d6 + 8; severe: 3d6 + 14; colossal: 3d6 + 20. Średnie to 7,5; 13; 18,5; 24,5; 30,5. To całość bazowych obrażeń. Strength, Magic, źródłowa moc P5R, liczba trafień i procent krytyka nie dodają kolejnych mnożników. Nie wprowadzamy krytyków ani Technical.
+Jedna akcja jedna seria
+Multi-hit jest jednym atakiem o podanych łącznych obrażeniach. Rzuć raz na trafienie każdego celu, następnie raz wspólnie na obrażenia; właściwości, Guard i status sprawdza każdy cel oddzielnie. Bonusy obrażeń dodaj raz na serię, nie za pocisk. Jeden atak daje najwyżej jedno One More i jeden test statusu na cel. Broń podstawowa i Gun pozostają 1d6 + 4.
+Kolejność obrażeń
+Kości i płaskie premie/kary, następnie Hunger, następnie Firm Stance, następnie Weak/Resist, na końcu Guard. Minimum 0; zaokrąglij raz w dół na końcu. Charge/Concentrate dodają +8 zamiast mnożnika i łączą się z Tarukaja oraz najwyższym pasywem obrażeń. Efekty wskazane jako stałe, procentowe lub egzekucyjne nie dostają tych premii. Guard zachowuje redukcję 60% i ochronę przed Down.
+Rodziny premii
+Boost +2 i Amp +4 zastępują mnożniki procentowe. Dla pojedynczego ataku wybierz najwyższą pasującą premię spośród Boost/Amp, Snipe/Cripple i Magic Ability. Tylko najwyższa pasywna premia Obrony oraz najwyższy stopień Counter, Growth, Regenerate i Invigorate. Buff Sukukaja łączy się z pasywną Obroną; Tarukaja łączy się z pasywem obrażeń. Pasujące bonusy Arkany działają osobno według swoich opisów. Ailment Boost/boost konkretnego statusu/Ambient Aid to jedna premia do DC; Foul Breath jest osobnym osłabieniem celu.
+Czas i odnowa
+O ile opis nie mówi inaczej: buff/debuff trwa 3 kolejne zwykłe tury odbiorcy; dodatkowa akcja nie skraca ani nie wydłuża czasu. Ponowienie odnawia czas bez sumowania. Regenerate, Invigorate i Heat Up działają tylko na końcu pierwszych 3 własnych zwykłych tur tej walki, wyłącznie na przytomnego aktywnego użytkownika. Pominięty impuls przepada. Poza walką nie tykają; zmiana NPC nie zeruje liczników. Każdy z nich zajmuje własny slot skilla.
+Ochrony i pojedyncze odbicie
+Dla jednego typu stosuj tylko jedną właściwość: Drain > Repel > Null > Resist > Normal > Weak. Pasyw może zakryć początkową słabość; nie zmienia jej zapisu bazowego. Break znosi tylko Resist, a Wall nie osłabia silniejszej ochrony. Pierwszy trafiony atak odbity przez Repel, Karn lub Counter wraca bez nowego rzutu i bez powtórnego dodawania premii. Użytkownik osłony otrzymuje 0 obrażeń i brak statusu. Atakujący rozlicza odbite obrażenia jak Normal, z własnym Firm Stance i Guard; jego Null/Resist/Drain/Repel nie działają na ten powrót. Brak dalszych odbić, Counter, Down, One More i statusów z odbitego ataku. W obszarze odbija tylko część przypadającą na chroniony cel. Drain zamiast obrażeń przywraca HP równe obliczonym obrażeniom przy Normal, najwyżej do maksimum; bez Guard, bez statusu i bez Down.
+Egzekucje
+Hama/Mudo: DC 6; Hamaon/Mudoon: DC 11, także dla obszarowych odpowiedników. Cel rzuca d20, wynik równy DC broni. Weak zwiększa DC o 2, Resist zmniejsza o 4. Null, Repel i Drain danego typu blokują efekt bez odbicia lub leczenia. Guard daje +4 do tej obrony i zachowuje pozostałą ochronę; premia Obrony z Sukukaja/Dodge nie działa. Tetraja blokuje próbę przed rzutem. Hama/Mudo Boost dodaje 2 do właściwego DC, ale zwykłe premie statusów nie działają. Nie używamy naturalnej 1/20 jako osobnej reguły. Zwykły Shadow oraz bohater/NPC po porażce dostaje nokaut; boss/miniboss zamiast tego 20 obrażeń Bless/Curse, rozliczając właściwość i Guard. Nigdy Down ani One More. Ghastly Wail ma własny warunek Fear i DC 15; Guard +4 i Tetraja działają również na nie.
+Ograniczenia regeneracji i zwycięstwa
+SP odzyskujemy najwyżej do maksimum. Spirit Drain zabiera tylko istniejące SP; nie daje zasobów z pustego celu. Soul Chain działa raz na walkę. Life Aid i Victory Cry działają raz za rzeczywiste zakończone spotkanie z należnym EXP, również po Hold Up; nie po ucieczce, porażce, treningowej walce z kompanem ani ponownym biciu tej samej przywołanej zdobyczy. Każde ponownie rozegrane spotkanie po odtworzeniu zapisu korzysta z odtworzonego stanu zasobów i użyć.
+Nauka i zmiana skilli
+Każdy dawny wpis A ma teraz R i pełny opis w tabelach poniżej. Koszty i minimalne poziomy zachowano; 1 punkt nauki lub odpowiednia skill card, maksymalnie 8 skilli razem z pasywami. Próg nie wymaga zakupu słabszej wersji. Z, X i źródłowe traity pozostają poza tym uzupełnieniem. Skille i pasywy można zastępować wyłącznie poza walką; nie wolno wyłączać ich pomiędzy atakiem a rozliczeniem. Zmiana maksymalnego HP/SP nie leczy; utrata bonusu przycina nadmiar aktualnego zasobu. Growth ma jawny zamiennik, bo EXP bohatera i osobistej Persony jest wspólne.
