@@ -6,6 +6,7 @@ export interface DesktopAPI {
   saveDraft(id: string, data: string): Promise<CharacterSummary[]>;
   selectCharacter(id: string): Promise<LibraryResult>;
   createCharacter(data: string): Promise<LibraryResult>;
+  deleteCharacter(id: string, emptyData: string): Promise<LibraryResult>;
   openCharacter(): Promise<FileResult>;
   saveCharacter(data: string, name: string): Promise<FileResult>;
   savePDF(name: string): Promise<FileResult>;

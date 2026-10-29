@@ -10,6 +10,7 @@ Nie otwieraj index.html — to teraz część kodu aplikacji.
 
 Lista „Lokalne postacie” na górze pozwala przełączać zapisane karty.
 Przycisk „Nowa postać” tworzy kolejną, zachowując poprzednie.
+Przycisk „Usuń postać” usuwa wybraną kartę po potwierdzeniu.
 Każda karta zapisuje się automatycznie na tym komputerze. Przycisk
 „Zapisz do pliku” pozwala zrobić własną kopię lub przesłać ją GM.
 Pliki JSON z wcześniejszego prototypu można wczytać przez „Otwórz plik”.

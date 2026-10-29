@@ -21,11 +21,11 @@ export default function Sheets({character:c,style,index}:{character:Character;st
   <h4>OSOBISTY TRAIT ARKANY / POZA SLOTAMI</h4><p>{trait?.effect||'________________________________________________________________'}</p>
   <p className="sheet-meta">Aktywne efekty raz na wyprawę, o ile opis nie mówi inaczej. Stałe premie bierne; wytwarzanie wymaga bloku aktywności.</p>
   <h4>SKILLE / MAKSYMALNIE OSIEM</h4>
-  {Array.from({length:Math.max(8,c.skills.length)},(_,i)=>{const s=c.skills[i];return <div className="sheet-skill" key={i}><span>{i+1}. {s?.name||'________________________________'}</span><span>{s?(skillByName.get(s.name)?.cost||'Sprawdź katalog'):''}</span></div>;})}
+  {Array.from({length:Math.max(8,c.skills.length)},(_,i)=>{const s=c.skills[i];return <div className="sheet-skill" key={i}><span>{i+1}. {s?.name||'________________________________'}</span><span>{s?(skillByName.get(s.name)?.cost||'—'):''}</span></div>;})}
   <h4>WYGLĄD I SYMBOLIKA</h4><div className="write-space"><p>{c.concept}</p></div>
  </section>
  {index&&c.skills.length>0&&<section className={`sheet-preview index-page ${style}`}><div className="sheet-meta">PERSONA RPG / INDEKS UMIEJĘTNOŚCI</div><h2>Twój zestaw skilli</h2>
- {c.skills.map(p=>{const s=skillByName.get(p.name);return <div className="index-entry" key={p.name}><strong>{p.name}</strong> · {s?.cost||'Koszt: katalog GM'}<p>{s?.effect||'Pełny opis w katalogu GM 0.8; opis nie został jeszcze przeniesiony do aplikacji.'}</p><small>Min. poziom: {s?.min_level??'—'} · {TYPES[s?.type??'']||s?.type||'—'}</small></div>;})}
+ {c.skills.map(p=>{const s=skillByName.get(p.name);return <div className="index-entry" key={p.name}><strong>{p.name}</strong> · {s?.cost||'—'}<p>{s?.effect||''}</p><small>Min. poziom: {s?.min_level??'—'} · {TYPES[s?.type??'']||s?.type||'—'}</small></div>;})}
  </section>}
  </>;
 }

@@ -8,6 +8,7 @@ import {CharacterLibrary,checkData,readCharacter} from './library';
 // Oddzielny katalog dla testów; nigdy nie nadpisują rzeczywistej karty.
 if (process.env.PERSONA_TEST_DATA) app.setPath('userData', path.resolve(process.env.PERSONA_TEST_DATA));
 app.setName('Take Your Heart');
+if(process.platform==='win32')app.setAppUserModelId('pl.personarpg.takeyourheart');
 if (!app.requestSingleInstanceLock()) app.exit(0);
 let mainWindow: BrowserWindow | null = null;
 app.on('second-instance', () => {
@@ -51,6 +52,10 @@ function registerIPC() {
   ipcMain.handle('library:create',(event,data:unknown)=>{
     authorize(event);checkData(data);return enqueue(()=>library.create(data));
   });
+  ipcMain.handle('library:delete',(event,id:unknown,emptyData:unknown)=>{
+    authorize(event);checkData(emptyData);if(typeof id!=='string')throw new Error('Nieprawidłowa postać.');
+    return enqueue(()=>library.delete(id,emptyData));
+  });
   ipcMain.handle('character:open', async event => {
     const win = authorize(event);
     const result = await dialog.showOpenDialog(win, { title: 'Otwórz zapis postaci', properties: ['openFile'], filters: [{ name: 'Postać Persona RPG', extensions: ['json'] }] });
@@ -80,7 +85,7 @@ function registerIPC() {
     await writeFile(file, pdf);
     // Wbudowany czytnik PDF pokazuje rzeczywiste strony, skalę i przycisk drukarki.
     const preview = new BrowserWindow({ parent: win, width: 1050, height: 900, minWidth: 650, minHeight: 500,
-      title: 'Podgląd wydruku — karty postaci', show: false, backgroundColor: '#ffffff',
+      title: 'Podgląd wydruku — karty postaci', show: false, icon: path.join(__dirname,'../../assets/icon.png'), backgroundColor: '#ffffff',
       webPreferences: { nodeIntegration: false, contextIsolation: true, sandbox: true, plugins: true }
     });
     preview.webContents.setWindowOpenHandler(() => ({ action: 'deny' }));
@@ -97,7 +102,7 @@ function registerIPC() {
   });
 }
 async function createWindow() {
-  mainWindow = new BrowserWindow({ width: 1500, height: 1000, minWidth: 850, minHeight: 650, backgroundColor: '#ffffff', title: 'Take Your Heart — Persona RPG', show: false,
+  mainWindow = new BrowserWindow({ width: 1500, height: 1000, minWidth: 850, minHeight: 650, backgroundColor: '#ffffff', title: 'Take Your Heart — Persona RPG', show: false, icon: path.join(__dirname,'../../assets/icon.png'),
     webPreferences: { preload: path.join(__dirname, 'preload.js'), nodeIntegration: false, contextIsolation: true, sandbox: true, webSecurity: true, spellcheck: false }
   });
   mainWindow.webContents.setWindowOpenHandler(() => ({ action: 'deny' }));

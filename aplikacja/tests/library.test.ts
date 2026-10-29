@@ -52,3 +52,22 @@ test('postacie o tych samych nazwach mają inne identyfikatory, a obce ścieżki
  await assert.rejects(store.select('../../postac'));await assert.rejects(store.save('../../postac',data('')));
  assert.equal((await store.load(data(''))).data,data(''));
 });
+test('usunięcie karty usuwa jej pliki i wpisy także z kopii spisu',async()=>{
+ const dir=await directory(),store=new CharacterLibrary(dir),first=await store.load(data('Maja'));
+ await store.save(first.activeId,data('Maja po sesji'));
+ const second=await store.create(data('Jan'));
+ const result=await store.delete(first.activeId,data(''));
+ assert.equal(result.activeId,second.activeId);assert.equal(result.characters.length,1);
+ await assert.rejects(stat(file(dir,first.activeId)));await assert.rejects(stat(file(dir,first.activeId)+'.bak'));
+ const backup=JSON.parse(await readFile(path.join(dir,'biblioteka.json.bak'),'utf8'));
+ assert.equal(backup.characters.some((c:{id:string})=>c.id===first.activeId),false);
+ await assert.rejects(store.save(first.activeId,data('Nie przywracaj')));
+ const restored=await new CharacterLibrary(dir).load(data(''));assert.equal(restored.data,data('Jan'));
+});
+test('usunięcie ostatniej postaci otwiera nową pustą kartę bez odtwarzania usuniętej',async()=>{
+ const dir=await directory(),store=new CharacterLibrary(dir),first=await store.load(data('Ostatnia'));
+ const result=await store.delete(first.activeId,data(''));
+ assert.notEqual(result.activeId,first.activeId);assert.equal(result.characters.length,1);assert.equal(result.data,data(''));
+ assert.equal((await new CharacterLibrary(dir).load(data(''))).activeId,result.activeId);
+ await assert.rejects(store.delete('../../postac',data('')));
+});

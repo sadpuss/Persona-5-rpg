@@ -1,4 +1,4 @@
-import {readFile,writeFile,rename,copyFile,mkdir,stat} from 'node:fs/promises';
+import {readFile,writeFile,rename,copyFile,mkdir,stat,rm} from 'node:fs/promises';
 import {randomUUID} from 'node:crypto';
 import path from 'node:path';
 import type {CharacterSummary,LibraryResult} from '../src/bridge';
@@ -97,5 +97,21 @@ export class CharacterLibrary{
   const loaded=await recover(this.file(id),readCharacter);
   await this.persist({...m,activeId:id});
   return{data:loaded.value,activeId:id,characters:this.current().characters,recovered:loaded.recovered};
+ }
+ async delete(id:string,emptyData:string):Promise<LibraryResult>{
+  checkData(emptyData);const m=this.current();
+  if(!m.characters.some(c=>c.id===id))throw new Error('Nie znaleziono tej postaci w bibliotece.');
+  const remaining=m.characters.filter(c=>c.id!==id);
+  if(!remaining.length){
+   const replacement=randomUUID();await atomic(this.file(replacement),emptyData,readCharacter);
+   remaining.push(summary(replacement,emptyData));
+  }
+  const next={...m,characters:remaining,activeId:m.activeId===id?remaining[0].id:m.activeId};
+  await recover(this.file(next.activeId),readCharacter);
+  await this.persist(next);
+  // Zaktualizuj również kopię spisu, żeby usunięty wpis nie wrócił przy odzyskiwaniu.
+  await this.persist(next);
+  for(const suffix of ['', '.bak', '.tmp'])await rm(this.file(id)+suffix,{force:true});
+  return this.result();
  }
 }

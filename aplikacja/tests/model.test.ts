@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {fresh,stats,threshold,levelOf,gainEXP,changeCharacter,validate,addSkill,removeSkill,warnings} from '../src/model';
+import {fresh,stats,threshold,levelOf,gainEXP,changeCharacter,validate,addSkill,removeSkill,warnings,learnSkill,startProgress,RULES,skillByName} from '../src/model';
 
 test('progi poziomów 1–99 i nadwyżka EXP',()=>{
  for(let l=1;l<=99;l++){assert.equal(levelOf(threshold(l)),l);if(l<99)assert.equal(levelOf(threshold(l+1)-1),l);}
@@ -50,4 +50,25 @@ test('niepełna karta jest dozwolona, a nielegalne wybory mają ostrzeżenia',()
  assert.deepEqual(warnings(physical),[]);
  assert.deepEqual(validate(JSON.parse(JSON.stringify(physical))),physical);
  assert.ok(warnings({...physical,resist:'Physical'}).some(w=>w==='Słabość i odporność dotyczą tego samego typu.'));
+});
+test('kreator sam przydziela darmowe wybory i punkty nauki, a usunięcie pozwala poprawić zestaw',()=>{
+ let c={...fresh(),exp:threshold(10)};
+ for(const name of ['Agi','Garu','Dia','Tarunda'])c=learnSkill(c,name);
+ assert.deepEqual(startProgress(c),{count:4,elements:2});assert.equal(c.spent,0);
+ c=learnSkill(c,'Agilao');assert.equal(c.spent,1);
+ c=removeSkill(c,'Garu');c=learnSkill(c,'Bufu');
+ assert.equal(startProgress(c).count,4);assert.equal(c.spent,1);
+ c=learnSkill({...c,active:true},'Patra');assert.equal(c.spent,2);
+});
+test('wszystkie dostępne umiejętności mają opisy bez skrótów żywiołów i roboczych dopisków',()=>{
+ const ready=RULES.skills.filter(s=>s.access==='R');assert.equal(ready.length,346);
+ for(const s of RULES.skills){
+  assert.ok(s.effect?.trim(),s.skill);
+  assert.equal(/\b(fir|ele|win|nuk|ble|cur|phy|alm)\b/i.test(s.effect!),false,s.skill);
+  assert.equal(/do ustalenia|do uzgodnienia|opis nie został|robocz/i.test(s.effect!),false,s.skill);
+ }
+ assert.match(skillByName.get('Garu')!.effect!,/Wind/);
+ assert.match(skillByName.get('Agilao')!.effect!,/2d6 \+ 6.*Fire/);
+ assert.match(skillByName.get('Dormina')!.effect!,/DC 15/);
+ assert.match(skillByName.get('Resist Sleep')!.effect!,/\+4/);
 });

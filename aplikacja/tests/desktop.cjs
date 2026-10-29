@@ -11,15 +11,23 @@ const assert=require('node:assert/strict');
  const executablePath=packaged?path.resolve(__dirname,'../release/win-unpacked/Take Your Heart.exe'):require('electron');
  let app;
  async function launch(){return electron.launch({executablePath,args:packaged?[]:[path.resolve(__dirname,'..')],env});}
+ async function capture(page,name){
+  await app.evaluate(({BrowserWindow})=>BrowserWindow.getAllWindows().find(w=>w.webContents.getURL().endsWith('index.html'))?.showInactive());
+  await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));
+  await page.screenshot({path:path.join(output,name),fullPage:true,animations:'disabled'});
+ }
  try{
   console.log('Uruchamianie Electron…');
   app=await launch();let page=await app.firstWindow();page.setDefaultTimeout(15000);await page.getByLabel('Imię i nazwisko').waitFor();
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  assert.equal(await page.getByText(/KROK 0[1-6]/).count(),0);
   await page.getByLabel('Imię i nazwisko').fill('Maja Kowalska');await page.getByLabel('Pseudonim',{exact:true}).fill('Echo');
   await page.screenshot({path:path.join(output,'kreator-electron.png'),fullPage:true});
   await page.getByRole('button',{name:'02 Poziom i rozwój'}).click();
   assert.equal(await page.getByLabel('Aktualne HP').count(),0);
   assert.equal(await page.getByLabel('Dodatkowe maksimum HP').count(),0);
+  const counterGap=await page.locator('.big-number').first().evaluate(el=>{const r=document.createRange();r.selectNode(el.firstChild);return el.querySelector('.counter').getBoundingClientRect().left-r.getBoundingClientRect().right;});
+  assert.ok(counterGap>=8,'Maksymalny poziom nie może nachodzić na numer poziomu.');
   await page.getByLabel('Zacznij na wybranym poziomie').fill('10');
   await page.getByRole('button',{name:'03 Arkana'}).click();
   await app.evaluate(({BrowserWindow})=>BrowserWindow.getAllWindows()[0].setSize(1280,700));
@@ -27,16 +35,26 @@ const assert=require('node:assert/strict');
   const sidebar=await page.locator('.sidebar').boundingBox();assert.ok(sidebar.y>=0&&sidebar.y<2);
   const lastStep=await page.getByRole('button',{name:'06 Gotowe karty'}).boundingBox();assert.ok(lastStep.y+lastStep.height<=await page.evaluate(()=>innerHeight));
   await app.evaluate(({BrowserWindow})=>BrowserWindow.getAllWindows()[0].setSize(1500,1000));
+  assert.equal(await page.locator('.arcana-effect').count(),23);
   await page.getByRole('button',{name:/Rydwan/}).click();
+  assert.equal(await page.locator('.arcana-detail').count(),0);
+  await capture(page,'arkany-opisy.png');
   await page.getByRole('button',{name:'04 Twoja Persona'}).click();await page.getByLabel('Nazwa Persony').fill('Latarnik');
   await page.getByLabel('Słabość',{exact:true}).selectOption('Physical');
   await page.getByLabel('Odporność',{exact:true}).selectOption('Gun');
   assert.equal(await page.locator('.warning').filter({hasText:/Resist|poza wspólną pulą/}).count(),0);
   await page.getByLabel('Słabość',{exact:true}).selectOption('Ice');await page.getByLabel('Odporność',{exact:true}).selectOption('Fire');
   await page.getByRole('button',{name:'05 Umiejętności'}).click();await page.getByText('Pomóż mi wybrać — zestawy startowe',{exact:true}).click();await page.getByRole('button',{name:'Ogień i wiatr',exact:true}).click();
-  await page.getByLabel('Sposób pozyskania').selectOption('point');
+  assert.equal(await page.getByLabel('Sposób pozyskania').count(),0);
   await page.getByLabel('Szukaj umiejętności',{exact:true}).fill('Agilao');
   assert.equal(await page.getByRole('heading',{name:'Agilao',exact:true}).count(),1);
+  await page.locator('.skill-card[data-skill="Agilao"]').click();
+  await page.getByRole('button',{name:'Usuń umiejętność Agilao',exact:true}).click();
+  assert.equal(await page.getByRole('button',{name:'Usuń umiejętność Agilao',exact:true}).count(),0);
+  assert.equal(await page.getByRole('region',{name:'Zasady wyboru umiejętności'}).count(),1);
+  await page.getByLabel('Szukaj umiejętności',{exact:true}).fill('');
+  await capture(page,'umiejetnosci-wybor.png');
+
   await page.getByRole('button',{name:'06 Gotowe karty'}).click();
   await page.getByRole('button',{name:'Rozpocznij grę'}).click();
   await page.getByRole('button',{name:'02 Poziom i rozwój'}).click();
@@ -125,6 +143,31 @@ const assert=require('node:assert/strict');
   await page.getByText('Odtworzono kartę z kopii zapasowej.',{exact:true}).waitFor();
   assert.equal(await page.getByLabel('Imię i nazwisko').inputValue(),'Druga postać');
   console.log('OK: odzyskiwanie z kopii zapasowej.');
+  await page.getByRole('button',{name:'Usuń postać',exact:true}).click();
+  await page.getByRole('dialog').getByRole('button',{name:'Anuluj',exact:true}).click();
+  assert.equal(await page.getByLabel('Lokalne postacie').locator('option').count(),3);
+  await page.getByRole('button',{name:'Usuń postać',exact:true}).click();
+  await page.getByRole('dialog').getByRole('button',{name:'Usuń postać',exact:true}).click();
+  await page.getByText('Usunięto postać z lokalnej biblioteki.',{exact:true}).waitFor();
+  assert.equal(await page.getByLabel('Lokalne postacie').locator('option').count(),2);
+  await assert.rejects(fs.stat(path.join(profile,'postacie',thirdId+'.json')));
+  assert.ok((await fs.stat(characterFile)).size>0);
+  await page.getByRole('status').filter({hasText:'Zapisano automatycznie'}).waitFor();
+  await app.close();app=await launch();page=await app.firstWindow();page.setDefaultTimeout(15000);
+  await page.getByLabel('Imię i nazwisko').waitFor();
+  assert.equal(await page.getByLabel('Lokalne postacie').locator('option').count(),2);
+  for(let i=0;i<2;i++){
+   const deletingId=await page.getByLabel('Lokalne postacie').inputValue();
+   await page.getByRole('button',{name:'Usuń postać',exact:true}).click();
+   await page.getByRole('dialog').getByRole('button',{name:'Usuń postać',exact:true}).click();
+   await page.waitForFunction(id=>document.querySelector('[aria-label="Lokalne postacie"]').value!==id,deletingId);
+   await page.getByRole('status').filter({hasText:'Zapisano automatycznie'}).waitFor();
+   await page.getByRole('button',{name:'Usuń postać',exact:true}).waitFor({state:'visible'});
+  }
+  assert.equal(await page.getByLabel('Imię i nazwisko').inputValue(),'');
+  assert.equal(await page.getByLabel('Lokalne postacie').locator('option').count(),1);
+  console.log('OK: usuwanie postaci, anulowanie i usunięcie ostatniej karty.');
+
   assert.deepEqual(errors,[]);
   await fs.writeFile(path.join(output,packaged?'wynik-spakowana.json':'wynik.json'),JSON.stringify({wynik:'OK',spakowana:packaged,kontrole:['lokalna biblioteka wielu postaci','przełączanie bez utraty zmian','import jako nowa postać','pamiętanie ostatniej karty po restarcie','okno Electron','React: tworzenie postaci','natywny zapis i import JSON','ponowne uruchomienie i automatyczny zapis','awans bez leczenia','PDF przez Electron','brak ostrzeżeń i uzgodnień w PDF','izolacja Node i preload','anulowanie okna zapisu'],profilTestowy:profile},null,2));
   console.log('OK: aplikacja Electron, zapis/import, awans, PDF i ponowne uruchomienie.');

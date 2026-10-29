@@ -1,7 +1,7 @@
 {
   "name": "take-your-heart",
   "productName": "Take Your Heart",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "description": "Lokalny kreator bohatera i Persony do Persona RPG",
   "author": "Persona RPG",
@@ -25,12 +25,16 @@
     "files": [
       "dist/**/*",
       "dist-electron/**/*",
-      "package.json"
+      "package.json",
+      "assets/icon.ico",
+      "assets/icon.png"
     ],
     "asar": true,
     "win": {
       "target": "dir",
-      "signAndEditExecutable": false
+      "signAndEditExecutable": true,
+      "icon": "assets/icon.ico",
+      "signExecutable": false
     },
     "mac": {
       "category": "public.app-category.games"

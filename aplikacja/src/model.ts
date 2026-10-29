@@ -1,7 +1,7 @@
 import catalog from './rules.json';
 export const VERSION = 'GM 0.8 / Gracz 0.5';
 export const STEPS = ['Bohater','Poziom i rozwój','Arkana','Twoja Persona','Umiejętności','Gotowe karty'];
-export const TYPES: Record<string,string> = {fir:'Fire',ice:'Ice',ele:'Electricity',win:'Wind',psy:'Psy',nuk:'Nuclear',ble:'Bless',cur:'Curse',phy:'Physical',gun:'Gun',alm:'Almighty',rec:'Leczenie',ail:'Status',sup:'Wsparcie',pas:'Pasyw'};
+export const TYPES: Record<string,string> = {fir:'Fire',ice:'Ice',ele:'Electricity',win:'Wind',psy:'Psy',nuk:'Nuclear',ble:'Bless',cur:'Curse',phy:'Physical',gun:'Gun',alm:'Almighty',rec:'Leczenie',ail:'Status',sup:'Wsparcie',pas:'Pasyw',tra:'Trait'};
 export const ELEMENTS = Object.values(TYPES).slice(0,8);
 export const AFFINITIES = [...ELEMENTS, 'Physical', 'Gun'];
 export const SOCIAL = ['Wiedza','Odwaga','Empatia','Urok','Zręczność'] as const;
@@ -59,6 +59,15 @@ export function addSkill(c:Character,name:string,source:Source):Character{
  if(c.skills.some(s=>s.name===name))return c;
  return{...c,skills:[...c.skills,{name,source}],spent:c.spent+(source==='point'?1:0)};
 }
+export function startProgress(c:Character){
+ const start=c.skills.filter(s=>s.source==='start');
+ const elements=new Set(start.map(s=>skillByName.get(s.name)?.type).filter(t=>t&&ELEMENTS.includes(TYPES[t])));
+ return{count:start.length,elements:elements.size};
+}
+export function learnSkill(c:Character,name:string):Character{
+ const free=!c.active&&startProgress(c).count<4&&skillByName.get(name)?.starter;
+ return addSkill(c,name,free?'start':'point');
+}
 export function removeSkill(c:Character,name:string):Character{
  const p=c.skills.find(s=>s.name===name);return{...c,skills:c.skills.filter(s=>s.name!==name),spent:Math.max(0,c.spent-(!c.active&&p?.source==='point'?1:0))};
 }
@@ -66,16 +75,16 @@ export function warnings(c:Character):string[]{
  const a:string[]=[],t=stats(c);
  if(!c.name)a.push('Bohater nie ma jeszcze imienia.');
  if(!c.arcana)a.push('Wybierz Arkanę, aby przypisać osobisty trait.');
- else if(!RULES.arcana.some(a=>a.name===c.arcana))a.push('Arkana jest spoza dostępnej puli startowej. Uzgodnij ją z GM.');
+ else if(!RULES.arcana.some(a=>a.name===c.arcana))a.push('Arkana jest spoza dostępnej puli startowej.');
  if(!c.persona)a.push('Persona nie ma jeszcze nazwy.');
  if(!c.weak||!c.resist)a.push('Wybierz jedną słabość i jedną odporność.');
  if(c.weak&&c.weak===c.resist)a.push('Słabość i odporność dotyczą tego samego typu.');
- if([c.weak,c.resist].some(v=>v&&!AFFINITIES.includes(v)))a.push('Właściwość poza dostępną pulą — uzgodnij z GM.');
+ if([c.weak,c.resist].some(v=>v&&!AFFINITIES.includes(v)))a.push('Właściwość jest poza dostępną pulą.');
  const start=c.skills.filter(s=>s.source==='start');
  if(start.length!==4)a.push(`Start obejmuje cztery darmowe skille (teraz: ${start.length}).`);
- if(start.some(s=>!skillByName.get(s.name)?.starter))a.push('Darmowy skill spoza puli startowej wymaga uzgodnienia z GM.');
+ if(start.some(s=>!skillByName.get(s.name)?.starter))a.push('Darmowy skill jest spoza puli startowej.');
  const elements=new Set(start.map(s=>skillByName.get(s.name)?.type).filter(s=>s&&ELEMENTS.includes(TYPES[s])));
- if(elements.size>2)a.push('Propozycja balansu: na start najwyżej dwa magiczne żywioły obrażeń.');
+ if(elements.size>2)a.push('Na start wybierz ataki najwyżej dwóch różnych żywiołów.');
  if(c.skills.length>8)a.push('Przekroczono limit ośmiu skilli. Usuń skill zastępowany przy nauce.');
  if(t.points<0)a.push('Wydano więcej punktów nauki, niż wynika z poziomu.');
  for(const p of c.skills){const s=skillByName.get(p.name);if(!s)a.push(`${p.name}: brak w bieżącym katalogu.`);else{

@@ -14,12 +14,12 @@ Do przeniesienia programu na inny komputer z Windows trzeba skopiować **cały f
 
 - Sześć kroków, swobodne pomijanie pól i podgląd na żywo.
 - Bohater i osobista Persona, Arkany i traity, własna ilustracja, słabość i Resist.
-- Zestawy startowe, katalog skilli z filtrami, nauka za punkty lub skill card.
+- Zestawy startowe, katalog skilli z filtrami, automatyczne rozliczanie darmowych wyborów i punktów nauki.
 - Start na poziomie 1–99, EXP i awanse bez leczenia, zasoby, ekwipunek i notatki.
 - Dwie osobne karty do PDF/druku, opcjonalny indeks skilli, stylizowany i uproszczony wygląd.
 - Ostrzeżenia tylko w kreatorze. Prywatne notatki i uzgodnienia z GM nie są drukowane.
 
-Zasady: GM 0.8 / Gracz 0.5. Część opisów z pełnego katalogu nadal odsyła do podręcznika. Premie HP Rydwanu i SP Doradcy są automatyczne; pozostałe pasywy i dodatkowe premie maksimum wpisuje się ręcznie. Skill cards nie mają jeszcze własnego ekwipunku. Brak Velvet Roomu, fuzji, historii/cofania zmian i migracji wersji zasad. To zachowane ograniczenia prototypu, a nie zmiana zasad gry.
+Zasady: GM 0.8 / Gracz 0.5. Wszystkie 346 umiejętności dostępnych przez zwykłą naukę ma opis działania; pozostałe wpisy są oznaczone jako moce unikatowe, nieużywane mechaniki lub źródłowe traity. Premie HP Rydwanu i SP Doradcy są automatyczne; pozostałe pasywy i dodatkowe premie maksimum wpisuje się ręcznie. Skill cards nie mają jeszcze własnego ekwipunku. Brak Velvet Roomu, fuzji, historii/cofania zmian i migracji wersji zasad. To zachowane ograniczenia prototypu, a nie zmiana zasad gry.
 
 ## Dla osoby rozwijającej aplikację
 
@@ -65,3 +65,13 @@ Na życzenie użytkowniczki lista słabości i odporności dopuszcza także Phys
 ## Biblioteka postaci 0.3.0
 
 Na górze okna jest przycisk „Nowa postać” i lista „Lokalne postacie”. Każda karta jest zapisywana oddzielnie, również jako niedokończony szkic. Przełączanie nie wymaga eksportu plików; po ponownym uruchomieniu otwiera się ostatnio używana karta. „Otwórz plik” dodaje kolejną postać, a nie zastępuje bieżącej. Własny eksport JSON nadal służy do przekazania postaci GM albo przeniesienia na drugi komputer.
+
+
+## Czytelniejszy kreator 0.4.0
+
+- „Usuń postać” usuwa wybraną kartę po potwierdzeniu; eksporty JSON/PDF pozostają nietknięte. Usunięcie ostatniej karty otwiera nową pustą postać.
+- Opisy Arkan są bezpośrednio na przyciskach. Nad tytułami nie ma powtarzanego oznaczenia kroku; numer jest w bocznym menu.
+- Przy umiejętnościach widoczny jest licznik czterech darmowych wyborów oraz limitu dwóch różnych żywiołów. Kolejne wybory są rozliczane automatycznie, bez wybierania sposobu pozyskania. Importowane zapisy nadal zachowują dotychczasowe źródła nauki, w tym skill cards.
+- Każda wybrana umiejętność ma osobny przycisk „Usuń” z koszem. Opisy używają pełnych nazw typów obrażeń, również w PDF.
+- `build_data.py` czyta główne podręczniki i wersjonowane dane. Uzupełnia podstawowe opisy według tabel celu/statusu, wspólnej skali obrażeń i zasad odporności; sprawdza skróty wejścia przed zapisem. Zapisuje wyłącznie `src/rules.json`, bez edycji Wordów i archiwalnego prototypu.
+- Ikona programu i okna to czerwona gwiazda. `assets/generate-icon.cjs` odtwarza SVG, PNG i wielorozmiarowe ICO z tej samej figury. Windows ma włączone osadzanie ikony i metadanych EXE, bez podpisywania programu.
