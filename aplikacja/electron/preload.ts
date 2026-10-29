@@ -1,8 +1,10 @@
 import { contextBridge, ipcRenderer } from 'electron';
 import type { DesktopAPI } from '../src/bridge';
 const api: DesktopAPI = {
-  loadDraft: () => ipcRenderer.invoke('draft:load'),
-  saveDraft: data => ipcRenderer.invoke('draft:save', data),
+  loadLibrary: initialData => ipcRenderer.invoke('library:load', initialData),
+  saveDraft: (id,data) => ipcRenderer.invoke('draft:save', id,data),
+  selectCharacter: id => ipcRenderer.invoke('library:select', id),
+  createCharacter: data => ipcRenderer.invoke('library:create', data),
   openCharacter: () => ipcRenderer.invoke('character:open'),
   saveCharacter: (data, name) => ipcRenderer.invoke('character:save', data, name),
   savePDF: name => ipcRenderer.invoke('cards:pdf', name),

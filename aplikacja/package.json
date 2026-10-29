@@ -1,7 +1,7 @@
 {
   "name": "take-your-heart",
   "productName": "Take Your Heart",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "private": true,
   "description": "Lokalny kreator bohatera i Persony do Persona RPG",
   "author": "Persona RPG",
@@ -10,7 +10,7 @@
     "dev": "npm run build && electron .",
     "start": "electron .",
     "build": "tsc --noEmit && tsc -p tsconfig.electron.json && vite build",
-    "test": "tsx --test tests/model.test.ts",
+    "test": "tsx --test tests/model.test.ts tests/library.test.ts",
     "test:desktop": "node tests/desktop.cjs",
     "package:win": "npm run build && electron-builder --win dir",
     "package:mac": "npm run build && electron-builder --mac dmg",

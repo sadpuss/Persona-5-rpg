@@ -1,8 +1,9 @@
 import { app, BrowserWindow, dialog, ipcMain, Menu, session } from 'electron';
 import type { IpcMainInvokeEvent } from 'electron';
-import { readFile, writeFile, rename, copyFile, mkdir, stat, mkdtemp, rm, rmdir } from 'node:fs/promises';
+import { writeFile, mkdtemp, rm, rmdir } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import {CharacterLibrary,checkData,readCharacter} from './library';
 
 // Oddzielny katalog dla testów; nigdy nie nadpisują rzeczywistej karty.
 if (process.env.PERSONA_TEST_DATA) app.setPath('userData', path.resolve(process.env.PERSONA_TEST_DATA));
@@ -16,8 +17,7 @@ app.on('second-instance', () => {
 });
 const rendererFile = path.join(__dirname, '../../dist/index.html');
 const rendererURL = pathToFileURL(rendererFile).href;
-const draftPath = () => path.join(app.getPath('userData'), 'postac.json');
-const maxBytes = 4 * 1024 * 1024;
+const library = new CharacterLibrary(app.getPath('userData'));
 
 function authorize(event: IpcMainInvokeEvent) {
   if (!mainWindow || event.sender !== mainWindow.webContents || event.senderFrame !== event.sender.mainFrame || event.senderFrame?.url !== rendererURL) {
@@ -25,55 +25,37 @@ function authorize(event: IpcMainInvokeEvent) {
   }
   return mainWindow;
 }
-function checkData(data: unknown): asserts data is string {
-  if (typeof data !== 'string' || Buffer.byteLength(data, 'utf8') > maxBytes) throw new Error('Plik postaci przekracza dopuszczalny rozmiar.');
-  const parsed: unknown = JSON.parse(data);
-  if (!parsed || typeof parsed !== 'object' || !('format' in parsed) || parsed.format !== 1) throw new Error('Nieprawidłowy format postaci.');
-}
-async function readLimited(file: string) {
-  if ((await stat(file)).size > maxBytes) throw new Error('Plik jest za duży.');
-  const data = await readFile(file, 'utf8');
-  checkData(data);
-  return data;
-}
 function safeName(name: unknown) {
   return (typeof name === 'string' ? name : 'Persona RPG').replace(/[<>:"/\\|?*\x00-\x1f]/g, '_').slice(0, 90).replace(/[. ]+$/, '') || 'Persona RPG';
 }
-async function exists(file: string) { try { await stat(file); return true; } catch { return false; } }
-let saving: Promise<void> = Promise.resolve();
+let saving: Promise<unknown> = Promise.resolve();
 let pendingSaves = 0;
+function enqueue<T>(operation:()=>Promise<T>):Promise<T>{
+  pendingSaves++;
+  const result=saving.catch(()=>{}).then(operation).finally(()=>{pendingSaves--;});
+  saving=result;
+  return result;
+}
 function registerIPC() {
-  ipcMain.handle('draft:load', async event => {
-    authorize(event);
-    try {
-      if (!(await exists(draftPath()))) return { data: null };
-      return { data: await readLimited(draftPath()) };
-    } catch {
-      try { return { data: await readLimited(draftPath() + '.bak'), recovered: true }; }
-      catch { return { data: null, error: 'Nie udało się odczytać automatycznego zapisu. Zachowano go na dysku. Możesz otworzyć własny plik postaci.' }; }
-    }
+  ipcMain.handle('library:load',(event,initialData:unknown)=>{
+    authorize(event);checkData(initialData);return enqueue(()=>library.load(initialData));
   });
-  ipcMain.handle('draft:save', (event, data: unknown) => {
-    authorize(event); checkData(data);
-    pendingSaves++;
-    // Kolejka zapobiega wyścigom między kolejnymi zapisami z interfejsu.
-    const operation = saving.catch(() => {}).then(async () => {
-      await mkdir(app.getPath('userData'), { recursive: true });
-      await writeFile(draftPath() + '.tmp', data, 'utf8');
-      if (await exists(draftPath())) {
-        // Uszkodzony zapis nie może zastąpić prawidłowej kopii zapasowej.
-        try { await readLimited(draftPath()); await copyFile(draftPath(), draftPath() + '.bak'); } catch { /* Zachowaj wcześniejszą kopię. */ }
-      }
-      await rename(draftPath() + '.tmp', draftPath());
-    });
-    saving = operation.finally(() => { pendingSaves--; });
-    return saving;
+  ipcMain.handle('draft:save',(event,id:unknown,data:unknown)=>{
+    authorize(event);checkData(data);if(typeof id!=='string')throw new Error('Nieprawidłowa postać.');
+    return enqueue(()=>library.save(id,data));
+  });
+  ipcMain.handle('library:select',(event,id:unknown)=>{
+    authorize(event);if(typeof id!=='string')throw new Error('Nieprawidłowa postać.');
+    return enqueue(()=>library.select(id));
+  });
+  ipcMain.handle('library:create',(event,data:unknown)=>{
+    authorize(event);checkData(data);return enqueue(()=>library.create(data));
   });
   ipcMain.handle('character:open', async event => {
     const win = authorize(event);
     const result = await dialog.showOpenDialog(win, { title: 'Otwórz zapis postaci', properties: ['openFile'], filters: [{ name: 'Postać Persona RPG', extensions: ['json'] }] });
     if (result.canceled) return { canceled: true };
-    return { canceled: false, data: await readLimited(result.filePaths[0]) };
+    return { canceled: false, data: await readCharacter(result.filePaths[0]) };
   });
   ipcMain.handle('character:save', async (event, data: unknown, name: unknown) => {
     const win = authorize(event); checkData(data);

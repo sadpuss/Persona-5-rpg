@@ -8,7 +8,9 @@ Możesz też wejść do folderu release\win-unpacked i uruchomić
 
 Nie otwieraj index.html — to teraz część kodu aplikacji.
 
-Karta zapisuje się automatycznie na tym komputerze. Przycisk
+Lista „Lokalne postacie” na górze pozwala przełączać zapisane karty.
+Przycisk „Nowa postać” tworzy kolejną, zachowując poprzednie.
+Każda karta zapisuje się automatycznie na tym komputerze. Przycisk
 „Zapisz do pliku” pozwala zrobić własną kopię lub przesłać ją GM.
 Pliki JSON z wcześniejszego prototypu można wczytać przez „Otwórz plik”.
 

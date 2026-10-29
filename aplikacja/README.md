@@ -50,7 +50,7 @@ node tests/desktop.cjs --packaged
 
 `npm run dev` kompiluje projekt i uruchamia Electron bez serwera. Po zmianach uruchom ponownie. `npm start` otwiera ostatnią kompilację. Paczki macOS i Linux buduje się na odpowiednich systemach przez `npm run package:mac` i `npm run package:linux`.
 
-Automatyczny zapis: `app.getPath('userData')/postac.json`, na Windows zwykle `%APPDATA%/Take Your Heart/`. Poprzedni prawidłowy zapis jest w `postac.json.bak`. Zapisy są kolejkowane i zastępowane przez plik tymczasowy. Przy uszkodzeniu pliku aplikacja próbuje odczytać kopię. Jeśli odczyt lub wersja zasad są nieprawidłowe, zapis jest wstrzymany do świadomego otwarcia innej karty lub rozpoczęcia nowej. Nowy system zapisu nie odczytuje automatycznie danych localStorage przeglądarki; ze starego prototypu trzeba pobrać JSON.
+Lokalna biblioteka: `app.getPath('userData')/biblioteka.json` (spis i ostatnio otwarta postać) oraz `postacie/<id>.json` (każda karta osobno). Na Windows katalog jest zwykle w `%APPDATA%/Take Your Heart/`. Pliki mają kopie `.bak`; zapisy są kolejkowane, a zapis konkretnej karty zawiera jej identyfikator, żeby opóźniona operacja nie zmieniła innej postaci. Przełączanie najpierw zapisuje bieżącą kartę i jest zatrzymywane w razie błędu zapisu. Przy uszkodzeniu pliku aplikacja próbuje odczytać kopię. Dawny `postac.json` jest automatycznie przenoszony do biblioteki podczas pierwszego uruchomienia, a plik źródłowy pozostaje nietknięty. Zapisów z localStorage przeglądarki nadal nie odczytuje się automatycznie — trzeba pobrać JSON ze starego prototypu.
 
 Test desktopowy używa osobnego profilu w `qa-desktop/`, nie dotyka rzeczywistych kart. Systemowe okna wyboru pliku są w teście zastępowane wskazaniem pliku testowego; sam zapis i PDF wykonuje Electron.
 
@@ -60,3 +60,8 @@ Test desktopowy używa osobnego profilu w `qa-desktop/`, nie dotyka rzeczywistyc
 Menu kroków pozostaje widoczne przy przewijaniu, także przy niższym oknie. Kolejność: bohater → poziom i rozwój → Arkana → Persona → umiejętności → gotowe karty. Zasoby do prowadzenia sesji (aktualne HP/SP i dodatkowe premie) są dostępne po rozpoczęciu gry z ostatniego kroku. Oba style kart różnią się również w podglądzie ekranowym. „Podgląd i druk” otwiera rzeczywisty PDF w osobnym oknie z wbudowanym przyciskiem drukowania.
 
 Na życzenie użytkowniczki lista słabości i odporności dopuszcza także Physical i Gun, a nazwy są po polsku. To ustawienie aplikacji; ta zmiana nie edytuje podręczników ani historycznego zestawu reguł zapisanego na karcie.
+
+
+## Biblioteka postaci 0.3.0
+
+Na górze okna jest przycisk „Nowa postać” i lista „Lokalne postacie”. Każda karta jest zapisywana oddzielnie, również jako niedokończony szkic. Przełączanie nie wymaga eksportu plików; po ponownym uruchomieniu otwiera się ostatnio używana karta. „Otwórz plik” dodaje kolejną postać, a nie zastępuje bieżącej. Własny eksport JSON nadal służy do przekazania postaci GM albo przeniesienia na drugi komputer.
