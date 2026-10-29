@@ -4,7 +4,10 @@ Polskojęzyczny projekt RPG Persona 5 / Royal: podręczniki, bestiariusz, dane, 
 
 ## Pliki
 
-- Główne dokumenty: `Persona_5_RPG_Podrecznik_GM.docx`, `Persona_5_RPG_Podrecznik_Gracza.docx`, `Persona_5_RPG_Bestiariusz.docx`.
+- Aktualne podręczniki — stałe ścieżki (przed edycją zawsze sprawdź aktualność):
+  - GM: `K:\Persona-5-rpg\Persona_5_RPG_Podrecznik_GM.docx`
+  - Gracza: `K:\Persona-5-rpg\Persona_5_RPG_Podrecznik_Gracza.docx`
+  - Bestiariusz: `K:\Persona-5-rpg\Persona_5_RPG_Bestiariusz.docx`
 - Numerowane Wordy, `*_przed_*` i `Persona_5_RPG_Zasady_*` to archiwum i wejścia starszych skryptów; zachowuj je. `*.docx.txt` służą do czytania, Word jest źródłem układu i tabel.
 - `*.py`, `paginate_*.ps1`: przetwarzanie dokumentów, paginacja i eksport PDF; `p5*.json`, `skill_*.json`, `persona_skill_cards*`, `exp_*.json`: dane gry.
 - `bestiary_images/`, `bestiary_image*.json`: ilustracje; `qa_*/`, `*_audit.*`: kontrole; `balance*.py`, `balance_tests_*/`: badania balansu; `*.ts`, `repo_tree.json`: materiały źródłowe kompendium.
