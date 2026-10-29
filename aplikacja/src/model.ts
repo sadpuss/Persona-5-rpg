@@ -9,15 +9,16 @@ export type Social = typeof SOCIAL[number];
 export type Source = 'start' | 'point' | 'card';
 export interface PickedSkill {name:string;source:Source}
 export interface Skill {skill:string;type:string;min_level:number|null;access:string;reason:string;effect?:string;cost?:string;starter:boolean}
+export interface InventoryItem {id:string;name:string;quantity:number;description:string}
 export const RULES = catalog as {version:string;skills:Skill[];arcana:{name:string;effect:string}[]};
 export const skillByName = new Map(RULES.skills.map(s=>[s.skill,s]));
 export interface Character {
  format:1;rulesVersion:string;name:string;alias:string;age:string;occupation:string;story:string;
  arcana:string;persona:string;concept:string;image:string;weak:string;resist:string;
  exp:number;startLevel:number;skills:PickedSkill[];spent:number;hp:number|null;sp:number|null;
- bonusHP:number;bonusSP:number;inventory:string;notes:string;social:Record<Social,number>;active:boolean;
+ bonusHP:number;bonusSP:number;inventory:string;items:InventoryItem[];notes:string;social:Record<Social,number>;active:boolean;
 }
-export const fresh=():Character=>({format:1,rulesVersion:VERSION,name:'',alias:'',age:'',occupation:'',story:'',arcana:'',persona:'',concept:'',image:'',weak:'',resist:'',exp:0,startLevel:1,skills:[],spent:0,hp:null,sp:null,bonusHP:0,bonusSP:0,inventory:'',notes:'',social:{Wiedza:1,Odwaga:1,Empatia:1,Urok:1,'Zręczność':1},active:false});
+export const fresh=():Character=>({format:1,rulesVersion:VERSION,name:'',alias:'',age:'',occupation:'',story:'',arcana:'',persona:'',concept:'',image:'',weak:'',resist:'',exp:0,startLevel:1,skills:[],spent:0,hp:null,sp:null,bonusHP:0,bonusSP:0,inventory:'',items:[],notes:'',social:{Wiedza:1,Odwaga:1,Empatia:1,Urok:1,'Zręczność':1},active:false});
 export const threshold=(level:number)=>50*(level-1)*level;
 export const levelOf=(exp:number)=>Math.min(99,Math.floor((1+Math.sqrt(1+Math.max(0,exp)*.08))/2));
 export function stats(c:Character){const level=levelOf(c.exp);return{level,hp:34+level+(c.arcana==='Rydwan'?2:0)+c.bonusHP,sp:30+level+(c.arcana==='Doradca'?1:0)+c.bonusSP,points:level-1-c.spent};}
@@ -42,6 +43,16 @@ export function validate(value:unknown):Character{
  if(typeof x.image==='string'&&/^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(x.image)&&x.image.length<3000000)result.image=x.image;
  const social=x.social&&typeof x.social==='object'?x.social as Record<string,unknown>:{};
  for(const s of SOCIAL)result.social[s]=Math.max(1,num(social[s],1,4));
+ if(x.items!==undefined){
+  if(!Array.isArray(x.items)||x.items.length>1000)throw new Error('Nieprawidłowy zapis ekwipunku.');
+  const itemIds=new Set<string>();
+  result.items=x.items.map((value:unknown)=>{
+   if(!value||typeof value!=='object')throw new Error('Nieprawidłowy przedmiot w ekwipunku.');
+   const item=value as Record<string,unknown>;
+   if(typeof item.id!=='string'||!item.id||item.id.length>80||itemIds.has(item.id)||typeof item.name!=='string'||!item.name.trim()||typeof item.description!=='string'||typeof item.quantity!=='number'||!Number.isSafeInteger(item.quantity)||item.quantity<0||item.quantity>9999)throw new Error('Nieprawidłowy przedmiot w ekwipunku.');
+   itemIds.add(item.id);return{id:item.id,name:item.name.slice(0,200),quantity:item.quantity,description:item.description.slice(0,2000)};
+  });
+ }
  const t=stats(result);if(result.hp!==null)result.hp=Math.min(result.hp,t.hp);if(result.sp!==null)result.sp=Math.min(result.sp,t.sp);
  return result;
 }
@@ -68,6 +79,36 @@ export function learnSkill(c:Character,name:string):Character{
  const free=!c.active&&startProgress(c).count<4&&skillByName.get(name)?.starter;
  return addSkill(c,name,free?'start':'point');
 }
+export function learnInSession(c:Character,name:string,replacement?:string):Character{
+ if(c.skills.some(s=>s.name===name))throw new Error('Ta umiejętność jest już znana.');
+ const skill=skillByName.get(name),t=stats(c);
+ if(!skill||skill.access!=='R'||skill.min_level===null||skill.min_level>t.level)throw new Error('Umiejętność nie jest dostępna na tym poziomie.');
+ if(t.points<1)throw new Error('Potrzebujesz 1 punktu nauki.');
+ let next=c;
+ if(c.skills.length>=8){
+  if(c.skills.length>8||!replacement||!c.skills.some(s=>s.name===replacement))throw new Error('Wybierz umiejętność do zastąpienia, aby zachować osiem miejsc.');
+  next={...c,skills:c.skills.filter(s=>s.name!==replacement)};
+ }
+ return addSkill(next,name,'point');
+}
+export function setResource(c:Character,key:'hp'|'sp',value:number):Character{
+ if(!Number.isSafeInteger(value))throw new Error('Podaj całkowitą liczbę punktów.');
+ return{...c,[key]:Math.max(0,Math.min(stats(c)[key],value))};
+}
+export function adjustResource(c:Character,key:'hp'|'sp',amount:number):Character{
+ return setResource(c,key,(c[key]??stats(c)[key])+amount);
+}
+export function addInventoryItem(c:Character,item:InventoryItem):Character{
+ if(c.items.length>=1000||!item.id||c.items.some(x=>x.id===item.id)||!item.name.trim()||!Number.isSafeInteger(item.quantity)||item.quantity<1||item.quantity>9999)throw new Error('Podaj nazwę i ilość przedmiotu od 1 do 9999.');
+ return{...c,items:[...c.items,{...item,name:item.name.trim().slice(0,200),description:item.description.trim().slice(0,2000)}]};
+}
+export function changeItemQuantity(c:Character,id:string,amount:number):Character{
+ if(!Number.isSafeInteger(amount))throw new Error('Podaj całkowitą ilość przedmiotów.');
+ return{...c,items:c.items.map(item=>item.id===id?{...item,quantity:Math.max(0,Math.min(9999,item.quantity+amount))}:item)};
+}
+export function inventoryText(c:Character):string{
+ return[c.inventory.trim(),...c.items.map(item=>`${item.name} ×${item.quantity}${item.description?' — '+item.description:''}`)].filter(Boolean).join('\n');
+}
 export function removeSkill(c:Character,name:string):Character{
  const p=c.skills.find(s=>s.name===name);return{...c,skills:c.skills.filter(s=>s.name!==name),spent:Math.max(0,c.spent-(!c.active&&p?.source==='point'?1:0))};
 }
@@ -81,10 +122,10 @@ export function warnings(c:Character):string[]{
  if(c.weak&&c.weak===c.resist)a.push('Słabość i odporność dotyczą tego samego typu.');
  if([c.weak,c.resist].some(v=>v&&!AFFINITIES.includes(v)))a.push('Właściwość jest poza dostępną pulą.');
  const start=c.skills.filter(s=>s.source==='start');
- if(start.length!==4)a.push(`Start obejmuje cztery darmowe skille (teraz: ${start.length}).`);
- if(start.some(s=>!skillByName.get(s.name)?.starter))a.push('Darmowy skill jest spoza puli startowej.');
+ if(!c.active&&start.length!==4)a.push(`Start obejmuje cztery darmowe skille (teraz: ${start.length}).`);
+ if(!c.active&&start.some(s=>!skillByName.get(s.name)?.starter))a.push('Darmowy skill jest spoza puli startowej.');
  const elements=new Set(start.map(s=>skillByName.get(s.name)?.type).filter(s=>s&&ELEMENTS.includes(TYPES[s])));
- if(elements.size>2)a.push('Na start wybierz ataki najwyżej dwóch różnych żywiołów.');
+ if(!c.active&&elements.size>2)a.push('Na start wybierz ataki najwyżej dwóch różnych żywiołów.');
  if(c.skills.length>8)a.push('Przekroczono limit ośmiu skilli. Usuń skill zastępowany przy nauce.');
  if(t.points<0)a.push('Wydano więcej punktów nauki, niż wynika z poziomu.');
  for(const p of c.skills){const s=skillByName.get(p.name);if(!s)a.push(`${p.name}: brak w bieżącym katalogu.`);else{

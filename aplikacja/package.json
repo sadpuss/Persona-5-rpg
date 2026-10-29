@@ -1,7 +1,7 @@
 {
   "name": "take-your-heart",
   "productName": "Take Your Heart",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "description": "Lokalny kreator bohatera i Persony do Persona RPG",
   "author": "Persona RPG",
@@ -9,9 +9,9 @@
   "scripts": {
     "dev": "npm run build && electron .",
     "start": "electron .",
-    "build": "tsc --noEmit && tsc -p tsconfig.electron.json && vite build",
-    "test": "tsx --test tests/model.test.ts tests/library.test.ts",
-    "test:desktop": "node tests/desktop.cjs",
+    "build": "node scripts/copy-manuals.cjs && tsc --noEmit && tsc -p tsconfig.electron.json && vite build",
+    "test": "tsx --test tests/model.test.ts tests/library.test.ts tests/session.test.ts",
+    "test:desktop": "node tests/desktop.cjs && node tests/session.cjs",
     "package:win": "npm run build && electron-builder --win dir",
     "package:mac": "npm run build && electron-builder --mac dmg",
     "package:linux": "npm run build && electron-builder --linux AppImage"
@@ -41,7 +41,16 @@
     },
     "linux": {
       "category": "Game"
-    }
+    },
+    "extraResources": [
+      {
+        "from": "assets/manuals",
+        "to": "podreczniki",
+        "filter": [
+          "*.docx"
+        ]
+      }
+    ]
   },
   "dependencies": {
     "react": "^19.3.1",

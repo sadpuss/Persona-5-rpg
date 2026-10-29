@@ -4,7 +4,7 @@ import path from 'node:path';
 import type {CharacterSummary,LibraryResult} from '../src/bridge';
 
 interface Manifest { version:1; activeId:string; characters:CharacterSummary[] }
-const MAX_BYTES=4*1024*1024;
+const MAX_BYTES=16*1024*1024;
 const validId=(id:unknown):id is string=>typeof id==='string'&&/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/.test(id);
 export function checkData(data:unknown):asserts data is string{
  if(typeof data!=='string'||Buffer.byteLength(data,'utf8')>MAX_BYTES)throw new Error('Plik postaci przekracza dopuszczalny rozmiar.');

@@ -1,4 +1,4 @@
-import { RULES, SOCIAL, skillByName, stats, TYPES } from './model';
+import { RULES, SOCIAL, skillByName, stats, TYPES, inventoryText } from './model';
 import type { Character } from './model';
 export default function Sheets({character:c,style,index}:{character:Character;style:string;index:boolean}){
  const t=stats(c),trait=RULES.arcana.find(a=>a.name===c.arcana),name=c.name||'________________________';
@@ -9,7 +9,7 @@ export default function Sheets({character:c,style,index}:{character:Character;st
   <div><h4>WSPÓLNE ZASOBY</h4><p>Poziom {t.level} · EXP {c.exp}<br/>HP {c.hp??t.hp} / {t.hp} · SP {c.sp??t.sp} / {t.sp}<br/>Trafienie +5 · Obrona 12 (baza)<br/>Punkty nauki: {t.points}</p></div></div>
   <h4>CECHY SPOŁECZNE</h4><p>{SOCIAL.map(s=>`${s}: ${c.social[s]}`).join(' · ')}</p>
   <h4>HISTORIA / MOTYWACJA</h4><div className="write-space"><p>{c.story}</p></div>
-  <h4>EKWIPUNEK</h4><div className="write-space"><p>{c.inventory}</p></div>
+  <h4>EKWIPUNEK</h4><div className="write-space"><p>{inventoryText(c)}</p></div>
   <h4>NOTATKI</h4><div className="blank-lines"/>
   <h4>PODSTAWOWE AKCJE</h4><p>Atak Physical / strzał Gun: d20 + 5 ≥ Obrona, 1d6 + 4 obrażeń, bez kosztu.<br/>Guard: otrzymujesz 40% obrażeń i ochronę przed Down do początku następnej zwykłej tury.<br/>Skille i pasywy mogą modyfikować wartości bazowe zgodnie ze swoim opisem.</p>
  </section>

@@ -19,3 +19,10 @@ PDF zapiszesz w kroku „Gotowe karty”, przyciskiem „Zapisz PDF”.
 
 Jeśli chcesz przenieść program, skopiuj CAŁY folder win-unpacked,
 a nie sam plik EXE. Swoją postać przenieś osobno, zapisując ją do pliku.
+
+Po utworzeniu karty wybierz „Rozpocznij grę”, aby otworzyć pulpit.
+Masz tam HP/SP, EXP, umiejętności, ekwipunek oraz notatki.
+Przycisk „Kreator” pozwala wrócić do edycji danych bohatera i Persony.
+
+Na górze okna znajdziesz „Podręczniki”. Możesz otworzyć aktualny Word
+albo pobrać jego kopię w wybrane miejsce na komputerze.

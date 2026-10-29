@@ -13,13 +13,13 @@ Do przeniesienia programu na inny komputer z Windows trzeba skopiować **cały f
 ## Co zachowano
 
 - Sześć kroków, swobodne pomijanie pól i podgląd na żywo.
-- Bohater i osobista Persona, Arkany i traity, własna ilustracja, słabość i Resist.
+- Bohater i osobista Persona, Arkany i traity, własna ilustracja, słabość i odporność.
 - Zestawy startowe, katalog skilli z filtrami, automatyczne rozliczanie darmowych wyborów i punktów nauki.
 - Start na poziomie 1–99, EXP i awanse bez leczenia, zasoby, ekwipunek i notatki.
 - Dwie osobne karty do PDF/druku, opcjonalny indeks skilli, stylizowany i uproszczony wygląd.
-- Ostrzeżenia tylko w kreatorze. Prywatne notatki i uzgodnienia z GM nie są drukowane.
+- Ostrzeżenia nie trafiają na wydruk. Prywatne notatki i uzgodnienia z GM nie są drukowane.
 
-Zasady: GM 0.8 / Gracz 0.5. Wszystkie 346 umiejętności dostępnych przez zwykłą naukę ma opis działania; pozostałe wpisy są oznaczone jako moce unikatowe, nieużywane mechaniki lub źródłowe traity. Premie HP Rydwanu i SP Doradcy są automatyczne; pozostałe pasywy i dodatkowe premie maksimum wpisuje się ręcznie. Skill cards nie mają jeszcze własnego ekwipunku. Brak Velvet Roomu, fuzji, historii/cofania zmian i migracji wersji zasad. To zachowane ograniczenia prototypu, a nie zmiana zasad gry.
+Zasady: GM 0.8 / Gracz 0.5. Wszystkie 346 umiejętności dostępnych przez zwykłą naukę mają opis działania; pozostałe wpisy są oznaczone jako moce unikatowe, nieużywane mechaniki lub źródłowe traity. Premie HP Rydwanu i SP Doradcy są automatyczne; pozostałe pasywy i dodatkowe premie maksimum wpisuje się ręcznie. Skill cards nie mają jeszcze własnego ekwipunku. Brak Velvet Roomu, fuzji, historii/cofania zmian i migracji wersji zasad. To zachowane ograniczenia prototypu, a nie zmiana zasad gry.
 
 ## Dla osoby rozwijającej aplikację
 
@@ -27,7 +27,9 @@ Kod jest w TypeScript i React. Electron obsługuje okno, pliki, automatyczny zap
 
 Struktura:
 
-- `src/App.tsx` — kreator i stan interfejsu React.
+- `src/App.tsx` — nawigacja, biblioteka postaci i stan interfejsu React.
+- `src/Dashboard.tsx` — pulpit sesji, rozwój, nauka, ekwipunek i notatki.
+- `src/Manuals.tsx`, `electron/manuals.ts` — otwieranie i pobieranie bieżących podręczników Word.
 - `src/model.ts` — typy, obliczenia, import i ostrzeżenia.
 - `src/Sheets.tsx`, `src/Preview.tsx` — karty oraz podgląd.
 - `src/bridge.ts` — typy interfejsu między Reactem i Electronem.
@@ -46,6 +48,7 @@ npm test
 npm run test:desktop
 npm run package:win
 node tests/desktop.cjs --packaged
+node tests/session.cjs --packaged
 ```
 
 `npm run dev` kompiluje projekt i uruchamia Electron bez serwera. Po zmianach uruchom ponownie. `npm start` otwiera ostatnią kompilację. Paczki macOS i Linux buduje się na odpowiednich systemach przez `npm run package:mac` i `npm run package:linux`.
@@ -75,3 +78,16 @@ Na górze okna jest przycisk „Nowa postać” i lista „Lokalne postacie”. 
 - Każda wybrana umiejętność ma osobny przycisk „Usuń” z koszem. Opisy używają pełnych nazw typów obrażeń, również w PDF.
 - `build_data.py` czyta główne podręczniki i wersjonowane dane. Uzupełnia podstawowe opisy według tabel celu/statusu, wspólnej skali obrażeń i zasad odporności; sprawdza skróty wejścia przed zapisem. Zapisuje wyłącznie `src/rules.json`, bez edycji Wordów i archiwalnego prototypu.
 - Ikona programu i okna to czerwona gwiazda. `assets/generate-icon.cjs` odtwarza SVG, PNG i wielorozmiarowe ICO z tej samej figury. Windows ma włączone osadzanie ikony i metadanych EXE, bez podpisywania programu.
+
+
+## Prowadzenie postaci i podręczniki 0.5.0
+
+Po zakończeniu kreatora przyciskiem „Rozpocznij grę” otwiera się pulpit. Także wybór aktywnej postaci z biblioteki i ponowne uruchomienie otwierają jej pulpit. Przełączniki „Prowadzenie” i „Kreator” pozwalają wrócić do edycji.
+
+Prowadzenie obejmuje aktualne HP/SP i dodawanie/odejmowanie zasobów, odpoczynek po potwierdzeniu, EXP z podglądem awansu, wspólne poziomy i punkty nauki, naukę nowych skilli z wyborem zastępowanego przy ośmiu miejscach, ekwipunek z ilościami i opisami, prywatne notatki oraz rangi cech społecznych. Awans nie leczy. Zapominanie skilli nie zwraca punktów nauki. Premie pasywów, buffy, statusy i efekty przedmiotów nadal rozlicza gracz według opisu; nie ma automatycznego przebiegu walki.
+
+Pole `items` jest opcjonalnym rozszerzeniem istniejącego formatu zapisu: stare karty otrzymują pustą listę. Dawny opis `inventory` pozostaje nietknięty i jest dostępny w notatkach o ekwipunku. Lista przedmiotów oraz dawny opis są uwzględniane w PDF i eksporcie JSON. Notatki sesji nie są drukowane.
+
+Przycisk „Podręczniki” jest dostępny u góry w obu trybach. „Otwórz Word” uruchamia systemowy program do DOCX, a „Pobierz Word” zapisuje kopię w wybranym miejscu. Aplikacja odszukuje trzy główne, nienumerowane Wordy w folderze projektu i odczytuje je przy każdym otwarciu/pobraniu. Aktualizacja pliku w projekcie jest więc od razu widoczna bez przebudowy aplikacji. Jeśli folder projektu nie jest dostępny (np. na drugim komputerze), aplikacja korzysta z kopii dołączonych do swojej wersji i wyraźnie wskazuje to w oknie podręczników.
+
+`scripts/copy-manuals.cjs` wykonuje przy budowaniu odczyt i kopię trzech głównych dokumentów, sprawdzając niezmienność źródła. Nie edytuje Wordów. Kopie są w ignorowanym `assets/manuals/`, a do paczki trafiają jako zwykłe pliki `resources/podreczniki/`, żeby można było otworzyć je w Wordzie. Spakowany program nie korzysta z serwera ani zewnętrznych linków do dokumentów.

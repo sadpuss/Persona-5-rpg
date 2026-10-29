@@ -4,6 +4,7 @@ import { writeFile, mkdtemp, rm, rmdir } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import {CharacterLibrary,checkData,readCharacter} from './library';
+import {listManuals,openManual,saveManual} from './manuals';
 
 // Oddzielny katalog dla testów; nigdy nie nadpisują rzeczywistej karty.
 if (process.env.PERSONA_TEST_DATA) app.setPath('userData', path.resolve(process.env.PERSONA_TEST_DATA));
@@ -38,6 +39,9 @@ function enqueue<T>(operation:()=>Promise<T>):Promise<T>{
   return result;
 }
 function registerIPC() {
+  ipcMain.handle('manuals:list',event=>{authorize(event);return listManuals();});
+  ipcMain.handle('manuals:open',(event,id:unknown)=>{authorize(event);return openManual(id);});
+  ipcMain.handle('manuals:save',(event,id:unknown)=>saveManual(authorize(event),id));
   ipcMain.handle('library:load',(event,initialData:unknown)=>{
     authorize(event);checkData(initialData);return enqueue(()=>library.load(initialData));
   });

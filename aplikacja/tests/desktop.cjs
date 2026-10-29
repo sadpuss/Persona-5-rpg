@@ -57,6 +57,7 @@ const assert=require('node:assert/strict');
 
   await page.getByRole('button',{name:'06 Gotowe karty'}).click();
   await page.getByRole('button',{name:'Rozpocznij grę'}).click();
+  await page.getByRole('button',{name:'Otwórz kreator',exact:true}).click();
   await page.getByRole('button',{name:'02 Poziom i rozwój'}).click();
   await page.getByLabel('Aktualne HP').fill('12');await page.getByLabel('EXP przyznany przez GM').fill('1000');await page.getByRole('button',{name:'Dodaj EXP'}).click();
   await page.getByLabel('Aktualne HP').filter({visible:true}).waitFor();
@@ -109,10 +110,12 @@ const assert=require('node:assert/strict');
   assert.equal(await page.evaluate(()=>typeof window.desktop.invoke),'undefined');
   console.log('Ponowne uruchomienie…');
   await app.close();app=await launch();page=await app.firstWindow();page.setDefaultTimeout(15000);
+  await page.getByRole('button',{name:'Otwórz kreator',exact:true}).click();
   await page.getByLabel('Imię i nazwisko').waitFor();assert.equal(await page.getByLabel('Imię i nazwisko').inputValue(),'Maja Kowalska');
   // Import tworzy oddzielny wpis w lokalnej bibliotece.
   await app.evaluate(({dialog},file)=>{dialog.showOpenDialog=async()=>({canceled:false,filePaths:[file]});},characterFile);
   await page.getByRole('button',{name:'Otwórz plik'}).click();await page.getByText('Dodano postać z pliku do lokalnej biblioteki.',{exact:true}).waitFor();
+  await page.getByRole('button',{name:'Otwórz kreator',exact:true}).click();
   assert.equal(await page.getByLabel('Lokalne postacie').locator('option').count(),2);
   await page.getByLabel('Imię i nazwisko').fill('Zaimportowana Maja');
   await page.getByRole('button',{name:/Nowa postać/}).click();
@@ -121,6 +124,7 @@ const assert=require('node:assert/strict');
   const thirdId=await page.getByLabel('Lokalne postacie').inputValue();
   await page.getByLabel('Imię i nazwisko').fill('Druga postać');
   await page.getByLabel('Lokalne postacie').selectOption(originalId);
+  await page.getByRole('button',{name:'Otwórz kreator',exact:true}).click();
   await page.waitForFunction(value=>document.querySelector('main input')?.value===value,'Maja Kowalska');
   assert.equal(await page.getByLabel('Imię i nazwisko').inputValue(),'Maja Kowalska');
   await page.getByLabel('Lokalne postacie').selectOption(thirdId);
@@ -154,6 +158,7 @@ const assert=require('node:assert/strict');
   assert.ok((await fs.stat(characterFile)).size>0);
   await page.getByRole('status').filter({hasText:'Zapisano automatycznie'}).waitFor();
   await app.close();app=await launch();page=await app.firstWindow();page.setDefaultTimeout(15000);
+  await page.getByRole('button',{name:'Otwórz kreator',exact:true}).click();
   await page.getByLabel('Imię i nazwisko').waitFor();
   assert.equal(await page.getByLabel('Lokalne postacie').locator('option').count(),2);
   for(let i=0;i<2;i++){
