@@ -6,7 +6,7 @@ Kreator bohatera i własnej Persony do Persona RPG. Aplikacja działa lokalnie, 
 
 Kliknij dwukrotnie **Uruchom kreator.lnk** w tym folderze. Alternatywnie otwórz `release/win-unpacked/Take Your Heart.exe`. Nie otwieraj głównego `index.html`: to obecnie plik źródłowy projektu React.
 
-Program zapisuje kartę automatycznie na tym komputerze. „Zapisz do pliku” tworzy przenośny zapis JSON. „Otwórz plik” przyjmuje również pliki z wcześniejszego prototypu. W kroku „Gotowe karty” są osobne przyciski „Zapisz PDF” oraz „Drukuj karty”.
+Program zapisuje kartę automatycznie na tym komputerze. „Zapisz do pliku” tworzy przenośny zapis JSON. „Otwórz plik” przyjmuje również pliki z wcześniejszego prototypu. W kroku „Gotowe karty” są osobne przyciski „Zapisz PDF” oraz „Podgląd i druk”.
 
 Do przeniesienia programu na inny komputer z Windows trzeba skopiować **cały folder win-unpacked**. Sam plik EXE nie wystarczy. Postać przenosi się oddzielnie przez plik JSON. Mac i Linux mają konfigurację budowania, ale ich paczek nie zweryfikowano na tym komputerze.
 
@@ -53,3 +53,10 @@ node tests/desktop.cjs --packaged
 Automatyczny zapis: `app.getPath('userData')/postac.json`, na Windows zwykle `%APPDATA%/Take Your Heart/`. Poprzedni prawidłowy zapis jest w `postac.json.bak`. Zapisy są kolejkowane i zastępowane przez plik tymczasowy. Przy uszkodzeniu pliku aplikacja próbuje odczytać kopię. Jeśli odczyt lub wersja zasad są nieprawidłowe, zapis jest wstrzymany do świadomego otwarcia innej karty lub rozpoczęcia nowej. Nowy system zapisu nie odczytuje automatycznie danych localStorage przeglądarki; ze starego prototypu trzeba pobrać JSON.
 
 Test desktopowy używa osobnego profilu w `qa-desktop/`, nie dotyka rzeczywistych kart. Systemowe okna wyboru pliku są w teście zastępowane wskazaniem pliku testowego; sam zapis i PDF wykonuje Electron.
+
+
+## Poprawki interfejsu 0.2.1
+
+Menu kroków pozostaje widoczne przy przewijaniu, także przy niższym oknie. Kolejność: bohater → poziom i rozwój → Arkana → Persona → umiejętności → gotowe karty. Zasoby do prowadzenia sesji (aktualne HP/SP i dodatkowe premie) są dostępne po rozpoczęciu gry z ostatniego kroku. Oba style kart różnią się również w podglądzie ekranowym. „Podgląd i druk” otwiera rzeczywisty PDF w osobnym oknie z wbudowanym przyciskiem drukowania.
+
+Na życzenie użytkowniczki lista słabości i odporności dopuszcza także Physical i Gun, a nazwy są po polsku. To ustawienie aplikacji; ta zmiana nie edytuje podręczników ani historycznego zestawu reguł zapisanego na karcie.

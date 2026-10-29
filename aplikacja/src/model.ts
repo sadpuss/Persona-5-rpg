@@ -1,8 +1,9 @@
 import catalog from './rules.json';
 export const VERSION = 'GM 0.8 / Gracz 0.5';
-export const STEPS = ['Bohater','Arkana','Twoja Persona','Umiejętności','Rozwój i zasoby','Gotowe karty'];
+export const STEPS = ['Bohater','Poziom i rozwój','Arkana','Twoja Persona','Umiejętności','Gotowe karty'];
 export const TYPES: Record<string,string> = {fir:'Fire',ice:'Ice',ele:'Electricity',win:'Wind',psy:'Psy',nuk:'Nuclear',ble:'Bless',cur:'Curse',phy:'Physical',gun:'Gun',alm:'Almighty',rec:'Leczenie',ail:'Status',sup:'Wsparcie',pas:'Pasyw'};
 export const ELEMENTS = Object.values(TYPES).slice(0,8);
+export const AFFINITIES = [...ELEMENTS, 'Physical', 'Gun'];
 export const SOCIAL = ['Wiedza','Odwaga','Empatia','Urok','Zręczność'] as const;
 export type Social = typeof SOCIAL[number];
 export type Source = 'start' | 'point' | 'card';
@@ -67,9 +68,9 @@ export function warnings(c:Character):string[]{
  if(!c.arcana)a.push('Wybierz Arkanę, aby przypisać osobisty trait.');
  else if(!RULES.arcana.some(a=>a.name===c.arcana))a.push('Arkana jest spoza dostępnej puli startowej. Uzgodnij ją z GM.');
  if(!c.persona)a.push('Persona nie ma jeszcze nazwy.');
- if(!c.weak||!c.resist)a.push('Wybierz jedną słabość i jeden Resist.');
- if(c.weak&&c.weak===c.resist)a.push('Słabość i Resist dotyczą tego samego typu.');
- if([c.weak,c.resist].some(v=>v&&!ELEMENTS.includes(v)))a.push('Właściwość poza wspólną pulą startową — uzgodnij z GM.');
+ if(!c.weak||!c.resist)a.push('Wybierz jedną słabość i jedną odporność.');
+ if(c.weak&&c.weak===c.resist)a.push('Słabość i odporność dotyczą tego samego typu.');
+ if([c.weak,c.resist].some(v=>v&&!AFFINITIES.includes(v)))a.push('Właściwość poza dostępną pulą — uzgodnij z GM.');
  const start=c.skills.filter(s=>s.source==='start');
  if(start.length!==4)a.push(`Start obejmuje cztery darmowe skille (teraz: ${start.length}).`);
  if(start.some(s=>!skillByName.get(s.name)?.starter))a.push('Darmowy skill spoza puli startowej wymaga uzgodnienia z GM.');

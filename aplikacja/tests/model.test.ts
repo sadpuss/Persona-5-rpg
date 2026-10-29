@@ -46,4 +46,8 @@ test('niepełna karta jest dozwolona, a nielegalne wybory mają ostrzeżenia',()
  assert.deepEqual(warnings(complete),[]);
  assert.ok(warnings({...complete,resist:'Ice'}).some(w=>w.includes('tego samego')));
  assert.ok(warnings(addSkill(complete,'Agneyastra','point')).some(w=>w.includes('poziom 65')));
+ const physical={...complete,weak:'Physical',resist:'Gun'};
+ assert.deepEqual(warnings(physical),[]);
+ assert.deepEqual(validate(JSON.parse(JSON.stringify(physical))),physical);
+ assert.ok(warnings({...physical,resist:'Physical'}).some(w=>w==='Słabość i odporność dotyczą tego samego typu.'));
 });

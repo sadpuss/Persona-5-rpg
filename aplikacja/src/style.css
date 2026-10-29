@@ -9,3 +9,16 @@
 .notice button{font-size:20px;flex-shrink:0}.float-right{float:right}.illustration-space{height:160px}
 .modal-backdrop{position:fixed;inset:0;background:#000b;z-index:100;display:grid;place-items:center;padding:25px}.modal{background:#202024;border-top:5px solid var(--red);max-width:520px;padding:30px;box-shadow:0 15px 80px #0008}.modal p{line-height:1.8;color:#c9c4ce}.modal h2{margin-top:0}
 @media print{.modal-backdrop,.notice{display:none!important}#root>.app-shell{display:none!important}.sheet-preview{overflow-wrap:anywhere}.sheet-preview img{break-inside:avoid}}
+@media print{html,body{background:#fff!important;color-scheme:light}}
+
+/* Nawigacja pozostaje na ekranie podczas przewijania kreatora. */
+.sidebar{position:sticky;top:0;height:100dvh;align-self:start;overflow-y:auto;overscroll-behavior:contain;z-index:5}
+.sidebar .brand,.sidebar nav{flex-shrink:0}.sidebar .side-bottom{padding-top:25px}
+@media(max-height:850px) and (min-width:651px){.sidebar{padding-top:22px;padding-bottom:20px}.sidebar .side-label{margin-top:30px;margin-bottom:12px}.sidebar nav button{padding-top:10px;padding-bottom:10px;margin-top:3px;margin-bottom:3px}.sidebar .side-bottom{padding-top:15px}}
+@media(max-width:650px){.sidebar{height:auto;max-height:45dvh;overflow:auto}}
+/* Ten sam wybór stylu jest widoczny na ekranie i w PDF. */
+.sheet-preview.styled{border-top:8px solid var(--red)}
+.sheet-preview.styled h2{background:#17171a;color:#fff;padding:12px;transform:skew(-3deg)}
+.sheet-preview.simple{background:#fff;border-top:1px solid #999}
+.sheet-preview.simple h2{background:none;color:#111;transform:none;padding:0;font-style:normal}
+@media print{.sheet-preview.simple{border-top:0}.sidebar{display:none!important}}

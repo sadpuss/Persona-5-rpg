@@ -16,7 +16,7 @@ export default function Sheets({character:c,style,index}:{character:Character;st
  <section className={`sheet-preview ${style}`}>
   <div className="sheet-meta">PERSONA RPG / OSOBISTA PERSONA · {c.rulesVersion}</div><h2>{c.persona||'________________________'}</h2>
   <div className="sheet-grid"><div><h4>UŻYTKOWNIK</h4><p>{name}<br/>Poziom {t.level} · wspólne HP / SP<br/>Arkana: {c.arcana||'________________'}</p>
-  <h4>WŁAŚCIWOŚCI BAZOWE</h4><p>Weak: {c.weak||'________'} · Resist: {c.resist||'________'}<br/>Pozostałe typy: Normal.<br/>Pasywy mogą zakrywać bazowe właściwości.</p></div>
+  <h4>WŁAŚCIWOŚCI BAZOWE</h4><p>Słabość: {c.weak||'________'} · Odporność: {c.resist||'________'}<br/>Pozostałe typy: neutralne.<br/>Pasywy mogą zakrywać bazowe właściwości.</p></div>
   <div>{c.image?<img src={c.image} alt="Ilustracja Persony"/>:<div className="blank-lines illustration-space"/>}</div></div>
   <h4>OSOBISTY TRAIT ARKANY / POZA SLOTAMI</h4><p>{trait?.effect||'________________________________________________________________'}</p>
   <p className="sheet-meta">Aktywne efekty raz na wyprawę, o ile opis nie mówi inaczej. Stałe premie bierne; wytwarzanie wymaga bloku aktywności.</p>

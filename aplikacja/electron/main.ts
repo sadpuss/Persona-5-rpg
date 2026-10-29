@@ -1,6 +1,6 @@
 import { app, BrowserWindow, dialog, ipcMain, Menu, session } from 'electron';
 import type { IpcMainInvokeEvent } from 'electron';
-import { readFile, writeFile, rename, copyFile, mkdir, stat } from 'node:fs/promises';
+import { readFile, writeFile, rename, copyFile, mkdir, stat, mkdtemp, rm, rmdir } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
@@ -92,13 +92,30 @@ function registerIPC() {
   });
   ipcMain.handle('cards:print', async event => {
     const win = authorize(event);
-    await new Promise<void>((resolve, reject) => win.webContents.print({ printBackground: true }, (ok, reason) => {
-      if (ok || /cancel/i.test(reason)) resolve(); else reject(new Error('Nie udało się wydrukować kart: ' + reason));
-    }));
+    const pdf = await win.webContents.printToPDF({ printBackground: true, preferCSSPageSize: true, pageSize: 'A4', displayHeaderFooter: false });
+    const directory = await mkdtemp(path.join(app.getPath('temp'), 'persona-podglad-'));
+    const file = path.join(directory, 'Karty postaci.pdf');
+    await writeFile(file, pdf);
+    // Wbudowany czytnik PDF pokazuje rzeczywiste strony, skalę i przycisk drukarki.
+    const preview = new BrowserWindow({ parent: win, width: 1050, height: 900, minWidth: 650, minHeight: 500,
+      title: 'Podgląd wydruku — karty postaci', show: false, backgroundColor: '#ffffff',
+      webPreferences: { nodeIntegration: false, contextIsolation: true, sandbox: true, plugins: true }
+    });
+    preview.webContents.setWindowOpenHandler(() => ({ action: 'deny' }));
+    preview.webContents.on('will-navigate', navigation => navigation.preventDefault());
+    preview.webContents.on('page-title-updated', titleEvent => titleEvent.preventDefault());
+    preview.on('closed', () => { void rm(file, { force: true }).then(() => rmdir(directory)).catch(() => {}); });
+    try {
+      await preview.loadFile(file);
+      if (!process.env.PERSONA_TEST_DATA) preview.show();
+    } catch (error) {
+      preview.close();
+      throw error;
+    }
   });
 }
 async function createWindow() {
-  mainWindow = new BrowserWindow({ width: 1500, height: 1000, minWidth: 850, minHeight: 650, backgroundColor: '#19191c', title: 'Take Your Heart — Persona RPG', show: false,
+  mainWindow = new BrowserWindow({ width: 1500, height: 1000, minWidth: 850, minHeight: 650, backgroundColor: '#ffffff', title: 'Take Your Heart — Persona RPG', show: false,
     webPreferences: { preload: path.join(__dirname, 'preload.js'), nodeIntegration: false, contextIsolation: true, sandbox: true, webSecurity: true, spellcheck: false }
   });
   mainWindow.webContents.setWindowOpenHandler(() => ({ action: 'deny' }));
