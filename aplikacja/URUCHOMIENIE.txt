@@ -1,5 +1,10 @@
 TAKE YOUR HEART — KREATOR PERSONA RPG
 
+LINUX: skopiuj release/Take-Your-Heart-0.5.0-linux-x64.tar.gz,
+rozpakuj na Linuxie i uruchom take-your-heart dwuklikiem.
+Szczegóły są w LINUX.txt, również wewnątrz paczki.
+Poniższa instrukcja uruchamiania dotyczy Windowsa.
+
 1. Kliknij dwukrotnie „Uruchom kreator.lnk” w tym folderze.
 2. Kreator otworzy się we własnym oknie. Internet nie jest potrzebny.
 

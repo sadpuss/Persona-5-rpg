@@ -1,0 +1,32 @@
+TAKE YOUR HEART — LINUX (Intel/AMD 64-bit, x86-64)
+
+1. Skopiuj Take-Your-Heart-0.5.0-linux-x64.tar.gz na komputer z Linuxem.
+2. Kliknij archiwum prawym przyciskiem i wybierz „Rozpakuj tutaj”.
+3. Otwórz rozpakowany folder i uruchom „take-your-heart” dwuklikiem.
+   Zależnie od menedżera plików trzeba wybrać „Uruchom” albo zaznaczyć
+   we właściwościach pliku „Zezwalaj na wykonywanie jako programu”.
+   Można również uruchomić Uruchom.sh jako program.
+
+Jeśli dwuklik nie otwiera programu, otwórz terminal w rozpakowanym folderze:
+  ./Uruchom.sh
+Terminal pokaże przyczynę problemu. Zachowaj komunikat do diagnozy.
+Program wymaga graficznego pulpitu Linux i bibliotek systemowych Electrona.
+Nie jest to wersja dla ARM/Raspberry Pi ani dla systemu bez pulpitu.
+Paczka nie wymaga instalacji Node.js, Wine ani dostępu do internetu.
+Zachowaj cały rozpakowany folder — sam plik take-your-heart nie wystarczy.
+
+PRZENIESIENIE POSTACI Z WINDOWSA
+Na Windowsie wybierz postać i kliknij „Zapisz do pliku”. Przenieś zapis JSON
+na Linuxa, uruchom aplikację i wybierz „Otwórz plik”. Powtórz dla każdej
+postaci. Automatyczne zapisy nie przenoszą się razem z folderem programu.
+Na Linuxie biblioteka jest zwykle w ~/.config/Take Your Heart/ (albo w
+odpowiednim katalogu wskazanym przez XDG_CONFIG_HOME).
+
+PODRĘCZNIKI I PDF
+Trzy podręczniki DOCX są dołączone. Do otwierania DOCX potrzebujesz programu
+obsługującego ten format, np. LibreOffice Writer. Eksport PDF wykonuje aplikacja.
+
+WERYFIKACJA
+Paczkę zbudowano na Windowsie. Sprawdzono format programu Linux x64,
+kompletność archiwum i prawa wykonywania; 22 testy logiki aplikacji przeszły.
+Nie przeprowadzono uruchomienia okna, drukowania ani testów pulpitu na Linuxie.

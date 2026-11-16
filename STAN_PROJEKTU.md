@@ -1,5 +1,9 @@
 # Persona 5 RPG stan projektu na 29 października 2026
 
+## Aplikacja Linux — 16 listopada 2026
+
+Przygotowano przenośną paczkę `aplikacja/release/Take-Your-Heart-0.5.0-linux-x64.tar.gz` dla Intel/AMD 64-bit. Instrukcja: `aplikacja/LINUX.txt`. Odtwarzanie: `npm run package:linux` w folderze aplikacji (także na Windowsie). Paczka obejmuje Electron dla Linuxa, aplikację i trzy bieżące podręczniki; archiwum przechowuje prawa wykonywania. Kontrola: 22 testy logiki, kompilacja, ELF x64, zawartość archiwum i prawa wykonywania. Uruchomienie pulpitu i PDF na Linuxie pozostają niezweryfikowane — komputer nie ma Linuxa/WSL. Próba AppImage na Windowsie zatrzymała się na uprawnieniach dowiązań; osobne polecenie `package:linux:appimage` pozostaje do użycia na Linuxie. Postacie przenosi się przez eksport/import JSON.
+
 ## Aktualne podręczniki
 
 Od wdrożenia Gita edytujemy pliki bez numerów: `Persona_5_RPG_Podrecznik_GM.docx`, `Persona_5_RPG_Podrecznik_Gracza.docx` i `Persona_5_RPG_Bestiariusz.docx`. Poniższe wersje to ich źródła startowe. Procedura kontroli aktualności: `GIT_I_PODRECZNIKI.md`.

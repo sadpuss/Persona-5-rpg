@@ -8,7 +8,7 @@ Kliknij dwukrotnie **Uruchom kreator.lnk** w tym folderze. Alternatywnie otwórz
 
 Program zapisuje kartę automatycznie na tym komputerze. „Zapisz do pliku” tworzy przenośny zapis JSON. „Otwórz plik” przyjmuje również pliki z wcześniejszego prototypu. W kroku „Gotowe karty” są osobne przyciski „Zapisz PDF” oraz „Podgląd i druk”.
 
-Do przeniesienia programu na inny komputer z Windows trzeba skopiować **cały folder win-unpacked**. Sam plik EXE nie wystarczy. Postać przenosi się oddzielnie przez plik JSON. Mac i Linux mają konfigurację budowania, ale ich paczek nie zweryfikowano na tym komputerze.
+Do przeniesienia programu na inny komputer z Windows trzeba skopiować **cały folder win-unpacked**. Sam plik EXE nie wystarczy. Postać przenosi się oddzielnie przez plik JSON. Wersja Linux x64 jest w `release/Take-Your-Heart-0.5.0-linux-x64.tar.gz`: rozpakuj archiwum na Linuxie i uruchom `take-your-heart` dwuklikiem. Szczegóły i przenoszenie postaci opisuje [LINUX.txt](LINUX.txt). Sprawdzono format ELF, zawartość i prawa wykonywania w archiwum; okna aplikacji na Linuxie jeszcze nie testowano. Paczki Mac nadal nie zweryfikowano.
 
 ## Co zachowano
 
@@ -51,7 +51,7 @@ node tests/desktop.cjs --packaged
 node tests/session.cjs --packaged
 ```
 
-`npm run dev` kompiluje projekt i uruchamia Electron bez serwera. Po zmianach uruchom ponownie. `npm start` otwiera ostatnią kompilację. Paczki macOS i Linux buduje się na odpowiednich systemach przez `npm run package:mac` i `npm run package:linux`.
+`npm run dev` kompiluje projekt i uruchamia Electron bez serwera. Po zmianach uruchom ponownie. `npm start` otwiera ostatnią kompilację. `npm run package:linux` buduje przenośną paczkę Linux x64 `.tar.gz` także na Windowsie. Skrypt `scripts/package-linux.cjs` sprawdza ELF, dodaje instrukcję i launcher, ustawia prawa wykonywania w archiwum, kontroluje jego zawartość i zapisuje SHA256. Korzysta z biblioteki `tar` dostarczanej z electron-builder. `npm run package:linux:appimage` służy do budowania AppImage na Linuxie; na tym Windowsie próba zakończyła się błędem uprawnień dowiązań. `npm run package:mac` buduje DMG na macOS.
 
 Lokalna biblioteka: `app.getPath('userData')/biblioteka.json` (spis i ostatnio otwarta postać) oraz `postacie/<id>.json` (każda karta osobno). Na Windows katalog jest zwykle w `%APPDATA%/Take Your Heart/`. Pliki mają kopie `.bak`; zapisy są kolejkowane, a zapis konkretnej karty zawiera jej identyfikator, żeby opóźniona operacja nie zmieniła innej postaci. Przełączanie najpierw zapisuje bieżącą kartę i jest zatrzymywane w razie błędu zapisu. Przy uszkodzeniu pliku aplikacja próbuje odczytać kopię. Dawny `postac.json` jest automatycznie przenoszony do biblioteki podczas pierwszego uruchomienia, a plik źródłowy pozostaje nietknięty. Zapisów z localStorage przeglądarki nadal nie odczytuje się automatycznie — trzeba pobrać JSON ze starego prototypu.
 
