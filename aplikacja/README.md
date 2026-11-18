@@ -8,6 +8,14 @@ Kliknij dwukrotnie **Uruchom kreator.lnk** w tym folderze. Alternatywnie otwórz
 
 Program zapisuje kartę automatycznie na tym komputerze. „Zapisz do pliku” tworzy przenośny zapis JSON. „Otwórz plik” przyjmuje również pliki z wcześniejszego prototypu. W kroku „Gotowe karty” są osobne przyciski „Zapisz PDF” oraz „Podgląd i druk”.
 
+## Wydania i aktualizacje
+
+Po opublikowaniu pierwszego wydania otwórz w repozytorium GitHub sekcję **Releases**. Na Windows uruchom pobrany instalator `.exe`, a na Linuksie uruchom plik `.AppImage` z uprawnieniem do wykonywania. Te wersje sprawdzają dostępność aktualizacji po starcie i co cztery godziny. Pobierają ją w tle i instalują przy zamykaniu programu. Na macOS instalator ma rozszerzenie `.dmg`, a automatyczne aktualizacje wymagają podpisanego wydania.
+
+Wydanie uruchamia się w GitHubie przez **Actions → Wydanie aplikacji → Run workflow** na gałęzi `main`. Zaznaczenie **Opublikuj wydanie po zbudowaniu paczek** publikuje komplet plików po udanej kompilacji i testach na wszystkich systemach. Domyślnie workflow tylko buduje paczki do sprawdzenia. Numer wydania pochodzi z `package.json`. Przed kolejnym wydaniem zwiększ wersję aplikacji poleceniem `npm version <numer> --no-git-tag-version` w folderze `aplikacja` i zapisz oba pliki `package*.json` w Git.
+
+Podpisywanie pakietu macOS można włączyć przez sekrety GitHub Actions `MAC_CSC_LINK` (certyfikat Developer ID Application w formacie P12, jako Base64) i `MAC_CSC_KEY_PASSWORD` (hasło certyfikatu). Bez nich workflow buduje DMG do ręcznej instalacji.
+
 Do przeniesienia programu na inny komputer z Windows trzeba skopiować **cały folder win-unpacked**. Sam plik EXE nie wystarczy. Postać przenosi się oddzielnie przez plik JSON. Wersja Linux x64 jest w `release/Take-Your-Heart-0.5.0-linux-x64.tar.gz`: rozpakuj archiwum na Linuxie i uruchom `take-your-heart` dwuklikiem. Szczegóły i przenoszenie postaci opisuje [LINUX.txt](LINUX.txt). Sprawdzono format ELF, zawartość i prawa wykonywania w archiwum; okna aplikacji na Linuxie jeszcze nie testowano. Paczki Mac nadal nie zweryfikowano.
 
 ## Co zachowano

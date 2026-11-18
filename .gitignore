@@ -9,3 +9,11 @@ release/
 .env
 .env.*
 !.env.example
+*.local
+*.log
+*.tsbuildinfo
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.p12
+*.pfx

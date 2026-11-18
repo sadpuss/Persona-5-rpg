@@ -1,0 +1,103 @@
+name: Wydanie aplikacji
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Opublikuj wydanie po zbudowaniu paczek
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-app
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: windows-latest
+            name: windows
+            targets: --win --x64
+          - runner: ubuntu-latest
+            name: linux
+            targets: --linux --x64
+          - runner: macos-15
+            name: macos
+            targets: --mac --universal
+    runs-on: ${{ matrix.runner }}
+    defaults:
+      run:
+        working-directory: aplikacja
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '26'
+          cache: npm
+          cache-dependency-path: aplikacja/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Zbuduj instalatory i metadane aktualizacji
+        env:
+          CSC_LINK: ${{ matrix.name == 'macos' && secrets.MAC_CSC_LINK || '' }}
+          CSC_KEY_PASSWORD: ${{ matrix.name == 'macos' && secrets.MAC_CSC_KEY_PASSWORD || '' }}
+        run: npx --no-install electron-builder --config electron-builder.release.cjs ${{ matrix.targets }} --publish never
+      - name: Sprawdź pliki aktualizacji
+        shell: bash
+        env:
+          MAC_SIGNED: ${{ matrix.name == 'macos' && secrets.MAC_CSC_LINK != '' }}
+        run: |
+          case '${{ matrix.name }}' in
+            windows) test -s release/latest.yml && ls release/*.exe ;;
+            linux) test -s release/latest-linux.yml && ls release/*.AppImage ;;
+            macos)
+              ls release/*.dmg || exit 1
+              if [[ "$MAC_SIGNED" == true ]]; then
+                test -s release/latest-mac.yml && ls release/*.zip
+              fi
+              ;;
+          esac
+      - uses: actions/upload-artifact@v6
+        with:
+          name: release-${{ matrix.name }}
+          if-no-files-found: error
+          path: |
+            aplikacja/release/*.exe
+            aplikacja/release/*.AppImage
+            aplikacja/release/*.dmg
+            aplikacja/release/*.zip
+            aplikacja/release/*.blockmap
+            aplikacja/release/latest*.yml
+
+  publish:
+    if: inputs.publish && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: release-*
+          merge-multiple: true
+          path: release-assets
+      - name: Opublikuj wydanie GitHub
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version=$(jq -er '.version' aplikacja/package.json)
+          [[ "$version" =~ ^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$ ]]
+          tag="v$version"
+          if gh release view "$tag" >/dev/null 2>&1 || [[ -n "$(git ls-remote --tags origin "refs/tags/$tag")" ]]; then
+            echo "Wersja $tag już istnieje. Zwiększ numer wersji aplikacji."
+            exit 1
+          fi
+          gh release create "$tag" release-assets/* --target "$GITHUB_SHA" --title "Take Your Heart $tag" --generate-notes

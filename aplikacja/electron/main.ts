@@ -5,6 +5,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import {CharacterLibrary,checkData,readCharacter} from './library';
 import {listManuals,openManual,saveManual} from './manuals';
+import { startUpdates } from './updates';
 
 // Oddzielny katalog dla testów; nigdy nie nadpisują rzeczywistej karty.
 if (process.env.PERSONA_TEST_DATA) app.setPath('userData', path.resolve(process.env.PERSONA_TEST_DATA));
@@ -122,6 +123,7 @@ app.whenReady().then(async () => {
   session.defaultSession.setPermissionCheckHandler(() => false);
   registerIPC();
   await createWindow();
+  startUpdates();
   app.on('activate', () => { if (BrowserWindow.getAllWindows().length === 0) void createWindow(); });
 }).catch(error => { dialog.showErrorBox('Nie udało się uruchomić kreatora', String(error)); app.quit(); });
 app.on('window-all-closed', () => { if (process.platform !== 'darwin') app.quit(); });
