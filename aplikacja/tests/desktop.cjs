@@ -40,6 +40,40 @@ const assert=require('node:assert/strict');
   assert.equal(await page.locator('.arcana-detail').count(),0);
   await capture(page,'arkany-opisy.png');
   await page.getByRole('button',{name:'04 Twoja Persona'}).click();await page.getByLabel('Nazwa Persony').fill('Latarnik');
+  const png = await page.evaluate(() => {
+   const canvas = document.createElement('canvas');
+   canvas.width = canvas.height = 1200;
+   const context = canvas.getContext('2d');
+   const pixels = context.createImageData(canvas.width, canvas.height);
+   for (let offset = 0; offset < pixels.data.length; offset += 65536) {
+    crypto.getRandomValues(pixels.data.subarray(offset, offset + 65536));
+   }
+   context.putImageData(pixels, 0, 0);
+   return canvas.toDataURL('image/png');
+  });
+  const illustrationBytes = Buffer.from(png.split(',')[1], 'base64');
+  assert.ok(illustrationBytes.length > 2 * 1024 * 1024);
+  const upload=page.getByLabel('Własna ilustracja Persony');
+  const artwork=page.getByAltText('Ilustracja Persony').first();
+  await upload.setInputFiles({
+   name:'latarnik.png',mimeType:'image/png',buffer:illustrationBytes
+  });
+  await page.getByText('Dodano ilustrację.',{exact:true}).waitFor();
+  assert.ok(await artwork.getAttribute('src') === png);
+  const largeIllustration=path.join(profile,'latarnik-100mb.png');
+  await fs.writeFile(largeIllustration,illustrationBytes);
+  // PNG pozostaje czytelny po dodaniu wypełnienia za końcem obrazu.
+  await fs.truncate(largeIllustration,100_000_000);
+  await upload.setInputFiles(largeIllustration);
+  await page.getByText('Dodano i zoptymalizowano ilustrację.',{exact:true}).waitFor();
+  const illustration=await artwork.getAttribute('src');
+  assert.ok(illustration.startsWith('data:image/webp;base64,'));
+  await artwork.evaluate(img=>img.decode());
+  await upload.setInputFiles([]);
+  await fs.truncate(largeIllustration,100_000_001);
+  await upload.setInputFiles(largeIllustration);
+  await page.getByText('Wybierz PNG, JPG lub WebP do 100 MB.',{exact:true}).waitFor();
+  assert.ok(await artwork.getAttribute('src') === illustration);
   await page.getByLabel('Słabość',{exact:true}).selectOption('Physical');
   await page.getByLabel('Odporność',{exact:true}).selectOption('Gun');
   assert.equal(await page.locator('.warning').filter({hasText:/Resist|poza wspólną pulą/}).count(),0);
@@ -68,10 +102,12 @@ const assert=require('node:assert/strict');
   const saved=JSON.parse(await fs.readFile(path.join(profile,'postacie',originalId+'.json'),'utf8'));
   console.log('OK: kreator i rozwój.');
   assert.equal(saved.exp,5500);assert.equal(saved.hp,12);assert.equal(saved.skills.length,4);assert.equal(saved.arcana,'Rydwan');
+  assert.ok(saved.image === illustration, 'Duża ilustracja powinna trafić do autozapisu.');
   const characterFile=path.join(output,'test-postaci.json');const pdfFile=path.join(output,'test-kart.pdf');
   await app.evaluate(({dialog},file)=>{dialog.showSaveDialog=async()=>({canceled:false,filePath:file});},characterFile);
   await page.getByRole('button',{name:'Zapisz do pliku'}).click();await page.getByText('Zapisano plik postaci.',{exact:true}).waitFor();
   assert.equal(JSON.parse(await fs.readFile(characterFile,'utf8')).name,'Maja Kowalska');
+  assert.ok(JSON.parse(await fs.readFile(characterFile,'utf8')).image === illustration, 'Eksport powinien zachować ilustrację.');
   await page.getByLabel('Notatki i uzgodnienia z GM').fill('TAJNE_UZGODNIENIE_NIE_DO_DRUKU');
   await page.getByRole('button',{name:'06 Gotowe karty'}).click();
   assert.equal(await page.locator('#print-root .sheet-preview').count(),3);
@@ -112,11 +148,13 @@ const assert=require('node:assert/strict');
   await app.close();app=await launch();page=await app.firstWindow();page.setDefaultTimeout(15000);
   await page.getByRole('button',{name:'Otwórz kreator',exact:true}).click();
   await page.getByLabel('Imię i nazwisko').waitFor();assert.equal(await page.getByLabel('Imię i nazwisko').inputValue(),'Maja Kowalska');
+  assert.ok(await page.getByAltText('Ilustracja Persony').first().getAttribute('src') === illustration, 'Ilustracja powinna przetrwać ponowne uruchomienie.');
   // Import tworzy oddzielny wpis w lokalnej bibliotece.
   await app.evaluate(({dialog},file)=>{dialog.showOpenDialog=async()=>({canceled:false,filePaths:[file]});},characterFile);
   await page.getByRole('button',{name:'Otwórz plik'}).click();await page.getByText('Dodano postać z pliku do lokalnej biblioteki.',{exact:true}).waitFor();
   await page.getByRole('button',{name:'Otwórz kreator',exact:true}).click();
   assert.equal(await page.getByLabel('Lokalne postacie').locator('option').count(),2);
+  assert.ok(await page.getByAltText('Ilustracja Persony').first().getAttribute('src') === illustration, 'Import powinien zachować ilustrację.');
   await page.getByLabel('Imię i nazwisko').fill('Zaimportowana Maja');
   await page.getByRole('button',{name:/Nowa postać/}).click();
   await page.getByText('Utworzono nową postać. Poprzednią znajdziesz na liście lokalnych postaci.',{exact:true}).waitFor();

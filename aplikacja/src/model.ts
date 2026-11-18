@@ -1,5 +1,7 @@
 import catalog from './rules.json';
 export const VERSION = 'GM 0.8 / Gracz 0.5';
+export const MAX_STORED_IMAGE_BYTES = 10 * 1024 * 1024;
+const MAX_IMAGE_DATA_LENGTH = 'data:image/jpeg;base64,'.length + 4 * Math.ceil(MAX_STORED_IMAGE_BYTES / 3);
 export const STEPS = ['Bohater','Poziom i rozwój','Arkana','Twoja Persona','Umiejętności','Gotowe karty'];
 export const TYPES: Record<string,string> = {fir:'Fire',ice:'Ice',ele:'Electricity',win:'Wind',psy:'Psy',nuk:'Nuclear',ble:'Bless',cur:'Curse',phy:'Physical',gun:'Gun',alm:'Almighty',rec:'Leczenie',ail:'Status',sup:'Wsparcie',pas:'Pasyw',tra:'Trait'};
 export const ELEMENTS = Object.values(TYPES).slice(0,8);
@@ -40,7 +42,7 @@ export function validate(value:unknown):Character{
   if(typeof s.name!=='string'||!['start','point','card'].includes(String(s.source))||names.has(s.name))throw new Error('Nieprawidłowa lub powtórzona umiejętność w zapisie.');
   names.add(s.name);return{name:s.name.slice(0,150),source:s.source as Source};
  });
- if(typeof x.image==='string'&&/^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(x.image)&&x.image.length<3000000)result.image=x.image;
+ if(typeof x.image==='string'&&x.image.length<=MAX_IMAGE_DATA_LENGTH&&/^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(x.image))result.image=x.image;
  const social=x.social&&typeof x.social==='object'?x.social as Record<string,unknown>:{};
  for(const s of SOCIAL)result.social[s]=Math.max(1,num(social[s],1,4));
  if(x.items!==undefined){
