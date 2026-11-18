@@ -7,6 +7,10 @@ on:
         description: Opublikuj wydanie po zbudowaniu paczek
         type: boolean
         default: false
+      include_macos:
+        description: Dołącz również paczkę macOS
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -20,17 +24,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - runner: windows-latest
-            name: windows
-            targets: --win --x64
-          - runner: ubuntu-latest
-            name: linux
-            targets: --linux --x64
-          - runner: macos-15
-            name: macos
-            targets: --mac --universal
-    runs-on: ${{ matrix.runner }}
+        name: ${{ fromJSON(inputs.include_macos && '["windows", "linux", "macos"]' || '["windows", "linux"]') }}
+    runs-on: ${{ fromJSON('{"windows":"windows-latest","linux":"ubuntu-latest","macos":"macos-15"}')[matrix.name] }}
     defaults:
       run:
         working-directory: aplikacja
@@ -45,10 +40,17 @@ jobs:
       - run: npm test
       - run: npm run build
       - name: Zbuduj instalatory i metadane aktualizacji
+        shell: bash
         env:
           CSC_LINK: ${{ matrix.name == 'macos' && secrets.MAC_CSC_LINK || '' }}
           CSC_KEY_PASSWORD: ${{ matrix.name == 'macos' && secrets.MAC_CSC_KEY_PASSWORD || '' }}
-        run: npx --no-install electron-builder --config electron-builder.release.cjs ${{ matrix.targets }} --publish never
+        run: |
+          case '${{ matrix.name }}' in
+            windows) targets=(--win --x64) ;;
+            linux) targets=(--linux --x64) ;;
+            macos) targets=(--mac --universal) ;;
+          esac
+          npx --no-install electron-builder --config electron-builder.release.cjs "${targets[@]}" --publish never
       - name: Sprawdź pliki aktualizacji
         shell: bash
         env:
