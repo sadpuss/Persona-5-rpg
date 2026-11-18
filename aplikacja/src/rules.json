@@ -1179,7 +1179,7 @@
       "min_level": 5,
       "access": "R",
       "reason": "Light; standardowa skala obrażeń RPG.",
-      "effect": "Wszyscy wrogowie; light Nuclear. Propozycja kosztu, nieprzetestowana obszarowo.",
+      "effect": "Wszyscy wrogowie; light Nuclear.",
       "cost": "3 SP",
       "starter": false
     },
@@ -2589,7 +2589,7 @@
       "min_level": 1,
       "access": "R",
       "reason": "Pojedynczy parametr, jeden cel, trzy zwykłe tury.",
-      "effect": "Jeden sojusznik; propozycja: −4 otrzymywane obrażenia przez trzy jego tury.",
+      "effect": "Jeden sojusznik; −4 otrzymywane obrażenia przez trzy jego tury.",
       "cost": "2 SP",
       "starter": true
     },

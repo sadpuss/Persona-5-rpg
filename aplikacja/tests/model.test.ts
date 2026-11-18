@@ -65,7 +65,7 @@ test('wszystkie dostępne umiejętności mają opisy bez skrótów żywiołów i
  for(const s of RULES.skills){
   assert.ok(s.effect?.trim(),s.skill);
   assert.equal(/\b(fir|ele|win|nuk|ble|cur|phy|alm)\b/i.test(s.effect!),false,s.skill);
-  assert.equal(/do ustalenia|do uzgodnienia|opis nie został|robocz/i.test(s.effect!),false,s.skill);
+  assert.equal(/do ustalenia|do uzgodnienia|opis nie został|robocz|\bpropozycja\b/i.test(s.effect!),false,s.skill);
  }
  assert.match(skillByName.get('Garu')!.effect!,/Wind/);
  assert.match(skillByName.get('Agilao')!.effect!,/2d6 \+ 6.*Fire/);

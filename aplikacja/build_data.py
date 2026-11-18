@@ -90,6 +90,8 @@ for g in gates:
     if not r.get('effect'):
         r['effect'] = {'Z': 'Umiejętność unikatowa, poza zwykłą nauką.', 'X': 'Mechanika nieużywana w tym systemie.', 'Ź': 'Trait źródłowy P5R; nie jest dodatkowym traitem osobistej Persony.'}.get(r['access'], '')
     r['effect'] = re.sub(r'\b(fir|ice|ele|win|psy|nuk|ble|cur|phy|gun|alm)\b', lambda m: types[m[0].lower()], r['effect'], flags=re.I)
+    r['effect'] = re.sub(r'\bpropozycja:\s*', '', r['effect'], flags=re.I)
+    r['effect'] = r['effect'].removesuffix(' Propozycja kosztu, nieprzetestowana obszarowo.')
     r['starter'] = r['skill'] in starters
     skills.append(r)
 data = {'version': 'GM 0.8 / Gracz 0.5', 'skills': skills, 'arcana': arcana}
