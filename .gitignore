@@ -1,19 +1,42 @@
+# Wyniki generowane przez narzędzia (raporty QA, rendery, próbki)
+/out/
+/qa_*/
+
+# Python
 __pycache__/
 *.pyc
-~$*
-/qa_*/
+.venv/
+venv/
+
+# Node.js i budowanie aplikacji
 node_modules/
+.pnpm-store/
 dist/
 dist-electron/
 release/
+*.tsbuildinfo
+
+# Pliki tymczasowe i blokady Worda / LibreOffice
+~$*
+.~lock.*#
+*.tmp
+*.log
+
+# Tekstowe zrzuty podręczników - generowane z Worda, źródłem jest .docx
+*.docx.txt
+
+# Ustawienia lokalne i sekrety
 .env
 .env.*
 !.env.example
 *.local
-*.log
-*.tsbuildinfo
+*.p12
+*.pfx
+
+# Edytory i systemy operacyjne
+.vscode/
+.idea/
+*.swp
 Thumbs.db
 Desktop.ini
 .DS_Store
-*.p12
-*.pfx

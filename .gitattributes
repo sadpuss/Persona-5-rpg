@@ -5,3 +5,7 @@
 *.py text eol=lf
 *.md text eol=lf
 *.json text eol=lf
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.img binary
