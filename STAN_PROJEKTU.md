@@ -6,7 +6,7 @@ Przygotowano przenośną paczkę `aplikacja/release/Take-Your-Heart-0.5.0-linux-
 
 ## Aktualne podręczniki
 
-Od wdrożenia Gita edytujemy pliki bez numerów: `Persona_5_RPG_Podrecznik_GM.docx`, `Persona_5_RPG_Podrecznik_Gracza.docx` i `Persona_5_RPG_Bestiariusz.docx`. Poniższe wersje to ich źródła startowe; same pliki są w historii Git pod tagiem `archiwum-przed-porzadkami`. Procedura kontroli aktualności: `GIT_I_PODRECZNIKI.md`.
+Od wdrożenia Gita edytujemy pliki bez numerów: `Persona_5_RPG_Podrecznik_GM.docx`, `Persona_5_RPG_Podrecznik_Gracza.docx` i `Persona_5_RPG_Bestiariusz.docx`. Poniższe wersje to ich źródła startowe; same pliki są w historii Git pod tagiem `archiwum-przed-porzadkami`. Procedura edycji i kontroli aktualności: skill `.agents/skills/edycja-podrecznika`.
 
 - `Persona_5_RPG_Podrecznik_GM_0_8.docx` — główne zasady, walka, eksploracja, daily life, relacje, EXP, katalogi skilli i przedmiotów.
 - `Persona_5_RPG_Podrecznik_Gracza_0_5.docx` — tworzenie bohatera i osobistej Persony, akcje, nauka skilli, rozwój, bank i Velvet Room.
