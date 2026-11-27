@@ -14,7 +14,7 @@ Otwórz `index.html` w przeglądarce (Edge, Chrome lub Firefox). Nie trzeba inst
 
 ## Zasady i granice prototypu
 
-Źródła: podręcznik gracza 0.5, GM 0.8, `skill_level_gates_0_8.json`, `skill_rules_0_8.json`. `build_data.py` czyta DOCX i JSON, a zapisuje wyłącznie `aplikacja/data.js`; nie modyfikuje podręczników. Uruchomienie: `python aplikacja/build_data.py` z katalogu projektu.
+Źródła: podręcznik gracza 0.5, GM 0.8, `dane/skill_level_gates.json`, `dane/skill_rules.json`. `build_data.py` czyta DOCX i JSON, a zapisuje wyłącznie `aplikacja/data.js`; nie modyfikuje podręczników. Uruchomienie: `python aplikacja/build_data.py` z katalogu projektu.
 
 Pełny katalog ma 541 pozycji, w tym niedostępne zwykłą nauką. Nie wszystkie opisy zostały jeszcze przeniesione do aplikacji; brak jest wyraźnie oznaczony odsyłaczem do podręcznika. Próg poziomu i dostęp pochodzą z aktualnej bazy. Nie należy traktować tego prototypu jako kompletnego silnika walidacji zasad.
 

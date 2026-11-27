@@ -14,8 +14,8 @@ def tables(name):
         root = ET.fromstring(z.read('word/document.xml'))
     return [[[' '.join(t.text or '' for t in cell.findall('.//w:t', NS)) for cell in row.findall('w:tc', NS)] for row in table.findall('w:tr', NS)] for table in root.findall('.//w:tbl', NS)]
 
-gates = json.loads((ROOT / 'skill_level_gates_0_8.json').read_text('utf-8'))
-rules = {r['skill']: r for r in json.loads((ROOT / 'skill_rules_0_8.json').read_text('utf-8'))}
+gates = json.loads((ROOT / 'dane' / 'skill_level_gates.json').read_text('utf-8'))
+rules = {r['skill']: r for r in json.loads((ROOT / 'dane' / 'skill_rules.json').read_text('utf-8'))}
 inputs = ['Persona_5_RPG_Podrecznik_Gracza.docx', 'Persona_5_RPG_Podrecznik_GM.docx']
 hashes = {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest() for name in inputs}
 player = tables(inputs[0])

@@ -1,23 +1,41 @@
 # Persona 5 RPG — zasady pracy
 
-Polskojęzyczny projekt RPG Persona 5 / Royal: podręczniki, bestiariusz, dane, ilustracje, aplikacja i badania balansu. Większość plików znajduje się w katalogu głównym.
+Polskojęzyczny projekt RPG Persona 5 / Royal: podręczniki, bestiariusz, dane, ilustracje, aplikacja i badania balansu.
+
+## Role
+
+- Autorka decyduje o systemie, mechanikach i treści podręczników. Nie zmieniaj zasad gry z własnej inicjatywy: zaproponuj zmianę i wprowadź ją po akceptacji. Wyniki balansu to badania, nie obowiązujące zasady.
+- Agent odpowiada za kod, narzędzia, Git i GitHub. Autorka nie zna Gita ani programowania: nie wymagaj od niej poleceń, gałęzi ani PR-ów i nie tłumacz ich bez potrzeby.
 
 ## Pliki
 
-- Aktualne podręczniki — stałe ścieżki (przed edycją zawsze sprawdź aktualność):
-  - GM: `K:\Persona-5-rpg\Persona_5_RPG_Podrecznik_GM.docx`
-  - Gracza: `K:\Persona-5-rpg\Persona_5_RPG_Podrecznik_Gracza.docx`
-  - Bestiariusz: `K:\Persona-5-rpg\Persona_5_RPG_Bestiariusz.docx`
-- Numerowane Wordy, `*_przed_*` i `Persona_5_RPG_Zasady_*` to archiwum i wejścia starszych skryptów; zachowuj je. `*.docx.txt` służą do czytania, Word jest źródłem układu i tabel.
-- `*.py`, `paginate_*.ps1`: przetwarzanie dokumentów, paginacja i eksport PDF; `p5*.json`, `skill_*.json`, `persona_skill_cards*`, `exp_*.json`: dane gry.
-- `bestiary_images/`, `bestiary_image*.json`: ilustracje; `qa_*/`, `*_audit.*`: kontrole; `balance*.py`, `balance_tests_*/`: badania balansu; `*.ts`, `repo_tree.json`: materiały źródłowe kompendium.
+- Aktualne podręczniki leżą w katalogu głównym: `Persona_5_RPG_Podrecznik_GM.docx`, `Persona_5_RPG_Podrecznik_Gracza.docx`, `Persona_5_RPG_Bestiariusz.docx`. Aplikacja szuka ich tam. Starsze wersje są tylko w historii Git (tag `archiwum-przed-porzadkami`); nie twórz numerowanych kopii.
+- `aplikacja/`: kreator Take Your Heart (Electron); `aplikacja/build_data.py` buduje `src/rules.json` z głównych Wordów i `dane/`.
+- `dane/`: aktualne dane gry; `dane/kompendium/`: surowe dane P5R i materiały kompendium.
+- `ilustracje/`: `bestiary_images/` oraz skrypty i manifesty pobierania ilustracji.
+- `badania/balans/`: archiwalne badania balansu (dotyczą starszych podręczników).
+- Wyniki narzędzi zapisuj w ignorowanym `out/`, nie w katalogu głównym.
+- Bieżący stan projektu: `STAN_PROJEKTU.md`.
 
-## Obowiązkowe zasady
+## Każda zmiana
 
-- Pisz po polsku, spójnie używaj terminologii i znaków diakrytycznych. Zachowuj nazwy własne, identyfikatory, polecenia i ścieżki. Wyjaśniaj prosto: użytkowniczka nie programuje. Podawaj konkretne kroki, w miarę możliwości uruchamianie dwuklikiem.
-- Przed KAŻDĄ zmianą przeczytaj `GIT_I_PODRECZNIKI.md`, uruchom `sprawdz_podreczniki.ps1`, sprawdź `git status` i wersje wszystkich trzech podręczników na dysku. Inne rozmowy mogą je aktualizować; nie polegaj na historii czatu, samym numerze ani dacie pliku.
-- Edytuj główne Wordy bez numerów. Nowe lub zmienione wersje archiwalne porównaj i uwzględnij przed pracą. Przed zapisem ponownie sprawdź SHA256 wejścia; jeśli się zmienił, odczytaj plik ponownie i połącz zmiany. Nie nadpisuj równoległej pracy.
-- Obsługuj Git za użytkowniczkę. Po kontroli zapisuj spójne zmiany z polskim opisem, dodając jawnie tylko pliki własnego zadania. Nie cofaj cudzej pracy. Historię trzymaj w Git zamiast tworzyć kolejne numerowane Wordy.
-- Czytaj skrypty przed uruchomieniem lub importem: mogą nadpisywać pliki albo korzystać ze starszych wersji. Sprawdzaj wejścia i wyjścia.
-- Przy zmianach dokumentów sprawdź powiązane dane i źródła, wykonaj odpowiednie QA i obejrzyj wyrenderowany układ. Wyniki balansu to badania, nie automatycznie obowiązujące zasady.
-- Ten przewodnik ma być zwięzły i trwały; bieżący stan zapisuj w dokumentach, danych i `STAN_PROJEKTU.md`.
+1. Zsynchronizuj się z GitHubem: `git pull --rebase --autostash` na `main`. Pracuj wyłącznie na `main`.
+2. Uruchom `sprawdz_podreczniki.ps1` (bez PowerShella: `git status` i wyszukanie innych `Persona_5_RPG_*.docx`). Inne rozmowy mogą zmieniać pliki równolegle; nie polegaj na historii czatu.
+3. Wykonaj zadanie i sprawdź wynik.
+4. Zapisz commit z polskim opisem, dodając jawnie tylko pliki swojego zadania, i wyślij go: `git push`. Nie cofaj cudzej pracy.
+5. W odpowiedzi napisz, czy zmiany są wysłane na GitHuba.
+
+Problemy z synchronizacją (konflikt, odrzucony push, cudze niezapisane zmiany): skill `synchronizacja-github`.
+
+## Skille
+
+- `edycja-podrecznika`: każda zmiana w trzech Wordach, porównywanie kopii, odtwarzanie starych wersji.
+- `praca-nad-aplikacja`: kod, testy i dane aplikacji.
+- `wydanie-aplikacji`: nowa wersja programu na GitHubie.
+- `synchronizacja-github`: nietypowe sytuacje z Gitem i GitHubem.
+
+## Styl
+
+- Pisz po polsku, spójnie używaj terminologii i znaków diakrytycznych. Zachowuj nazwy własne, identyfikatory, polecenia i ścieżki. Wyjaśniaj prosto; uruchamianie najlepiej dwuklikiem.
+- Czytaj skrypty przed uruchomieniem lub importem: mogą nadpisywać pliki albo korzystać ze starszych wersji.
+- Ten przewodnik ma być zwięzły i trwały; bieżący stan zapisuj w `STAN_PROJEKTU.md`, procedury w skillach.
