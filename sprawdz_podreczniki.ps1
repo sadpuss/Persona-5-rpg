@@ -1,26 +1,27 @@
 $ErrorActionPreference = 'Stop'
 Set-Location -LiteralPath $PSScriptRoot
-$manifest = Get-Content -LiteralPath 'podreczniki_start.json' -Raw -Encoding UTF8 | ConvertFrom-Json
+# Kontrola przed edycja. Nie zmienia zadnych plikow.
+# Stare wersje podrecznikow sa w historii Git (tag archiwum-przed-porzadkami), nie na dysku.
+$main = @('Persona_5_RPG_Podrecznik_GM.docx', 'Persona_5_RPG_Podrecznik_Gracza.docx', 'Persona_5_RPG_Bestiariusz.docx')
 $problem = $false
-foreach ($item in $manifest) {
-    Write-Host "`n$($item.glowny)"
-    if (-not (Test-Path -LiteralPath $item.glowny)) {
+foreach ($name in $main) {
+    Write-Host "`n$name"
+    if (-not (Test-Path -LiteralPath $name)) {
         Write-Host 'BRAK PLIKU GLOWNEGO' -ForegroundColor Red
         $problem = $true
-    } else {
-        Get-Item -LiteralPath $item.glowny | Select-Object Name, LastWriteTime, Length | Format-Table
-        Write-Host "SHA256: $((Get-FileHash -LiteralPath $item.glowny -Algorithm SHA256).Hash)"
+        continue
     }
-    $known = @($item.archiwum | ForEach-Object { $_.nazwa })
-    foreach ($file in Get-ChildItem -File -Filter $item.wzorzec) {
-        if ($file.Name -eq $item.glowny) { continue }
-        $baseline = $item.archiwum | Where-Object { $_.nazwa -eq $file.Name }
-        if ($file.Name -notin $known -or (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash -ne $baseline.sha256) {
-            Write-Host "DO POROWNANIA: $($file.Name) - nowa lub zmieniona wersja historyczna." -ForegroundColor Yellow
-            $problem = $true
-        }
+    Get-Item -LiteralPath $name | Select-Object Name, LastWriteTime, Length | Format-Table
+    Write-Host "SHA256: $((Get-FileHash -LiteralPath $name -Algorithm SHA256).Hash)"
+}
+# Kazdy inny Word podrecznika to kopia z innej rozmowy albo starsza wersja.
+foreach ($file in Get-ChildItem -File -Filter 'Persona_5_RPG_*.docx') {
+    if ($file.Name -notin $main) {
+        Write-Host "DO POROWNANIA: $($file.Name) - porownaj z plikiem glownym, przenies zmiany i usun kopie." -ForegroundColor Yellow
+        $problem = $true
     }
 }
+Write-Host "`nZmiany w Git:"
 git status --short
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 if ($problem) { exit 1 }
