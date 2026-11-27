@@ -1,16 +1,16 @@
 # Persona 5 RPG — zasady pracy
 
-Polskojęzyczny projekt RPG Persona 5 / Royal: podręczniki, bestiariusz, dane, ilustracje, aplikacja i badania balansu. Większość plików znajduje się w katalogu głównym.
+Polskojęzyczny projekt RPG Persona 5 / Royal: podręczniki, bestiariusz, dane, ilustracje, aplikacja i badania balansu.
 
 ## Pliki
 
-- Aktualne podręczniki — stałe ścieżki (przed edycją zawsze sprawdź aktualność):
-  - GM: `K:\Persona-5-rpg\Persona_5_RPG_Podrecznik_GM.docx`
-  - Gracza: `K:\Persona-5-rpg\Persona_5_RPG_Podrecznik_Gracza.docx`
-  - Bestiariusz: `K:\Persona-5-rpg\Persona_5_RPG_Bestiariusz.docx`
+- Aktualne podręczniki leżą w katalogu głównym repozytorium (przed edycją zawsze sprawdź aktualność): `Persona_5_RPG_Podrecznik_GM.docx`, `Persona_5_RPG_Podrecznik_Gracza.docx`, `Persona_5_RPG_Bestiariusz.docx`. Aplikacja szuka ich właśnie tam.
 - Na dysku są tylko trzy główne Wordy. Starsze wersje (numerowane, `*_przed_*`, `Persona_5_RPG_Zasady_*`) i jednorazowe skrypty, które je tworzyły, są w historii Git pod tagiem `archiwum-przed-porzadkami`. Nie twórz numerowanych kopii. Zrzuty `*.docx.txt` są generowane i ignorowane; źródłem układu i tabel jest Word.
-- `*.py`, `paginate_*.ps1`: przetwarzanie dokumentów, paginacja i eksport PDF; `p5*.json`, `skill_*.json`, `persona_skill_cards*`, `exp_*.json`: dane gry.
-- `bestiary_images/`, `bestiary_image*.json`: ilustracje; `qa_*/`, `*_audit.*`: kontrole; `balance*.py`, `balance_tests_*/`: badania balansu; `*.ts`, `repo_tree.json`: materiały źródłowe kompendium.
+- `aplikacja/`: kreator Take Your Heart (Electron); `aplikacja/build_data.py` buduje `src/rules.json` z głównych Wordów i `dane/`.
+- `dane/`: aktualne dane gry (`skill_rules.json`, `skill_level_gates.json`, `persona_skill_cards.json`, tabele EXP, nazwy Shadows); `dane/kompendium/`: surowe dane P5R i materiały źródłowe kompendium.
+- `ilustracje/`: `bestiary_images/` oraz skrypty i manifesty pobierania ilustracji.
+- `badania/balans/`: archiwalne badania balansu (dotyczą starszych podręczników).
+- Wyniki narzędzi zapisuj w ignorowanym `out/`, nie w katalogu głównym.
 
 ## Obowiązkowe zasady
 

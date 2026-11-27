@@ -1,5 +1,7 @@
 # Testy balansu Persona 5 RPG — 29 października 2026
 
+> **Uwaga (porządki repozytorium):** raport dotyczy starych wersji podręczników (GM 0.7, Gracza 0.4, Bestiariusz 0.4) i może nie odpowiadać aktualnym zasadom. Skrypty i wyniki leżą w `badania/balans/`. Wymagane stare Wordy i pliki `skill_*_0_7.json` są w historii Git pod tagiem `archiwum-przed-porzadkami`.
+
 ## Wynik dla prowadzącej
 
 Rdzeń systemu nadaje się do dalszego rozwijania, ale obecne podręczniki mają kilka konkretnych luk. Najpilniejsze są: Despair pomijający całe HP bossa, nieproporcjonalne koszty części skilli oraz odnawianie zasobów przez ucieczkę. Początkowe wyprawy wymagają ostrożniejszego doboru liczby przeciwników; pojedynczy KO przed dostępem do wskrzeszania dodatkowo je zaostrza.

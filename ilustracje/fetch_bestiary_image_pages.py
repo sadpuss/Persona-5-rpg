@@ -3,9 +3,9 @@ from urllib.request import Request,urlopen
 from urllib.parse import urlencode
 import json,time
 
-R=Path(__file__).parent
+R=Path(__file__).resolve().parent
 API='https://megamitensei.fandom.com/api.php'
-cards=json.loads((R/'persona_skill_cards.json').read_text(encoding='utf-8'))
+cards=json.loads((R.parent/'dane'/'persona_skill_cards.json').read_text(encoding='utf-8'))
 aliases={'Orpheus F':'Orpheus','Orpheus F Picaro':'Orpheus','Orpheus Picaro F':'Orpheus','Kushinada':'Kushinada-Hime','Koropokkuru':'Koropokguru'}
 def article(name):
     if name in aliases:return aliases[name]

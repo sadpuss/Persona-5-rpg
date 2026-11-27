@@ -6,13 +6,13 @@ Przygotowano przenośną paczkę `aplikacja/release/Take-Your-Heart-0.5.0-linux-
 
 ## Aktualne podręczniki
 
-Od wdrożenia Gita edytujemy pliki bez numerów: `Persona_5_RPG_Podrecznik_GM.docx`, `Persona_5_RPG_Podrecznik_Gracza.docx` i `Persona_5_RPG_Bestiariusz.docx`. Poniższe wersje to ich źródła startowe. Procedura kontroli aktualności: `GIT_I_PODRECZNIKI.md`.
+Od wdrożenia Gita edytujemy pliki bez numerów: `Persona_5_RPG_Podrecznik_GM.docx`, `Persona_5_RPG_Podrecznik_Gracza.docx` i `Persona_5_RPG_Bestiariusz.docx`. Poniższe wersje to ich źródła startowe; same pliki są w historii Git pod tagiem `archiwum-przed-porzadkami`. Procedura kontroli aktualności: `GIT_I_PODRECZNIKI.md`.
 
 - `Persona_5_RPG_Podrecznik_GM_0_8.docx` — główne zasady, walka, eksploracja, daily life, relacje, EXP, katalogi skilli i przedmiotów.
 - `Persona_5_RPG_Podrecznik_Gracza_0_5.docx` — tworzenie bohatera i osobistej Persony, akcje, nauka skilli, rozwój, bank i Velvet Room.
 - `Persona_5_RPG_Bestiariusz_0_5.docx` — 242 ilustrowane wpisy, dane P5R, robocze profile RPG, polskie nazwy Shadows i przypisane skill cards.
 
-To zestaw do dalszych prac. Starszych wersji nie usuwać; są archiwum i wejściem części wcześniejszych skryptów. Ozdobna karta postaci z osobnymi polami bohatera i Persony pozostaje do stworzenia.
+To zestaw do dalszych prac. Starsze wersje i jednorazowe skrypty, które je tworzyły, usunięto z dysku podczas porządków repozytorium (gałąź `kw/cleanup`); są dostępne w historii Git. Ozdobna karta postaci z osobnymi polami bohatera i Persony pozostaje do stworzenia.
 
 ## Ostatnia autoryzowana aktualizacja
 
@@ -31,11 +31,11 @@ Uwaga redakcyjna: w pierwotnym opisie raportu Stomach Blow błędnie nazwano Med
 
 ## Dane i kontrola
 
-Aktualne wersjonowane dane: `skill_rules_0_8.json`, `skill_level_gates_0_8.json`, `persona_skill_cards_0_5.json`. Nazwy kart i progi nauki nie zmieniły się. Nie traktować wcześniejszych niewersjonowanych plików jako nowszych od tego zestawu.
+Aktualne dane leżą w `dane/`: `skill_rules.json` (dawniej `skill_rules_0_8.json`), `skill_level_gates.json` (dawniej `_0_8`), `persona_skill_cards.json` (dawniej `_0_5`), tabele EXP i polskie nazwy Shadows. Surowe dane P5R i materiały kompendium są w `dane/kompendium/`. Starsze wersje tych plików są tylko w historii Git.
 
-`update_balanced_manuals.py` odtwarza tę aktualizację ze starszych podręczników. `paginate_balance_update.ps1` aktualizuje spisy treści i numery stron w Microsoft Word oraz eksportuje PDF do wewnętrznej kontroli. `render_balanced_manuals.py` tworzy obrazy stron z tych eksportów. Kontrole i podglądy znajdują się w `qa_balance_update/`.
+Skrypty tej aktualizacji (`update_balanced_manuals.py`, `paginate_balance_update.ps1`, `render_balanced_manuals.py`) działały jednorazowo na starszych podręcznikach i są w historii Git pod tagiem `archiwum-przed-porzadkami`. Ilustracje bestiariusza i skrypty, które je pobrały, są w `ilustracje/`.
 
-Testy: `Raport_testow_balansu_2026_10_29.md`, skrypty `balance*.py`, wyniki `balance_tests_2026_10_29/`. Są materiałem badawczym, nie dodatkowymi zasadami. Skrypty testowe nadal odwołują się do starszych podręczników i własnych przełączników poprawek — przed nową serią trzeba świadomie dostosować wejścia, nie zmieniać ich w ciemno. Raport omawia ograniczenia modelu; nie symulowano wszystkich możliwych buildów i pełnej kampanii przez 99 poziomów.
+Testy: `badania/balans/` — raport `Raport_testow_balansu_2026_10_29.md`, skrypty `balance*.py`, wyniki `balance_tests_2026_10_29/`. Są materiałem badawczym, nie dodatkowymi zasadami. Skrypty testowe nadal odwołują się do starszych podręczników i własnych przełączników poprawek — przed nową serią trzeba świadomie dostosować wejścia, nie zmieniać ich w ciemno. Raport omawia ograniczenia modelu; nie symulowano wszystkich możliwych buildów i pełnej kampanii przez 99 poziomów.
 
 ## Preferencje użytkowniczki
 

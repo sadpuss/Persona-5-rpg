@@ -1,7 +1,7 @@
 from pathlib import Path
 import json,re,unicodedata
-R=Path(__file__).parent
-cards=json.loads((R/'persona_skill_cards.json').read_text(encoding='utf-8'))
+R=Path(__file__).resolve().parent
+cards=json.loads((R.parent/'dane'/'persona_skill_cards.json').read_text(encoding='utf-8'))
 pages=json.loads((R/'bestiary_image_pages.json').read_text(encoding='utf-8'))
 norm=lambda text:re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',text).encode('ascii','ignore').decode().lower())
 aliases={'Orpheus F':'Orpheus','Orpheus F Picaro':'Orpheus','Orpheus Picaro F':'Orpheus','Kushinada':'Kushinada-Hime','Koropokkuru':'Koropokguru'}

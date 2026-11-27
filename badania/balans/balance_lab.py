@@ -1,3 +1,10 @@
+# UWAGA: badanie archiwalne z 2026-10-29. Dotyczy starej wersji podręczników
+# (GM 0.7, Gracza 0.4, Bestiariusz 0.4) i danych skill_*_0_7.json, więc wyniki
+# i reguły w tym skrypcie mogą nie odpowiadać aktualnym podręcznikom.
+# Wymagane pliki wejściowe są w historii Git pod tagiem archiwum-przed-porzadkami
+# (np. git restore --source archiwum-przed-porzadkami -- Persona_5_RPG_Podrecznik_GM_0_7.docx)
+# i trzeba je umieścić obok skryptu, razem z p5_base_skill_data.json i p5r_skill_data.json
+# z dane/kompendium/. Wyniki to materiał badawczy, nie obowiązujące zasady.
 """Reproducible balance laboratory for the user's P5 tabletop homebrew.
 
 It never edits the rulebooks. The fixture and limitations are exported with results.
